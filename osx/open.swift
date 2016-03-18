@@ -1,10 +1,8 @@
 import Foundation
-import AppKit
 
 let args = [String](Process.arguments);
-let sw = NSWorkspace.sharedWorkspace();
 
 for arg in args {
-    var url = CFURLCreateWithString(nil, arg, nil);
-    sw.openURL(url);
+    var url = CFURLCreateWithString(kCFAllocatorDefault, arg, nil);
+    LSOpenURLsWithRole([url], LSRolesMask.All, nil, nil, nil, 0);
 }
