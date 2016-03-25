@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import os
 import re
 
@@ -25,12 +27,56 @@ rexps = [
   re.compile('^\s*(bindings):\s*(.*)')
 ]
 
-handlers = {}
+handlers = []
+
+bundle = ""
+appname = ""
+apppath = ""
 
 for line in dump.readlines():
   for rexp in rexps:
     m = rexp.match(line)
-    if m:
-      print m.group(1) + ": " + m.group(2)
+    if not m:
+      continue
+
+    key = m.group(1)
+    value = m.group(2)
+
+    if key == "bundle":
+      if bundle != value:
+        bundle = value
+        name = ""
+        path = ""
+        
+    if key == "name" and not name:
+      name = value
+
+    if key == "path" and not path:
+      path = value
+
+    if key == "flags":
+      flags = value
+
+    if key == "bindings":
+      for binding in [x for x in value.split(",") if x]:
+        handler = {}
+        id = binding.lstrip()
+        handler['handler'] = id
+        handler['name'] = name
+        handler['path'] = path
+        handler['flags'] = [x for x in flags.split(" ") if x]
+        handlers.append(handler)
 
 dump.close()
+
+# filter down to url handlers
+urlhandlers = [handler for handler in handlers if "url-type" in handler['flags']]
+
+#import pprint
+#pp = pprint.PrettyPrinter(indent=4)
+#pp.pprint(urlhandlers)
+
+import json
+print(json.dumps(urlhandlers))
+
+
