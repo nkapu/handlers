@@ -10,18 +10,19 @@
           // Set its contents:
           var handler = array[i].handler;
           var name = array[i].name;
+          var path = array[i].path;
 
           var handlername = document.createTextNode(" Handler: ");
           item.appendChild(handlername);
 
           var a = document.createElement('a');
-          var linkText = document.createTextNode(name + " link");
+          var linkText = document.createTextNode(handler);
           a.appendChild(linkText);
           a.title = name + " link";
-          a.href = handler + "://localhost";
+          a.href = handler + "//localhost";
           item.appendChild(a);
 
-          var Namepath = document.createTextNode(" Name: " + name + " Path: ");
+          var Namepath = document.createTextNode(" Name: " + name + " Path: " + path);
           item.appendChild(Namepath);
           // Add it to the list:
           list.appendChild(item);
