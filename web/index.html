@@ -1,11 +1,28 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-  <h1>Header</h1>
-  <p id="foo"></p>
-  <script src="handlers.js">
-  </script>
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1>My Title</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content">
+            <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
+            <script src="handlers.js">
+            </script>
+        </div><!-- /content -->
+
+        <div data-role="footer">
+            <h4>My Footer</h4>
+        </div><!-- /footer -->
+
+    </div><!-- /page -->
 </body>
 </html>
