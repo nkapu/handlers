@@ -15,9 +15,16 @@ Tooling to discover, test and instrument URL handlers.
 
 ##  Instrumentation
 
-# Try it out
+# Try it out locally
 ```shell
 cd web
 ../osx/handlers-list.py > handlers.json
 python -m SimpleHTTPServer 8080
+```
+# Publish to to GitHub pages (limited functionaly)
+
+Publish web-substree based on instructions from https://gist.github.com/cobyism/4730490:
+
+```shell
+git subtree push --prefix web origin gh-pages
 ```
