@@ -14,3 +14,10 @@ Tooling to discover, test and instrument URL handlers.
  * HTML redirects
 
 ##  Instrumentation
+
+# Try it out
+```shell
+cd web
+../osx/handlers-list.py > handlers.json
+python -m SimpleHTTPServer 8080
+```
