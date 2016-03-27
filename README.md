@@ -28,3 +28,4 @@ Publish web-substree based on instructions from https://gist.github.com/cobyism/
 ```shell
 git subtree push --prefix web origin gh-pages
 ```
+... and go to http://<USERNAME>.github.io/<REPOSITORY>.
