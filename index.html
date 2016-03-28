@@ -1,28 +1,30 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+  <title>Hack URL handlers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="deps/jquery.mobile-1.4.5.min.css">
   <script src="deps/jquery-1.11.3.min.js"></script>
   <script src="deps/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
-    <div data-role="page">
+  <div data-role="page">
+    <div data-role="header">
+      <h1>My Title</h1>
+    </div>
 
-        <div data-role="header">
-            <h1>My Title</h1>
-        </div><!-- /header -->
+    <div role="main" class="ui-content">
+      <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
+      <script src="handlers.js"></script>
+    </div>
 
-        <div role="main" class="ui-content">
-            <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
-            <script src="handlers.js">
-            </script>
-        </div><!-- /content -->
+    <div data-role="footer" data-position="fixed">
+      <h4>More info</h4>
+      <a href="http://github.com/nkapu/handlers/" data-icon="info" class="ui-btn-right">
+        Project reposity
+      </a>
+    </div>
 
-        <div data-role="footer">
-            <h4>My Footer</h4>
-        </div><!-- /footer -->
-
-    </div><!-- /page -->
+  </div>
 </body>
 </html>
