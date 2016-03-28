@@ -1,4 +1,4 @@
-# handlers - discover, test and instrument URL handlers
+# handlers - discover and test URL handlers
 
 URL handlers are are those nice bits in the front of the URL (e.g. http:, https:, ftp:, skype:) that greatly expand the things a web page can do to you and your device. Many surprising applications have a nasty habit to register these for you without asking any questions.
 
@@ -41,6 +41,9 @@ WIP
 ```shell
 sudo easy_install pip
 sudo pip install flake8
+# optionally install Atom from atom.io and then these Atom packages
+apm install linter
+apm install linter-flake8
 ```
 
 ### Publishing to the GitHub pages (limited functionality)
