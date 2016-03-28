@@ -41,9 +41,15 @@ WIP
 ```shell
 sudo easy_install pip
 sudo pip install flake8
+# optionally install Node.js from https://nodejs.org/en/download/ and then
+cd <projectdir>
+npm install htmlhint
+npm install jsonlint
 # optionally install Atom from atom.io and then these Atom packages
 apm install linter
 apm install linter-flake8
+apm install linter-htmlhint
+apm install linter-jsonlint
 ```
 
 ### Publishing to the GitHub pages (limited functionality)
