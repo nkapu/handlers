@@ -1,0 +1,24 @@
+{
+  "name": "handlers",
+  "version": "1.0.0",
+  "description": "Discover and test URL handlers",
+  "main": "index.js",
+  "dependencies": {
+    "htmlhint": "^0.9.12",
+    "jsonlint": "^1.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkapu/handlers.git"
+  },
+  "author": "nkapu@iki.fi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkapu/handlers/issues"
+  },
+  "homepage": "https://github.com/nkapu/handlers#readme"
+}
