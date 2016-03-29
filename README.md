@@ -4,7 +4,7 @@ URL handlers are are those nice bits in the front of the URL (e.g. http:, https:
 
 ## Try it out on the web
 
-Check out http://hack.urlhandlers.io, it gives you a JavaScript based exploration and testing interface with limited functionality (only canned urlhandler information is available).
+Check out http://hack.urlhandlers.info, it gives you a JavaScript based exploration and testing interface with limited functionality (only canned urlhandler information is available).
 
 ## Try it out locally
 
