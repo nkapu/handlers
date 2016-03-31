@@ -43,8 +43,7 @@ sudo easy_install pip
 sudo pip install flake8
 # optionally install Node.js from https://nodejs.org/en/download/ and then
 cd <projectdir>
-npm install htmlhint
-npm install jsonlint
+npm install
 # optionally install Atom from atom.io and then these Atom packages
 apm install linter
 apm install linter-flake8

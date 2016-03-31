@@ -4,10 +4,14 @@
   "description": "Discover and test URL handlers",
   "main": "index.js",
   "dependencies": {
+    "bowser": "^1.0.0",
+    "jquery-mobile": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.5.3",
     "htmlhint": "^0.9.12",
     "jsonlint": "^1.6.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
