@@ -1,11 +1,9 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html>
 <head>
   <title>Hack URL handlers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="deps/jquery.mobile-1.4.5.min.css">
-  <script src="deps/jquery-1.11.3.min.js"></script>
-  <script src="deps/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
   <div data-role="page">
@@ -15,7 +13,6 @@
 
     <div role="main" class="ui-content">
       <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
-      <script src="handlers.js"></script>
     </div>
 
     <div data-role="footer" data-position="fixed">
@@ -24,7 +21,11 @@
         Project reposity
       </a>
     </div>
-
   </div>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('handlers.js');
+  </script>
 </body>
 </html>
