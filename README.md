@@ -41,15 +41,18 @@ WIP
 ```shell
 sudo easy_install pip
 sudo pip install flake8
-# optionally install Node.js from https://nodejs.org/en/download/ and then
+# Install Node.js from https://nodejs.org/en/download/ and then
 cd <projectdir>
 npm install
+node_modules/.bin/jspm install
 # optionally install Atom from atom.io and then these Atom packages
 apm install linter
 apm install linter-flake8
 apm install linter-htmlhint
 apm install linter-jsonlint
+apm install linter-eslint
 ```
+We use JSPM for the front/client-side JavaScript dependency bundling (see http://jspm.io/docs/getting-started.html).
 
 ### Publishing to the GitHub pages (limited functionality)
 

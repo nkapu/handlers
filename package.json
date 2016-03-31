@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "Discover and test URL handlers",
   "main": "index.js",
-  "dependencies": {
-    "bowser": "^1.0.0",
-    "jquery-mobile": "^1.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^2.5.3",
+    "eslint-config-google": "^0.4.0",
     "htmlhint": "^0.9.12",
     "jsonlint": "^1.6.2",
     "jspm": "^0.16.32"
@@ -32,6 +30,7 @@
     },
     "dependencies": {
       "bowser": "npm:bowser@^1.0.0",
+      "jquery": "npm:jquery@^2.2.2",
       "jquery-mobile": "npm:jquery-mobile@^1.4.1"
     },
     "devDependencies": {
