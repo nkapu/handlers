@@ -10,7 +10,8 @@
   "devDependencies": {
     "eslint": "^2.5.3",
     "htmlhint": "^0.9.12",
-    "jsonlint": "^1.6.2"
+    "jsonlint": "^1.6.2",
+    "jspm": "^0.16.32"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,5 +25,19 @@
   "bugs": {
     "url": "https://github.com/nkapu/handlers/issues"
   },
-  "homepage": "https://github.com/nkapu/handlers#readme"
+  "homepage": "https://github.com/nkapu/handlers#readme",
+  "jspm": {
+    "directories": {
+      "baseURL": "web"
+    },
+    "dependencies": {
+      "bowser": "npm:bowser@^1.0.0",
+      "jquery-mobile": "npm:jquery-mobile@^1.4.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
 }
