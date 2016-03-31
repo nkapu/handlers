@@ -1,7 +1,6 @@
-/* eslint no-unused-vars: ["error", { "varsIgnorePattern": "^Mobile$" }] */
-
 import $ from 'jquery';
-import Mobile from 'jquery-mobile/dist/jquery.mobile.js';
+import 'jquery-mobile/dist/jquery.mobile.js';
+import 'jquery-mobile/dist/jquery.mobile.min.css!';
 
 /**
   Creates listview of based on the handlers

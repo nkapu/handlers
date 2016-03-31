@@ -54,6 +54,22 @@ apm install linter-eslint
 ```
 We use JSPM for the front/client-side JavaScript dependency bundling (see http://jspm.io/docs/getting-started.html).
 
+### Building
+
+Bundling:
+
+```shell
+node_modules/.bin/jspm bundle handlers --inject
+```
+
+Unbundling (back to the drawing board):
+
+```shell
+jspm unbundle
+```
+
+https://github.com/jspm/jspm-cli/blob/master/docs/production-workflows.md
+
 ### Publishing to the GitHub pages (limited functionality)
 
 Publish web-substree based on instructions from https://gist.github.com/cobyism/4730490:
