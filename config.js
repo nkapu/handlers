@@ -12,19 +12,6 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
-  bundles: {
-    "build.js": [
-      "handlers.js",
-      "npm:jquery@2.2.2.js",
-      "npm:jquery-mobile@1.4.1/dist/jquery.mobile.js",
-      "npm:jquery-mobile@1.4.1/dist/jquery.mobile.min.css!github:systemjs/plugin-css@0.1.20.js",
-      "github:jspm/nodelibs-process@0.1.2.js",
-      "npm:jquery@2.2.2/dist/jquery.js",
-      "github:jspm/nodelibs-process@0.1.2/index.js",
-      "npm:process@0.11.2.js",
-      "npm:process@0.11.2/browser.js"
-    ]
-  },
 
   map: {
     "babel": "npm:babel-core@5.8.38",

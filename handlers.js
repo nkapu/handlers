@@ -1,3 +1,4 @@
+import bowser from 'bowser';
 import $ from 'jquery';
 import 'jquery-mobile/dist/jquery.mobile.js';
 import 'jquery-mobile/dist/jquery.mobile.min.css!';
@@ -51,3 +52,4 @@ xmlhttp.onreadystatechange = function() {
 
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
+alert(JSON.stringify(bowser, null, '    '));
