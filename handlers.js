@@ -5,9 +5,11 @@ import {browserinfo} from './browserinfo';
 import {handlerinfo} from './handlerinfo';
 
 $("#browserinfohead").text(browserinfo.shortinfo());
-$("#browserinfogroup").html(browserinfo.flaginputs());
+var inputs = browserinfo.flaginputs();
+
+$("#browserinfogroup").controlgroup("container").append(inputs);
+$("#browserinfogroup [type=checkbox]").checkboxradio();
 $("#browserinfogroup").controlgroup("refresh");
-console.dir($("#browserinfogroup"));
 
 var xmlhttp = new XMLHttpRequest();
 var url = "handlers.json";
