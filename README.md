@@ -70,6 +70,14 @@ jspm unbundle
 
 https://github.com/jspm/jspm-cli/blob/master/docs/production-workflows.md
 
+### Debugging
+
+Random example of debugging the JavaScript modules from the console:
+
+```javascript
+SystemJS.import('./browserinfo').then(function(_) { console.log(_.browserinfo.shortinfo()); });
+```
+
 ### Publishing to the GitHub pages (limited functionality)
 
 Publish web-substree based on instructions from https://gist.github.com/cobyism/4730490:
