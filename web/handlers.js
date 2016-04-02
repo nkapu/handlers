@@ -1,14 +1,19 @@
-import bowser from 'bowser';
 import $ from 'jquery';
 import 'jquery-mobile/dist/jquery.mobile.js';
 import 'jquery-mobile/dist/jquery.mobile.min.css!';
+import {browserinfo} from './browserinfo';
+
+$("#browserinfohead").text(browserinfo.shortinfo());
+$("#browserinfogroup").html(browserinfo.flaginputs());
+$("#browserinfogroup").controlgroup("refresh");
+console.dir($("#browserinfogroup"));
 
 /**
   Creates listview of based on the handlers
   * @param {array} array The JSON array of the Handlers to be listed.
   modified from http://stackoverflow.com/questions/11128700/create-a-ul-and-fill-it-based-on-a-passed-array
   */
-function makelistview(array) {
+function handlerslistview(array) {
   // Create the list element:
   var list = document.getElementById('handlerlist');
 
@@ -45,11 +50,10 @@ var url = "handlers.json";
 xmlhttp.onreadystatechange = function() {
   if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
     var handlers = JSON.parse(xmlhttp.responseText);
-    makelistview(handlers);
+    handlerslistview(handlers);
     //  document.getElementById('handlerlist').appendChild(makeUL(handlers));
   }
 };
 
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
-alert(JSON.stringify(bowser, null, '    '));

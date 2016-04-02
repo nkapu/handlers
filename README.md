@@ -1,6 +1,6 @@
-# handlers - discover and test URL handlers
+# Discover and Hack URL handlers
 
-URL handlers are are those nice bits in the front of the URL (e.g. http:, https:, ftp:, skype:) that greatly expand the things a web page can do to you and your device. Many surprising applications have a nasty habit to register these for you without asking any questions.
+URL handlers are the bits in the front of the URLs (e.g. http:, https:, ftp:, skype:). They add things a web page can do to you and your device. Surprising applications have a nasty habit to register these without asking.
 
 ## Try it out on the web
 
