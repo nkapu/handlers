@@ -3,10 +3,16 @@ import bowser from 'bowser';
 export var browserinfo = new function() {
   this.detection = bowser;
 
+  /**
+   @return {Strings} a short text string with the browser name and version.
+   */
   this.shortinfo = function() {
     return "Browser: " + this.detection.name + " " + this.detection.version;
   };
 
+  /**
+   @return {Object} a HTML inputs for the controlgroup based on the flags
+   */
   this.flaginputs = function() {
     var result = document.createElement("div");
 
