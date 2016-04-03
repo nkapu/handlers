@@ -1,51 +1,160 @@
 import bowser from 'bowser';
 
 export var browserinfo = new function() {
+  /* The Bowser browser detection object */
   this.detection = bowser;
+  /* The JSON dictionary of the Browser behaviour information. */
+  this.info = {};
+  /* Bower detection flags */
+  this.flags = [
+    "opera", "yandexbrowser", "windowsphone", "msedge",
+    "msie", "chromeBook", "chrome", "sailfish",
+    "seamonkey", "firefox", "silk", "phantom",
+    "blackberry", "webos", "bada", "tizen", "safari",
+    "webkit", "gecko", "android", "ios",
+    "tablet", "mobile"
+  ];
+  this.flags.sort();
 
   /**
-   @return {String} a short text string with the browser name and version.
-   */
-  this.shortinfo = function() {
+    @param {String} data a JSON string to be parsed into the behaviour info.
+    */
+  this.loadjson = function(data) {
+    this.info = JSON.parse(data);
+  };
+
+  /**
+    @return {String} a short text string with the browser name and version.
+    */
+  this.head = function() {
     return "Browser: " + this.detection.name + " " + this.detection.version;
   };
 
   /**
-   @return {Object} a HTML inputs for the controlgroup based on the flags
-   */
+    @return {String} the HTML inputs for the controlgroup based on the flags
+    */
   this.flaginputs = function() {
     var result = document.createElement("div");
 
-    var flags = [
-      "opera", "yandexbrowser", "windowsphone", "msedge",
-      "msie", "chromeBook", "chrome", "sailfish",
-      "seamonkey", "firefox", "silk", "phantom",
-      "blackberry", "webos", "bada", "tizen", "safari",
-      "webkit", "gecko", "android", "ios",
-      "tablet", "mobile"
-    ];
-    flags.sort();
-
-    for (var i = 0; i < flags.length; i++) {
-      var myflag = flags[i];
-      var inputname = "checkbox-" + myflag;
+    for (var i = 0; i < this.flags.length; i++) {
+      var myflag = this.flags[i];
+      var inputid = "checkbox-" + myflag;
       var input = document.createElement("input");
       input.setAttribute("type", "checkbox");
-      input.setAttribute("name", inputname);
-      input.setAttribute("id", inputname);
+      input.setAttribute("name", myflag);
+      input.setAttribute("id", inputid);
       input.setAttribute("data-mini", "true");
       if (this.detection[myflag] === true) {
         input.setAttribute("checked", "checked");
       }
+      if (!this.info[myflag]) {
+        input.setAttribute("disabled", "true");
+      }
       result.appendChild(input);
 
       var label = document.createElement("label");
-      label.setAttribute("for", inputname);
+      label.setAttribute("for", inputid);
       var labelText = document.createTextNode(myflag);
       label.appendChild(labelText);
       result.appendChild(label);
     }
 
     return result.innerHTML;
+  };
+
+  /**
+    @param {array} info The JSON dicttionary of the Browser behaviour information.
+    @return {String} information about the Browser's URL handler behaviour.
+    */
+  this.body = function() {
+    /*
+    <div class="ui-corner-all custom-corners">
+      <div class="ui-bar ui-bar-a">
+        <h3>Heading</h3>
+      </div>
+      <div class="ui-body ui-body-a">
+        <p>Content</p>
+      </div>
+    </div>
+      */
+    var result = document.createElement("div");
+
+    for (var key in this.info) {
+      if (this.info.hasOwnProperty(key) && this.detection[key] === true) {
+        var entryname = key;
+        var entrybody = this.info[key];
+        var entry = document.createElement("div");
+        entry.setAttribute("class", "ui-bar ui-bar-a");
+        var heading = document.createElement("h3");
+        var headingText = document.createTextNode(entryname);
+        heading.appendChild(headingText);
+        entry.appendChild(heading);
+        result.appendChild(entry);
+        var body = document.createElement("div");
+        body.setAttribute("class", "ui-body ui-body-a");
+        var bodypara = document.createElement("p");
+        var bodyparaText = document.createTextNode(entrybody);
+        bodypara.appendChild(bodyparaText);
+        body.appendChild(bodypara);
+        result.appendChild(body);
+      }
+    }
+
+    if (!result.innerHTML) {
+      var noresults = document.createElement("div");
+      noresults.setAttribute("class", "ui-bar ui-bar-a");
+      var noheading = document.createElement("h3");
+      var noheadingText = document.createTextNode("No info about [" +
+        this.detectionvector() +
+        "]'s behaviour, please tweet your results!");
+      noheading.appendChild(noheadingText);
+      noresults.appendChild(noheading);
+      result.appendChild(noresults);
+    }
+
+    return result.innerHTML;
+  };
+
+  /**
+    @return {String} a vector of current Bowser detection flags
+    */
+  this.detectionvector = function() {
+    var vector = "";
+
+    for (var i = 0; i < this.flags.length; i++) {
+      var myflag = this.flags[i];
+      if (this.detection[myflag] === true) {
+        if (vector.length > 0) {
+          vector += ":";
+        }
+        vector += myflag;
+      }
+    }
+    return vector;
+  };
+
+  /**
+    @return {Object} a clickable tweet link with browser info vector filled in.
+    */
+  this.tweet = function() {
+    /*
+      <a href="http://twitter.com/intent/tweet?text=safari:webkit...&hashtags=urlhanders"
+        title="Tweet" target="_blank" class="ui-btn-active">Tweet</a>
+     */
+    var link = document.createElement("a");
+    var url = "https://twitter.com/intent/tweet";
+    var vector = this.detectionvector();
+    url += "?text=" + encodeURIComponent("My browser [" + vector +
+      "] __eats weird URLs for breakfast__");
+    url += "&hashtags=" + encodeURIComponent("urlhandlers");
+    // url += "&url=http://hack.urlhanderlers.info/";
+    link.setAttribute("href", url);
+    link.setAttribute("title", "Tweet");
+    link.setAttribute("target", "_blank");
+    link.setAttribute("class", "ui-btn-active");
+    var linkText = document.createTextNode("Click to tweet about [" +
+      vector + "]'s URL handling behaviour if not already in the info below.");
+    link.appendChild(linkText);
+    return link;
   };
 };

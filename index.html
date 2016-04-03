@@ -6,25 +6,33 @@
 </head>
 <body>
   <div data-role="page">
+    <!-- Header -->
     <div data-role="header">
       <h1>Discover and Hack URL Handlers</h1>
     </div>
 
     <div role="main" class="ui-content">
 
+      <!-- BrowserInfo -->
       <div data-role="collapsible">
         <h4><span id="browserinfohead">Browser detection not available.</span></h4>
-        <p>
-          <form>
-            <fieldset id="browserinfogroup" data-role="controlgroup" data-type="horizontal">
-            </fieldset>
-          </form>
-        </p>
+        <div id="browserinfonavbar" data-role="navbar">
+          <ul>
+            <li id="browserinfotweet"></li>
+          </ul>
+       </div>
+        <form>
+          <fieldset id="browserinfogroup" data-role="controlgroup" data-type="horizontal">
+          </fieldset>
+        </form>
+        <div id="browserinfobody" class="ui-corner-all custom-corners"></div>
       </div>
-      
+
+      <!-- HandlerInfo -->
       <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
     </div>
 
+    <!-- Footer -->
     <div data-role="footer" data-position="fixed">
       <h4>More info</h4>
       <a href="http://github.com/nkapu/handlers/" data-icon="info" class="ui-btn-right">
