@@ -1,0 +1,5 @@
+{
+    "safari": "Based on the observations so far Safari allows user to follow any link without prompting.",
+    "chrome": "Based on the observations so far Chrome prompts before activating an external (to Chrome) URL handlers.",
+    "firefox": "Based on the observations so far Firefox mostly prompts before activating an external (to Firefix) URL handlers. But there might be exceptions like mailto: -handler."
+}
