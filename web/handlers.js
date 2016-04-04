@@ -1,6 +1,10 @@
+import 'jquery-mobile/dist/jquery.mobile.min.css!';
 import $ from 'jquery';
 import 'jquery-mobile/dist/jquery.mobile.js';
-import 'jquery-mobile/dist/jquery.mobile.min.css!';
+
+$(document).ready(function() {
+  $("body").css("visibility", "visible");
+});
 
 import {browserinfo} from './browserinfo';
 
@@ -15,8 +19,6 @@ browserinfoloader.onreadystatechange = function() {
     $("#browserinfotweet").html(browserinfo.tweet());
     $("#browserinfonavbar").navbar("destroy");
     $("#browserinfonavbar").navbar();
-
-    console.log($("#browserinfonavbar"));
 
     var inputs = browserinfo.flaginputs();
     $("#browserinfogroup").controlgroup("container").append(inputs);
