@@ -152,8 +152,9 @@ export var browserinfo = new function() {
     link.setAttribute("title", "Tweet");
     link.setAttribute("target", "_blank");
     link.setAttribute("class", "ui-btn-active");
-    var linkText = document.createTextNode("Click to tweet about [" +
-      vector + "]'s URL handling behaviour if not already in the info below.");
+    link.setAttribute("data-icon", "action");
+    var linkText = document.createTextNode("Tweet about [" +
+      vector + "]'s behaviour");
     link.appendChild(linkText);
     return link;
   };
