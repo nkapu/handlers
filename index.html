@@ -3,9 +3,22 @@
 <head>
   <title>Discover and Hack URL Handlers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('handlers.js');
+  </script>
+  <!--
+  <script src="bundle-sfx.js"></script>
+  -->
 </head>
 <body>
-  <div data-role="page">
+  <!-- Hide the body until we have loaded -->
+  <script>
+    document.body.style.visibility = 'hidden';
+  </script>
+  <!-- Page -->
+  <div id="start" data-role="page">
     <!-- Header -->
     <div data-role="header">
       <h1>Discover and Hack URL Handlers</h1>
@@ -40,13 +53,5 @@
       </a>
     </div>
   </div>
-  <script src="jspm_packages/system.js"></script>
-  <script src="config.js"></script>
-  <script>
-    System.import('handlers.js');
-  </script>
-  <!--
-  <script src="bundle-sfx.js"></script>
-  -->
 </body>
 </html>
