@@ -6,37 +6,32 @@ $(document).ready(function() {
   $("body").css("visibility", "visible");
 });
 
-import {browserinfo} from './browserinfo';
+import {BrowserInfo} from './browserinfo';
+var browserinfo = new BrowserInfo();
 
-var browserinfoloader = new XMLHttpRequest();
+$.getJSON("browserinfo.json", function(data) {
+  browserinfo.load(data);
 
-browserinfoloader.onreadystatechange = function() {
-  var xmlhttp = browserinfoloader;
-  if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
-    browserinfo.loadjson(xmlhttp.responseText);
+  $("#browserinfohead").text(browserinfo.head());
+  $("#browserinfotweet").html(browserinfo.tweet());
+  $("#browserinfonavbar").navbar("destroy");
+  $("#browserinfonavbar").navbar();
 
-    $("#browserinfohead").text(browserinfo.head());
-    $("#browserinfotweet").html(browserinfo.tweet());
-    $("#browserinfonavbar").navbar("destroy");
-    $("#browserinfonavbar").navbar();
+  var inputs = browserinfo.flaginputs();
+  $("#browserinfogroup").controlgroup("container").append(inputs);
+  $("#browserinfogroup [type=checkbox]").checkboxradio();
+  $("#browserinfogroup").controlgroup("refresh");
 
-    var inputs = browserinfo.flaginputs();
-    $("#browserinfogroup").controlgroup("container").append(inputs);
-    $("#browserinfogroup [type=checkbox]").checkboxradio();
-    $("#browserinfogroup").controlgroup("refresh");
+  $("#browserinfobody").html(browserinfo.body());
 
-    $("#browserinfobody").html(browserinfo.body());
-  }
   $('#browserinfogroup input[type=checkbox]').change(function() {
     browserinfo.detection[this.name] = this.checked;
     $("#browserinfobody").html(browserinfo.body());
   });
-};
+});
 
-browserinfoloader.open("GET", "browserinfo.json", true);
-browserinfoloader.send();
-
-import {handlerinfo} from './handlerinfo';
+import {HandlerInfo} from './handlerinfo';
+var handlerinfo = new HandlerInfo();
 
 var handlersloader = new XMLHttpRequest();
 
