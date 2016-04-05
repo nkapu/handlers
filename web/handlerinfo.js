@@ -1,4 +1,7 @@
-export var handlerinfo = new function() {
+/**
+  Builds URL handler lists based on discovery and info JSON/dict information.
+  */
+export function HandlerInfo() {
   /**
     Creates listview of based on the handlers
     * @param {array} array The JSON array of the Handlers to be listed
@@ -35,4 +38,4 @@ export var handlerinfo = new function() {
     }
     return list.innerHTML;
   };
-};
+}

@@ -1,6 +1,9 @@
 import bowser from 'bowser';
 
-export var browserinfo = new function() {
+/**
+  Provides information about the browser and its URL handling behaviour
+  by combining Bowser detection with info JSON/dict */
+export function BrowserInfo() {
   /* The Bowser browser detection object */
   this.detection = bowser;
   /* The JSON dictionary of the Browser behaviour information. */
@@ -21,6 +24,13 @@ export var browserinfo = new function() {
     */
   this.loadjson = function(data) {
     this.info = JSON.parse(data);
+  };
+
+  /**
+    @param {Object} data a dictionary of behaviour info.
+    */
+  this.load = function(data) {
+    this.info = data;
   };
 
   /**
@@ -158,4 +168,4 @@ export var browserinfo = new function() {
     link.appendChild(linkText);
     return link;
   };
-};
+}

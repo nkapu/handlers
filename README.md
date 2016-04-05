@@ -59,13 +59,13 @@ We use JSPM for the front/client-side JavaScript dependency bundling (see http:/
 Bundling JavaScript dependencies:
 
 ```shell
-node_modules/.bin/jspm bundle handlers --inject
+$(npm bin)/jspm bundle handlers --inject
 ```
 
 Unbundling (back to the drawing board):
 
 ```shell
-node_modules/.bin/jspm unbundle
+$(npm bin)/jspm unbundle
 ```
 
 https://github.com/jspm/jspm-cli/blob/master/docs/production-workflows.md
@@ -75,7 +75,9 @@ https://github.com/jspm/jspm-cli/blob/master/docs/production-workflows.md
 Random example of debugging the JavaScript modules from the console:
 
 ```javascript
-SystemJS.import('./browserinfo').then(function(_) { console.log(_.browserinfo.shortinfo()); });
+SystemJS.import('./browserinfo').then(function(_) {     
+  console.log(_.browserinfo.shortinfo());
+});
 ```
 
 ### Publishing to the GitHub pages (limited functionality)
@@ -84,7 +86,7 @@ Build a stand-alone JavaScript bundle and publish web-substree based on
 instructions from https://gist.github.com/cobyism/4730490:
 
 ```shell
-node_modules/.bin/jspm bundle-sfx handlers web/bundle-sfx.js
+$(npm bin)/jspm bundle-sfx handlers web/bundle-sfx.js
 # modify index.html to load bundle-sfx.js (only)
 git commit -a
 git push
