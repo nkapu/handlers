@@ -3,15 +3,15 @@
 <head>
   <title>Discover and Hack URL Handlers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--
   <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
   <script>
     System.import('handlers.js');
   </script>
-  -->
+  <!--
   <script src="bundle-sfx.js"></script>
-  </head>
+  -->
+</head>
 <body>
   <!-- Hide the body until we have loaded -->
   <script>
@@ -25,32 +25,26 @@
     </div>
 
     <div role="main" class="ui-content">
-      <div data-role="collapsibleset" data-theme="a" data-content-theme="a">
-        <!-- BrowserInfo -->
-        <div data-role="collapsible">
-          <h3><span id="browserinfohead">Browser detection not available.</span></h3>
-          <div id="browserinfonavbar" data-role="navbar" data-iconpos="right">
-            <ul>
-              <li id="browserinfotweet"></li>
-            </ul>
-          </div>
-          <form>
-            <fieldset id="browserinfogroup" data-role="controlgroup" data-type="horizontal">
-            </fieldset>
-          </form>
-          <div id="browserinfobody" class="ui-corner-all custom-corners"></div>
-        </div>
-        <!-- HandlerInfo -->
-        <div data-role="collapsible">
-          <h3>My handlers</h3>
-          <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
-        </div>
-        <div data-role="collapsible">
-          <h3>Crowd sourced handlers</h3>
-          <ul id="handlerinfolist" data-role="listview" data-filter="true" data-inset="true"></ul>
-        </div>
+
+      <!-- BrowserInfo -->
+      <div data-role="collapsible">
+        <h4><span id="browserinfohead">Browser detection not available.</span></h4>
+        <div id="browserinfonavbar" data-role="navbar" data-iconpos="right">
+          <ul>
+            <li id="browserinfotweet"></li>
+          </ul>
+       </div>
+        <form>
+          <fieldset id="browserinfogroup" data-role="controlgroup" data-type="horizontal">
+          </fieldset>
+        </form>
+        <div id="browserinfobody" class="ui-corner-all custom-corners"></div>
       </div>
+
+      <!-- HandlerInfo -->
+      <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
     </div>
+
     <!-- Footer -->
     <div data-role="footer" data-position="fixed">
       <h4>More info</h4>
