@@ -3,6 +3,8 @@
 (["1"], [], function($__System, require) {
 
 !function(e){function n(e,n){e=e.replace(l,"");var r=e.match(u),t=(r[1].split(",")[n]||"require").replace(s,""),i=p[t]||(p[t]=new RegExp(a+t+f,"g"));i.lastIndex=0;for(var o,c=[];o=i.exec(e);)c.push(o[2]||o[3]);return c}function r(e,n,t,o){if("object"==typeof e&&!(e instanceof Array))return r.apply(null,Array.prototype.splice.call(arguments,1,arguments.length-1));if("string"==typeof e&&"function"==typeof n&&(e=[e]),!(e instanceof Array)){if("string"==typeof e){var l=i.get(e);return l.__useDefault?l["default"]:l}throw new TypeError("Invalid require")}for(var a=[],f=0;f<e.length;f++)a.push(i["import"](e[f],o));Promise.all(a).then(function(e){n&&n.apply(null,e)},t)}function t(t,l,a){"string"!=typeof t&&(a=l,l=t,t=null),l instanceof Array||(a=l,l=["require","exports","module"].splice(0,a.length)),"function"!=typeof a&&(a=function(e){return function(){return e}}(a)),void 0===l[l.length-1]&&l.pop();var f,u,s;-1!=(f=o.call(l,"require"))&&(l.splice(f,1),t||(l=l.concat(n(a.toString(),f)))),-1!=(u=o.call(l,"exports"))&&l.splice(u,1),-1!=(s=o.call(l,"module"))&&l.splice(s,1);var p={name:t,deps:l,execute:function(n,t,o){for(var p=[],c=0;c<l.length;c++)p.push(n(l[c]));o.uri=o.id,o.config=function(){},-1!=s&&p.splice(s,0,o),-1!=u&&p.splice(u,0,t),-1!=f&&p.splice(f,0,function(e,t,l){return"string"==typeof e&&"function"!=typeof t?n(e):r.call(i,e,t,l,o.id)});var d=a.apply(-1==u?e:t,p);return"undefined"==typeof d&&o&&(d=o.exports),"undefined"!=typeof d?d:void 0}};if(t)c.anonDefine||c.isBundle?c.anonDefine&&c.anonDefine.name&&(c.anonDefine=null):c.anonDefine=p,c.isBundle=!0,i.registerDynamic(p.name,p.deps,!1,p.execute);else{if(c.anonDefine&&!c.anonDefine.name)throw new Error("Multiple anonymous defines in module "+t);c.anonDefine=p}}var i=$__System,o=Array.prototype.indexOf||function(e){for(var n=0,r=this.length;r>n;n++)if(this[n]===e)return n;return-1},l=/(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/gm,a="(?:^|[^$_a-zA-Z\\xA0-\\uFFFF.])",f="\\s*\\(\\s*(\"([^\"]+)\"|'([^']+)')\\s*\\)",u=/\(([^\)]*)\)/,s=/^\s+|\s+$/g,p={};t.amd={};var c={isBundle:!1,anonDefine:null};i.amdDefine=t,i.amdRequire=r}("undefined"!=typeof self?self:global);
+$__System.register("2", [], function() { return { setters: [], execute: function() {} } });
+
 (function() {
 var define = $__System.amdDefine;
 (function(global, factory) {
@@ -6006,9 +6008,9 @@ var define = $__System.amdDefine;
   });
   jQuery.fn.andSelf = jQuery.fn.addBack;
   if (typeof define === "function" && define.amd) {
-    define("2", [], function() {
+    define("3", [], function() {
       return jQuery;
-    }), define("jquery", ["2"], function(m) {
+    }), define("jquery", ["3"], function(m) {
       return m;
     });
   }
@@ -6032,12 +6034,12 @@ var define = $__System.amdDefine;
 })();
 (function() {
 var define = $__System.amdDefine;
-define("3", ["2"], function(main) {
+define("4", ["3"], function(main) {
   return main;
 });
 
 })();
-$__System.registerDynamic("4", [], true, function($__require, exports, module) {
+$__System.registerDynamic("5", [], true, function($__require, exports, module) {
   ;
   var define,
       global = this,
@@ -6128,21 +6130,12 @@ $__System.registerDynamic("4", [], true, function($__require, exports, module) {
   return module.exports;
 });
 
-$__System.registerDynamic("5", ["4"], true, function($__require, exports, module) {
-  ;
-  var define,
-      global = this,
-      GLOBAL = this;
-  module.exports = $__require('4');
-  return module.exports;
-});
-
 $__System.registerDynamic("6", ["5"], true, function($__require, exports, module) {
   ;
   var define,
       global = this,
       GLOBAL = this;
-  module.exports = $__System._nodeRequire ? process : $__require('5');
+  module.exports = $__require('5');
   return module.exports;
 });
 
@@ -6151,11 +6144,20 @@ $__System.registerDynamic("7", ["6"], true, function($__require, exports, module
   var define,
       global = this,
       GLOBAL = this;
-  module.exports = $__require('6');
+  module.exports = $__System._nodeRequire ? process : $__require('6');
   return module.exports;
 });
 
 $__System.registerDynamic("8", ["7"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  module.exports = $__require('7');
+  return module.exports;
+});
+
+$__System.registerDynamic("9", ["8"], true, function($__require, exports, module) {
   ;
   var define,
       global = this,
@@ -15849,11 +15851,9 @@ $__System.registerDynamic("8", ["7"], true, function($__require, exports, module
         });
       }(jQuery, this));
     }));
-  })($__require('7'));
+  })($__require('8'));
   return module.exports;
 });
-
-$__System.register("9", [], function() { return { setters: [], execute: function() {} } });
 
 $__System.registerDynamic("a", [], true, function($__require, exports, module) {
   ;
@@ -16096,271 +16096,286 @@ $__System.registerDynamic("b", ["a"], true, function($__require, exports, module
 });
 
 $__System.register("c", ["b"], function (_export) {
+
+  /**
+    Provides information about the browser and its URL handling behaviour
+    by combining Bowser detection with info JSON/dict */
   "use strict";
 
-  var bowser, browserinfo;
+  var bowser;
+
+  _export("BrowserInfo", BrowserInfo);
+
+  function BrowserInfo() {
+    /* The Bowser browser detection object */
+    this.detection = bowser;
+    /* The JSON dictionary of the Browser behaviour information. */
+    this.info = {};
+    /* Bower detection flags */
+    this.flags = ["opera", "yandexbrowser", "windowsphone", "msedge", "msie", "chromeBook", "chrome", "sailfish", "seamonkey", "firefox", "silk", "phantom", "blackberry", "webos", "bada", "tizen", "safari", "webkit", "gecko", "android", "ios", "tablet", "mobile"];
+    this.flags.sort();
+
+    /**
+      @param {String} data a JSON string to be parsed into the behaviour info.
+      */
+    this.loadjson = function (data) {
+      this.info = JSON.parse(data);
+    };
+
+    /**
+      @param {Object} data a dictionary of behaviour info.
+      */
+    this.load = function (data) {
+      this.info = data;
+    };
+
+    /**
+      @return {String} a short text string with the browser name and version.
+      */
+    this.head = function () {
+      return "Browser: " + this.detection.name + " " + this.detection.version;
+    };
+
+    /**
+      @return {String} the HTML inputs for the controlgroup based on the flags
+      */
+    this.flaginputs = function () {
+      var result = document.createElement("div");
+
+      for (var i = 0; i < this.flags.length; i++) {
+        var myflag = this.flags[i];
+        var inputid = "checkbox-" + myflag;
+        var input = document.createElement("input");
+        input.setAttribute("type", "checkbox");
+        input.setAttribute("name", myflag);
+        input.setAttribute("id", inputid);
+        input.setAttribute("data-mini", "true");
+        if (this.detection[myflag] === true) {
+          input.setAttribute("checked", "checked");
+        }
+        if (!this.info[myflag]) {
+          input.setAttribute("disabled", "true");
+        }
+        result.appendChild(input);
+
+        var label = document.createElement("label");
+        label.setAttribute("for", inputid);
+        var labelText = document.createTextNode(myflag);
+        label.appendChild(labelText);
+        result.appendChild(label);
+      }
+
+      return result.innerHTML;
+    };
+
+    /**
+      @param {array} info The JSON dicttionary of the Browser behaviour information.
+      @return {String} information about the Browser's URL handler behaviour.
+      */
+    this.body = function () {
+      /*
+      <div class="ui-corner-all custom-corners">
+        <div class="ui-bar ui-bar-a">
+          <h3>Heading</h3>
+        </div>
+        <div class="ui-body ui-body-a">
+          <p>Content</p>
+        </div>
+      </div>
+        */
+      var result = document.createElement("div");
+
+      for (var key in this.info) {
+        if (this.info.hasOwnProperty(key) && this.detection[key] === true) {
+          var entryname = key;
+          var entrybody = this.info[key];
+          var entry = document.createElement("div");
+          entry.setAttribute("class", "ui-bar ui-bar-a");
+          var heading = document.createElement("h3");
+          var headingText = document.createTextNode(entryname);
+          heading.appendChild(headingText);
+          entry.appendChild(heading);
+          result.appendChild(entry);
+          var body = document.createElement("div");
+          body.setAttribute("class", "ui-body ui-body-a");
+          var bodypara = document.createElement("p");
+          var bodyparaText = document.createTextNode(entrybody);
+          bodypara.appendChild(bodyparaText);
+          body.appendChild(bodypara);
+          result.appendChild(body);
+        }
+      }
+
+      if (!result.innerHTML) {
+        var noresults = document.createElement("div");
+        noresults.setAttribute("class", "ui-bar ui-bar-a");
+        var noheading = document.createElement("h3");
+        var noheadingText = document.createTextNode("No info about [" + this.detectionvector() + "]'s behaviour, please tweet your results!");
+        noheading.appendChild(noheadingText);
+        noresults.appendChild(noheading);
+        result.appendChild(noresults);
+      }
+
+      return result.innerHTML;
+    };
+
+    /**
+      @return {String} a vector of current Bowser detection flags
+      */
+    this.detectionvector = function () {
+      var vector = "";
+
+      for (var i = 0; i < this.flags.length; i++) {
+        var myflag = this.flags[i];
+        if (this.detection[myflag] === true) {
+          if (vector.length > 0) {
+            vector += ":";
+          }
+          vector += myflag;
+        }
+      }
+      return vector;
+    };
+
+    /**
+      @return {Object} a clickable tweet link with browser info vector filled in.
+      */
+    this.tweet = function () {
+      /*
+        <a href="http://twitter.com/intent/tweet?text=safari:webkit...&hashtags=urlhanders"
+          title="Tweet" target="_blank" class="ui-btn-active">Tweet</a>
+       */
+      var link = document.createElement("a");
+      var url = "https://twitter.com/intent/tweet";
+      var vector = this.detectionvector();
+      url += "?text=" + encodeURIComponent("My browser [" + vector + "] __eats weird URLs for breakfast__");
+      url += "&hashtags=" + encodeURIComponent("urlhandlers");
+      // url += "&url=http://hack.urlhanderlers.info/";
+      link.setAttribute("href", url);
+      link.setAttribute("title", "Tweet");
+      link.setAttribute("target", "_blank");
+      link.setAttribute("class", "ui-btn-active");
+      link.setAttribute("data-icon", "action");
+      var linkText = document.createTextNode("Tweet about [" + vector + "]'s behaviour");
+      link.appendChild(linkText);
+      return link;
+    };
+  }
+
   return {
     setters: [function (_b) {
       bowser = _b["default"];
     }],
-    execute: function () {
-      browserinfo = new function () {
-        /* The Bowser browser detection object */
-        this.detection = bowser;
-        /* The JSON dictionary of the Browser behaviour information. */
-        this.info = {};
-        /* Bower detection flags */
-        this.flags = ["opera", "yandexbrowser", "windowsphone", "msedge", "msie", "chromeBook", "chrome", "sailfish", "seamonkey", "firefox", "silk", "phantom", "blackberry", "webos", "bada", "tizen", "safari", "webkit", "gecko", "android", "ios", "tablet", "mobile"];
-        this.flags.sort();
-
-        /**
-          @param {String} data a JSON string to be parsed into the behaviour info.
-          */
-        this.loadjson = function (data) {
-          this.info = JSON.parse(data);
-        };
-
-        /**
-          @return {String} a short text string with the browser name and version.
-          */
-        this.head = function () {
-          return "Browser: " + this.detection.name + " " + this.detection.version;
-        };
-
-        /**
-          @return {String} the HTML inputs for the controlgroup based on the flags
-          */
-        this.flaginputs = function () {
-          var result = document.createElement("div");
-
-          for (var i = 0; i < this.flags.length; i++) {
-            var myflag = this.flags[i];
-            var inputid = "checkbox-" + myflag;
-            var input = document.createElement("input");
-            input.setAttribute("type", "checkbox");
-            input.setAttribute("name", myflag);
-            input.setAttribute("id", inputid);
-            input.setAttribute("data-mini", "true");
-            if (this.detection[myflag] === true) {
-              input.setAttribute("checked", "checked");
-            }
-            if (!this.info[myflag]) {
-              input.setAttribute("disabled", "true");
-            }
-            result.appendChild(input);
-
-            var label = document.createElement("label");
-            label.setAttribute("for", inputid);
-            var labelText = document.createTextNode(myflag);
-            label.appendChild(labelText);
-            result.appendChild(label);
-          }
-
-          return result.innerHTML;
-        };
-
-        /**
-          @param {array} info The JSON dicttionary of the Browser behaviour information.
-          @return {String} information about the Browser's URL handler behaviour.
-          */
-        this.body = function () {
-          /*
-          <div class="ui-corner-all custom-corners">
-            <div class="ui-bar ui-bar-a">
-              <h3>Heading</h3>
-            </div>
-            <div class="ui-body ui-body-a">
-              <p>Content</p>
-            </div>
-          </div>
-            */
-          var result = document.createElement("div");
-
-          for (var key in this.info) {
-            if (this.info.hasOwnProperty(key) && this.detection[key] === true) {
-              var entryname = key;
-              var entrybody = this.info[key];
-              var entry = document.createElement("div");
-              entry.setAttribute("class", "ui-bar ui-bar-a");
-              var heading = document.createElement("h3");
-              var headingText = document.createTextNode(entryname);
-              heading.appendChild(headingText);
-              entry.appendChild(heading);
-              result.appendChild(entry);
-              var body = document.createElement("div");
-              body.setAttribute("class", "ui-body ui-body-a");
-              var bodypara = document.createElement("p");
-              var bodyparaText = document.createTextNode(entrybody);
-              bodypara.appendChild(bodyparaText);
-              body.appendChild(bodypara);
-              result.appendChild(body);
-            }
-          }
-
-          if (!result.innerHTML) {
-            var noresults = document.createElement("div");
-            noresults.setAttribute("class", "ui-bar ui-bar-a");
-            var noheading = document.createElement("h3");
-            var noheadingText = document.createTextNode("No info about [" + this.detectionvector() + "]'s behaviour, please tweet your results!");
-            noheading.appendChild(noheadingText);
-            noresults.appendChild(noheading);
-            result.appendChild(noresults);
-          }
-
-          return result.innerHTML;
-        };
-
-        /**
-          @return {String} a vector of current Bowser detection flags
-          */
-        this.detectionvector = function () {
-          var vector = "";
-
-          for (var i = 0; i < this.flags.length; i++) {
-            var myflag = this.flags[i];
-            if (this.detection[myflag] === true) {
-              if (vector.length > 0) {
-                vector += ":";
-              }
-              vector += myflag;
-            }
-          }
-          return vector;
-        };
-
-        /**
-          @return {Object} a clickable tweet link with browser info vector filled in.
-          */
-        this.tweet = function () {
-          /*
-            <a href="http://twitter.com/intent/tweet?text=safari:webkit...&hashtags=urlhanders"
-              title="Tweet" target="_blank" class="ui-btn-active">Tweet</a>
-           */
-          var link = document.createElement("a");
-          var url = "https://twitter.com/intent/tweet";
-          var vector = this.detectionvector();
-          url += "?text=" + encodeURIComponent("My browser [" + vector + "] __eats weird URLs for breakfast__");
-          url += "&hashtags=" + encodeURIComponent("urlhandlers");
-          // url += "&url=http://hack.urlhanderlers.info/";
-          link.setAttribute("href", url);
-          link.setAttribute("title", "Tweet");
-          link.setAttribute("target", "_blank");
-          link.setAttribute("class", "ui-btn-active");
-          var linkText = document.createTextNode("Click to tweet about [" + vector + "]'s URL handling behaviour if not already in the info below.");
-          link.appendChild(linkText);
-          return link;
-        };
-      }();
-
-      _export("browserinfo", browserinfo);
-    }
+    execute: function () {}
   };
 });
 $__System.register("d", [], function (_export) {
+  /**
+    Builds URL handler lists based on discovery and info JSON/dict information.
+    */
   "use strict";
 
-  var handlerinfo;
+  _export("HandlerInfo", HandlerInfo);
+
+  function HandlerInfo() {
+    /**
+      Creates listview of based on the handlers
+      * @param {array} array The JSON array of the Handlers to be listed
+      * @return {Object} a HTML list of handlers
+      modified from http://stackoverflow.com/questions/11128700/create-a-ul-and-fill-it-based-on-a-passed-array
+      */
+    this.listview = function (array) {
+      // Create the list element:
+      var list = document.createElement("ul");
+
+      for (var i = 0; i < array.length; i++) {
+        // Create the list item:
+        var item = document.createElement('li');
+        // Set its contents:
+        var handler = array[i].handler;
+        var name = array[i].name;
+        var path = array[i].path;
+
+        var handlername = document.createTextNode(" Handler: ");
+        item.appendChild(handlername);
+
+        var a = document.createElement('a');
+        var linkText = document.createTextNode(handler);
+        a.appendChild(linkText);
+        a.title = name + " link";
+        a.href = handler + "//localhost";
+        item.appendChild(a);
+
+        var Namepath = document.createTextNode(" Name: " + name + " Path: " + path);
+        item.appendChild(Namepath);
+        // Add it to the list:
+        list.appendChild(item);
+      }
+      return list.innerHTML;
+    };
+  }
+
   return {
     setters: [],
-    execute: function () {
-      handlerinfo = new function () {
-        /**
-          Creates listview of based on the handlers
-          * @param {array} array The JSON array of the Handlers to be listed
-          * @return {Object} a HTML list of handlers
-          modified from http://stackoverflow.com/questions/11128700/create-a-ul-and-fill-it-based-on-a-passed-array
-          */
-        this.listview = function (array) {
-          // Create the list element:
-          var list = document.createElement("ul");
-
-          for (var i = 0; i < array.length; i++) {
-            // Create the list item:
-            var item = document.createElement('li');
-            // Set its contents:
-            var handler = array[i].handler;
-            var name = array[i].name;
-            var path = array[i].path;
-
-            var handlername = document.createTextNode(" Handler: ");
-            item.appendChild(handlername);
-
-            var a = document.createElement('a');
-            var linkText = document.createTextNode(handler);
-            a.appendChild(linkText);
-            a.title = name + " link";
-            a.href = handler + "//localhost";
-            item.appendChild(a);
-
-            var Namepath = document.createTextNode(" Name: " + name + " Path: " + path);
-            item.appendChild(Namepath);
-            // Add it to the list:
-            list.appendChild(item);
-          }
-          return list.innerHTML;
-        };
-      }();
-
-      _export("handlerinfo", handlerinfo);
-    }
+    execute: function () {}
   };
 });
-$__System.register('1', ['3', '8', '9', 'c', 'd'], function (_export) {
+$__System.register('1', ['2', '4', '9', 'c', 'd'], function (_export) {
   'use strict';
 
-  var $, browserinfo, handlerinfo, browserinfoloader, handlersloader;
+  var $, BrowserInfo, HandlerInfo, browserinfo, handlerinfo;
   return {
-    setters: [function (_) {
-      $ = _['default'];
-    }, function (_2) {}, function (_3) {}, function (_c) {
-      browserinfo = _c.browserinfo;
+    setters: [function (_) {}, function (_2) {
+      $ = _2['default'];
+    }, function (_3) {}, function (_c) {
+      BrowserInfo = _c.BrowserInfo;
     }, function (_d) {
-      handlerinfo = _d.handlerinfo;
+      HandlerInfo = _d.HandlerInfo;
     }],
     execute: function () {
-      browserinfoloader = new XMLHttpRequest();
 
-      browserinfoloader.onreadystatechange = function () {
-        var xmlhttp = browserinfoloader;
-        if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
-          browserinfo.loadjson(xmlhttp.responseText);
+      $(document).ready(function () {
+        $("body").css("visibility", "visible");
+      });
 
-          $("#browserinfohead").text(browserinfo.head());
-          $("#browserinfotweet").html(browserinfo.tweet());
-          $("#browserinfonavbar").navbar("destroy");
-          $("#browserinfonavbar").navbar();
+      browserinfo = new BrowserInfo();
 
-          console.log($("#browserinfonavbar"));
+      $.getJSON("browserinfo.json", function (data) {
+        browserinfo.load(data);
 
-          var inputs = browserinfo.flaginputs();
-          $("#browserinfogroup").controlgroup("container").append(inputs);
-          $("#browserinfogroup [type=checkbox]").checkboxradio();
-          $("#browserinfogroup").controlgroup("refresh");
+        $("#browserinfohead").text(browserinfo.head());
+        $("#browserinfotweet").html(browserinfo.tweet());
+        $("#browserinfonavbar").navbar("destroy");
+        $("#browserinfonavbar").navbar();
 
-          $("#browserinfobody").html(browserinfo.body());
-        }
+        var inputs = browserinfo.flaginputs();
+        $("#browserinfogroup").controlgroup("container").append(inputs);
+        $("#browserinfogroup [type=checkbox]").checkboxradio();
+        $("#browserinfogroup").controlgroup("refresh");
+
+        $("#browserinfobody").html(browserinfo.body());
+
         $('#browserinfogroup input[type=checkbox]').change(function () {
           browserinfo.detection[this.name] = this.checked;
           $("#browserinfobody").html(browserinfo.body());
         });
-      };
+      });
 
-      browserinfoloader.open("GET", "browserinfo.json", true);
-      browserinfoloader.send();
+      handlerinfo = new HandlerInfo();
 
-      handlersloader = new XMLHttpRequest();
+      $.getJSON("handlers.json", function (data) {
+        // handlerinfo.load(data);
 
-      handlersloader.onreadystatechange = function () {
-        var xmlhttp = handlersloader;
-        if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
-          var handlersdata = JSON.parse(xmlhttp.responseText);
-          $("#handlerlist").append(handlerinfo.listview(handlersdata));
-          $("#handlerlist").listview("refresh");
-        }
-      };
+        $("#handlerlist").append(handlerinfo.listview(data));
+        $("#handlerlist").listview("refresh");
+      });
 
-      handlersloader.open("GET", "handlers.json", true);
-      handlersloader.send();
+      $.getJSON("handlerinfo.json", function (data) {
+        // handlerinfo.load(data);
+
+        $("#handlerinfolist").append(handlerinfo.listview(data));
+        $("#handlerinfolist").listview("refresh");
+      });
     }
   };
 });
