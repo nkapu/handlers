@@ -33,16 +33,9 @@ $.getJSON("browserinfo.json", function(data) {
 import {HandlerInfo} from './handlerinfo';
 var handlerinfo = new HandlerInfo();
 
-var handlersloader = new XMLHttpRequest();
+$.getJSON("handlers.json", function(data) {
+  // handlerinfo.load(data);
 
-handlersloader.onreadystatechange = function() {
-  var xmlhttp = handlersloader;
-  if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
-    var handlersdata = JSON.parse(xmlhttp.responseText);
-    $("#handlerlist").append(handlerinfo.listview(handlersdata));
-    $("#handlerlist").listview("refresh");
-  }
-};
-
-handlersloader.open("GET", "handlers.json", true);
-handlersloader.send();
+  $("#handlerlist").append(handlerinfo.listview(data));
+  $("#handlerlist").listview("refresh");
+});
