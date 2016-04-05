@@ -39,3 +39,10 @@ $.getJSON("handlers.json", function(data) {
   $("#handlerlist").append(handlerinfo.listview(data));
   $("#handlerlist").listview("refresh");
 });
+
+$.getJSON("handlerinfo.json", function(data) {
+  // handlerinfo.load(data);
+
+  $("#handlerinfolist").append(handlerinfo.listview(data));
+  $("#handlerinfolist").listview("refresh");
+});
