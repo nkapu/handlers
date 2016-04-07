@@ -31,18 +31,20 @@ $.getJSON("browserinfo.json", function(data) {
 });
 
 import {HandlerInfo} from './handlerinfo';
-var handlerinfo = new HandlerInfo();
+var handlerlist = new HandlerInfo();
 
 $.getJSON("handlers.json", function(data) {
-  // handlerinfo.load(data);
+  handlerlist.load(data);
 
-  $("#handlerlist").append(handlerinfo.listview(data));
+  $("#handlerlist").append(handlerlist.listview());
   $("#handlerlist").listview("refresh");
 });
 
-$.getJSON("handlerinfo.json", function(data) {
-  // handlerinfo.load(data);
+var handlerinfolist = new HandlerInfo();
 
-  $("#handlerinfolist").append(handlerinfo.listview(data));
+$.getJSON("handlerinfo.json", function(data) {
+  handlerinfolist.load(data);
+
+  $("#handlerinfolist").append(handlerinfolist.listview());
   $("#handlerinfolist").listview("refresh");
 });
