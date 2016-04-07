@@ -11,6 +11,12 @@ export function HandlerInfo() {
     this.info = data;
   };
   /**
+    @return {Number} number of entries in the handlerinfo
+  */
+  this.count = function() {
+    return this.info.length;
+  };
+  /**
     Creates listview of based on the handlers
     * @return {Object} a HTML list of handlers
     modified from http://stackoverflow.com/questions/11128700/create-a-ul-and-fill-it-based-on-a-passed-array

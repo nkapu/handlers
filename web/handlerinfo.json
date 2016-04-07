@@ -661,7 +661,7 @@
             "url-type"
         ],
         "name": "Calendar"
-    }, 
+    },
     {
         "handler": "vnc:",
         "flags": [
