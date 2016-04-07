@@ -1,5 +1,6 @@
 *.pyc
 *~
+/.cache
 /.tox
 /node_modules
 /web/jspm_packages
