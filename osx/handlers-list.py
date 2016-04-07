@@ -6,6 +6,9 @@ import re
 from optparse import OptionParser
 
 parser = OptionParser()
+parser.add_option("-F", "--full-path", action="store_true",
+                  dest="fullpath", default=False,
+                  help="Include full path of the Application instead of the last component.")
 parser.add_option("-p", "--pretty", action="store_true",
                   dest="pretty", default=False,
                   help="Display pretty printed output instead of JSON.")
@@ -39,7 +42,7 @@ rexps = [
     re.compile('^\s*(bindings):\s*(.*)')
 ]
 
-handlers = []
+handlers = {}
 
 bundle = ""
 appname = ""
@@ -64,33 +67,37 @@ for line in dump.readlines():
             name = value
 
         if key == "path" and not path:
-            path = value
+            if options.fullpath:
+                path = value
+            else:
+                path = os.path.basename(os.path.normpath(value))
 
         if key == "flags":
-            flags = value
+            rawflags = value
 
         if key == "bindings":
             for binding in [x for x in value.split(",") if x]:
-                handler = {}
                 id = binding.lstrip()
-                handler['handler'] = id
-                handler['name'] = name
-                handler['path'] = path
-                handler['flags'] = [x for x in flags.split(" ") if x]
-                handlers.append(handler)
+                flags = [x for x in rawflags.split(" ") if x]
+                if (not options.all) and ("url-type" not in flags):
+                    continue
+
+                application = {}
+                application['name'] = name
+                application['path'] = path
+                application['flags'] = flags
+                if id not in handlers:
+                    handlers[id] = {}
+                if 'apps' not in handlers[id]:
+                    handlers[id]['apps'] = []
+                handlers[id]['apps'].append(application)
 
 dump.close()
-
-if options.all:
-    urlhandlers = handlers
-else:
-    # filter down to url handlers
-    urlhandlers = [h for h in handlers if "url-type" in h['flags']]
 
 if options.pretty:
     import pprint
     pp = pprint.PrettyPrinter(indent=4)
-    pp.pprint(urlhandlers)
+    pp.pprint(handlers)
 else:
     import json
-    print(json.dumps(urlhandlers, indent=4))
+    print(json.dumps(handlers, indent=4))

@@ -34,6 +34,13 @@ export function BrowserInfo() {
   };
 
   /**
+    @return {Number} number of entries in the browser info.
+  */
+  this.count = function() {
+    return Object.keys(this.info).length;
+  };
+
+  /**
     @return {String} a short text string with the browser name and version.
     */
   this.head = function() {
@@ -89,26 +96,28 @@ export function BrowserInfo() {
       */
     var result = document.createElement("div");
 
-    for (var key in this.info) {
-      if (this.info.hasOwnProperty(key) && this.detection[key] === true) {
-        var entryname = key;
-        var entrybody = this.info[key];
-        var entry = document.createElement("div");
-        entry.setAttribute("class", "ui-bar ui-bar-a");
-        var heading = document.createElement("h3");
-        var headingText = document.createTextNode(entryname);
-        heading.appendChild(headingText);
-        entry.appendChild(heading);
-        result.appendChild(entry);
-        var body = document.createElement("div");
-        body.setAttribute("class", "ui-body ui-body-a");
-        var bodypara = document.createElement("p");
-        var bodyparaText = document.createTextNode(entrybody);
-        bodypara.appendChild(bodyparaText);
-        body.appendChild(bodypara);
-        result.appendChild(body);
+    Object.keys(this.info).forEach(key => {
+      if (!(this.detection[key] === true)) {
+        return;
       }
-    }
+
+      var entryname = key;
+      var entrybody = this.info[key];
+      var entry = document.createElement("div");
+      entry.setAttribute("class", "ui-bar ui-bar-a");
+      var heading = document.createElement("h3");
+      var headingText = document.createTextNode(entryname);
+      heading.appendChild(headingText);
+      entry.appendChild(heading);
+      result.appendChild(entry);
+      var body = document.createElement("div");
+      body.setAttribute("class", "ui-body ui-body-a");
+      var bodypara = document.createElement("p");
+      var bodyparaText = document.createTextNode(entrybody);
+      bodypara.appendChild(bodyparaText);
+      body.appendChild(bodypara);
+      result.appendChild(body);
+    });
 
     if (!result.innerHTML) {
       var noresults = document.createElement("div");
