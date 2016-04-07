@@ -2,23 +2,30 @@
   Builds URL handler lists based on discovery and info JSON/dict information.
   */
 export function HandlerInfo() {
+  /* The JSON dictionary of the handler information. */
+  this.info = {};
+  /**
+    @param {Object} data a dictionary of the handler info.
+    */
+  this.load = function(data) {
+    this.info = data;
+  };
   /**
     Creates listview of based on the handlers
-    * @param {array} array The JSON array of the Handlers to be listed
     * @return {Object} a HTML list of handlers
     modified from http://stackoverflow.com/questions/11128700/create-a-ul-and-fill-it-based-on-a-passed-array
     */
-  this.listview = function(array) {
+  this.listview = function() {
     // Create the list element:
     var list = document.createElement("ul");
 
-    for (var i = 0; i < array.length; i++) {
+    for (var i = 0; i < this.info.length; i++) {
       // Create the list item:
       var item = document.createElement('li');
       // Set its contents:
-      var handler = array[i].handler;
-      var name = array[i].name;
-      var path = array[i].path;
+      var handler = this.info[i].handler;
+      var name = this.info[i].name;
+      var path = this.info[i].path;
 
       var handlername = document.createTextNode(" Handler: ");
       item.appendChild(handlername);
