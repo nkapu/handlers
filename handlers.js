@@ -38,6 +38,7 @@ $.getJSON("handlers.json", function(data) {
 
   $("#handlerlist").append(handlerlist.listview());
   $("#handlerlist").listview("refresh");
+  $("#handlerlistcount").text(handlerlist.info.length).fadeIn();
 });
 
 var handlerinfolist = new HandlerInfo();
@@ -47,4 +48,5 @@ $.getJSON("handlerinfo.json", function(data) {
 
   $("#handlerinfolist").append(handlerinfolist.listview());
   $("#handlerinfolist").listview("refresh");
+  $("#handlerinfolistcount").text(handlerinfolist.info.length).fadeIn();
 });
