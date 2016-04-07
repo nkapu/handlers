@@ -8,6 +8,14 @@
   <script>
     System.import('handlers.js');
   </script>
+  <style>
+    .custom-count-pos {
+      font-size: 11px;
+      font-weight: bold;
+      padding: 0.2em 0.5em;
+      float: right;
+    }
+  </style>
   <!--
   <script src="bundle-sfx.js"></script>
   -->
@@ -42,12 +50,12 @@
         </div>
         <!-- User's own HandlerInfo -->
         <div data-role="collapsible">
-          <h3>My handlers</h3>
+          <h3><span class="ui-btn-up-c ui-btn-corner-all custom-count-pos">47</span>My handlers</h3>
           <ul id="handlerlist" data-role="listview" data-filter="true" data-inset="true"></ul>
         </div>
         <!-- Crowd sourced HandlerInfo -->
         <div data-role="collapsible">
-          <h3>Crowd sourced handlers</h3>
+          <h3><span class="ui-btn-up-c ui-btn-corner-all custom-count-pos">47</span>Crowd sourced handlers</h3>
           <ul id="handlerinfolist" data-role="listview" data-filter="true" data-inset="true"></ul>
         </div>
       </div>
