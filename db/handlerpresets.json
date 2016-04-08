@@ -1,0 +1,22 @@
+{
+  "steam:": {
+    "presets": [
+      {
+        "value": "steam://AddNonSteamGame",
+        "description": ""
+      },
+      {
+        "value": "steam://appnews/666",
+        "description": ""
+      },
+      {
+        "value": "steam://connect/127.0.0.1:27015",
+        "description": ""
+      },
+      {
+        "value": "steam://installaddon/halflifehd",
+        "description": ""
+      }
+    ]
+  }
+}
