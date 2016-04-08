@@ -2,25 +2,34 @@
 <html>
 <head>
   <title>Discover and Hack URL Handlers</title>
+  <link rel="icon" type="image/png" href="favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+  System.import('handlers.js');
+  </script>
+  <!--
+  <script src="bundle-sfx.js"></script>
+-->
+<style>
+.custom-count {
+  display: none;
+  float: right;
+  font-weight: normal;
+  font-size: 12px;
+  padding: 0.2em 0.5em;
+  border-radius: .8em;
+  border: 2px;
+  color: #fff;
+  background: #396b9e;
+}
+</style>
 </head>
 <body>
   <div data-role="page">
     <div data-role="header">
       <h1>Discover and Hack URL Handlers</h1>
-    </div>
-
-    <div id="browserinfo" data-role="collapsible">
-      <h4>
-        <span id="browserinfohead">Browser detection not available.</span>
-      </h4>
-      <p>
-        <form>
-          <div id="browserinfogroup" data-role="controlgroup" data-type="horizontal">
-            Sorry, browser detection did not work.
-          </div>
-        </form>
-      </p>
     </div>
     <div data-role="collapsible" data-corners="false">
       <h3>Handlers</h3>
@@ -29,8 +38,15 @@
         <h3>Steam handler</h3>
         <form action="url-1" method="get">
           <div data-role="fieldcontain">
-            <label for="url-1">blaa:</label>
             <input type="url" data-clear-btn="true" name="url-1" id="url-1" value="steam://">
+          </div>
+          <div class="ui-field-contain">
+            <select name="select-native-1" id="select-native-1" data-corners="false">
+              <option value="1">steam://AddNonSteamGame</option>
+              <option value="2">steam://appnews/666</option>
+              <option value="3">steam://connect/127.0.0.1:27015</option>
+              <option value="4">steam://installaddon/halflifehd</option>
+            </select>
           </div>
         <fieldset class="ui-grid-b">
           <div class="ui-block-a"><button type="summit" data-corners="false">direct</button></div>
@@ -74,7 +90,7 @@
                 <p></p>
             </li>
           </ul>
-        </div><!-- /section 1 -->
+        </div>
       </div>
     </div>
     <div data-role="footer" data-position="fixed">
@@ -84,10 +100,5 @@
       </a>
     </div>
   </div>
-  <script src="jspm_packages/system.js"></script>
-  <script src="config.js"></script>
-  <script>
-    System.import('handlers.js');
-  </script>
 </body>
 </html>
