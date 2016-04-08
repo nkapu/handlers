@@ -16095,16 +16095,12 @@ $__System.registerDynamic("b", ["a"], true, function($__require, exports, module
   return module.exports;
 });
 
-$__System.register("c", ["b"], function (_export) {
+$__System.register("c", ["d", "b"], function (_export) {
+  var _Object$keys, bowser;
 
   /**
     Provides information about the browser and its URL handling behaviour
     by combining Bowser detection with info JSON/dict */
-  "use strict";
-
-  var bowser;
-
-  _export("BrowserInfo", BrowserInfo);
 
   function BrowserInfo() {
     /* The Bowser browser detection object */
@@ -16127,6 +16123,13 @@ $__System.register("c", ["b"], function (_export) {
       */
     this.load = function (data) {
       this.info = data;
+    };
+
+    /**
+      @return {Number} number of entries in the browser info.
+    */
+    this.count = function () {
+      return _Object$keys(this.info).length;
     };
 
     /**
@@ -16173,6 +16176,8 @@ $__System.register("c", ["b"], function (_export) {
       @return {String} information about the Browser's URL handler behaviour.
       */
     this.body = function () {
+      var _this = this;
+
       /*
       <div class="ui-corner-all custom-corners">
         <div class="ui-bar ui-bar-a">
@@ -16185,26 +16190,28 @@ $__System.register("c", ["b"], function (_export) {
         */
       var result = document.createElement("div");
 
-      for (var key in this.info) {
-        if (this.info.hasOwnProperty(key) && this.detection[key] === true) {
-          var entryname = key;
-          var entrybody = this.info[key];
-          var entry = document.createElement("div");
-          entry.setAttribute("class", "ui-bar ui-bar-a");
-          var heading = document.createElement("h3");
-          var headingText = document.createTextNode(entryname);
-          heading.appendChild(headingText);
-          entry.appendChild(heading);
-          result.appendChild(entry);
-          var body = document.createElement("div");
-          body.setAttribute("class", "ui-body ui-body-a");
-          var bodypara = document.createElement("p");
-          var bodyparaText = document.createTextNode(entrybody);
-          bodypara.appendChild(bodyparaText);
-          body.appendChild(bodypara);
-          result.appendChild(body);
+      _Object$keys(this.info).forEach(function (key) {
+        if (!(_this.detection[key] === true)) {
+          return;
         }
-      }
+
+        var entryname = key;
+        var entrybody = _this.info[key];
+        var entry = document.createElement("div");
+        entry.setAttribute("class", "ui-bar ui-bar-a");
+        var heading = document.createElement("h3");
+        var headingText = document.createTextNode(entryname);
+        heading.appendChild(headingText);
+        entry.appendChild(heading);
+        result.appendChild(entry);
+        var body = document.createElement("div");
+        body.setAttribute("class", "ui-body ui-body-a");
+        var bodypara = document.createElement("p");
+        var bodyparaText = document.createTextNode(entrybody);
+        bodypara.appendChild(bodyparaText);
+        body.appendChild(bodypara);
+        result.appendChild(body);
+      });
 
       if (!result.innerHTML) {
         var noresults = document.createElement("div");
@@ -16263,74 +16270,327 @@ $__System.register("c", ["b"], function (_export) {
   }
 
   return {
-    setters: [function (_b) {
+    setters: [function (_d) {
+      _Object$keys = _d["default"];
+    }, function (_b) {
       bowser = _b["default"];
     }],
-    execute: function () {}
+    execute: function () {
+      "use strict";
+
+      _export("BrowserInfo", BrowserInfo);
+    }
   };
 });
-$__System.register("d", [], function (_export) {
-  /**
-    Builds URL handler lists based on discovery and info JSON/dict information.
-    */
-  "use strict";
+$__System.registerDynamic("e", [], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  module.exports = function(it) {
+    if (it == undefined)
+      throw TypeError("Can't call method on  " + it);
+    return it;
+  };
+  return module.exports;
+});
 
-  _export("HandlerInfo", HandlerInfo);
+$__System.registerDynamic("f", ["e"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var defined = $__require('e');
+  module.exports = function(it) {
+    return Object(defined(it));
+  };
+  return module.exports;
+});
+
+$__System.registerDynamic("10", [], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var global = module.exports = typeof window != 'undefined' && window.Math == Math ? window : typeof self != 'undefined' && self.Math == Math ? self : Function('return this')();
+  if (typeof __g == 'number')
+    __g = global;
+  return module.exports;
+});
+
+$__System.registerDynamic("11", [], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  module.exports = function(it) {
+    if (typeof it != 'function')
+      throw TypeError(it + ' is not a function!');
+    return it;
+  };
+  return module.exports;
+});
+
+$__System.registerDynamic("12", ["11"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var aFunction = $__require('11');
+  module.exports = function(fn, that, length) {
+    aFunction(fn);
+    if (that === undefined)
+      return fn;
+    switch (length) {
+      case 1:
+        return function(a) {
+          return fn.call(that, a);
+        };
+      case 2:
+        return function(a, b) {
+          return fn.call(that, a, b);
+        };
+      case 3:
+        return function(a, b, c) {
+          return fn.call(that, a, b, c);
+        };
+    }
+    return function() {
+      return fn.apply(that, arguments);
+    };
+  };
+  return module.exports;
+});
+
+$__System.registerDynamic("13", ["10", "14", "12"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var global = $__require('10'),
+      core = $__require('14'),
+      ctx = $__require('12'),
+      PROTOTYPE = 'prototype';
+  var $export = function(type, name, source) {
+    var IS_FORCED = type & $export.F,
+        IS_GLOBAL = type & $export.G,
+        IS_STATIC = type & $export.S,
+        IS_PROTO = type & $export.P,
+        IS_BIND = type & $export.B,
+        IS_WRAP = type & $export.W,
+        exports = IS_GLOBAL ? core : core[name] || (core[name] = {}),
+        target = IS_GLOBAL ? global : IS_STATIC ? global[name] : (global[name] || {})[PROTOTYPE],
+        key,
+        own,
+        out;
+    if (IS_GLOBAL)
+      source = name;
+    for (key in source) {
+      own = !IS_FORCED && target && key in target;
+      if (own && key in exports)
+        continue;
+      out = own ? target[key] : source[key];
+      exports[key] = IS_GLOBAL && typeof target[key] != 'function' ? source[key] : IS_BIND && own ? ctx(out, global) : IS_WRAP && target[key] == out ? (function(C) {
+        var F = function(param) {
+          return this instanceof C ? new C(param) : C(param);
+        };
+        F[PROTOTYPE] = C[PROTOTYPE];
+        return F;
+      })(out) : IS_PROTO && typeof out == 'function' ? ctx(Function.call, out) : out;
+      if (IS_PROTO)
+        (exports[PROTOTYPE] || (exports[PROTOTYPE] = {}))[key] = out;
+    }
+  };
+  $export.F = 1;
+  $export.G = 2;
+  $export.S = 4;
+  $export.P = 8;
+  $export.B = 16;
+  $export.W = 32;
+  module.exports = $export;
+  return module.exports;
+});
+
+$__System.registerDynamic("15", [], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  module.exports = function(exec) {
+    try {
+      return !!exec();
+    } catch (e) {
+      return true;
+    }
+  };
+  return module.exports;
+});
+
+$__System.registerDynamic("16", ["13", "14", "15"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var $export = $__require('13'),
+      core = $__require('14'),
+      fails = $__require('15');
+  module.exports = function(KEY, exec) {
+    var fn = (core.Object || {})[KEY] || Object[KEY],
+        exp = {};
+    exp[KEY] = exec(fn);
+    $export($export.S + $export.F * fails(function() {
+      fn(1);
+    }), 'Object', exp);
+  };
+  return module.exports;
+});
+
+$__System.registerDynamic("17", ["f", "16"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var toObject = $__require('f');
+  $__require('16')('keys', function($keys) {
+    return function keys(it) {
+      return $keys(toObject(it));
+    };
+  });
+  return module.exports;
+});
+
+$__System.registerDynamic("14", [], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  var core = module.exports = {version: '1.2.6'};
+  if (typeof __e == 'number')
+    __e = core;
+  return module.exports;
+});
+
+$__System.registerDynamic("18", ["17", "14"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  $__require('17');
+  module.exports = $__require('14').Object.keys;
+  return module.exports;
+});
+
+$__System.registerDynamic("d", ["18"], true, function($__require, exports, module) {
+  ;
+  var define,
+      global = this,
+      GLOBAL = this;
+  module.exports = {
+    "default": $__require('18'),
+    __esModule: true
+  };
+  return module.exports;
+});
+
+$__System.register('19', ['d'], function (_export) {
+  var _Object$keys;
 
   function HandlerInfo() {
+    /* The JSON dictionary of the handler information. */
+    this.info = {};
+    /**
+      Loads the handler info into the handler info object.
+      @param {Object} data a dictionary of the handler info.
+      */
+    this.load = function (data) {
+      this.info = data;
+    };
+    /**
+      @return {Number} number of entries in the handler info.
+    */
+    this.count = function () {
+      return _Object$keys(this.info).length;
+    };
     /**
       Creates listview of based on the handlers
-      * @param {array} array The JSON array of the Handlers to be listed
       * @return {Object} a HTML list of handlers
       modified from http://stackoverflow.com/questions/11128700/create-a-ul-and-fill-it-based-on-a-passed-array
       */
-    this.listview = function (array) {
+    this.listview = function () {
+      var _this = this;
+
       // Create the list element:
       var list = document.createElement("ul");
 
-      for (var i = 0; i < array.length; i++) {
-        // Create the list item:
+      _Object$keys(this.info).forEach(function (key) {
+        var handler = _this.info[key];
+        // Create the handler list item
         var item = document.createElement('li');
-        // Set its contents:
-        var handler = array[i].handler;
-        var name = array[i].name;
-        var path = array[i].path;
-
-        var handlername = document.createTextNode(" Handler: ");
-        item.appendChild(handlername);
 
         var a = document.createElement('a');
-        var linkText = document.createTextNode(handler);
+        var linkText = document.createTextNode(key);
         a.appendChild(linkText);
-        a.title = name + " link";
-        a.href = handler + "//localhost";
+        a.title = "direct link";
+        a.href = key + "//localhost";
         item.appendChild(a);
 
-        var Namepath = document.createTextNode(" Name: " + name + " Path: " + path);
-        item.appendChild(Namepath);
-        // Add it to the list:
+        // If there are apps for this handler then list them
+        var apps = handler.apps;
+        if (Array.isArray(apps)) {
+          var applist = document.createElement('ul');
+
+          for (var i = 0; i < apps.length; i++) {
+            var appitem = document.createElement('li');
+            var appinfo = document.createTextNode("Name: " + apps[i].name + " Path: " + apps[i].path);
+            appitem.appendChild(appinfo);
+
+            // If there are apps for this handler then list them
+            var flags = handler.apps[i].flags;
+            if (Array.isArray(flags)) {
+              var flagtext = " Flags:";
+              for (var j = 0; j < flags.length; j++) {
+                flagtext += " " + flags[j];
+              }
+              var flaginfo = document.createTextNode(flagtext);
+              appitem.appendChild(flaginfo);
+            }
+            applist.appendChild(appitem);
+          }
+
+          item.appendChild(applist);
+        }
+        // Add it to the handler list
         list.appendChild(item);
-      }
+      });
       return list.innerHTML;
     };
   }
 
   return {
-    setters: [],
-    execute: function () {}
+    setters: [function (_d) {
+      _Object$keys = _d['default'];
+    }],
+    execute: function () {
+      /**
+        Builds URL handler lists based on discovery and info JSON/dict information.
+        */
+      'use strict';
+
+      _export('HandlerInfo', HandlerInfo);
+    }
   };
 });
-$__System.register('1', ['2', '4', '9', 'c', 'd'], function (_export) {
+$__System.register('1', ['2', '4', '9', '19', 'c'], function (_export) {
   'use strict';
 
-  var $, BrowserInfo, HandlerInfo, browserinfo, handlerinfo;
+  var $, HandlerInfo, BrowserInfo, browserinfo, handlerlist, handlerinfolist;
   return {
     setters: [function (_) {}, function (_2) {
       $ = _2['default'];
-    }, function (_3) {}, function (_c) {
+    }, function (_3) {}, function (_4) {
+      HandlerInfo = _4.HandlerInfo;
+    }, function (_c) {
       BrowserInfo = _c.BrowserInfo;
-    }, function (_d) {
-      HandlerInfo = _d.HandlerInfo;
     }],
     execute: function () {
 
@@ -16361,20 +16621,24 @@ $__System.register('1', ['2', '4', '9', 'c', 'd'], function (_export) {
         });
       });
 
-      handlerinfo = new HandlerInfo();
+      handlerlist = new HandlerInfo();
 
       $.getJSON("handlers.json", function (data) {
-        // handlerinfo.load(data);
+        handlerlist.load(data);
 
-        $("#handlerlist").append(handlerinfo.listview(data));
+        $("#handlerlist").append(handlerlist.listview());
         $("#handlerlist").listview("refresh");
+        $("#handlerlistcount").text(handlerlist.count()).fadeIn();
       });
 
-      $.getJSON("handlerinfo.json", function (data) {
-        // handlerinfo.load(data);
+      handlerinfolist = new HandlerInfo();
 
-        $("#handlerinfolist").append(handlerinfo.listview(data));
+      $.getJSON("handlerinfo.json", function (data) {
+        handlerinfolist.load(data);
+
+        $("#handlerinfolist").append(handlerinfolist.listview());
         $("#handlerinfolist").listview("refresh");
+        $("#handlerinfolistcount").text(handlerinfolist.count()).fadeIn();
       });
     }
   };
