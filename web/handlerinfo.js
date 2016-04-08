@@ -45,11 +45,22 @@ export function HandlerInfo() {
 
         for (var i = 0; i < apps.length; i++) {
           var appitem = document.createElement('li');
-          var appinfo = document.createTextNode(" Name: " +
+          var appinfo = document.createTextNode("Name: " +
                                                 apps[i].name +
                                                 " Path: " +
                                                 apps[i].path);
           appitem.appendChild(appinfo);
+
+          // If there are apps for this handler then list them
+          var flags = handler.apps[i].flags;
+          if (Array.isArray(flags)) {
+            var flagtext = " Flags:";
+            for (var j = 0; j < flags.length; j++) {
+              flagtext += " " + flags[j];
+            }
+            var flaginfo = document.createTextNode(flagtext);
+            appitem.appendChild(flaginfo);
+          }
           applist.appendChild(appitem);
         }
 
