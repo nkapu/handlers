@@ -210,14 +210,6 @@
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
-                    "url-type"
-                ], 
-                "name": "Safari", 
-                "path": "Safari.app"
-            }, 
-            {
-                "flags": [
                     "apple-default", 
                     "apple-internal", 
                     "url-type"
@@ -227,10 +219,25 @@
             }, 
             {
                 "flags": [
+                    "apple-internal", 
+                    "url-type"
+                ], 
+                "name": "Safari", 
+                "path": "Safari.app"
+            }, 
+            {
+                "flags": [
                     "url-type"
                 ], 
                 "name": "Chrome", 
                 "path": "Google Chrome.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Chromium", 
+                "path": "Chromium.app"
             }, 
             {
                 "flags": [
@@ -254,6 +261,14 @@
             }, 
             {
                 "flags": [
+                    "relative-icon-path", 
+                    "url-type"
+                ], 
+                "name": "VLC media player", 
+                "path": "VLC.app"
+            }, 
+            {
+                "flags": [
                     "url-type"
                 ], 
                 "name": "Chrome", 
@@ -263,16 +278,15 @@
                 "flags": [
                     "url-type"
                 ], 
-                "name": "Firefox", 
-                "path": "Firefox.app"
+                "name": "Chromium", 
+                "path": "Chromium.app"
             }, 
             {
                 "flags": [
-                    "relative-icon-path", 
                     "url-type"
                 ], 
-                "name": "VLC media player", 
-                "path": "VLC.app"
+                "name": "Firefox", 
+                "path": "Firefox.app"
             }
         ]
     }, 
@@ -347,13 +361,6 @@
             }, 
             {
                 "flags": [
-                    "url-type"
-                ], 
-                "name": "Chrome", 
-                "path": "Google Chrome.app"
-            }, 
-            {
-                "flags": [
                     "relative-icon-path", 
                     "url-type"
                 ], 
@@ -367,6 +374,20 @@
                 ], 
                 "name": "VLC media player", 
                 "path": "VLC.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Chrome", 
+                "path": "Google Chrome.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Chromium", 
+                "path": "Chromium.app"
             }
         ]
     }, 
@@ -383,6 +404,14 @@
             }, 
             {
                 "flags": [
+                    "relative-icon-path", 
+                    "url-type"
+                ], 
+                "name": "Firefox", 
+                "path": "Firefox.app"
+            }, 
+            {
+                "flags": [
                     "url-type"
                 ], 
                 "name": "Chrome", 
@@ -390,11 +419,10 @@
             }, 
             {
                 "flags": [
-                    "relative-icon-path", 
                     "url-type"
                 ], 
-                "name": "Firefox", 
-                "path": "Firefox.app"
+                "name": "Chromium", 
+                "path": "Chromium.app"
             }
         ]
     }, 
@@ -1128,6 +1156,17 @@
             }
         ]
     }, 
+    "steam:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Steam", 
+                "path": "Steam.app"
+            }
+        ]
+    }, 
     "tel:": {
         "apps": [
             {
@@ -1283,6 +1322,18 @@
                 ], 
                 "name": "Dictionary", 
                 "path": "Dictionary.app"
+            }
+        ]
+    }, 
+    "x-install-osx-assistant:": {
+        "apps": [
+            {
+                "flags": [
+                    "apple-internal", 
+                    "url-type"
+                ], 
+                "name": "Install OS X", 
+                "path": "Install OS X El Capitan.app"
             }
         ]
     }, 
