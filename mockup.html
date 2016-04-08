@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+  <title>Discover and Hack URL Handlers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div data-role="page">
+    <div data-role="header">
+      <h1>Discover and Hack URL Handlers</h1>
+    </div>
+
+    <div id="browserinfo" data-role="collapsible">
+      <h4>
+        <span id="browserinfohead">Browser detection not available.</span>
+      </h4>
+      <p>
+        <form>
+          <div id="browserinfogroup" data-role="controlgroup" data-type="horizontal">
+            Sorry, browser detection did not work.
+          </div>
+        </form>
+      </p>
+    </div>
+    <div data-role="collapsible" data-corners="false">
+      <h3>Handlers</h3>
+      <p>Handlerlist</p>
+      <div data-role="collapsible" data-corners="false">
+        <h3>Steam handler</h3>
+        <form action="url-1" method="get">
+          <div data-role="fieldcontain">
+            <label for="url-1">blaa:</label>
+            <input type="url" data-clear-btn="true" name="url-1" id="url-1" value="steam://">
+          </div>
+        <fieldset class="ui-grid-b">
+          <div class="ui-block-a"><button type="summit" data-corners="false">direct</button></div>
+          <div class="ui-block-b"><button type="summit" data-corners="false">local redirect</button></div>
+          <div class="ui-block-c"><button type="summit" data-corners="false">remote redirect</button></div>
+        </fieldset>
+        <ul>
+          <li>App name: Steam</li>
+          <li>Path: /Applications/Steam.app</li>
+          <li>Flags: relative-icon-path, url-type</li>
+        </ul>
+        </form>
+        <div data-role="collapsible" data-corners="false" data-collapsed-icon="info">
+          <h3>More info:</h3>
+          <ul>
+            <h3>Links:</h3>
+              <li><a href="http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html">
+                  http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html</a>
+                <p>STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)</p>
+              </li>
+              <li><a href="http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html">
+                  http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html</a>
+                <p>Researchers: Steam URL protocol can be abused to exploit game vulnerabilities</p>
+              </li>
+              <li><a href="https://developer.valvesoftware.com/wiki/Steam_browser_protocol">
+                  https://developer.valvesoftware.com/wiki/Steam_browser_protocol</a><p></p>
+              </li>
+          </ul>
+          <ul>
+            <h3>Test presets:</h3>
+            <li><a href="steam://AddNonSteamGame">steam://AddNonSteamGame</a>
+                <p></p>
+            </li>
+            <li><a href="steam://appnews/666">steam://appnews/666</a>
+                <p></p>
+            </li>
+            <li><a href="steam://connect/127.0.0.1:27015">steam://connect/127.0.0.1:27015</a>
+                <p></p>
+            </li>
+            <li><a href="steam://installaddon/halflifehd">steam://installaddon/halflifehd</a>
+                <p></p>
+            </li>
+          </ul>
+        </div><!-- /section 1 -->
+      </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+      <h4>More info</h4>
+      <a href="http://github.com/nkapu/handlers/" data-icon="info" class="ui-btn-right">
+        Project reposity
+      </a>
+    </div>
+  </div>
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <script>
+    System.import('handlers.js');
+  </script>
+</body>
+</html>
