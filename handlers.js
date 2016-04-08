@@ -48,5 +48,9 @@ $.getJSON("db/handlerinfo.json", function(data) {
 
   $("#handlerinfolist").append(handlerinfolist.listview());
   $("#handlerinfolist").listview("refresh");
+
+  $("#handlerinfolist [data-role=collapsible]").collapsible();
+  $("#handlerinfolist .dynamiclistview").listview();
+
   $("#handlerinfolistcount").text(handlerinfolist.count()).fadeIn();
 });
