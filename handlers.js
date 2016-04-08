@@ -9,7 +9,7 @@ $(document).ready(function() {
 import {BrowserInfo} from './browserinfo';
 var browserinfo = new BrowserInfo();
 
-$.getJSON("browserinfo.json", function(data) {
+$.getJSON("db/browserinfo.json", function(data) {
   browserinfo.load(data);
 
   $("#browserinfohead").text(browserinfo.head());
@@ -43,7 +43,7 @@ $.getJSON("handlers.json", function(data) {
 
 var handlerinfolist = new HandlerInfo();
 
-$.getJSON("handlerinfo.json", function(data) {
+$.getJSON("db/handlerinfo.json", function(data) {
   handlerinfolist.load(data);
 
   $("#handlerinfolist").append(handlerinfolist.listview());
