@@ -80,6 +80,17 @@ SystemJS.import('./browserinfo').then(function(_) {
 });
 ```
 
+### Contributing to the "crowd sourced" handler info
+
+```shell
+cd web
+../osx/handlers-list.py > handlers.json
+cp handlerinfo.json handlerinfo.json.orig
+../bin/handlers-merge.py handlerinfo.json.orig handlers.json > handerinfo.json
+git commit -a
+git push
+```
+
 ### Publishing to the GitHub pages (limited functionality)
 
 Build a stand-alone JavaScript bundle and publish web-substree based on

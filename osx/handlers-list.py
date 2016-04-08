@@ -100,4 +100,4 @@ if options.pretty:
     pp.pprint(handlers)
 else:
     import json
-    print(json.dumps(handlers, indent=4))
+    print(json.dumps(handlers, indent=4, sort_keys=True))

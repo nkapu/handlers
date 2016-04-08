@@ -1,4 +1,18 @@
+#!/usr/bin/python
+
+import json
 import heapq
+
+from optparse import OptionParser
+
+usage = "usage: %prog [options] JSONFILE1 JSONFILE2 [JSONFILEn ...]"
+parser = OptionParser(usage)
+parser.add_option("-p", "--pretty", action="store_true",
+                  dest="pretty", default=False,
+                  help="Display pretty printed output instead of JSON.")
+
+(options, args) = parser.parse_args()
+
 # original code of merge() received from a kind anonymous coder with MIT license
 
 
@@ -64,3 +78,22 @@ def merge(left, right):
         return result
 
     return left if left == right else [left, right]
+
+currentdict = {}
+
+for arg in args:
+    with open(arg) as jsonfile:
+        if not currentdict:
+            currentdict = json.load(jsonfile)
+            continue
+
+        nextdict = json.load(jsonfile)
+        currentdict = merge(currentdict, nextdict)
+
+if options.pretty:
+    import pprint
+    pp = pprint.PrettyPrinter(indent=4)
+    pp.pprint(currentdict)
+else:
+    import json
+    print(json.dumps(currentdict, indent=4, sort_keys=True))
