@@ -80,7 +80,7 @@ export function BrowserInfo() {
   };
 
   /**
-    @param {array} info The JSON dicttionary of the Browser behaviour information.
+    @param {array} info The JSON dictionary of the Browser behaviour information.
     @return {String} information about the Browser's URL handler behaviour.
     */
   this.body = function() {
