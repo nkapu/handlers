@@ -85,8 +85,8 @@ SystemJS.import('./browserinfo').then(function(_) {
 ```shell
 cd web
 ../osx/handlers-list.py > handlers.json
-cp handlerinfo.json handlerinfo.json.orig
-../bin/handlers-merge.py handlerinfo.json.orig handlers.json > handerinfo.json
+cp db/handlerinfo.json db/handlerinfo.json.orig
+../bin/handlers-merge.py db/handlerinfo.json.orig handlers.json > db/handerinfo.json
 git commit -a
 git push
 ```
