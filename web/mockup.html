@@ -7,26 +7,41 @@
   <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
   <script>
-  System.import('handlers.js');
+    System.import('handlers.js');
   </script>
   <!--
   <script src="bundle-sfx.js"></script>
 -->
 <style>
-.custom-count {
-  display: none;
-  float: right;
-  font-weight: normal;
-  font-size: 12px;
-  padding: 0.2em 0.5em;
-  border-radius: .8em;
-  border: 2px;
-  color: #fff;
-  background: #396b9e;
+  .custom-count {
+    display: none;
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0.2em 0.5em;
+    border-radius: .8em;
+    border: 2px;
+    color: #fff;
+    background: #396b9e;
 }
+  .custom-flag {
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0.2em 0.5em;
+    border-radius: .8em;
+    border: 2px;
+    color: #fff;
+    background: #396b9e;
+  }
 </style>
 </head>
 <body>
+  <!-- Hide the body until we have loaded -->
+  <script>
+    document.body.style.visibility = 'hidden';
+  </script>
+
   <div data-role="page">
     <div data-role="header">
       <h1>Discover and Hack URL Handlers</h1>
@@ -36,7 +51,7 @@
       <p>Handlerlist</p>
       <div data-role="collapsible" data-corners="false">
         <h3>Steam handler</h3>
-        <form action="url-1" method="get">
+        <form>
           <div data-role="fieldcontain">
             <input type="url" data-clear-btn="true" name="url-1" id="url-1" value="steam://">
           </div>
@@ -48,17 +63,19 @@
               <option value="4">steam://installaddon/halflifehd</option>
             </select>
           </div>
-        <fieldset class="ui-grid-b">
-          <div class="ui-block-a"><button type="summit" data-corners="false">direct</button></div>
-          <div class="ui-block-b"><button type="summit" data-corners="false">local redirect</button></div>
-          <div class="ui-block-c"><button type="summit" data-corners="false">remote redirect</button></div>
-        </fieldset>
-        <ul>
-          <li>App name: Steam</li>
-          <li>Path: /Applications/Steam.app</li>
-          <li>Flags: relative-icon-path, url-type</li>
-        </ul>
+          <fieldset class="ui-grid-b">
+            <div class="ui-block-a"><button type="summit" data-corners="false">direct</button></div>
+            <div class="ui-block-b"><button type="summit" data-corners="false">local redirect</button></div>
+            <div class="ui-block-c"><button type="summit" data-corners="false">remote redirect</button></div>
+          </fieldset>
         </form>
+        <ul>
+          <li>
+            Search
+            <span class="custom-flag">relative-icon-path</span>
+            <span class="custom-flag">url-type</span>
+          </li>
+        </ul>
         <div data-role="collapsible" data-corners="false" data-collapsed-icon="info">
           <h3>More info:</h3>
           <ul>
