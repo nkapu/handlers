@@ -18,9 +18,59 @@ export function HandlerInfo() {
     return Object.keys(this.info).length;
   };
   /**
-    Creates URL list
+    Creates an Apps list
+    * @param {Object[]} apps array (name, path, flags)
+    * @return {Object} a HTML list of the Apps or False if none
+    */
+  this.itemapps = function(apps) {
+    if (!Array.isArray(apps)) {
+      return false;
+    }
+
+    var div = document.createElement('div');
+    div.setAttribute("data-role", "collapsible");
+    div.setAttribute("data-corners", "false");
+    div.setAttribute("data-collapsed-icon", "info");
+
+    var head = document.createElement('h3');
+    var headText = document.createTextNode("Apps:");
+    head.appendChild(headText);
+    div.appendChild(head);
+
+    var list = document.createElement('ul');
+    list.setAttribute("data-role", "listview");
+    list.setAttribute("data-inset", "true");
+    list.setAttribute("class", "dynamiclistview");
+
+    for (var i = 0; i < apps.length; i++) {
+      var appitem = document.createElement('li');
+      var appinfo = document.createTextNode("Name: " +
+                                            apps[i].name +
+                                            " Path: " +
+                                            apps[i].path);
+      appitem.appendChild(appinfo);
+
+      // If there are flags for this App then list them
+      var flags = apps[i].flags;
+      if (Array.isArray(flags)) {
+        for (var j = 0; j < flags.length; j++) {
+          var flag = document.createElement("span");
+          flag.setAttribute("class", "custom-flag");
+          var flagText = document.createTextNode(flags[j]);
+          flag.appendChild(flagText);
+          appitem.appendChild(flag);
+        }
+      }
+      list.appendChild(appitem);
+    }
+
+    div.appendChild(list);
+    return div;
+  };
+  /**
+    Creates an URL list
     * @param {Object[]} urls array (value, description)
-    * @return {Object} a HTML list of the URLs
+    * @return {Object} a HTML list of the URLs or False if none
     */
   this.itemurls = function(urls) {
     if (!Array.isArray(urls)) {
@@ -80,39 +130,17 @@ export function HandlerInfo() {
     item.appendChild(a);
 
     // If there are apps for this handler then list them
-    var apps = handler.apps;
-    if (Array.isArray(apps)) {
-      var applist = document.createElement('ul');
-
-      for (var i = 0; i < apps.length; i++) {
-        var appitem = document.createElement('li');
-        var appinfo = document.createTextNode("Name: " +
-                                              apps[i].name +
-                                              " Path: " +
-                                              apps[i].path);
-        appitem.appendChild(appinfo);
-
-        // If there are apps for this handler then list them
-        var flags = handler.apps[i].flags;
-        if (Array.isArray(flags)) {
-          var flagtext = " Flags:";
-          for (var j = 0; j < flags.length; j++) {
-            flagtext += " " + flags[j];
-          }
-          var flaginfo = document.createTextNode(flagtext);
-          appitem.appendChild(flaginfo);
-        }
-        applist.appendChild(appitem);
-      }
-
-      item.appendChild(applist);
-
-      // If there are urls for this handler then list them
-      var urls = this.itemurls(handler.urls);
-      if (urls) {
-        item.appendChild(urls);
-      }
+    var apps = this.itemapps(handler.apps);
+    if (apps) {
+      item.appendChild(apps);
     }
+
+    // If there are urls for this handler then list them
+    var urls = this.itemurls(handler.urls);
+    if (urls) {
+      item.appendChild(urls);
+    }
+
     return item;
   };
 
