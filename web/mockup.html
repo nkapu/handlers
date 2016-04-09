@@ -46,28 +46,27 @@
     <div data-role="header">
       <h1>Discover and Hack URL Handlers</h1>
     </div>
-    <div data-role="collapsible" data-corners="false">
+    <div data-role="collapsible" data-corners="false" data-filter="true">
       <h3>Handlers</h3>
-      <p>Handlerlist</p>
       <ul>
         <li>
-          <div data-role="collapsible" data-corners="false">
+          <div data-role="collapsible" data-corners="false" data-filter="true">
             <h3>Steam handler</h3>
             <form>
-              <div data-role="fieldcontain">
+              <div class="ui-fieldcontain">
                 <input type="url" data-clear-btn="true" name="url-1" id="url-1" value="steam://">
-                <select name="select-native-1" id="select-native-1" data-corners="false">
+                <select name="select-native-1" id="select-native-1" data-corners="false" data-mini="true">
                   <option value="1">steam://AddNonSteamGame</option>
                   <option value="2">steam://appnews/666</option>
                   <option value="3">steam://connect/127.0.0.1:27015</option>
                   <option value="4">steam://installaddon/halflifehd</option>
                 </select>
+                <fieldset class="ui-grid-b">
+                  <div class="ui-block-a"><button type="submit" data-corners="false" data-mini="true">direct</button></div>
+                  <div class="ui-block-b"><button type="submit" data-corners="false" data-mini="true">local redirect</button></div>
+                  <div class="ui-block-c"><button type="submit" data-corners="false" data-mini="true">remote redirect</button></div>
+                </fieldset>
               </div>
-              <fieldset class="ui-grid-b">
-                <div class="ui-block-a"><button type="summit" data-corners="false">direct</button></div>
-                <div class="ui-block-b"><button type="summit" data-corners="false">local redirect</button></div>
-                <div class="ui-block-c"><button type="summit" data-corners="false">remote redirect</button></div>
-              </fieldset>
             </form>
             <ul data-role="listview" data-inset="true">
               <li>
