@@ -19,7 +19,7 @@ $.getJSON("db/browserinfo.json", function(data) {
 
   var inputs = browserinfo.flaginputs();
   $("#browserinfogroup").controlgroup("container").append(inputs);
-  $("#browserinfogroup [type=checkbox]").checkboxradio();
+  $("#browserinfogroup input[type=checkbox]").checkboxradio();
   $("#browserinfogroup").controlgroup("refresh");
 
   $("#browserinfobody").html(browserinfo.body());
@@ -49,6 +49,10 @@ $.getJSON("db/handlerinfo.json", function(data) {
   $("#handlerinfolist").append(handlerinfolist.listview());
   $("#handlerinfolist").listview("refresh");
 
+  $("#handlerinfolist input[type=url]").textinput();
+  $("#handlerinfolist .ui-field-contain").fieldcontain();
+  $("#handlerinfolist select").selectmenu();
+  $("#handlerinfolist button[type=submit]").button();
   $("#handlerinfolist [data-role=collapsible]").collapsible();
   $("#handlerinfolist .dynamiclistview").listview();
 
