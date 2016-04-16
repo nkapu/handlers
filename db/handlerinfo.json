@@ -806,6 +806,30 @@
                 "name": "Maps", 
                 "path": "Maps.app"
             }
+        ], 
+        "presets": [
+            {
+                "description": "", 
+                "value": "maps://?ll=50.894967,4.341626"
+            }, 
+            {
+                "description": "", 
+                "value": "maps://?daddr=San+Francisco&dirflg=d&t=h"
+            }, 
+            {
+                "description": "", 
+                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
+            }, 
+            {
+                "description": "", 
+                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html"
+            }
         ]
     }, 
     "mapitem:": {
@@ -1186,16 +1210,16 @@
         ], 
         "urls": [
             {
-                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)", 
-                "value": "http://revuln.com/files/ReVuln_Steam_Browser_Protocol_Insecurity.pdf"
+                "description": "", 
+                "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol"
             }, 
             {
                 "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities", 
                 "value": "http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html"
             }, 
             {
-                "description": "", 
-                "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol"
+                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)", 
+                "value": "http://revuln.com/files/ReVuln_Steam_Browser_Protocol_Insecurity.pdf"
             }
         ]
     }, 

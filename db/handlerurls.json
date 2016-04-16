@@ -14,5 +14,13 @@
         "description": ""
       }
     ]
+  },
+  "map:": {
+    "urls": [
+      {
+        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html",
+        "description": "Apple URL Scheme Reference"
+      }
+    ]
   }
 }
