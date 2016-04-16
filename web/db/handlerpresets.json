@@ -18,5 +18,25 @@
         "description": ""
       }
     ]
+  },
+  "map:": {
+    "presets": [
+      {
+        "value": "maps://?ll=50.894967,4.341626",
+        "description": ""
+      },
+      {
+        "value": "maps://?daddr=San+Francisco&dirflg=d&t=h",
+        "description": ""
+      },
+      {
+        "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r",
+        "description": ""
+      },
+      {
+        "value": "maps://?address=1,Infinite+Loop,Cupertino,California",
+        "description": ""
+      }
+    ]
   }
 }
