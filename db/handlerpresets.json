@@ -38,5 +38,29 @@
         "description": ""
       }
     ]
+  },
+  "facetime:": {
+    "presets": [
+      {
+        "value": "facetime:",
+        "description": ""
+      },
+      {
+        "value": "facetime://user@example.com",
+        "description": ""
+      }
+    ]
+  },
+  "facetime-audio:": {
+    "presets": [
+      {
+        "value": "facetime-audio:",
+        "description": ""
+      },
+      {
+        "value": "facetime-audio://user@example.com",
+        "description": ""
+      }
+    ]
   }
 }

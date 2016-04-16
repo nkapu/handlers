@@ -179,6 +179,22 @@
                 "name": "FaceTime", 
                 "path": "FaceTime.app"
             }
+        ], 
+        "presets": [
+            {
+                "description": "", 
+                "value": "facetime-audio:"
+            }, 
+            {
+                "description": "", 
+                "value": "facetime-audio://user@example.com"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1"
+            }
         ]
     }, 
     "facetime:": {
@@ -191,6 +207,22 @@
                 ], 
                 "name": "FaceTime", 
                 "path": "FaceTime.app"
+            }
+        ], 
+        "presets": [
+            {
+                "description": "", 
+                "value": "facetime:"
+            }, 
+            {
+                "description": "", 
+                "value": "facetime://user@example.com"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1"
             }
         ]
     }, 
