@@ -62,5 +62,17 @@
         "description": ""
       }
     ]
+  },
+  "mailto:": {
+    "presets": [
+      {
+        "value": "mailto:frank@wwdcdemo.example.com:",
+        "description": ""
+      },
+      {
+        "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!",
+        "description": ""
+      }
+    ]
   }
 }

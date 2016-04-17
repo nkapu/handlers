@@ -193,7 +193,7 @@
         "urls": [
             {
                 "description": "Apple URL Scheme Reference", 
-                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1"
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
             }
         ]
     }, 
@@ -222,7 +222,7 @@
         "urls": [
             {
                 "description": "Apple URL Scheme Reference", 
-                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1"
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
             }
         ]
     }, 
@@ -825,6 +825,22 @@
                 ], 
                 "name": "Outlook", 
                 "path": "Microsoft Outlook.app"
+            }
+        ], 
+        "presets": [
+            {
+                "description": "", 
+                "value": "mailto:frank@wwdcdemo.example.com:"
+            }, 
+            {
+                "description": "", 
+                "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html"
             }
         ]
     }, 
