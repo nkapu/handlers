@@ -26,7 +26,7 @@
   "facetime:": {
     "urls": [
       {
-        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1",
+        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html",
         "description": "Apple URL Scheme Reference"
       }
     ]
@@ -34,7 +34,15 @@
   "facetime-audio:": {
     "urls": [
       {
-        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html#//apple_ref/doc/uid/TP40007899-CH2-SW1",
+        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html",
+        "description": "Apple URL Scheme Reference"
+      }
+    ]
+  },
+  "mailto:": {
+    "urls": [
+      {
+        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html",
         "description": "Apple URL Scheme Reference"
       }
     ]
