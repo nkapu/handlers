@@ -46,5 +46,21 @@
         "description": "Apple URL Scheme Reference"
       }
     ]
+  },
+  "afp:": {
+    "urls": [
+      {
+        "value": "https://support.apple.com/en-us/HT202181",
+        "description": "Mac OS X: Mounting shared folders using an afp://"
+      }
+    ]
+  },
+  "itms:": {
+    "urls": [
+      {
+        "value": "",
+        "description": ""
+      }
+    ]
   }
 }

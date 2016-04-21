@@ -74,5 +74,21 @@
         "description": ""
       }
     ]
+  },
+  "afp:": {
+    "presets": [
+      {
+        "value": "afp://myserver.mydomain.com/Sharepoint/Folder",
+        "description": ""
+      }
+    ]
+  },
+  "itms:": {
+    "presets": [
+      {
+        "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580",
+        "description": "Opens Spotify in App Store "
+      }
+    ]
   }
 }
