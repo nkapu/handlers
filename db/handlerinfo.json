@@ -22,6 +22,18 @@
                 "name": "Finder", 
                 "path": "Finder.app"
             }
+        ], 
+        "presets": [
+            {
+                "description": "", 
+                "value": "afp://myserver.mydomain.com/Sharepoint/Folder"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "Mac OS X: Mounting shared folders using an afp://", 
+                "value": "https://support.apple.com/en-us/HT202181"
+            }
         ]
     }, 
     "aim:": {
@@ -664,6 +676,18 @@
                 ], 
                 "name": "iTunes", 
                 "path": "iTunes.app"
+            }
+        ], 
+        "presets": [
+            {
+                "description": "Opens Spotify in App Store ", 
+                "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "", 
+                "value": ""
             }
         ]
     }, 
