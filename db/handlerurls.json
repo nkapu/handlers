@@ -66,8 +66,8 @@
   "atom:": {
     "urls": [
       {
-        "value": "https://github.com/atom/atom/blob/master/src/browser/atom-protocol-handler.coffee",
-        "description": "Atom source code"
+        "value": "https://github.com/atom/atom/blob/master/src/browser/atom-application.coffee",
+        "description": "Atom source code with the openUrl function for the atom:// handler"
       }
     ]
   }
