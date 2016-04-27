@@ -62,5 +62,13 @@
         "description": ""
       }
     ]
+  },
+  "atom:": {
+    "urls": [
+      {
+        "value": "https://github.com/atom/atom/blob/master/src/browser/atom-protocol-handler.coffee",
+        "description": "Atom source code"
+      }
+    ]
   }
 }
