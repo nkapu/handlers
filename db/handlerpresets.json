@@ -87,7 +87,31 @@
     "presets": [
       {
         "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580",
-        "description": "Opens Spotify in App Store "
+        "description": "Opens Spotify in App Store"
+      }
+    ]
+  },
+  "github-mac:": {
+    "presets": [
+      {
+        "value": "github-mac://openRepo/REPOURL",
+        "description": "Clones repo but needs UserInteraction"
+      }
+    ]
+  },
+  "smb:": {
+    "presets": [
+      {
+        "value": "smb://guest:f@crashterminal.org/tmp/",
+        "description": ""
+      }
+    ]
+  },
+  "x-man-page:": {
+    "presets": [
+      {
+        "value": "x-man-page://1/man",
+        "description": "Opens man page"
       }
     ]
   }

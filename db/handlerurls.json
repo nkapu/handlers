@@ -68,6 +68,10 @@
       {
         "value": "https://github.com/atom/atom/blob/master/src/browser/atom-application.coffee",
         "description": "Atom source code with the openUrl function for the atom:// handler"
+      },
+      {
+        "value": "https://github.com/nkapu/handlers/blob/master/cases/atom.md",
+        "description": "atom:// URL hander(s) dissected"
       }
     ]
   }

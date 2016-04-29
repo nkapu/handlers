@@ -3,1489 +3,1489 @@
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Contacts", 
+                ],
+                "name": "Contacts",
                 "path": "Contacts.app"
             }
         ]
-    }, 
+    },
     "afp:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Finder", 
+                ],
+                "name": "Finder",
                 "path": "Finder.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "afp://myserver.mydomain.com/Sharepoint/Folder"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "Mac OS X: Mounting shared folders using an afp://", 
+                "description": "Mac OS X: Mounting shared folders using an afp://",
                 "value": "https://support.apple.com/en-us/HT202181"
             }
         ]
-    }, 
+    },
     "aim:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Messages", 
+                ],
+                "name": "Messages",
                 "path": "Messages.app"
             }
         ]
-    }, 
+    },
     "apconfig:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "AirPort Utility", 
+                ],
+                "name": "AirPort Utility",
                 "path": "AirPort Utility.app"
             }
         ]
-    }, 
+    },
     "applefeedback:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Feedback Assistant", 
+                ],
+                "name": "Feedback Assistant",
                 "path": "Feedback Assistant.app"
             }
         ]
-    }, 
+    },
     "applescript:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Script Editor", 
+                ],
+                "name": "Script Editor",
                 "path": "Script Editor.app"
             }
         ]
-    }, 
+    },
     "apupdate:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "AirPort Utility", 
+                ],
+                "name": "AirPort Utility",
                 "path": "AirPort Utility.app"
             }
         ]
-    }, 
+    },
     "atom:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Atom", 
+                ],
+                "name": "Atom",
                 "path": "Atom.app"
             }
         ]
-    }, 
+    },
     "bitcoin:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Bitcoin-Qt", 
+                ],
+                "name": "Bitcoin-Qt",
                 "path": "Bitcoin-Qt.app"
             }
         ]
-    }, 
+    },
     "cifs:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Finder", 
+                ],
+                "name": "Finder",
                 "path": "Finder.app"
             }
         ]
-    }, 
+    },
     "cloudphoto:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "cloudphotosd", 
+                ],
+                "name": "cloudphotosd",
                 "path": "cloudphotosd.app"
             }
         ]
-    }, 
+    },
     "daap:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "dict:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Dictionary", 
+                ],
+                "name": "Dictionary",
                 "path": "Dictionary.app"
             }
         ]
-    }, 
+    },
     "excel:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Excel", 
+                ],
+                "name": "Excel",
                 "path": "Microsoft Excel.app"
             }
         ]
-    }, 
+    },
     "facetime-audio:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "FaceTime", 
+                ],
+                "name": "FaceTime",
                 "path": "FaceTime.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime-audio:"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime-audio://user@example.com"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
             }
         ]
-    }, 
+    },
     "facetime:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "FaceTime", 
+                ],
+                "name": "FaceTime",
                 "path": "FaceTime.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime:"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime://user@example.com"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
             }
         ]
-    }, 
+    },
     "fb:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "AddressBookUrlForwarder", 
+                ],
+                "name": "AddressBookUrlForwarder",
                 "path": "AddressBookUrlForwarder.app"
             }
         ]
-    }, 
+    },
     "file:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Finder", 
+                ],
+                "name": "Finder",
                 "path": "Finder.app"
-            }, 
+            },
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Safari", 
+                ],
+                "name": "Safari",
                 "path": "Safari.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chrome", 
+                ],
+                "name": "Chrome",
                 "path": "Google Chrome.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chromium", 
+                ],
+                "name": "Chromium",
                 "path": "Chromium.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Firefox", 
+                ],
+                "name": "Firefox",
                 "path": "Firefox.app"
             }
         ]
-    }, 
+    },
     "ftp:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Finder", 
+                ],
+                "name": "Finder",
                 "path": "Finder.app"
-            }, 
+            },
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chrome", 
+                ],
+                "name": "Chrome",
                 "path": "Google Chrome.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chromium", 
+                ],
+                "name": "Chromium",
                 "path": "Chromium.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Firefox", 
+                ],
+                "name": "Firefox",
                 "path": "Firefox.app"
             }
         ]
-    }, 
+    },
     "gamecenter:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Game Center", 
+                ],
+                "name": "Game Center",
                 "path": "Game Center.app"
             }
         ]
-    }, 
+    },
     "github-mac:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "GitHub Desktop", 
+                ],
+                "name": "GitHub Desktop",
                 "path": "GitHub Desktop.app"
             }
         ]
-    }, 
+    },
     "help:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Help Viewer", 
+                ],
+                "name": "Help Viewer",
                 "path": "HelpViewer.app"
             }
         ]
-    }, 
+    },
     "hpevent:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "ScanEventHandler", 
+                ],
+                "name": "ScanEventHandler",
                 "path": "ScanEventHandler.app"
             }
         ]
-    }, 
+    },
     "hputility:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "HP Utility", 
+                ],
+                "name": "HP Utility",
                 "path": "HP Utility.app"
             }
         ]
-    }, 
+    },
     "http:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Safari", 
+                ],
+                "name": "Safari",
                 "path": "Safari.app"
-            }, 
+            },
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "Firefox", 
+                ],
+                "name": "Firefox",
                 "path": "Firefox.app"
-            }, 
+            },
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chrome", 
+                ],
+                "name": "Chrome",
                 "path": "Google Chrome.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chromium", 
+                ],
+                "name": "Chromium",
                 "path": "Chromium.app"
             }
         ]
-    }, 
+    },
     "https:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Safari", 
+                ],
+                "name": "Safari",
                 "path": "Safari.app"
-            }, 
+            },
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "Firefox", 
+                ],
+                "name": "Firefox",
                 "path": "Firefox.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chrome", 
+                ],
+                "name": "Chrome",
                 "path": "Google Chrome.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Chromium", 
+                ],
+                "name": "Chromium",
                 "path": "Chromium.app"
             }
         ]
-    }, 
+    },
     "ibooks:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iBooks", 
+                ],
+                "name": "iBooks",
                 "path": "iBooks.app"
             }
         ]
-    }, 
+    },
     "ical:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Calendar", 
+                ],
+                "name": "Calendar",
                 "path": "Calendar.app"
             }
         ]
-    }, 
+    },
     "ichat:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Messages", 
+                ],
+                "name": "Messages",
                 "path": "Messages.app"
             }
         ]
-    }, 
+    },
     "icloud-sharing:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "ShareBear", 
+                ],
+                "name": "ShareBear",
                 "path": "ShareBear.app"
             }
         ]
-    }, 
+    },
     "im:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Messages", 
+                ],
+                "name": "Messages",
                 "path": "Messages.app"
             }
         ]
-    }, 
+    },
     "imessage:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Messages", 
+                ],
+                "name": "Messages",
                 "path": "Messages.app"
             }
         ]
-    }, 
+    },
     "ipp:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
-                    "relative-icon-path", 
+                    "apple-internal",
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "AddPrinter", 
+                ],
+                "name": "AddPrinter",
                 "path": "AddPrinter.app"
             }
         ]
-    }, 
+    },
     "ipps:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
-                    "relative-icon-path", 
+                    "apple-internal",
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "AddPrinter", 
+                ],
+                "name": "AddPrinter",
                 "path": "AddPrinter.app"
             }
         ]
-    }, 
+    },
     "itals:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "italss:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itls:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itlss:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itms-books:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iBooks", 
+                ],
+                "name": "iBooks",
                 "path": "iBooks.app"
             }
         ]
-    }, 
+    },
     "itms-bookss:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iBooks", 
+                ],
+                "name": "iBooks",
                 "path": "iBooks.app"
             }
         ]
-    }, 
+    },
     "itms-gc:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Game Center", 
+                ],
+                "name": "Game Center",
                 "path": "Game Center.app"
             }
         ]
-    }, 
+    },
     "itms-gcs:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Game Center", 
+                ],
+                "name": "Game Center",
                 "path": "Game Center.app"
             }
         ]
-    }, 
+    },
     "itms:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "Opens Spotify in App Store ", 
+                "description": "Opens Spotify in App Store ",
                 "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "", 
+                "description": "",
                 "value": ""
             }
         ]
-    }, 
+    },
     "itmss:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itpc:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itsradio:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itunes:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itunesradio:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itvls:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "itvlss:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "launch-excel:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Excel", 
+                ],
+                "name": "Excel",
                 "path": "Microsoft Excel.app"
             }
         ]
-    }, 
+    },
     "launch-word:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Word", 
+                ],
+                "name": "Word",
                 "path": "Microsoft Word.app"
             }
         ]
-    }, 
+    },
     "litecoin:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "org.litecoin.LitecoinPayment", 
+                ],
+                "name": "org.litecoin.LitecoinPayment",
                 "path": "Litecoin-Qt.app"
             }
         ]
-    }, 
+    },
     "macappstore:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "App Store", 
+                ],
+                "name": "App Store",
                 "path": "App Store.app"
             }
         ]
-    }, 
+    },
     "macappstores:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "App Store", 
+                ],
+                "name": "App Store",
                 "path": "App Store.app"
             }
         ]
-    }, 
+    },
     "mailto:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Mail", 
+                ],
+                "name": "Mail",
                 "path": "Mail.app"
-            }, 
+            },
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Outlook", 
+                ],
+                "name": "Outlook",
                 "path": "Microsoft Outlook.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "mailto:frank@wwdcdemo.example.com:"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html"
             }
         ]
-    }, 
+    },
     "map:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Maps", 
+                ],
+                "name": "Maps",
                 "path": "Maps.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?ll=50.894967,4.341626"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?daddr=San+Francisco&dirflg=d&t=h"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html"
             }
         ]
-    }, 
+    },
     "mapitem:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Maps", 
+                ],
+                "name": "Maps",
                 "path": "Maps.app"
             }
         ]
-    }, 
+    },
     "maps:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Maps", 
+                ],
+                "name": "Maps",
                 "path": "Maps.app"
             }
         ]
-    }, 
+    },
     "message:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Mail", 
+                ],
+                "name": "Mail",
                 "path": "Mail.app"
             }
         ]
-    }, 
+    },
     "messages:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Messages", 
+                ],
+                "name": "Messages",
                 "path": "Messages.app"
             }
         ]
-    }, 
+    },
     "mms:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "mmsh:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "ms-excel:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Excel", 
+                ],
+                "name": "Excel",
                 "path": "Microsoft Excel.app"
             }
         ]
-    }, 
+    },
     "ms-powerpoint:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "PowerPoint", 
+                ],
+                "name": "PowerPoint",
                 "path": "Microsoft PowerPoint.app"
             }
         ]
-    }, 
+    },
     "ms-word:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Word", 
+                ],
+                "name": "Word",
                 "path": "Microsoft Word.app"
             }
         ]
-    }, 
+    },
     "nwnode:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Finder", 
+                ],
+                "name": "Finder",
                 "path": "Finder.app"
             }
         ]
-    }, 
+    },
     "onenote-cmd:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "OneNote", 
+                ],
+                "name": "OneNote",
                 "path": "Microsoft OneNote.app"
             }
         ]
-    }, 
+    },
     "onenote:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "OneNote", 
+                ],
+                "name": "OneNote",
                 "path": "Microsoft OneNote.app"
             }
         ]
-    }, 
+    },
     "open-excel:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Excel", 
+                ],
+                "name": "Excel",
                 "path": "Microsoft Excel.app"
             }
         ]
-    }, 
+    },
     "open-word:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Word", 
+                ],
+                "name": "Word",
                 "path": "Microsoft Word.app"
             }
         ]
-    }, 
+    },
     "pcast:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "iTunes", 
+                ],
+                "name": "iTunes",
                 "path": "iTunes.app"
             }
         ]
-    }, 
+    },
     "photos:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Photos", 
+                ],
+                "name": "Photos",
                 "path": "Photos.app"
             }
         ]
-    }, 
+    },
     "powerpoint:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "PowerPoint", 
+                ],
+                "name": "PowerPoint",
                 "path": "Microsoft PowerPoint.app"
             }
         ]
-    }, 
+    },
     "rdp:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Microsoft Remote Desktop", 
+                ],
+                "name": "Microsoft Remote Desktop",
                 "path": "Microsoft Remote Desktop.app"
             }
         ]
-    }, 
+    },
     "reminders:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Reminders", 
+                ],
+                "name": "Reminders",
                 "path": "Reminders.app"
             }
         ]
-    }, 
+    },
     "rtmp:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "rtmpe:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "rtmps:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "rtmpt:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "rtp:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "rtsp:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "QuickTime Player", 
+                ],
+                "name": "QuickTime Player",
                 "path": "QuickTime Player.app"
-            }, 
+            },
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "sftp:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "smb:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Finder", 
+                ],
+                "name": "Finder",
                 "path": "Finder.app"
-            }, 
+            },
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "ssh:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Terminal", 
+                ],
+                "name": "Terminal",
                 "path": "Terminal.app"
             }
         ]
-    }, 
+    },
     "steam:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Steam", 
+                ],
+                "name": "Steam",
                 "path": "Steam.app"
             }
-        ], 
+        ],
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://AddNonSteamGame"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://appnews/666"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://connect/127.0.0.1:27015"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://installaddon/halflifehd"
             }
-        ], 
+        ],
         "urls": [
             {
-                "description": "", 
+                "description": "",
                 "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol"
-            }, 
+            },
             {
-                "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities", 
+                "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities",
                 "value": "http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html"
-            }, 
+            },
             {
-                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)", 
+                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)",
                 "value": "http://revuln.com/files/ReVuln_Steam_Browser_Protocol_Insecurity.pdf"
             }
         ]
-    }, 
+    },
     "tel:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "FaceTime", 
+                ],
+                "name": "FaceTime",
                 "path": "FaceTime.app"
             }
         ]
-    }, 
+    },
     "telnet:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Terminal", 
+                ],
+                "name": "Terminal",
                 "path": "Terminal.app"
             }
         ]
-    }, 
+    },
     "ts3server:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "TeamSpeak 3", 
+                ],
+                "name": "TeamSpeak 3",
                 "path": "TeamSpeak 3 Client.app"
             }
         ]
-    }, 
+    },
     "twitter:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "AddressBookUrlForwarder", 
+                ],
+                "name": "AddressBookUrlForwarder",
                 "path": "AddressBookUrlForwarder.app"
             }
         ]
-    }, 
+    },
     "udp:": {
         "apps": [
             {
                 "flags": [
-                    "relative-icon-path", 
+                    "relative-icon-path",
                     "url-type"
-                ], 
-                "name": "VLC media player", 
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
-    }, 
+    },
     "vnc:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Screen Sharing", 
+                ],
+                "name": "Screen Sharing",
                 "path": "Screen Sharing.app"
             }
         ]
-    }, 
+    },
     "webcal:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Calendar", 
+                ],
+                "name": "Calendar",
                 "path": "Calendar.app"
             }
         ]
-    }, 
+    },
     "word:": {
         "apps": [
             {
                 "flags": [
                     "url-type"
-                ], 
-                "name": "Word", 
+                ],
+                "name": "Word",
                 "path": "Microsoft Word.app"
             }
         ]
-    }, 
+    },
     "x-apple-calendarevent:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Calendar", 
+                ],
+                "name": "Calendar",
                 "path": "Calendar.app"
             }
         ]
-    }, 
+    },
     "x-apple-helpbasic:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Help Viewer", 
+                ],
+                "name": "Help Viewer",
                 "path": "HelpViewer.app"
             }
         ]
-    }, 
+    },
     "x-apple-reminder:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Reminders", 
+                ],
+                "name": "Reminders",
                 "path": "Reminders.app"
             }
         ]
-    }, 
+    },
     "x-apple.systempreferences:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "System Preferences", 
+                ],
+                "name": "System Preferences",
                 "path": "System Preferences.app"
             }
         ]
-    }, 
+    },
     "x-dictionary:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Dictionary", 
+                ],
+                "name": "Dictionary",
                 "path": "Dictionary.app"
             }
         ]
-    }, 
+    },
     "x-install-osx-assistant:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Install OS X", 
+                ],
+                "name": "Install OS X",
                 "path": "Install OS X El Capitan.app"
             }
         ]
-    }, 
+    },
     "x-man-page:": {
         "apps": [
             {
                 "flags": [
-                    "apple-internal", 
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Terminal", 
+                ],
+                "name": "Terminal",
                 "path": "Terminal.app"
             }
         ]
-    }, 
+    },
     "xmpp:": {
         "apps": [
             {
                 "flags": [
-                    "apple-default", 
-                    "apple-internal", 
+                    "apple-default",
+                    "apple-internal",
                     "url-type"
-                ], 
-                "name": "Messages", 
+                ],
+                "name": "Messages",
                 "path": "Messages.app"
             }
         ]
