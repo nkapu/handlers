@@ -40,7 +40,7 @@ If the package name from the URL is found from the list of discovered package an
 By itself this is not a problem since if the attacker would be able to install a malicious package the he could use the package itself for
 the attack directly and the external `atom://` URLs would merely provide one command and control channel.
 
-However there is a small twist. The `openUrl()` function uses `resolvePackagePath()` of the package manager to actually contsruct the path to the code to be executed. For some reason that function also includes the current working directory as the first place where the package is sought from.
+However there is a small twist. The `openUrl()` function uses `resolvePackagePath()` of the package manager to actually construct the path to the code to be executed. For some reason that function also includes the current working directory as the first place where the package is sought from. This dubious behaviour has already been discussed as a bug in the [atom issue #10982][5].
 
 This means that if there is a directory in the Atom's current working directory with same name as a legit installed package then the code pointed by legit package's `urlMain` is executed from that (wrong) directory. Fortunately at least on the OSX the Atom's current working directory seems to be the root directory (`/`). You can find out the current working directory by opening the Atom inspector console (ALT + CMD + i) and running:
 
@@ -57,10 +57,26 @@ This appears to limit the possible attack to following preconditions:
 
 Only under these conditions the attacker's code gets executed.
 
+## Further study
+
+Current working directory should be checked on the other platforms that Atom runs on.
+
+Furthermore the potential `urlMain` handlers of individual packages should be checked to be safe when invoked. A sample `urlMain` handler for a package looks like:
+
+```javascript
+var url = require("url");
+
+module.exports = function() {
+    var urlToOpen = JSON.parse(decodeURIComponent(location.hash.substr(1))).urlToOpen;
+    alert(url.parse(urlToOpen).pathname.substr(1));
+    window.close();
+};
+```
+
+We should ensure that no unsafe action is taken based on the passed url by any of the Atom packages.
+
 [1]: http://atom.io "Atom - A hackable text editor for the 21st Century"
 [2]: https://github.com/atom/atom/blob/master/src/browser/atom-protocol-handler.coffee
 [3]: https://github.com/atom/atom/blob/master/src/browser/atom-application.coffee
 [4]: https://github.com/atom/atom/blob/master/src/package-manager.coffee
-
-
-[3]: https://github.com/atom/atom/issues/10982 "Optional Title Here"
+[5]: https://github.com/atom/atom/issues/10982 "Atom bug #10982"
