@@ -114,5 +114,29 @@
         "description": "Opens man page"
       }
     ]
+  },
+  "ftp:": {
+    "presets": [
+      {
+        "value": "ftp://guest:guest@ftp.funet.fi/pub/",
+        "description": ""
+      }
+    ]
+  },
+  "telnet:": {
+    "presets": [
+      {
+        "value": "telnet://crashterminal.org:10000",
+        "description": ""
+      }
+    ]
+  },
+  "vnc:": {
+    "presets": [
+      {
+        "value": "vnc://user:password@funet.fi:5903",
+        "description": ""
+      }
+    ]
   }
 }
