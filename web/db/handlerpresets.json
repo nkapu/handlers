@@ -154,5 +154,45 @@
         "description": ""
       }
     ]
+  },
+  "addressbook:": {
+    "presets": [
+      {
+        "value": "addressbook://%@?edit",
+        "description": "[aPerson uniqueId]"
+      }
+    ]
+  },
+  "ms-word:": {
+    "presets": [
+      {
+        "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx",
+        "description": "Opens file in readonlymode"
+      }
+    ]
+  },
+  "word:": {
+    "presets": [
+      {
+        "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx",
+        "description": "Opens file in readonlymode"
+      }
+    ]
+  },
+  "x-install-osx-assistant:": {
+    "presets": [
+      {
+        "value": "x-install-osx-assistant://",
+        "description": "Starts OS X El Capitan installerapp"
+      }
+    ]
+  },
+  "x-install-osx-assistant:": {
+    "presets": [
+      {
+        "value": "x-install-osx-assistant://",
+        "description": "Starts OS X El Capitan installerapp"
+      }
+    ]
   }
 }
