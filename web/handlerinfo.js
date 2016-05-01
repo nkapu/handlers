@@ -19,9 +19,10 @@ export function HandlerInfo() {
   };
   /** Creates testing "widget" for the handler
    * @param {string} key for handler name
+   * @param {Object} presets dict
    * @return {Object} a HTML div with the  or False if none
    */
-  this.itemtester = function(key) {
+  this.itemtester = function(key, presets) {
     /*
     <form>
       <div class="ui-field-contain">
@@ -55,11 +56,21 @@ export function HandlerInfo() {
     var select = document.createElement("select");
     select.setAttribute("data-corners", "false");
     select.setAttribute("data-mini", "true");
-    var presets = ["presetA", "presetB", "presetC"];
-    for (var i = 0; i < presets.length; i++) {
+    var presetlist = [key + "//"];
+
+    if (presets) {
+      for (var i = 0; i < presets.length; i++) {
+        if (!presets[i].value) {
+          continue;
+        }
+        presetlist.push(presets[i].value);
+      }
+    }
+
+    for (var j = 0; j < presetlist.length; j++) {
       var option = document.createElement("option");
-      option.setAttribute("value", i);
-      var optionText = document.createTextNode(presets[i]);
+      option.setAttribute("value", j);
+      var optionText = document.createTextNode(presetlist[j]);
       option.appendChild(optionText);
       select.appendChild(option);
     }
@@ -73,9 +84,9 @@ export function HandlerInfo() {
       ["b", "local redirect"],
       ["c", "remote redirect"]
     ];
-    for (var j = 0; j < actions.length; j++) {
+    for (var k = 0; k < actions.length; k++) {
       var actiondiv = document.createElement("div");
-      actiondiv.setAttribute("class", "ui-block-" + actions[j][0]);
+      actiondiv.setAttribute("class", "ui-block-" + actions[k][0]);
       var actionbutton = document.createElement("button");
       actionbutton.setAttribute("type", "submit");
       actionbutton.setAttribute("data-corners", "false");
@@ -83,7 +94,7 @@ export function HandlerInfo() {
       actionbutton.setAttribute("data-enhanced", "true");
       actionbutton.setAttribute("class", "ui-btn ui-shadow ui-mini");
 
-      var actionbuttonText = document.createTextNode(actions[j][1]);
+      var actionbuttonText = document.createTextNode(actions[k][1]);
       actionbutton.appendChild(actionbuttonText);
       actiondiv.appendChild(actionbutton);
       fieldset.appendChild(actiondiv);
@@ -200,7 +211,7 @@ export function HandlerInfo() {
     collapsible.appendChild(head);
 
     // Add the testing widget
-    collapsible.appendChild(this.itemtester(key));
+    collapsible.appendChild(this.itemtester(key, handler.presets));
 
     // If there are apps for this handler then list them
     var apps = this.itemapps(handler.apps);

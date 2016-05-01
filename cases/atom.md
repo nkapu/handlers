@@ -53,7 +53,7 @@ This appears to limit the possible attack to following preconditions:
 
 1. Attacker code has to be placed into a directory directly under the root directory (e.g. `/tmp`) via social engineering or some other bug.
 1. User has installed a legit package with the name of that directory (i.e. `tmp` package) and that package has `urlMain` defined in its metadata.
-1. User visits external content that has an embedded link of `atom://tmp/something` with a browser that allows launching those links (preferrably without user interaction).
+1. User visits external content that has an embedded link of `atom://tmp/something` with a browser that allows launching those links (preferably without user interaction).
 
 Only under these conditions the attacker's code gets executed.
 
