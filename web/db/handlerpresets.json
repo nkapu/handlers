@@ -138,5 +138,21 @@
         "description": ""
       }
     ]
+  },
+  "x-apple.systempreferences:": {
+    "presets": [
+      {
+        "value": "x-apple.systempreferences://com.apple.preference.security?Firewall",
+        "description": ""
+      }
+    ]
+  },
+  "webcal:": {
+    "presets": [
+      {
+        "value": "webcal://localhost:10000?team_id=9999",
+        "description": ""
+      }
+    ]
   }
 }
