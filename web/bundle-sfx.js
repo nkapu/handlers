@@ -16513,9 +16513,10 @@ $__System.register("19", ["d"], function (_export) {
     };
     /** Creates testing "widget" for the handler
      * @param {string} key for handler name
+     * @param {Object} presets dict
      * @return {Object} a HTML div with the  or False if none
      */
-    this.itemtester = function (key) {
+    this.itemtester = function (key, presets) {
       /*
       <form>
         <div class="ui-field-contain">
@@ -16549,11 +16550,21 @@ $__System.register("19", ["d"], function (_export) {
       var select = document.createElement("select");
       select.setAttribute("data-corners", "false");
       select.setAttribute("data-mini", "true");
-      var presets = ["presetA", "presetB", "presetC"];
-      for (var i = 0; i < presets.length; i++) {
+      var presetlist = [key + "//"];
+
+      if (presets) {
+        for (var i = 0; i < presets.length; i++) {
+          if (!presets[i].value) {
+            continue;
+          }
+          presetlist.push(presets[i].value);
+        }
+      }
+
+      for (var j = 0; j < presetlist.length; j++) {
         var option = document.createElement("option");
-        option.setAttribute("value", i);
-        var optionText = document.createTextNode(presets[i]);
+        option.setAttribute("value", j);
+        var optionText = document.createTextNode(presetlist[j]);
         option.appendChild(optionText);
         select.appendChild(option);
       }
@@ -16563,9 +16574,9 @@ $__System.register("19", ["d"], function (_export) {
       var fieldset = document.createElement("fieldset");
       fieldset.setAttribute("class", "ui-grid-b");
       var actions = [["a", "direct"], ["b", "local redirect"], ["c", "remote redirect"]];
-      for (var j = 0; j < actions.length; j++) {
+      for (var k = 0; k < actions.length; k++) {
         var actiondiv = document.createElement("div");
-        actiondiv.setAttribute("class", "ui-block-" + actions[j][0]);
+        actiondiv.setAttribute("class", "ui-block-" + actions[k][0]);
         var actionbutton = document.createElement("button");
         actionbutton.setAttribute("type", "submit");
         actionbutton.setAttribute("data-corners", "false");
@@ -16573,11 +16584,10 @@ $__System.register("19", ["d"], function (_export) {
         actionbutton.setAttribute("data-enhanced", "true");
         actionbutton.setAttribute("class", "ui-btn ui-shadow ui-mini");
 
-        var actionbuttonText = document.createTextNode(actions[j][1]);
+        var actionbuttonText = document.createTextNode(actions[k][1]);
         actionbutton.appendChild(actionbuttonText);
         actiondiv.appendChild(actionbutton);
         fieldset.appendChild(actiondiv);
-        console.log(actiondiv);
       }
       div.appendChild(fieldset);
 
@@ -16689,7 +16699,7 @@ $__System.register("19", ["d"], function (_export) {
       collapsible.appendChild(head);
 
       // Add the testing widget
-      collapsible.appendChild(this.itemtester(key));
+      collapsible.appendChild(this.itemtester(key, handler.presets));
 
       // If there are apps for this handler then list them
       var apps = this.itemapps(handler.apps);
@@ -16790,6 +16800,14 @@ $__System.register('1', ['2', '4', '9', '19', 'c'], function (_export) {
 
         $("#handlerlist").append(handlerlist.listview());
         $("#handlerlist").listview("refresh");
+
+        $("#handlerlist input[type=url]").textinput();
+        $("#handlerlist .ui-field-contain").fieldcontain();
+        $("#handlerlist select").selectmenu();
+        $("#handlerlist button[type=submit]").button();
+        $("#handlerlist [data-role=collapsible]").collapsible();
+        $("#handlerlist .dynamiclistview").listview();
+
         $("#handlerlistcount").text(handlerlist.count()).fadeIn();
       });
 
@@ -16809,6 +16827,42 @@ $__System.register('1', ['2', '4', '9', '19', 'c'], function (_export) {
         $("#handlerinfolist .dynamiclistview").listview();
 
         $("#handlerinfolistcount").text(handlerinfolist.count()).fadeIn();
+      });
+
+      $.getJSON("db/handlerurls.json", function (data) {
+        $.each(data, function (i, handler) {
+          var key = i;
+          $("#urllist").append('<li data-role="list-divider">' + key + '</li>');
+
+          $.each(handler.urls, function (i, url) {
+            var description = "";
+            if (url.description) {
+              description = url.description;
+            } else {
+              description = url.value;
+            }
+            $("#urllist").append('<li data-filtertext="' + key + '"><a href="' + url.value + '">' + description + '</li>');
+          });
+        });
+        $("#urllist").listview("refresh");
+      });
+
+      $.getJSON("db/handlerpresets.json", function (data) {
+        $.each(data, function (i, handler) {
+          var key = i;
+          $("#presetlist").append('<li data-role="list-divider">' + key + '</li>');
+
+          $.each(handler.presets, function (i, preset) {
+            var description = "";
+            if (preset.description) {
+              description = preset.description;
+            } else {
+              description = preset.value;
+            }
+            $("#presetlist").append('<li data-filtertext="' + key + '"><a href="' + preset.value + '">' + description + '</li>');
+          });
+        });
+        $("#presetlist").listview("refresh");
       });
     }
   };
