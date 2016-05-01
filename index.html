@@ -41,10 +41,10 @@
   <script>
     document.body.style.visibility = 'hidden';
   </script>
-  <!-- Page -->
-  <div id="start" data-role="page">
+  <!-- Page: Testing UI -->
+  <div id="hack" data-role="page">
     <!-- Header -->
-    <div data-role="header">
+    <div data-role="header" data-id="main-header">
       <h1>Discover and Hack URL Handlers</h1>
     </div>
 
@@ -77,11 +77,64 @@
       </div>
     </div>
     <!-- Footer -->
-    <div data-role="footer" data-position="fixed">
-      <h4>More info</h4>
-      <a href="http://github.com/nkapu/handlers/" data-icon="info" class="ui-btn-right">
-        Project reposity
-      </a>
+    <div data-role="footer" data-position="fixed" data-id="main-footer">
+      <div data-role="navbar" data-grid="c">
+        <ul>
+          <li><a href="#" class="ui-btn-active ui-state-persist">Hack</a></li>
+          <li><a href="#urls">URLs</a></li>
+          <li><a href="#presets">Presets</a></li>
+          <li><a href="http://github.com/nkapu/handlers/">Project</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page: All URLs -->
+  <div id="urls" data-role="page">
+    <!-- Header -->
+    <div data-role="header" data-id="main-header">
+      <h1>Discover and Hack URL Handlers</h1>
+    </div>
+
+    <div role="main" class="ui-content">
+      <ul id="urllist" data-role="listview" data-filter="true" data-inset="true"></ul>
+    </div>
+
+    <!-- Footer -->
+    <div data-role="footer" data-position="fixed" data-id="main-footer">
+      <div data-role="navbar" data-grid="c">
+        <ul>
+          <li><a href="#hack">Hack</a></li>
+          <li><a href="#" class="ui-btn-active ui-state-persist">URLs</a></li>
+          <li><a href="#presets">Presets</a></li>
+          <li><a href="http://github.com/nkapu/handlers/">Project</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Page: All Presets -->
+  <div id="presets" data-role="page">
+    <!-- Header -->
+    <div data-role="header" data-id="main-header">
+      <h1>Discover and Hack URL Handlers</h1>
+    </div>
+
+    <!-- Content -->
+    <div role="main" class="ui-content">
+      <ul id="presetlist" data-role="listview" data-filter="true" data-inset="true"></ul>
+    </div>
+
+    <!-- Footer -->
+    <div data-role="footer" data-position="fixed" data-id="main-footer">
+      <div data-role="navbar" data-grid="c">
+        <ul>
+          <li><a href="#hack">Hack</a></li>
+          <li><a href="#urls">URLs</a></li>
+          <li><a href="#" class="ui-btn-active ui-state-persist">Presets</a></li>
+          <li><a href="http://github.com/nkapu/handlers/">Project</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </body>

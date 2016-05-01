@@ -38,6 +38,14 @@ $.getJSON("handlers.json", function(data) {
 
   $("#handlerlist").append(handlerlist.listview());
   $("#handlerlist").listview("refresh");
+
+  $("#handlerlist input[type=url]").textinput();
+  $("#handlerlist .ui-field-contain").fieldcontain();
+  $("#handlerlist select").selectmenu();
+  $("#handlerlist button[type=submit]").button();
+  $("#handlerlist [data-role=collapsible]").collapsible();
+  $("#handlerlist .dynamiclistview").listview();
+
   $("#handlerlistcount").text(handlerlist.count()).fadeIn();
 });
 
@@ -57,4 +65,44 @@ $.getJSON("db/handlerinfo.json", function(data) {
   $("#handlerinfolist .dynamiclistview").listview();
 
   $("#handlerinfolistcount").text(handlerinfolist.count()).fadeIn();
+});
+
+$.getJSON("db/handlerurls.json", function(data) {
+  $.each(data, function(i, handler) {
+    var key = i;
+    $("#urllist").append('<li data-role="list-divider">' + key + '</li>');
+
+    $.each(handler.urls, function(i, url) {
+      var description = "";
+      if (url.description) {
+        description = url.description;
+      } else {
+        description = url.value;
+      }
+      $("#urllist").append('<li data-filtertext="' + key +
+        '"><a href="' + url.value + '">' +
+        description + '</li>');
+    });
+  });
+  $("#urllist").listview("refresh");
+});
+
+$.getJSON("db/handlerpresets.json", function(data) {
+  $.each(data, function(i, handler) {
+    var key = i;
+    $("#presetlist").append('<li data-role="list-divider">' + key + '</li>');
+
+    $.each(handler.presets, function(i, preset) {
+      var description = "";
+      if (preset.description) {
+        description = preset.description;
+      } else {
+        description = preset.value;
+      }
+      $("#presetlist").append('<li data-filtertext="' + key +
+        '"><a href="' + preset.value + '">' +
+        description + '</li>');
+    });
+  });
+  $("#presetlist").listview("refresh");
 });
