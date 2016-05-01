@@ -98,7 +98,6 @@ export function HandlerInfo() {
       actionbutton.appendChild(actionbuttonText);
       actiondiv.appendChild(actionbutton);
       fieldset.appendChild(actiondiv);
-      console.log(actiondiv);
     }
     div.appendChild(fieldset);
 
