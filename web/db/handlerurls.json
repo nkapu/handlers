@@ -74,5 +74,13 @@
         "description": "atom:// URL hander(s) dissected"
       }
     ]
+  },
+  "Slack:": {
+    "urls": [
+      {
+        "value": "https://hackerone.com/reports/79348",
+        "description": "OSX slack:// protocol handler javascript injection"
+      }
+    ]
   }
 }
