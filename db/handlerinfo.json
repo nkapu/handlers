@@ -347,6 +347,13 @@
                 ], 
                 "name": "Firefox", 
                 "path": "Firefox.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ], 
         "presets": [
@@ -382,6 +389,17 @@
             {
                 "description": "Clones repo but needs UserInteraction", 
                 "value": "github-mac://openRepo/REPOURL"
+            }
+        ]
+    }, 
+    "gopher:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ]
     }, 
@@ -460,6 +478,13 @@
                 ], 
                 "name": "Chromium", 
                 "path": "Chromium.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ]
     }, 
@@ -495,6 +520,13 @@
                 ], 
                 "name": "Chromium", 
                 "path": "Chromium.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ]
     }, 
@@ -877,16 +909,23 @@
                 ], 
                 "name": "Outlook", 
                 "path": "Microsoft Outlook.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ], 
         "presets": [
             {
                 "description": "", 
-                "value": "mailto:frank@wwdcdemo.example.com:"
+                "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!"
             }, 
             {
                 "description": "", 
-                "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!"
+                "value": "mailto:frank@wwdcdemo.example.com:"
             }
         ], 
         "urls": [
@@ -910,7 +949,7 @@
         "presets": [
             {
                 "description": "", 
-                "value": "maps://?ll=50.894967,4.341626"
+                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
             }, 
             {
                 "description": "", 
@@ -918,11 +957,11 @@
             }, 
             {
                 "description": "", 
-                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
+                "value": "maps://?ll=50.894967,4.341626"
             }, 
             {
                 "description": "", 
-                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
+                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
             }
         ], 
         "urls": [
@@ -1042,6 +1081,28 @@
             {
                 "description": "Opens file in readonlymode", 
                 "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+            }
+        ]
+    }, 
+    "news:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
+            }
+        ]
+    }, 
+    "nntp:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ]
     }, 
@@ -1253,6 +1314,28 @@
             }
         ]
     }, 
+    "slack-mac:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Slack", 
+                "path": "Slack.app"
+            }
+        ]
+    }, 
+    "slack:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Slack", 
+                "path": "Slack.app"
+            }
+        ]
+    }, 
     "smb:": {
         "apps": [
             {
@@ -1289,6 +1372,13 @@
                 ], 
                 "name": "Terminal", 
                 "path": "Terminal.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ]
     }, 
@@ -1357,6 +1447,13 @@
                 ], 
                 "name": "Terminal", 
                 "path": "Terminal.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ], 
         "presets": [
@@ -1419,6 +1516,17 @@
             }
         ]
     }, 
+    "wais:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
+            }
+        ]
+    }, 
     "webcal:": {
         "apps": [
             {
@@ -1434,6 +1542,17 @@
             {
                 "description": "", 
                 "value": "webcal://localhost:10000?team_id=9999"
+            }
+        ]
+    }, 
+    "whois:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ]
     }, 
@@ -1550,6 +1669,13 @@
                 ], 
                 "name": "Terminal", 
                 "path": "Terminal.app"
+            }, 
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "iTerm", 
+                "path": "iTerm.app"
             }
         ], 
         "presets": [
