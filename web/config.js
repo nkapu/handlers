@@ -16,14 +16,15 @@ System.config({
   map: {
     "babel": "npm:babel-core@5.8.38",
     "babel-runtime": "npm:babel-runtime@5.8.38",
-    "bowser": "npm:bowser@1.0.0",
+    "bowser": "npm:bowser@1.3.0",
     "clean-css": "npm:clean-css@3.4.10",
     "core-js": "npm:core-js@1.2.6",
-    "css": "github:systemjs/plugin-css@0.1.20",
-    "jquery": "npm:jquery@2.2.2",
+    "css": "github:systemjs/plugin-css@0.1.23",
+    "jquery": "npm:jquery@3.0.0",
     "jquery-mobile": "npm:jquery-mobile@1.4.1",
+    "plugin-babel": "npm:systemjs-plugin-babel@0.0.12",
     "github:jspm/nodelibs-assert@0.1.0": {
-      "assert": "npm:assert@1.3.0"
+      "assert": "npm:assert@1.4.1"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
       "buffer": "npm:buffer@3.6.0"
@@ -49,7 +50,7 @@ System.config({
       "path-browserify": "npm:path-browserify@0.0.0"
     },
     "github:jspm/nodelibs-process@0.1.2": {
-      "process": "npm:process@0.11.2"
+      "process": "npm:process@0.11.5"
     },
     "github:jspm/nodelibs-stream@0.1.0": {
       "stream-browserify": "npm:stream-browserify@1.0.0"
@@ -60,13 +61,19 @@ System.config({
     "github:jspm/nodelibs-util@0.1.0": {
       "util": "npm:util@0.10.3"
     },
+    "github:jspm/nodelibs-vm@0.1.0": {
+      "vm-browserify": "npm:vm-browserify@0.0.4"
+    },
     "npm:amdefine@1.0.0": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "module": "github:jspm/nodelibs-module@0.1.0",
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:assert@1.3.0": {
+    "npm:assert@1.4.1": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
+      "process": "github:jspm/nodelibs-process@0.1.2",
       "util": "npm:util@0.10.3"
     },
     "npm:babel-runtime@5.8.38": {
@@ -120,7 +127,10 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:jquery-mobile@1.4.1": {
-      "jquery": "npm:jquery@2.2.2",
+      "jquery": "npm:jquery@3.0.0",
+      "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:jquery@3.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:os-browserify@0.1.2": {
@@ -129,8 +139,10 @@ System.config({
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
-    "npm:process@0.11.2": {
-      "assert": "github:jspm/nodelibs-assert@0.1.0"
+    "npm:process@0.11.5": {
+      "assert": "github:jspm/nodelibs-assert@0.1.0",
+      "fs": "github:jspm/nodelibs-fs@0.1.2",
+      "vm": "github:jspm/nodelibs-vm@0.1.0"
     },
     "npm:punycode@1.3.2": {
       "process": "github:jspm/nodelibs-process@0.1.2"
@@ -166,6 +178,9 @@ System.config({
     "npm:util@0.10.3": {
       "inherits": "npm:inherits@2.0.1",
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:vm-browserify@0.0.4": {
+      "indexof": "npm:indexof@0.0.1"
     }
   }
 });
