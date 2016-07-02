@@ -1,4 +1,12 @@
 {
+    "Slack:": {
+        "urls": [
+            {
+                "description": "OSX slack:// protocol handler javascript injection", 
+                "value": "https://hackerone.com/reports/79348"
+            }
+        ]
+    }, 
     "addressbook:": {
         "apps": [
             {
@@ -124,6 +132,18 @@
             }
         ]
     }, 
+    "bitcoin": {
+        "urls": [
+            {
+                "description": "Bitcoin Improvement Proposal 21: the URI Scheme", 
+                "value": "https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"
+            }, 
+            {
+                "description": "bitcoin: URL hander dissected", 
+                "value": "https://github.com/nkapu/handlers/blob/master/cases/bitcoin.md"
+            }
+        ]
+    }, 
     "bitcoin:": {
         "apps": [
             {
@@ -132,6 +152,16 @@
                 ], 
                 "name": "Bitcoin-Qt", 
                 "path": "Bitcoin-Qt.app"
+            }
+        ], 
+        "presets": [
+            {
+                "description": "Bitcoin Foundation Donation address with amount, label and message arguments.", 
+                "value": "bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=bitcoin&message=prevails"
+            }, 
+            {
+                "description": "Bitcoin URL with a payment request URL given as a query item.", 
+                "value": "bitcoin:?r=http://localhost:8888"
             }
         ]
     }, 
@@ -1553,6 +1583,17 @@
                 ], 
                 "name": "iTerm", 
                 "path": "iTerm.app"
+            }
+        ]
+    }, 
+    "wire:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ], 
+                "name": "Wire", 
+                "path": "Wire.app"
             }
         ]
     }, 

@@ -1,4 +1,16 @@
 {
+  "bitcoin:": {
+    "presets": [
+      {
+        "value": "bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=bitcoin&message=prevails",
+        "description": "Bitcoin Foundation Donation address with amount, label and message arguments."
+      },
+      {
+        "value": "bitcoin:?r=http://localhost:8888",
+        "description": "Bitcoin URL with a payment request URL given as a query item."
+      }
+    ]
+  },
   "steam:": {
     "presets": [
       {
