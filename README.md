@@ -28,7 +28,7 @@ python -m SimpleHTTPServer 8080
 This repository collects discovery, testing and instrumentation
 tooling for research in URL handlers.
 
-![Minimal Viable Product](doc/mvp-scaled.png)
+![Minimal Viable Product](https://raw.githubusercontent.com/nkapu/handlers/master/doc/mvp-scaled.png)
 
 ---
 
