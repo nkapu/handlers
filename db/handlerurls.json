@@ -1,86 +1,94 @@
 {
-  "steam:": {
-    "urls": [
-      {
-        "value": "http://revuln.com/files/ReVuln_Steam_Browser_Protocol_Insecurity.pdf",
-        "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)"
-      },
-      {
-        "value": "http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html",
-        "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities"
-      },
-      {
-        "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol",
-        "description": ""
-      }
-    ]
-  },
-  "map:": {
-    "urls": [
-      {
-        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html",
-        "description": "Apple URL Scheme Reference"
-      }
-    ]
-  },
-  "facetime:": {
-    "urls": [
-      {
-        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html",
-        "description": "Apple URL Scheme Reference"
-      }
-    ]
-  },
-  "facetime-audio:": {
-    "urls": [
-      {
-        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html",
-        "description": "Apple URL Scheme Reference"
-      }
-    ]
-  },
-  "mailto:": {
-    "urls": [
-      {
-        "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html",
-        "description": "Apple URL Scheme Reference"
-      }
-    ]
-  },
-  "afp:": {
-    "urls": [
-      {
-        "value": "https://support.apple.com/en-us/HT202181",
-        "description": "Mac OS X: Mounting shared folders using an afp://"
-      }
-    ]
-  },
-  "itms:": {
-    "urls": [
-      {
-        "value": "",
-        "description": ""
-      }
-    ]
-  },
-  "atom:": {
-    "urls": [
-      {
-        "value": "https://github.com/atom/atom/blob/master/src/browser/atom-application.coffee",
-        "description": "Atom source code with the openUrl function for the atom:// handler"
-      },
-      {
-        "value": "https://github.com/nkapu/handlers/blob/master/cases/atom.md",
-        "description": "atom:// URL hander(s) dissected"
-      }
-    ]
-  },
-  "Slack:": {
-    "urls": [
-      {
-        "value": "https://hackerone.com/reports/79348",
-        "description": "OSX slack:// protocol handler javascript injection"
-      }
-    ]
-  }
+    "afp:": {
+        "urls": [
+            {
+                "description": "Mac OS X: Mounting shared folders using an afp://", 
+                "value": "https://support.apple.com/en-us/HT202181"
+            }
+        ]
+    }, 
+    "aim": {
+        "urls": [
+            {
+                "description": "", 
+                "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
+            }
+        ]
+    }, 
+    "atom:": {
+        "urls": [
+            {
+                "description": "Atom source code with the openUrl function for the atom:// handler", 
+                "value": "https://github.com/atom/atom/blob/master/src/browser/atom-application.coffee"
+            }, 
+            {
+                "description": "atom:// URL hander(s) dissected", 
+                "value": "https://github.com/nkapu/handlers/blob/master/cases/atom.md"
+            }
+        ]
+    }, 
+    "facetime-audio:": {
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
+            }
+        ]
+    }, 
+    "facetime:": {
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
+            }
+        ]
+    }, 
+    "itms:": {
+        "urls": [
+            {
+                "description": "", 
+                "value": ""
+            }
+        ]
+    }, 
+    "mailto:": {
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html"
+            }
+        ]
+    }, 
+    "map:": {
+        "urls": [
+            {
+                "description": "Apple URL Scheme Reference", 
+                "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html"
+            }
+        ]
+    }, 
+    "slack:": {
+        "urls": [
+            {
+                "description": "OSX slack:// protocol handler javascript injection", 
+                "value": "https://hackerone.com/reports/79348"
+            }
+        ]
+    }, 
+    "steam:": {
+        "urls": [
+            {
+                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)", 
+                "value": "http://revuln.com/files/ReVuln_Steam_Browser_Protocol_Insecurity.pdf"
+            }, 
+            {
+                "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities", 
+                "value": "http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html"
+            }, 
+            {
+                "description": "", 
+                "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol"
+            }
+        ]
+    }
 }

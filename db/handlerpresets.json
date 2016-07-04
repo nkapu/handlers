@@ -1,198 +1,230 @@
 {
-  "steam:": {
-    "presets": [
-      {
-        "value": "steam://AddNonSteamGame",
-        "description": ""
-      },
-      {
-        "value": "steam://appnews/666",
-        "description": ""
-      },
-      {
-        "value": "steam://connect/127.0.0.1:27015",
-        "description": ""
-      },
-      {
-        "value": "steam://installaddon/halflifehd",
-        "description": ""
-      }
-    ]
-  },
-  "map:": {
-    "presets": [
-      {
-        "value": "maps://?ll=50.894967,4.341626",
-        "description": ""
-      },
-      {
-        "value": "maps://?daddr=San+Francisco&dirflg=d&t=h",
-        "description": ""
-      },
-      {
-        "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r",
-        "description": ""
-      },
-      {
-        "value": "maps://?address=1,Infinite+Loop,Cupertino,California",
-        "description": ""
-      }
-    ]
-  },
-  "facetime:": {
-    "presets": [
-      {
-        "value": "facetime:",
-        "description": ""
-      },
-      {
-        "value": "facetime://user@example.com",
-        "description": ""
-      }
-    ]
-  },
-  "facetime-audio:": {
-    "presets": [
-      {
-        "value": "facetime-audio:",
-        "description": ""
-      },
-      {
-        "value": "facetime-audio://user@example.com",
-        "description": ""
-      }
-    ]
-  },
-  "mailto:": {
-    "presets": [
-      {
-        "value": "mailto:frank@wwdcdemo.example.com:",
-        "description": ""
-      },
-      {
-        "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!",
-        "description": ""
-      }
-    ]
-  },
-  "afp:": {
-    "presets": [
-      {
-        "value": "afp://myserver.mydomain.com/Sharepoint/Folder",
-        "description": ""
-      }
-    ]
-  },
-  "itms:": {
-    "presets": [
-      {
-        "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580",
-        "description": "Opens Spotify in App Store"
-      }
-    ]
-  },
-  "github-mac:": {
-    "presets": [
-      {
-        "value": "github-mac://openRepo/REPOURL",
-        "description": "Clones repo but needs UserInteraction"
-      }
-    ]
-  },
-  "smb:": {
-    "presets": [
-      {
-        "value": "smb://guest:f@crashterminal.org/tmp/",
-        "description": ""
-      }
-    ]
-  },
-  "x-man-page:": {
-    "presets": [
-      {
-        "value": "x-man-page://1/man",
-        "description": "Opens man page"
-      }
-    ]
-  },
-  "ftp:": {
-    "presets": [
-      {
-        "value": "ftp://guest:guest@ftp.funet.fi/pub/",
-        "description": ""
-      }
-    ]
-  },
-  "telnet:": {
-    "presets": [
-      {
-        "value": "telnet://crashterminal.org:10000",
-        "description": ""
-      }
-    ]
-  },
-  "vnc:": {
-    "presets": [
-      {
-        "value": "vnc://user:password@funet.fi:5903",
-        "description": ""
-      }
-    ]
-  },
-  "x-apple.systempreferences:": {
-    "presets": [
-      {
-        "value": "x-apple.systempreferences://com.apple.preference.security?Firewall",
-        "description": ""
-      }
-    ]
-  },
-  "webcal:": {
-    "presets": [
-      {
-        "value": "webcal://localhost:10000?team_id=9999",
-        "description": ""
-      }
-    ]
-  },
-  "addressbook:": {
-    "presets": [
-      {
-        "value": "addressbook://%@?edit",
-        "description": "[aPerson uniqueId]"
-      }
-    ]
-  },
-  "ms-word:": {
-    "presets": [
-      {
-        "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx",
-        "description": "Opens file in readonlymode"
-      }
-    ]
-  },
-  "word:": {
-    "presets": [
-      {
-        "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx",
-        "description": "Opens file in readonlymode"
-      }
-    ]
-  },
-  "x-install-osx-assistant:": {
-    "presets": [
-      {
-        "value": "x-install-osx-assistant://",
-        "description": "Starts OS X El Capitan installerapp"
-      }
-    ]
-  },
-  "x-install-osx-assistant:": {
-    "presets": [
-      {
-        "value": "x-install-osx-assistant://",
-        "description": "Starts OS X El Capitan installerapp"
-      }
-    ]
-  }
+    "addressbook:": {
+        "presets": [
+            {
+                "description": "[aPerson uniqueId]", 
+                "value": "addressbook://%@?edit"
+            }
+        ]
+    }, 
+    "afp:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "afp://myserver.mydomain.com/Sharepoint/Folder"
+            }
+        ]
+    }, 
+    "aim": {
+        "presets": [
+            {
+                "description": "", 
+                "value": ""
+            }
+        ]
+    }, 
+    "applefeedback": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "applefeedback://"
+            }
+        ]
+    }, 
+    "applescript": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "applescript://"
+            }
+        ]
+    }, 
+    "apupdate": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "apupdate://"
+            }
+        ]
+    }, 
+    "atom": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "atom://"
+            }
+        ]
+    }, 
+    "facetime-audio:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "facetime-audio:"
+            }, 
+            {
+                "description": "", 
+                "value": "facetime-audio://user@example.com"
+            }
+        ]
+    }, 
+    "facetime:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "facetime:"
+            }, 
+            {
+                "description": "", 
+                "value": "facetime://user@example.com"
+            }
+        ]
+    }, 
+    "ftp:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "ftp://guest:guest@ftp.funet.fi/pub/"
+            }
+        ]
+    }, 
+    "github-mac:": {
+        "presets": [
+            {
+                "description": "Clones repo but needs UserInteraction", 
+                "value": "github-mac://openRepo/REPOURL"
+            }
+        ]
+    }, 
+    "itms:": {
+        "presets": [
+            {
+                "description": "Opens Spotify in App Store", 
+                "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580"
+            }
+        ]
+    }, 
+    "mailto:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "mailto:frank@wwdcdemo.example.com:"
+            }, 
+            {
+                "description": "", 
+                "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!"
+            }
+        ]
+    }, 
+    "map:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "maps://?ll=50.894967,4.341626"
+            }, 
+            {
+                "description": "", 
+                "value": "maps://?daddr=San+Francisco&dirflg=d&t=h"
+            }, 
+            {
+                "description": "", 
+                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
+            }, 
+            {
+                "description": "", 
+                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
+            }
+        ]
+    }, 
+    "ms-word:": {
+        "presets": [
+            {
+                "description": "Opens file in readonly mode", 
+                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+            }
+        ]
+    }, 
+    "smb:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "smb://guest:f@crashterminal.org/tmp/"
+            }
+        ]
+    }, 
+    "steam:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "steam://AddNonSteamGame"
+            }, 
+            {
+                "description": "", 
+                "value": "steam://appnews/666"
+            }, 
+            {
+                "description": "", 
+                "value": "steam://connect/127.0.0.1:27015"
+            }, 
+            {
+                "description": "", 
+                "value": "steam://installaddon/halflifehd"
+            }
+        ]
+    }, 
+    "telnet:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "telnet://crashterminal.org:10000"
+            }
+        ]
+    }, 
+    "vnc:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "vnc://user:password@funet.fi:5903"
+            }
+        ]
+    }, 
+    "webcal:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "webcal://localhost:10000?team_id=9999"
+            }
+        ]
+    }, 
+    "word:": {
+        "presets": [
+            {
+                "description": "Opens file in readonly mode", 
+                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+            }
+        ]
+    }, 
+    "x-apple.systempreferences:": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "x-apple.systempreferences://com.apple.preference.security?Firewall"
+            }
+        ]
+    }, 
+    "x-install-osx-assistant:": {
+        "presets": [
+            {
+                "description": "Starts OS X El Capitan installerapp", 
+                "value": "x-install-osx-assistant://"
+            }
+        ]
+    }, 
+    "x-man-page:": {
+        "presets": [
+            {
+                "description": "Opens man page", 
+                "value": "x-man-page://1/man"
+            }
+        ]
+    }
 }
