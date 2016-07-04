@@ -2,9 +2,13 @@
 
 URL handlers are the bits in the front of the URLs (e.g. http:, https:, ftp:, skype:). They add things a web page can do to you and your device. Surprising applications have a nasty habit to register these without asking.
 
+---
+
 ## Try it out on the web
 
 Check out http://hack.urlhandlers.info, it gives you a JavaScript based exploration and testing interface with limited functionality (only canned urlhandler information is available).
+
+---
 
 ## Try it out locally
 
@@ -17,22 +21,39 @@ cd web
 python -m SimpleHTTPServer 8080
 ```
 
+---
+
 ## Tools
 
-WIP
+This repository collects discovery, testing and instrumentation
+tooling for research in URL handlers.
+
+![Minimal Viable Product][doc/mvp.jpg]
+
+---
 
 ### Discovery
 
+ * OSX: [Python based discovery tool](osx/handlers-list.py)
+ * Windows: Windows Powershell Script prototype [WIP]
+
+---
+
 ### Testing
 
-* As direct as possible
-  * https://developer.apple.com/library/mac/documentation/Carbon/Reference/LaunchServicesReference/#//apple_ref/c/func/LSOpenURLsWithRole
-* Open
-* Safari / Other browsers
- * HTML file with direct invocation
- * HTML redirects
+ * [Launcher](osx/open.swift) for the [OSX Launch Services](https://developer.apple.com/library/mac/documentation/Carbon/Reference/LaunchServicesReference/#//apple_ref/c/func/LSOpenURLsWithRole)
+ * OSX `open` CLI tool
+ * Online JavaScript based [testing UI for the Browsers](http://hack.urlhandlers.info)
+  * HTML file with direct invocation (e.g. iframe)
+  * HTML redirects
+
+---
 
 ### Instrumentation
+
+[WIP]
+
+---
 
 ## Developing
 
@@ -45,14 +66,23 @@ sudo pip install flake8
 cd <projectdir>
 npm install
 node_modules/.bin/jspm install
-# optionally install Atom from atom.io and then these Atom packages
+```
+
+We use JSPM for the front/client-side JavaScript dependency bundling (see http://jspm.io/docs/getting-started.html).
+
+---
+
+Optionally install [Atom](http://atom.io) and then these Atom packages:
+
+```shell
 apm install linter
 apm install linter-flake8
 apm install linter-htmlhint
 apm install linter-jsonlint
 apm install linter-eslint
 ```
-We use JSPM for the front/client-side JavaScript dependency bundling (see http://jspm.io/docs/getting-started.html).
+
+---
 
 ### Building
 
@@ -70,6 +100,8 @@ $(npm bin)/jspm unbundle
 
 https://github.com/jspm/jspm-cli/blob/master/docs/production-workflows.md
 
+---
+
 ### Debugging
 
 Random example of debugging the JavaScript modules from the console:
@@ -79,6 +111,8 @@ SystemJS.import('./browserinfo').then(function(_) {
   console.log(_.browserinfo.shortinfo());
 });
 ```
+
+---
 
 ### Contributing to the "crowd sourced" handler info
 
@@ -90,6 +124,8 @@ cp db/handlerinfo.json db/handlerinfo.json.orig
 git commit -a
 git push
 ```
+
+---
 
 ### Publishing to the GitHub pages (limited functionality)
 
@@ -105,7 +141,9 @@ git subtree push --prefix web origin gh-pages
 ```
 ... and go to http://<USERNAME>.github.io/<REPOSITORY>.
 
-## Plans for crowd sourced vulnerability research experiment
+---
+
+## Plans for a crowd sourced vulnerability research experiment
 
  1. Good (green) and Bad (red) URL distribution experiment
   * Good URL has a good cert and should work
@@ -118,6 +156,6 @@ git subtree push --prefix web origin gh-pages
   * List of presets
   * some feedback mechanism?
   * ...
- 1. Load the x-mas tree of embedded URLs page
+ 1. Load the X-mas tree of embedded URLs page
   * Instagram or Tweet the resulting screenshots or videos of what happens
   * ...
