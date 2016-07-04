@@ -55,6 +55,18 @@
             }
         ]
     }, 
+    "bitcoin:": {
+        "presets": [
+            {
+                "description": "Bitcoin Foundation Donation address with amount, label and message arguments.", 
+                "value": "bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=bitcoin&message=prevails"
+            }, 
+            {
+                "description": "Bitcoin URL with a payment request URL given as a query item.", 
+                "value": "bitcoin:?r=http://localhost:8888"
+            }
+        ]
+    }, 
     "facetime-audio:": {
         "presets": [
             {
