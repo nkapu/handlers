@@ -28,7 +28,7 @@ python -m SimpleHTTPServer 8080
 This repository collects discovery, testing and instrumentation
 tooling for research in URL handlers.
 
-![Minimal Viable Product][doc/mvp.jpg]
+![Minimal Viable Product](doc/mvp.jpg)
 
 ---
 
