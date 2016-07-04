@@ -27,6 +27,18 @@
             }
         ]
     }, 
+    "bitcoin": {
+        "urls": [
+            {
+                "description": "Bitcoin Improvement Proposal 21: the URI Scheme", 
+                "value": "https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"
+            }, 
+            {
+                "description": "bitcoin: URL hander dissected", 
+                "value": "https://github.com/nkapu/handlers/blob/master/cases/bitcoin.md"
+            }
+        ]
+    }, 
     "facetime-audio:": {
         "urls": [
             {
@@ -46,8 +58,8 @@
     "itms:": {
         "urls": [
             {
-                "description": "", 
-                "value": ""
+                "description": "Apple iTunes itms:// URL Protocol Handler Remote Arbitrary Code Execution Vulnerability", 
+                "value": "https://tools.cisco.com/security/center/viewAlert.x?alertId=18405"
             }
         ]
     }, 

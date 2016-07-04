@@ -24,6 +24,7 @@ def itemize(data):
     for scheme, info in data.items():
         values = []
 
+        values.append(scheme)
         for preset in info.get("presets", []):
             value = preset.get("value", None)
             if not value:
