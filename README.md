@@ -68,9 +68,7 @@ npm install
 node_modules/.bin/jspm install
 ```
 
-We use JSPM for the front/client-side JavaScript dependency bundling (see http://jspm.io/docs/getting-started.html).
-
----
+We use [JSPM](http://jspm.io/docs/getting-started.html) for the front/client-side JavaScript dependency bundling.
 
 Optionally install [Atom](http://atom.io) and then these Atom packages:
 
