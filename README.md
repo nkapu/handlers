@@ -12,7 +12,7 @@ Check out http://hack.urlhandlers.info, it gives you a JavaScript based explorat
 
 ## Try it out locally
 
-If you plan to dig deeper you can you can use these tools locally. A quick start to get more out of this on OSX:
+If you plan to dig deeper you can use these tools locally. A quick start to get more out of this on OSX:
 
 ```shell
 git clone https://github.com/nkapu/handlers.git
