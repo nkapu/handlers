@@ -2,103 +2,103 @@
     "afp:": {
         "urls": [
             {
-                "description": "Mac OS X: Mounting shared folders using an afp://", 
+                "description": "Mac OS X: Mounting shared folders using an afp://",
                 "value": "https://support.apple.com/en-us/HT202181"
             }
         ]
-    }, 
+    },
     "aim": {
         "urls": [
             {
-                "description": "", 
+                "description": "",
                 "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
             }
         ]
-    }, 
+    },
     "atom:": {
         "urls": [
             {
-                "description": "Atom source code with the openUrl function for the atom:// handler", 
+                "description": "Atom source code with the openUrl function for the atom:// handler",
                 "value": "https://github.com/atom/atom/blob/master/src/browser/atom-application.coffee"
-            }, 
+            },
             {
-                "description": "atom:// URL hander(s) dissected", 
+                "description": "atom:// URL hander(s) dissected",
                 "value": "https://github.com/nkapu/handlers/blob/master/cases/atom.md"
             }
         ]
-    }, 
+    },
     "bitcoin": {
         "urls": [
             {
-                "description": "Bitcoin Improvement Proposal 21: the URI Scheme", 
+                "description": "Bitcoin Improvement Proposal 21: the URI Scheme",
                 "value": "https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"
-            }, 
+            },
             {
-                "description": "bitcoin: URL hander dissected", 
+                "description": "bitcoin: URL hander dissected",
                 "value": "https://github.com/nkapu/handlers/blob/master/cases/bitcoin.md"
             }
         ]
-    }, 
+    },
     "facetime-audio:": {
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
             }
         ]
-    }, 
+    },
     "facetime:": {
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/FacetimeLinks/FacetimeLinks.html"
             }
         ]
-    }, 
+    },
     "itms:": {
         "urls": [
             {
-                "description": "Apple iTunes itms:// URL Protocol Handler Remote Arbitrary Code Execution Vulnerability", 
+                "description": "Apple iTunes itms:// URL Protocol Handler Remote Arbitrary Code Execution Vulnerability",
                 "value": "https://tools.cisco.com/security/center/viewAlert.x?alertId=18405"
             }
         ]
-    }, 
+    },
     "mailto:": {
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MailLinks/MailLinks.html"
             }
         ]
-    }, 
+    },
     "map:": {
         "urls": [
             {
-                "description": "Apple URL Scheme Reference", 
+                "description": "Apple URL Scheme Reference",
                 "value": "https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html"
             }
         ]
-    }, 
+    },
     "slack:": {
         "urls": [
             {
-                "description": "OSX slack:// protocol handler javascript injection", 
+                "description": "OSX slack:// protocol handler javascript injection",
                 "value": "https://hackerone.com/reports/79348"
             }
         ]
-    }, 
+    },
     "steam:": {
         "urls": [
             {
-                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)", 
+                "description": "STEAM BROWSER PROTOCOL INSECURITY (WHEN LOCAL BUGS GO REMOTE)",
                 "value": "http://revuln.com/files/ReVuln_Steam_Browser_Protocol_Insecurity.pdf"
-            }, 
+            },
             {
-                "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities", 
+                "description": "Researchers: Steam URL protocol can be abused to exploit game vulnerabilities",
                 "value": "http://www.pcworld.com/article/2012128/researchers-steam-url-protocol-can-be-abused-to-exploit-game-vulnerabilities.html"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol"
             }
         ]
