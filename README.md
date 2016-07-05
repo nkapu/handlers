@@ -62,6 +62,7 @@ tooling for research in URL handlers.
 ```shell
 sudo easy_install pip
 sudo pip install flake8
+sudo pip install tox
 # Install Node.js from https://nodejs.org/en/download/ and then
 cd <projectdir>
 npm install
