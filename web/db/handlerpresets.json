@@ -2,247 +2,255 @@
     "addressbook:": {
         "presets": [
             {
-                "description": "[aPerson uniqueId]", 
+                "description": "[aPerson uniqueId]",
                 "value": "addressbook://%@?edit"
             }
         ]
-    }, 
+    },
     "afp:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "afp://myserver.mydomain.com/Sharepoint/Folder"
             }
         ]
-    }, 
+    },
     "aim": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": ""
             }
         ]
-    }, 
+    },
     "applefeedback": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "applefeedback://"
             }
         ]
-    }, 
+    },
     "applescript": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "applescript://"
             }
         ]
-    }, 
+    },
     "apupdate": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "apupdate://"
             }
         ]
-    }, 
+    },
     "atom": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "atom://"
             }
         ]
-    }, 
+    },
     "bitcoin:": {
         "presets": [
             {
-                "description": "Bitcoin Foundation Donation address with amount, label and message arguments.", 
+                "description": "Bitcoin Foundation Donation address with amount, label and message arguments.",
                 "value": "bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=bitcoin&message=prevails"
-            }, 
+            },
             {
-                "description": "Bitcoin URL with a payment request URL given as a query item.", 
+                "description": "Bitcoin URL with a payment request URL given as a query item.",
                 "value": "bitcoin:?r=http://localhost:8888"
             }
         ]
-    }, 
+    },
     "facetime-audio:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime-audio:"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime-audio://user@example.com"
             }
         ]
-    }, 
+    },
     "facetime:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime:"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "facetime://user@example.com"
             }
         ]
-    }, 
+    },
     "ftp:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "ftp://guest:guest@ftp.funet.fi/pub/"
             }
         ]
-    }, 
+    },
     "github-mac:": {
         "presets": [
             {
-                "description": "Clones repo but needs UserInteraction", 
+                "description": "Clones repo but needs UserInteraction",
                 "value": "github-mac://openRepo/REPOURL"
             }
         ]
-    }, 
+    },
+    "help:": {
+        "presets": [
+            {
+                "description": "Opens mac help",
+                "value": "help://"
+            }
+        ]
+    },
     "itms:": {
         "presets": [
             {
-                "description": "Opens Spotify in App Store", 
+                "description": "Opens Spotify in App Store",
                 "value": "itms://geo.itunes.apple.com/us/app/spotify-music/id324684580"
             }
         ]
-    }, 
+    },
     "mailto:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "mailto:frank@wwdcdemo.example.com:"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "mailto:foo@example.com?cc=bar@example.com&subject=Greetings%20from%20Cupertino!&body=Wish%20you%20were%20here!"
             }
         ]
-    }, 
+    },
     "map:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?ll=50.894967,4.341626"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?daddr=San+Francisco&dirflg=d&t=h"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
             }
         ]
-    }, 
+    },
     "ms-word:": {
         "presets": [
             {
-                "description": "Opens file in readonly mode", 
+                "description": "Opens file in readonly mode",
                 "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
         ]
-    }, 
+    },
     "slack:": {
         "presets": [
             {
-                "description": "Opens man page", 
+                "description": "Opens man page",
                 "value": "x-man-page://1/man"
             }
         ]
-    }, 
+    },
     "smb:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "smb://guest:f@crashterminal.org/tmp/"
             }
         ]
-    }, 
+    },
     "steam:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://AddNonSteamGame"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://appnews/666"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://connect/127.0.0.1:27015"
-            }, 
+            },
             {
-                "description": "", 
+                "description": "",
                 "value": "steam://installaddon/halflifehd"
             }
         ]
-    }, 
+    },
     "telnet:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "telnet://crashterminal.org:10000"
             }
         ]
-    }, 
+    },
     "vnc:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "vnc://user:password@funet.fi:5903"
             }
         ]
-    }, 
+    },
     "webcal:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "webcal://localhost:10000?team_id=9999"
             }
         ]
-    }, 
+    },
     "word:": {
         "presets": [
             {
-                "description": "Opens file in readonly mode", 
+                "description": "Opens file in readonly mode",
                 "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
         ]
-    }, 
+    },
     "x-apple.systempreferences:": {
         "presets": [
             {
-                "description": "", 
+                "description": "",
                 "value": "x-apple.systempreferences://com.apple.preference.security?Firewall"
             }
         ]
-    }, 
+    },
     "x-install-osx-assistant:": {
         "presets": [
             {
-                "description": "Starts OS X El Capitan installerapp", 
+                "description": "Starts OS X El Capitan installerapp",
                 "value": "x-install-osx-assistant://"
             }
         ]
-    }, 
+    },
     "x-man-page:": {
         "presets": [
             {
-                "description": "Opens man page", 
+                "description": "Opens man page",
                 "value": "x-man-page://1/man"
             }
         ]

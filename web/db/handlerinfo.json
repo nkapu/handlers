@@ -1,12 +1,4 @@
 {
-    "Slack:": {
-        "urls": [
-            {
-                "description": "OSX slack:// protocol handler javascript injection", 
-                "value": "https://hackerone.com/reports/79348"
-            }
-        ]
-    }, 
     "addressbook:": {
         "apps": [
             {
@@ -50,6 +42,20 @@
             }
         ]
     }, 
+    "aim": {
+        "presets": [
+            {
+                "description": "", 
+                "value": ""
+            }
+        ], 
+        "urls": [
+            {
+                "description": "", 
+                "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
+            }
+        ]
+    }, 
     "aim:": {
         "apps": [
             {
@@ -75,6 +81,14 @@
             }
         ]
     }, 
+    "applefeedback": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "applefeedback://"
+            }
+        ]
+    }, 
     "applefeedback:": {
         "apps": [
             {
@@ -84,6 +98,14 @@
                 ], 
                 "name": "Feedback Assistant", 
                 "path": "Feedback Assistant.app"
+            }
+        ]
+    }, 
+    "applescript": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "applescript://"
             }
         ]
     }, 
@@ -99,6 +121,14 @@
             }
         ]
     }, 
+    "apupdate": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "apupdate://"
+            }
+        ]
+    }, 
     "apupdate:": {
         "apps": [
             {
@@ -108,6 +138,14 @@
                 ], 
                 "name": "AirPort Utility", 
                 "path": "AirPort Utility.app"
+            }
+        ]
+    }, 
+    "atom": {
+        "presets": [
+            {
+                "description": "", 
+                "value": "atom://"
             }
         ]
     }, 
@@ -444,6 +482,12 @@
                 "name": "Help Viewer", 
                 "path": "HelpViewer.app"
             }
+        ], 
+        "presets": [
+            {
+                "description": "Opens mac help", 
+                "value": "help://"
+            }
         ]
     }, 
     "hpevent:": {
@@ -778,6 +822,10 @@
             {
                 "description": "", 
                 "value": ""
+            }, 
+            {
+                "description": "Apple iTunes itms:// URL Protocol Handler Remote Arbitrary Code Execution Vulnerability", 
+                "value": "https://tools.cisco.com/security/center/viewAlert.x?alertId=18405"
             }
         ]
     }, 
@@ -1109,6 +1157,10 @@
         ], 
         "presets": [
             {
+                "description": "Opens file in readonly mode", 
+                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+            }, 
+            {
                 "description": "Opens file in readonlymode", 
                 "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
@@ -1364,6 +1416,18 @@
                 "name": "Slack", 
                 "path": "Slack.app"
             }
+        ], 
+        "presets": [
+            {
+                "description": "Opens man page", 
+                "value": "x-man-page://1/man"
+            }
+        ], 
+        "urls": [
+            {
+                "description": "OSX slack:// protocol handler javascript injection", 
+                "value": "https://hackerone.com/reports/79348"
+            }
         ]
     }, 
     "smb:": {
@@ -1608,6 +1672,10 @@
             }
         ], 
         "presets": [
+            {
+                "description": "Opens file in readonly mode", 
+                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+            }, 
             {
                 "description": "Opens file in readonlymode", 
                 "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
