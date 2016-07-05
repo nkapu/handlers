@@ -16,7 +16,7 @@ If you plan to dig deeper you can use these tools locally. A quick start to get 
 
 ```shell
 git clone https://github.com/nkapu/handlers.git
-cd web
+cd handlers/web
 ../osx/handlers-list.py > handlers.json
 python -m SimpleHTTPServer 8080
 ```
