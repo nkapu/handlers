@@ -2,6 +2,7 @@
 
 import json
 import heapq
+import pprint
 
 from optparse import OptionParser
 
@@ -111,10 +112,8 @@ for arg in args:
         currentdict = merge(currentdict, nextdict)
 
 if options.pretty:
-    import pprint
     pp = pprint.PrettyPrinter(indent=4)
     output = pp.pformat(currentdict)
 else:
-    import json
     output = json.dumps(currentdict, indent=4, sort_keys=True)
 print clean_spaces(output)
