@@ -17,6 +17,17 @@
             }
         ]
     },
+    "adiumxtra:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
     "afp:": {
         "apps": [
             {
@@ -66,6 +77,24 @@
                 ],
                 "name": "Messages",
                 "path": "Messages.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
+    "alfred:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Alfred 3",
+                "path": "Alfred 3.app"
             }
         ]
     },
@@ -334,6 +363,17 @@
             }
         ]
     },
+    "feed:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Thunderbird",
+                "path": "Thunderbird.app"
+            }
+        ]
+    },
     "file:": {
         "apps": [
             {
@@ -468,6 +508,17 @@
                 ],
                 "name": "iTerm",
                 "path": "iTerm.app"
+            }
+        ]
+    },
+    "gtalk:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
             }
         ]
     },
@@ -705,6 +756,17 @@
             }
         ]
     },
+    "irc:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
     "itals:": {
         "apps": [
             {
@@ -913,6 +975,17 @@
             }
         ]
     },
+    "jabber:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
     "launch-excel:": {
         "apps": [
             {
@@ -985,8 +1058,22 @@
                 "flags": [
                     "url-type"
                 ],
+                "name": "Emacs",
+                "path": "Emacs.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
                 "name": "Outlook",
                 "path": "Microsoft Outlook.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Thunderbird",
+                "path": "Thunderbird.app"
             },
             {
                 "flags": [
@@ -1166,8 +1253,37 @@
             }
         ]
     },
+    "msim:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
+    "msn:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
     "news:": {
         "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Thunderbird",
+                "path": "Thunderbird.app"
+            },
             {
                 "flags": [
                     "url-type"
@@ -1580,6 +1696,17 @@
             }
         ]
     },
+    "twitterreply:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
     "udp:": {
         "apps": [
             {
@@ -1794,6 +1921,18 @@
             }
         ]
     },
+    "x-maps-mapitemhandles:": {
+        "apps": [
+            {
+                "flags": [
+                    "apple-internal",
+                    "url-type"
+                ],
+                "name": "Maps",
+                "path": "Maps.app"
+            }
+        ]
+    },
     "xmpp:": {
         "apps": [
             {
@@ -1804,6 +1943,35 @@
                 ],
                 "name": "Messages",
                 "path": "Messages.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
+    "yahoo:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
+            }
+        ]
+    },
+    "ymsgr:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adium",
+                "path": "Adium.app"
             }
         ]
     }
