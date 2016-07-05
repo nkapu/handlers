@@ -79,6 +79,26 @@ def merge(left, right):
 
     return left if left == right else [left, right]
 
+
+def clean_spaces(string):
+    r"""
+    Return the string with the trailing whitespace (excluding line separators)
+    from each line removed, as well all trailing whitespace (including line
+    separators) removed from the whole string.
+
+    >>> clean_spaces("1 \n2\t\n3  \n")
+    '1\n2\n3'
+
+    Lines are normalized to end with LF.
+
+    >>> clean_spaces("1\n2\r3\r\n4")
+    '1\n2\n3\n4'
+    """
+
+    lines = string.rstrip().splitlines()
+    return "\n".join(line.rstrip() for line in lines)
+
+
 currentdict = {}
 
 for arg in args:
@@ -93,7 +113,8 @@ for arg in args:
 if options.pretty:
     import pprint
     pp = pprint.PrettyPrinter(indent=4)
-    pp.pprint(currentdict)
+    output = pp.pformat(currentdict)
 else:
     import json
-    print(json.dumps(currentdict, indent=4, sort_keys=True))
+    output = json.dumps(currentdict, indent=4, sort_keys=True)
+print clean_spaces(output)
