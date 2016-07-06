@@ -12,6 +12,35 @@ System.config({
     "github:*": "jspm_packages/github/*",
     "npm:*": "jspm_packages/npm/*"
   },
+  bundles: {
+    "build.js": [
+      "handlers.js",
+      "handlerinfo.js",
+      "npm:babel-runtime@5.8.38/core-js/object/keys.js",
+      "npm:core-js@1.2.6/library/fn/object/keys.js",
+      "npm:core-js@1.2.6/library/modules/$.core.js",
+      "npm:core-js@1.2.6/library/modules/es6.object.keys.js",
+      "npm:core-js@1.2.6/library/modules/$.object-sap.js",
+      "npm:core-js@1.2.6/library/modules/$.fails.js",
+      "npm:core-js@1.2.6/library/modules/$.export.js",
+      "npm:core-js@1.2.6/library/modules/$.ctx.js",
+      "npm:core-js@1.2.6/library/modules/$.a-function.js",
+      "npm:core-js@1.2.6/library/modules/$.global.js",
+      "npm:core-js@1.2.6/library/modules/$.to-object.js",
+      "npm:core-js@1.2.6/library/modules/$.defined.js",
+      "browserinfo.js",
+      "npm:bowser@1.3.0.js",
+      "npm:bowser@1.3.0/src/bowser.js",
+      "npm:jquery-mobile@1.4.1/dist/jquery.mobile.js",
+      "github:jspm/nodelibs-process@0.1.2.js",
+      "github:jspm/nodelibs-process@0.1.2/index.js",
+      "npm:process@0.11.5.js",
+      "npm:process@0.11.5/browser.js",
+      "npm:jquery@2.2.2.js",
+      "npm:jquery@2.2.2/dist/jquery.js",
+      "npm:jquery-mobile@1.4.1/dist/jquery.mobile.min.css!github:systemjs/plugin-css@0.1.23.js"
+    ]
+  },
 
   map: {
     "babel": "npm:babel-core@5.8.38",
@@ -20,7 +49,7 @@ System.config({
     "clean-css": "npm:clean-css@3.4.10",
     "core-js": "npm:core-js@1.2.6",
     "css": "github:systemjs/plugin-css@0.1.23",
-    "jquery": "npm:jquery@3.0.0",
+    "jquery": "npm:jquery@2.2.2",
     "jquery-mobile": "npm:jquery-mobile@1.4.1",
     "plugin-babel": "npm:systemjs-plugin-babel@0.0.12",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -127,10 +156,7 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:jquery-mobile@1.4.1": {
-      "jquery": "npm:jquery@3.0.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
-    },
-    "npm:jquery@3.0.0": {
+      "jquery": "npm:jquery@2.2.2",
       "process": "github:jspm/nodelibs-process@0.1.2"
     },
     "npm:os-browserify@0.1.2": {
