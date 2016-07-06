@@ -655,6 +655,18 @@
             }
         ]
     },
+    "ibook:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "https://support.apple.com/en-us/HT202929"
+            },
+            {
+                "description": "",
+                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
+            }
+        ]
+    },
     "ibooks:": {
         "apps": [
             {
@@ -668,8 +680,8 @@
         ],
         "presets": [
             {
-                "description": "Opens ibooks",
-                "value": "ibooks://"
+                "description": "",
+                "value": "ibooks://assetid/888107968#page(10)"
             }
         ]
     },
@@ -683,12 +695,6 @@
                 "name": "Calendar",
                 "path": "Calendar.app"
             }
-        ],
-        "presets": [
-            {
-                "description": "",
-                "value": "ical://"
-            }
         ]
     },
     "ichat:": {
@@ -701,12 +707,6 @@
                 ],
                 "name": "Messages",
                 "path": "Messages.app"
-            }
-        ],
-        "presets": [
-            {
-                "description": "",
-                "value": "ichat://"
             }
         ]
     },
@@ -732,12 +732,6 @@
                 ],
                 "name": "Messages",
                 "path": "Messages.app"
-            }
-        ],
-        "presets": [
-            {
-                "description": "",
-                "value": "im://"
             }
         ]
     },
