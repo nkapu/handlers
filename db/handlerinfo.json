@@ -613,7 +613,7 @@
         "presets": [
             {
                 "description": "",
-                "value": "http://hack.urlhandlers.info:80/bblaah?a=1&b=c"
+                "value": "http://hack.urlhandlers.info:80/index.html?a=1&b=c"
             }
         ]
     },
@@ -661,7 +661,7 @@
         "presets": [
             {
                 "description": "",
-                "value": "https://github.com/ouspg/urlhandlers:443/blaah?a=1&b=c"
+                "value": "https://github.com:443/ouspg/urlhandlers/?a=1&b=c"
             }
         ]
     },
