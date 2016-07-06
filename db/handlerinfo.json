@@ -665,6 +665,12 @@
                 "name": "iBooks",
                 "path": "iBooks.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "Opens ibooks",
+                "value": "ibooks://"
+            }
         ]
     },
     "ical:": {
@@ -676,6 +682,12 @@
                 ],
                 "name": "Calendar",
                 "path": "Calendar.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "ical://"
             }
         ]
     },
@@ -689,6 +701,12 @@
                 ],
                 "name": "Messages",
                 "path": "Messages.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "ichat://"
             }
         ]
     },
@@ -714,6 +732,12 @@
                 ],
                 "name": "Messages",
                 "path": "Messages.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "im://"
             }
         ]
     },
