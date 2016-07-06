@@ -55,6 +55,18 @@
             }
         ]
     },
+    "ibook:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "https://support.apple.com/en-us/HT202929"
+            },
+            {
+                "description": "",
+                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
+            }
+        ]
+    },
     "itms:": {
         "urls": [
             {

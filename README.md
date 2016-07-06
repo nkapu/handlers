@@ -158,3 +158,10 @@ git subtree push --prefix web origin gh-pages
  1. Load the X-mas tree of embedded URLs page
   * Instagram or Tweet the resulting screenshots or videos of what happens
   * ...
+
+---
+
+## References
+
+* http://handleopenurl.com/
+* http://wiki.akosma.com/IPhone_URL_Schemes

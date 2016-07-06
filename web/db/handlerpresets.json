@@ -15,46 +15,6 @@
             }
         ]
     },
-    "aim": {
-        "presets": [
-            {
-                "description": "",
-                "value": ""
-            }
-        ]
-    },
-    "applefeedback": {
-        "presets": [
-            {
-                "description": "",
-                "value": "applefeedback://"
-            }
-        ]
-    },
-    "applescript": {
-        "presets": [
-            {
-                "description": "",
-                "value": "applescript://"
-            }
-        ]
-    },
-    "apupdate": {
-        "presets": [
-            {
-                "description": "",
-                "value": "apupdate://"
-            }
-        ]
-    },
-    "atom": {
-        "presets": [
-            {
-                "description": "",
-                "value": "atom://"
-            }
-        ]
-    },
     "bitcoin:": {
         "presets": [
             {
@@ -107,43 +67,11 @@
             }
         ]
     },
-    "help:": {
-        "presets": [
-            {
-                "description": "Opens mac help",
-                "value": "help://"
-            }
-        ]
-    },
     "ibooks:": {
         "presets": [
             {
-                "description": "Opens ibooks",
-                "value": "ibooks://"
-            }
-        ]
-    },
-    "ical:": {
-        "presets": [
-            {
                 "description": "",
-                "value": "ical://"
-            }
-        ]
-    },
-    "ichat:": {
-        "presets": [
-            {
-                "description": "",
-                "value": "ichat://"
-            }
-        ]
-    },
-    "im:": {
-        "presets": [
-            {
-                "description": "",
-                "value": "im://"
+                "value": "ibooks://assetid/888107968#page(10)"
             }
         ]
     },
