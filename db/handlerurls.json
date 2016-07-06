@@ -23,11 +23,11 @@
             },
             {
                 "description": "atom:// URL hander(s) dissected",
-                "value": "https://github.com/nkapu/handlers/blob/master/cases/atom.md"
+                "value": "https://github.com/ouspg/urlhandlers/blob/master/cases/atom.md"
             }
         ]
     },
-    "bitcoin": {
+    "bitcoin:": {
         "urls": [
             {
                 "description": "Bitcoin Improvement Proposal 21: the URI Scheme",
@@ -35,7 +35,7 @@
             },
             {
                 "description": "bitcoin: URL hander dissected",
-                "value": "https://github.com/nkapu/handlers/blob/master/cases/bitcoin.md"
+                "value": "https://github.com/ouspg/urlhandlers/blob/master/cases/bitcoin.md"
             }
         ]
     },
