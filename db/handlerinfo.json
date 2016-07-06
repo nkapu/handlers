@@ -609,6 +609,12 @@
                 "name": "iTerm",
                 "path": "iTerm.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "http://hack.urlhandlers.info:80/bblaah?a=1&b=c"
+            }
         ]
     },
     "https:": {
@@ -650,6 +656,12 @@
                 ],
                 "name": "iTerm",
                 "path": "iTerm.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "https://github.com/ouspg/urlhandlers:443/blaah?a=1&b=c"
             }
         ]
     },
