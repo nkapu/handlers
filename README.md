@@ -15,7 +15,7 @@ Check out http://hack.urlhandlers.info, it gives you a JavaScript based explorat
 If you plan to dig deeper you can use these tools locally. A quick start to get more out of this on OSX:
 
 ```shell
-git clone https://github.com/nkapu/handlers.git
+git clone https://github.com/ouspg/urlhandlers.git
 cd handlers/web
 ../osx/handlers-list.py > handlers.json
 python -m SimpleHTTPServer 8080
@@ -28,7 +28,7 @@ python -m SimpleHTTPServer 8080
 This repository collects discovery, testing and instrumentation
 tooling for research in URL handlers.
 
-![Minimal Viable Product](https://raw.githubusercontent.com/nkapu/handlers/master/doc/mvp-scaled.png)
+![Minimal Viable Product](https://raw.githubusercontent.com/ouspg/urlhandlers/master/doc/mvp-scaled.png)
 
 ---
 

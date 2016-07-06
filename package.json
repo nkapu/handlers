@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nkapu/handlers.git"
+    "url": "git+https://github.com/ouspg/urlhandlers.git"
   },
   "author": "nkapu@iki.fi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nkapu/handlers/issues"
+    "url": "https://github.com/ouspg/urlhandlers/issues"
   },
-  "homepage": "https://github.com/nkapu/handlers#readme",
+  "homepage": "https://github.com/ouspg/urlhandlers#readme",
   "jspm": {
     "directories": {
       "baseURL": "web"

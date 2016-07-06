@@ -195,19 +195,7 @@
             },
             {
                 "description": "atom:// URL hander(s) dissected",
-                "value": "https://github.com/nkapu/handlers/blob/master/cases/atom.md"
-            }
-        ]
-    },
-    "bitcoin": {
-        "urls": [
-            {
-                "description": "Bitcoin Improvement Proposal 21: the URI Scheme",
-                "value": "https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"
-            },
-            {
-                "description": "bitcoin: URL hander dissected",
-                "value": "https://github.com/nkapu/handlers/blob/master/cases/bitcoin.md"
+                "value": "https://github.com/ouspg/urlhandlers/blob/master/cases/atom.md"
             }
         ]
     },
@@ -229,6 +217,16 @@
             {
                 "description": "Bitcoin URL with a payment request URL given as a query item.",
                 "value": "bitcoin:?r=http://localhost:8888"
+            }
+        ],
+        "urls": [
+            {
+                "description": "Bitcoin Improvement Proposal 21: the URI Scheme",
+                "value": "https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki"
+            },
+            {
+                "description": "bitcoin: URL hander dissected",
+                "value": "https://github.com/ouspg/urlhandlers/blob/master/cases/bitcoin.md"
             }
         ]
     },
