@@ -75,6 +75,14 @@
             }
         ]
     },
+    "magnet:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "https://en.wikipedia.org/wiki/Magnet_URI_scheme#Clients_table"
+            }
+        ]
+    },
     "mailto:": {
         "urls": [
             {
