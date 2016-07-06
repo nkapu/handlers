@@ -115,6 +115,38 @@
             }
         ]
     },
+    "ibooks:": {
+        "presets": [
+            {
+                "description": "Opens ibooks",
+                "value": "ibooks://"
+            }
+        ]
+    },
+    "ical:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "ical://"
+            }
+        ]
+    },
+    "ichat:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "ichat://"
+            }
+        ]
+    },
+    "im:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "im://"
+            }
+        ]
+    },
     "itms:": {
         "presets": [
             {
