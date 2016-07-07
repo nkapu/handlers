@@ -99,6 +99,22 @@
             }
         ]
     },
+    "itms-books:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "itms-books://itunes.apple.com/de/book/marchen/id436945766"
+            }
+        ]
+    },
+    "itms-bookss:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "itms-bookss://itunes.apple.com/de/book/marchen/id436945766"
+            }
+        ]
+    },
     "itms:": {
         "presets": [
             {

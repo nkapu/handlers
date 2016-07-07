@@ -859,6 +859,12 @@
                 "name": "iBooks",
                 "path": "iBooks.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "itms-books://itunes.apple.com/de/book/marchen/id436945766"
+            }
         ]
     },
     "itms-bookss:": {
@@ -870,6 +876,12 @@
                 ],
                 "name": "iBooks",
                 "path": "iBooks.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "itms-bookss://itunes.apple.com/de/book/marchen/id436945766"
             }
         ]
     },
