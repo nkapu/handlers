@@ -103,6 +103,12 @@
                 "name": "Alfred 3",
                 "path": "Alfred 3.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "alfred://customsearch/Search%20urlhandlers%20repo%20for%20%27%7Bquery%7D%27/urlhandlers/utf8/noplus/https%3A%2F%2Fgithub.com%2Fouspg%2Furlhandlers%2Fsearch%3Futf8%3D%25E2%259C%2593%26q%3D%7Bquery%7D"
+            }
         ]
     },
     "apconfig:": {
@@ -898,6 +904,12 @@
                 "name": "iBooks",
                 "path": "iBooks.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "itms-books://itunes.apple.com/de/book/marchen/id436945766"
+            }
         ]
     },
     "itms-bookss:": {
@@ -909,6 +921,12 @@
                 ],
                 "name": "iBooks",
                 "path": "iBooks.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "itms-bookss://itunes.apple.com/de/book/marchen/id436945766"
             }
         ]
     },
@@ -1124,6 +1142,22 @@
                 ],
                 "name": "Transmission",
                 "path": "Transmission.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "magnet:?xt=urn:btih:c12fe1c06bba254a9dc9f519b335aa7c1367a88a&dn"
+            },
+            {
+                "description": "",
+                "value": "magnet:?xt=urn:ed2k:354B15E68FB8F36D7CD88FF94116CDC1&xt=urn:tree:tiger:7N5OAMRNGMSSEUE3ORHOKWN4WWIQ5X4EBOOTLJY&xt=urn:btih:QHQXPYWMACKDWKP47RRVIV7VOURXFE5Q&xl=10826029&dn=mediawiki-1.15.1.tar.gz&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&as=http%3A%2F%2Fdownload.wikimedia.org%2Fmediawiki%2F1.15%2Fmediawiki-1.15.1.tar.gz&xs=http%3A%2F%2Fcache.example.org%2FXRX2PEFXOOEJFRVUCX6HMZMKS5TWG4K5&xs=dchub://example.org"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "https://en.wikipedia.org/wiki/Magnet_URI_scheme#Clients_table"
             }
         ]
     },
