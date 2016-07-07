@@ -93,6 +93,13 @@
                 "flags": [
                     "url-type"
                 ],
+                "name": "Alfred 2",
+                "path": "Alfred 2.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
                 "name": "Alfred 3",
                 "path": "Alfred 3.app"
             }
@@ -417,6 +424,13 @@
                 ],
                 "name": "Firefox",
                 "path": "Firefox.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Tor Browser",
+                "path": "TorBrowser.app"
             }
         ]
     },
@@ -459,6 +473,13 @@
                 ],
                 "name": "Firefox",
                 "path": "Firefox.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Tor Browser",
+                "path": "TorBrowser.app"
             },
             {
                 "flags": [
@@ -591,6 +612,14 @@
                     "relative-icon-path",
                     "url-type"
                 ],
+                "name": "Tor Browser",
+                "path": "TorBrowser.app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
                 "name": "VLC media player",
                 "path": "VLC.app"
             },
@@ -644,6 +673,22 @@
             },
             {
                 "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "Tor Browser",
+                "path": "TorBrowser.app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC.app"
+            },
+            {
+                "flags": [
                     "url-type"
                 ],
                 "name": "Chrome",
@@ -675,11 +720,11 @@
         "urls": [
             {
                 "description": "",
-                "value": "https://support.apple.com/en-us/HT202929"
+                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
             },
             {
                 "description": "",
-                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
+                "value": "https://support.apple.com/en-us/HT202929"
             }
         ]
     },
@@ -1090,6 +1135,15 @@
         ]
     },
     "magnet:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Transmission",
+                "path": "Transmission.app"
+            }
+        ],
         "presets": [
             {
                 "description": "",
@@ -1738,6 +1792,26 @@
             {
                 "description": "",
                 "value": "telnet://crashterminal.org:10000"
+            }
+        ]
+    },
+    "tg:": {
+        "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "com.tdesktop.Telegram",
+                "path": "Telegram.app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "com.tdesktop.Telegram",
+                "path": "Telegram.app"
             }
         ]
     },
