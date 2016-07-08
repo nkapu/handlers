@@ -716,18 +716,6 @@
             }
         ]
     },
-    "ibook:": {
-        "urls": [
-            {
-                "description": "",
-                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
-            },
-            {
-                "description": "",
-                "value": "https://support.apple.com/en-us/HT202929"
-            }
-        ]
-    },
     "ibooks:": {
         "apps": [
             {
@@ -743,6 +731,16 @@
             {
                 "description": "",
                 "value": "ibooks://assetid/888107968#page(10)"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "https://support.apple.com/en-us/HT202929"
+            },
+            {
+                "description": "",
+                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
             }
         ]
     },
