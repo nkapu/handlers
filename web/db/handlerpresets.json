@@ -276,6 +276,18 @@
            {
              "description": "Share link with text in telegram.",
              "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
+           },
+           {
+             "description": "Opens chat windows with user ImageBot",
+             "value": "tg://resolve?domain=ImageBot"
+           },
+           {
+             "description": "Join to channel with invite token.",
+             "value": "tg://join?invite=AZxB2QEc-ycqBN4MhuHKgw"
+           },
+           {
+             "description": "Add baronchoen sticker set.",
+             "value": "tg://addstickers?set=baroncohen"
            }
          ]
     },
