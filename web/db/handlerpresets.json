@@ -270,5 +270,21 @@
                 "value": "x-man-page://1/man"
             }
         ]
+    },
+    "tg:": {
+      "presets": [
+           {
+             "description": "Share link with text in telegram.",
+             "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
+           }
+         ]
+    },
+    "ical:": {
+      "presets": [
+           {
+             "description": "Show specific event from Calendar.app.",
+             "value": "ical://occurrence/X/X/X/X?method=show"
+           }
+         ]
     }
 }
