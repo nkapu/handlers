@@ -1,0 +1,4 @@
+dependencies:
+  pre:
+    - pyenv install pypy-5.0.1
+    - pyenv local 2.6.8 pypy-5.0.1
