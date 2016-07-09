@@ -2,11 +2,15 @@
     "addressbook:": {
         "presets": [
             {
-                "description": "[aPerson uniqueId]",
+                "description": "Basic addressbook URL format",
                 "value": "addressbook://%@?edit"
+            },
+            {
+                "description": "Open the specified contact ID for editing",
+                "value": "addressbook://46937B8D-E455-4D73-BDD2-C8B7BFF670E6:ABPerson?edit"
             }
         ]
-    },
+      },
     "afp:": {
         "presets": [
             {
