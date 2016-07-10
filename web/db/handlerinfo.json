@@ -1937,11 +1937,16 @@
         ]
     },
     "word:": {
-        "presets": [
+        "apps": [
             {
-                "description": "Opens file in readonly mode",
-                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
-            },
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Word",
+                "path": "Microsoft Word.app"
+            }
+        ],
+        "presets": [
             {
                 "description": "Opens file in readonlymode",
                 "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
