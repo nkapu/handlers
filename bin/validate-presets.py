@@ -5,10 +5,14 @@ import sys
 
 
 def validate_presets_file(presets_file):
+    erred = 0
     with open(presets_file) as jsonfile:
         presets_dict = json.load(jsonfile)
     for (handler, value) in validate_presets(presets_dict):
         print "ERROR: \"{0}\" handler with \"{1}\" value".format(handler, value)
+        erred += 1
+
+    return erred
 
 
 def validate_presets(presets_dict):
@@ -35,7 +39,8 @@ def validate_presets(presets_dict):
 if __name__ == '__main__':
     args = sys.argv[1:]
     try:
-        validate_presets_file(*args)
+        if validate_presets_file(*args):
+            sys.exit(2)
     except TypeError:
         print "{0} <handlerpresets.json>".format(sys.argv[0])
         sys.exit(1)
