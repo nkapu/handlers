@@ -1700,6 +1700,12 @@
                 "name": "iTerm",
                 "path": "iTerm.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "ssh://user@myserver:22"
+            }
         ]
     },
     "steam:": {

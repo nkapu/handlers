@@ -306,5 +306,13 @@
              "value": "ical://occurrence/X/X/X/X?method=show"
            }
          ]
+    },
+    "ssh:": {
+      "presets": [
+           {
+             "description": "",
+             "value": "ssh://user@myserver:22"
+           }
+         ]
     }
 }
