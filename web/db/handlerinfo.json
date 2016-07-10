@@ -12,6 +12,14 @@
         ],
         "presets": [
             {
+                "description": "Basic addressbook URL format",
+                "value": "addressbook://%@?edit"
+            },
+            {
+                "description": "Open the specified contact ID for editing",
+                "value": "addressbook://46937B8D-E455-4D73-BDD2-C8B7BFF670E6:ABPerson?edit"
+            },
+            {
                 "description": "[aPerson uniqueId]",
                 "value": "addressbook://%@?edit"
             }
@@ -53,20 +61,6 @@
             }
         ]
     },
-    "aim": {
-        "presets": [
-            {
-                "description": "",
-                "value": ""
-            }
-        ],
-        "urls": [
-            {
-                "description": "",
-                "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
-            }
-        ]
-    },
     "aim:": {
         "apps": [
             {
@@ -84,6 +78,12 @@
                 ],
                 "name": "Adium",
                 "path": "Adium.app"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
             }
         ]
     },
@@ -123,14 +123,6 @@
             }
         ]
     },
-    "applefeedback": {
-        "presets": [
-            {
-                "description": "",
-                "value": "applefeedback://"
-            }
-        ]
-    },
     "applefeedback:": {
         "apps": [
             {
@@ -140,14 +132,6 @@
                 ],
                 "name": "Feedback Assistant",
                 "path": "Feedback Assistant.app"
-            }
-        ]
-    },
-    "applescript": {
-        "presets": [
-            {
-                "description": "",
-                "value": "applescript://"
             }
         ]
     },
@@ -163,14 +147,6 @@
             }
         ]
     },
-    "apupdate": {
-        "presets": [
-            {
-                "description": "",
-                "value": "apupdate://"
-            }
-        ]
-    },
     "apupdate:": {
         "apps": [
             {
@@ -183,14 +159,6 @@
             }
         ]
     },
-    "atom": {
-        "presets": [
-            {
-                "description": "",
-                "value": "atom://"
-            }
-        ]
-    },
     "atom:": {
         "apps": [
             {
@@ -199,6 +167,12 @@
                 ],
                 "name": "Atom",
                 "path": "Atom.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "Looks for the named package in Atom's package dirs and its urlMain method in the metadata and executes it if available.",
+                "value": "atom://path/to/or/just/packagename"
             }
         ],
         "urls": [
@@ -753,6 +727,12 @@
                 ],
                 "name": "Calendar",
                 "path": "Calendar.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "Show specific event from Calendar.app.",
+                "value": "ical://occurrence/X/X/X/X?method=show"
             }
         ]
     },
@@ -1810,6 +1790,24 @@
                 ],
                 "name": "com.tdesktop.Telegram",
                 "path": "Telegram.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "Share link with text in telegram.",
+                "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
+            },
+            {
+                "description": "Opens chat windows with user ImageBot",
+                "value": "tg://resolve?domain=ImageBot"
+            },
+            {
+                "description": "Join to channel with invite token.",
+                "value": "tg://join?invite=AZxB2QEc-ycqBN4MhuHKgw"
+            },
+            {
+                "description": "Add baronchoen sticker set.",
+                "value": "tg://addstickers?set=baroncohen"
             }
         ]
     },
