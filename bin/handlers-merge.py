@@ -100,7 +100,7 @@ if __name__ == '__main__':
                       help="Display pretty printed output instead of JSON.")
 
     (options, args) = parser.parse_args()
-    
+
     currentdict = {}
 
     for arg in args:
