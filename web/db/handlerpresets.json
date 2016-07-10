@@ -27,6 +27,14 @@
             }
         ]
     },
+    "atom:": {
+        "presets": [
+            {
+                "description": "Looks for the named package in Atom's package dirs and its urlMain method in the metadata and executes it if available.",
+                "value": "atom://path/to/or/just/packagename"
+            }
+        ]
+    },
     "bitcoin:": {
         "presets": [
             {
