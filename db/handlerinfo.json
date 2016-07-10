@@ -80,10 +80,20 @@
                 "path": "Adium.app"
             }
         ],
+        "presets": [
+            {
+                "description": "",
+                "value": "aim:GoIM?screenname=testi"
+            }
+        ],
         "urls": [
             {
                 "description": "",
                 "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
+            },
+            {
+                "description": "",
+                "value": "http://rock13.com/webhelp/goaim.html"
             }
         ]
     },
@@ -264,6 +274,12 @@
                 ],
                 "name": "Dictionary",
                 "path": "Dictionary.app"
+            }
+        ],
+        "presets": [
+            {
+                "description": "Opens Oulu\u00b4s Wikipedia page",
+                "value": "dict://Oulu"
             }
         ]
     },
@@ -1881,9 +1897,7 @@
                 "name": "VLC media player",
                 "path": "VLC.app"
             }
-        ]
-    },
-    "udp::": {
+        ],
         "presets": [
             {
                 "description": "",
