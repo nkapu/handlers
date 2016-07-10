@@ -314,5 +314,25 @@
              "value": "ssh://user@myserver:22"
            }
          ]
+    },
+    "udp:": {
+      "presets": [
+           {
+             "description": "",
+             "value": "udp://localhost:6666"
+           }
+         ]
+    },
+    "file:": {
+      "presets": [
+           {
+             "description": "",
+             "value": "file:///path/to/the%20file.txt"
+           },
+           {
+             "description": "",
+             "value": "file://nosuchhost/path/to/the%20file.txt"
+           }
+         ]
     }
 }

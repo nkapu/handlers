@@ -406,6 +406,16 @@
                 "name": "Tor Browser",
                 "path": "TorBrowser.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "file:///path/to/the%20file.txt"
+            },
+            {
+                "description": "",
+                "value": "file://nosuchhost/path/to/the%20file.txt"
+            }
         ]
     },
     "ftp:": {
@@ -1870,6 +1880,14 @@
                 ],
                 "name": "VLC media player",
                 "path": "VLC.app"
+            }
+        ]
+    },
+    "udp::": {
+        "presets": [
+            {
+                "description": "",
+                "value": "udp://localhost:6666"
             }
         ]
     },
