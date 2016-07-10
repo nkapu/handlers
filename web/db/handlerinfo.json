@@ -1254,6 +1254,24 @@
                 "name": "Maps",
                 "path": "Maps.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "maps://?ll=50.894967,4.341626"
+            },
+            {
+                "description": "",
+                "value": "maps://?daddr=San+Francisco&dirflg=d&t=h"
+            },
+            {
+                "description": "",
+                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
+            },
+            {
+                "description": "",
+                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
+            }
         ]
     },
     "message:": {
@@ -1341,11 +1359,7 @@
         "presets": [
             {
                 "description": "Opens file in readonly mode",
-                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
-            },
-            {
-                "description": "Opens file in readonlymode",
-                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
         ]
     },
@@ -1633,10 +1647,6 @@
             {
                 "description": "",
                 "value": "slack://test?team=1&a=');eval(atob('VFNTU0Iuc2VuZE1zZ0Zyb21Vc2VyKHdpbmRvdy5UUy5jaGFubmVscy5nZXRHZW5lcmFsQ2hhbm5lbCgpLmlkLCAiSGVsbG8sIEkgYW0gcHJvb2Ygb2YganMgaW5qZWN0aW9uIik7'));String('"
-            },
-            {
-                "description": "Opens man page",
-                "value": "x-man-page://1/man"
             }
         ],
         "urls": [
@@ -1927,23 +1937,14 @@
         ]
     },
     "word:": {
-        "apps": [
-            {
-                "flags": [
-                    "url-type"
-                ],
-                "name": "Word",
-                "path": "Microsoft Word.app"
-            }
-        ],
         "presets": [
             {
                 "description": "Opens file in readonly mode",
-                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             },
             {
                 "description": "Opens file in readonlymode",
-                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
         ]
     },
