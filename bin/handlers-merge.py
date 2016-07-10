@@ -100,20 +100,21 @@ def clean_spaces(string):
     return "\n".join(line.rstrip() for line in lines)
 
 
-currentdict = {}
+if __name__ == '__main__':
+    currentdict = {}
 
-for arg in args:
-    with open(arg) as jsonfile:
-        if not currentdict:
-            currentdict = json.load(jsonfile)
-            continue
+    for arg in args:
+        with open(arg) as jsonfile:
+            if not currentdict:
+                currentdict = json.load(jsonfile)
+                continue
 
-        nextdict = json.load(jsonfile)
-        currentdict = merge(currentdict, nextdict)
+            nextdict = json.load(jsonfile)
+            currentdict = merge(currentdict, nextdict)
 
-if options.pretty:
-    pp = pprint.PrettyPrinter(indent=4)
-    output = pp.pformat(currentdict)
-else:
-    output = json.dumps(currentdict, indent=4, sort_keys=True)
-print clean_spaces(output)
+    if options.pretty:
+        pp = pprint.PrettyPrinter(indent=4)
+        output = pp.pformat(currentdict)
+    else:
+        output = json.dumps(currentdict, indent=4, sort_keys=True)
+    print clean_spaces(output)
