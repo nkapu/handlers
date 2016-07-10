@@ -6,14 +6,6 @@ import pprint
 
 from optparse import OptionParser
 
-usage = "usage: %prog [options] JSONFILE1 JSONFILE2 [JSONFILEn ...]"
-parser = OptionParser(usage)
-parser.add_option("-p", "--pretty", action="store_true",
-                  dest="pretty", default=False,
-                  help="Display pretty printed output instead of JSON.")
-
-(options, args) = parser.parse_args()
-
 # original code of merge() received from a kind anonymous coder with MIT license
 
 
@@ -101,6 +93,14 @@ def clean_spaces(string):
 
 
 if __name__ == '__main__':
+    usage = "usage: %prog [options] JSONFILE1 JSONFILE2 [JSONFILEn ...]"
+    parser = OptionParser(usage)
+    parser.add_option("-p", "--pretty", action="store_true",
+                      dest="pretty", default=False,
+                      help="Display pretty printed output instead of JSON.")
+
+    (options, args) = parser.parse_args()
+    
     currentdict = {}
 
     for arg in args:
