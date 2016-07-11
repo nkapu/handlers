@@ -1894,6 +1894,26 @@
                 "name": "AddressBookUrlForwarder",
                 "path": "AddressBookUrlForwarder.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "twitter://post?message=hello%20world&in_reply_to_status_id=12345"
+            },
+            {
+                "description": "",
+                "value": "twitter://search?query=%23hashtag"
+            },
+            {
+                "description": "",
+                "value": "twitter://messages"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "http://stackoverflow.com/questions/10424275/how-can-i-open-a-twitter-tweet-using-the-native-twitter-app-on-ios"
+            }
         ]
     },
     "twitterreply:": {
