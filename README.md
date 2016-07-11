@@ -51,7 +51,7 @@ tooling for research in URL handlers.
 
 ### Instrumentation
 
-[WIP]
+ * [execve monitoring DTrace-script](osx/execve.d) (tested on OSX)
 
 ---
 
