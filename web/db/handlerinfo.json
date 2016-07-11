@@ -362,6 +362,26 @@
                 "name": "AddressBookUrlForwarder",
                 "path": "AddressBookUrlForwarder.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "Open Facebook app to the users profile",
+                "value": "fb://profile"
+            },
+            {
+                "description": "Open Facebook app to the friends list",
+                "value": "fb://friends"
+            },
+            {
+                "description": "Open Facebook app to the notifications list",
+                "value": "fb://notifications"
+            }
+        ],
+        "urls": [
+            {
+                "description": "Facebook Custom URL Scheme",
+                "value": "http://iphonedevtools.com/?p=302"
+            }
         ]
     },
     "feed:": {

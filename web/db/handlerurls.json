@@ -126,5 +126,13 @@
                 "value": "https://developer.valvesoftware.com/wiki/Steam_browser_protocol"
             }
         ]
+    },
+    "fb:": {
+        "urls": [
+            {
+                "description": "Facebook Custom URL Scheme",
+                "value": "http://iphonedevtools.com/?p=302"
+            }
+        ]
     }
 }
