@@ -350,5 +350,21 @@
              "value": "dict://Oulu"
            }
          ]
+    },
+    "fb:": {
+      "presets": [
+           {
+             "description": "Open Facebook app to the users profile",
+             "value": "fb://profile"
+           },
+           {
+             "description": "Open Facebook app to the friends list",
+             "value": "fb://friends"
+           },
+           {
+             "description": "Open Facebook app to the notifications list",
+             "value": "fb://notifications"
+           }
+         ]
     }
 }
