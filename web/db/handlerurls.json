@@ -134,5 +134,13 @@
                 "value": "http://iphonedevtools.com/?p=302"
             }
         ]
+    },
+    "twitter:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "http://stackoverflow.com/questions/10424275/how-can-i-open-a-twitter-tweet-using-the-native-twitter-app-on-ios"
+            }
+        ]
     }
 }

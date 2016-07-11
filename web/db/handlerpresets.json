@@ -366,5 +366,21 @@
              "value": "fb://notifications"
            }
          ]
+    },
+    "twitter:": {
+      "presets": [
+           {
+             "description": "",
+             "value": "twitter://post?message=hello%20world&in_reply_to_status_id=12345"
+           },
+           {
+             "description": "",
+             "value": "twitter://search?query=%23hashtag"
+           },
+           {
+             "description": "",
+             "value": "twitter://messages"
+           }
+         ]
     }
 }
