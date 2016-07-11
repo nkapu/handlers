@@ -334,5 +334,21 @@
              "value": "file://nosuchhost/path/to/the%20file.txt"
            }
          ]
+    },
+    "aim:": {
+      "presets": [
+           {
+             "description": "",
+             "value": "aim:GoIM?screenname=testi"
+           }
+         ]
+    },
+    "dict:": {
+      "presets": [
+           {
+             "description": "Opens Oulu´s Wikipedia page",
+             "value": "dict://Oulu"
+           }
+         ]
     }
 }
