@@ -2008,6 +2008,12 @@
                 "name": "iTerm",
                 "path": "iTerm.app"
             }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "https://tools.ietf.org/html/rfc4156"
+            }
         ]
     },
     "webcal:": {
