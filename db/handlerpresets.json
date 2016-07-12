@@ -10,12 +10,20 @@
                 "value": "addressbook://46937B8D-E455-4D73-BDD2-C8B7BFF670E6:ABPerson?edit"
             }
         ]
-      },
+    },
     "afp:": {
         "presets": [
             {
                 "description": "",
                 "value": "afp://myserver.mydomain.com/Sharepoint/Folder"
+            }
+        ]
+    },
+    "aim:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "aim:GoIM?screenname=testi"
             }
         ]
     },
@@ -47,6 +55,14 @@
             }
         ]
     },
+    "dict:": {
+        "presets": [
+            {
+                "description": "Opens Oulu´s Wikipedia page",
+                "value": "dict://Oulu"
+            }
+        ]
+    },
     "facetime-audio:": {
         "presets": [
             {
@@ -68,6 +84,54 @@
             {
                 "description": "",
                 "value": "facetime://user@example.com"
+            }
+        ]
+    },
+    "fb:": {
+        "presets": [
+            {
+                "description": "Open Facebook app to the users profile",
+                "value": "fb://profile"
+            },
+            {
+                "description": "Open Facebook app to the friends list",
+                "value": "fb://friends"
+            },
+            {
+                "description": "Open Facebook app to the notifications list",
+                "value": "fb://notifications"
+            },
+            {
+                "description": "",
+                "value": "fb://feed"
+            },
+            {
+                "description": "",
+                "value": "fb://events"
+            },
+            {
+                "description": "",
+                "value": "fb://requests"
+            },
+            {
+                "description": "",
+                "value": "fb://notes"
+            },
+            {
+                "description": "",
+                "value": "fb://albums"
+            }
+        ]
+    },
+    "file:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "file:///path/to/the%20file.txt"
+            },
+            {
+                "description": "",
+                "value": "file://nosuchhost/path/to/the%20file.txt"
             }
         ]
     },
@@ -108,6 +172,14 @@
             {
                 "description": "",
                 "value": "ibooks://assetid/888107968#page(10)"
+            }
+        ]
+    },
+    "ical:": {
+        "presets": [
+            {
+                "description": "Show specific event from Calendar.app.",
+                "value": "ical://occurrence/X/X/X/X?method=show"
             }
         ]
     },
@@ -179,11 +251,11 @@
             }
         ]
     },
-    "word:": {
+    "ms-word:": {
         "presets": [
             {
-                "description": "Opens file in readonlymode",
-                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+                "description": "Opens file in readonly mode",
+                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
         ]
     },
@@ -200,6 +272,14 @@
             {
                 "description": "",
                 "value": "smb://guest:f@crashterminal.org/tmp/"
+            }
+        ]
+    },
+    "ssh:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "ssh://user@myserver:22"
             }
         ]
     },
@@ -231,6 +311,66 @@
             }
         ]
     },
+    "tg:": {
+        "presets": [
+            {
+                "description": "Share link with text in telegram.",
+                "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
+            },
+            {
+                "description": "Opens chat windows with user ImageBot",
+                "value": "tg://resolve?domain=ImageBot"
+            },
+            {
+                "description": "Join to channel with invite token.",
+                "value": "tg://join?invite=AZxB2QEc-ycqBN4MhuHKgw"
+            },
+            {
+                "description": "Add baronchoen sticker set.",
+                "value": "tg://addstickers?set=baroncohen"
+            }
+        ]
+    },
+    "twitter:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "twitter://post?message=hello%20world&in_reply_to_status_id=12345"
+            },
+            {
+                "description": "",
+                "value": "twitter://search?query=%23hashtag"
+            },
+            {
+                "description": "",
+                "value": "twitter://mentions"
+            },
+            {
+                "description": "",
+                "value": "twitter://messages"
+            },
+            {
+                "description": "",
+                "value": "twitter://timeline"
+            },
+            {
+                "description": "",
+                "value": "twitter://user?screen_name=lorenb"
+            },
+            {
+                "description": "",
+                "value": "twitter://user?id=1"
+            }
+        ]
+    },
+    "udp:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "udp://localhost:6666"
+            }
+        ]
+    },
     "vnc:": {
         "presets": [
             {
@@ -247,11 +387,11 @@
             }
         ]
     },
-    "ms-word:": {
+    "word:": {
         "presets": [
             {
-                "description": "Opens file in readonly mode",
-                "value": "ms-word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
+                "description": "Opens file in readonlymode",
+                "value": "word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"
             }
         ]
     },
@@ -278,109 +418,5 @@
                 "value": "x-man-page://1/man"
             }
         ]
-    },
-    "tg:": {
-      "presets": [
-           {
-             "description": "Share link with text in telegram.",
-             "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
-           },
-           {
-             "description": "Opens chat windows with user ImageBot",
-             "value": "tg://resolve?domain=ImageBot"
-           },
-           {
-             "description": "Join to channel with invite token.",
-             "value": "tg://join?invite=AZxB2QEc-ycqBN4MhuHKgw"
-           },
-           {
-             "description": "Add baronchoen sticker set.",
-             "value": "tg://addstickers?set=baroncohen"
-           }
-         ]
-    },
-    "ical:": {
-      "presets": [
-           {
-             "description": "Show specific event from Calendar.app.",
-             "value": "ical://occurrence/X/X/X/X?method=show"
-           }
-         ]
-    },
-    "ssh:": {
-      "presets": [
-           {
-             "description": "",
-             "value": "ssh://user@myserver:22"
-           }
-         ]
-    },
-    "udp:": {
-      "presets": [
-           {
-             "description": "",
-             "value": "udp://localhost:6666"
-           }
-         ]
-    },
-    "file:": {
-      "presets": [
-           {
-             "description": "",
-             "value": "file:///path/to/the%20file.txt"
-           },
-           {
-             "description": "",
-             "value": "file://nosuchhost/path/to/the%20file.txt"
-           }
-         ]
-    },
-    "aim:": {
-      "presets": [
-           {
-             "description": "",
-             "value": "aim:GoIM?screenname=testi"
-           }
-         ]
-    },
-    "dict:": {
-      "presets": [
-           {
-             "description": "Opens Oulu´s Wikipedia page",
-             "value": "dict://Oulu"
-           }
-         ]
-    },
-    "fb:": {
-      "presets": [
-           {
-             "description": "Open Facebook app to the users profile",
-             "value": "fb://profile"
-           },
-           {
-             "description": "Open Facebook app to the friends list",
-             "value": "fb://friends"
-           },
-           {
-             "description": "Open Facebook app to the notifications list",
-             "value": "fb://notifications"
-           }
-         ]
-    },
-    "twitter:": {
-      "presets": [
-           {
-             "description": "",
-             "value": "twitter://post?message=hello%20world&in_reply_to_status_id=12345"
-           },
-           {
-             "description": "",
-             "value": "twitter://search?query=%23hashtag"
-           },
-           {
-             "description": "",
-             "value": "twitter://messages"
-           }
-         ]
     }
 }
