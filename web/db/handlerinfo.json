@@ -375,6 +375,26 @@
             {
                 "description": "Open Facebook app to the notifications list",
                 "value": "fb://notifications"
+            },
+            {
+                "description": "",
+                "value": "fb://feed"
+            },
+            {
+                "description": "",
+                "value": "fb://events"
+            },
+            {
+                "description": "",
+                "value": "fb://requests"
+            },
+            {
+                "description": "",
+                "value": "fb://notes"
+            },
+            {
+                "description": "",
+                "value": "fb://albums"
             }
         ],
         "urls": [
@@ -1906,7 +1926,23 @@
             },
             {
                 "description": "",
+                "value": "twitter://mentions"
+            },
+            {
+                "description": "",
                 "value": "twitter://messages"
+            },
+            {
+                "description": "",
+                "value": "twitter://timeline"
+            },
+            {
+                "description": "",
+                "value": "twitter://user?screen_name=lorenb"
+            },
+            {
+                "description": "",
+                "value": "twitter://user?id=1"
             }
         ],
         "urls": [
