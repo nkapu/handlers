@@ -2225,6 +2225,34 @@
                 "name": "Adium",
                 "path": "Adium.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "xmpp:user@server.net?message;subject=Test%20Message;body=Here%27s%20a%20test%20message"
+            },
+            {
+                "description": "",
+                "value": "xmpp:user@server.net?roster;name=Romeo%20Montague;group=Friends"
+            },
+            {
+                "description": "",
+                "value": "xmpp:user@server.net?remove"
+            },
+            {
+                "description": "",
+                "value": "xmpp:user@server.net?subscribe"
+            },
+            {
+                "description": "",
+                "value": "xmpp:user@server.net?unsubscribe"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "http://xmpp.org/extensions/xep-0147.html"
+            }
         ]
     },
     "yahoo:": {
