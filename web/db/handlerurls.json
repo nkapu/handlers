@@ -150,5 +150,13 @@
                 "value": "https://tools.ietf.org/html/rfc4156"
             }
         ]
+    },
+    "help:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "http://daringfireball.net/2004/05/help_viewer_security_update"
+            }
+        ]
     }
 }
