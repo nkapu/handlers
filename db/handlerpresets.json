@@ -58,7 +58,7 @@
     "dict:": {
         "presets": [
             {
-                "description": "Opens Oulu´s Wikipedia page",
+                "description": "Opens Oulus Wikipedia page",
                 "value": "dict://Oulu"
             }
         ]
@@ -148,6 +148,18 @@
             {
                 "description": "Clones repo but needs UserInteraction",
                 "value": "github-mac://openRepo/REPOURL"
+            }
+        ]
+    },
+    "help:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "help:search='sound%20volume'%20bookID='Mac%20Help"
+            },
+            {
+                "description": "",
+                "value": "help:runscript=MacHelp.help/Contents/Resources/English.lproj/shrd/OpnApp.scpt%20string='System:Library:PreferencePanes:Sound.prefPane'"
             }
         ]
     },

@@ -278,7 +278,7 @@
         ],
         "presets": [
             {
-                "description": "Opens Oulu\u00b4s Wikipedia page",
+                "description": "Opens Oulus Wikipedia page",
                 "value": "dict://Oulu"
             }
         ]
@@ -601,8 +601,18 @@
         ],
         "presets": [
             {
-                "description": "Opens mac help",
-                "value": "help://"
+                "description": "",
+                "value": "help:search='sound%20volume'%20bookID='Mac%20Help"
+            },
+            {
+                "description": "",
+                "value": "help:runscript=MacHelp.help/Contents/Resources/English.lproj/shrd/OpnApp.scpt%20string='System:Library:PreferencePanes:Sound.prefPane'"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "http://daringfireball.net/2004/05/help_viewer_security_update"
             }
         ]
     },
