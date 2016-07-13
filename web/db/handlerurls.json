@@ -158,5 +158,13 @@
                 "value": "http://daringfireball.net/2004/05/help_viewer_security_update"
             }
         ]
+    },
+    "xmpp:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "http://xmpp.org/extensions/xep-0147.html"
+            }
+        ]
     }
 }
