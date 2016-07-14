@@ -166,5 +166,13 @@
                 "value": "http://xmpp.org/extensions/xep-0147.html"
             }
         ]
+    },
+    "ipp:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "https://tools.ietf.org/html/rfc3510"
+            }
+        ]
     }
 }
