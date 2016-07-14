@@ -195,6 +195,18 @@
             }
         ]
     },
+    "ipp:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "ipp://example.com:631/~smith/printer"
+            },
+            {
+                "description": "",
+                "value": "ipp://example.com/printer/tiger/job123"
+            }
+        ]
+    },
     "itms-books:": {
         "presets": [
             {

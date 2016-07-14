@@ -874,6 +874,22 @@
                 "name": "AddPrinter",
                 "path": "AddPrinter.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "ipp://example.com:631/~smith/printer"
+            },
+            {
+                "description": "",
+                "value": "ipp://example.com/printer/tiger/job123"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "https://tools.ietf.org/html/rfc3510"
+            }
         ]
     },
     "ipps:": {
