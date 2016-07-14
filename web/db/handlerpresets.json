@@ -231,6 +231,30 @@
             }
         ]
     },
+    "macappstore:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "macappstore://itunes.apple.com/app/id403961173?mt=12"
+            },
+            {
+                "description": "",
+                "value": "macappstore://showUpdatesPage"
+            }
+        ]
+    },
+    "macappstores:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "macappstores://itunes.apple.com/app/id403961173?mt=12"
+            },
+            {
+                "description": "",
+                "value": "macappstores://showUpdatesPage"
+            }
+        ]
+    },
     "magnet:": {
         "presets": [
             {
