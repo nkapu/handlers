@@ -546,6 +546,26 @@
                 "name": "Game Center",
                 "path": "Game Center.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/me/"
+            },
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/friends/"
+            },
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/games/"
+            }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "http://stackoverflow.com/questions/6226195/game-center-url-scheme"
+            }
         ]
     },
     "github-mac:": {
