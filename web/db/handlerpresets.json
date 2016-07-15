@@ -143,6 +143,22 @@
             }
         ]
     },
+    "gamecenter:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/me/"
+            },
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/friends/"
+            },
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/games/"
+            }
+        ]
+    },
     "github-mac:": {
         "presets": [
             {

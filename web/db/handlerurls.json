@@ -174,5 +174,13 @@
                 "value": "https://tools.ietf.org/html/rfc3510"
             }
         ]
+    },
+    "gamecenter:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "http://stackoverflow.com/questions/6226195/game-center-url-scheme"
+            }
+        ]
     }
 }
