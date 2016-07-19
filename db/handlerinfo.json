@@ -262,6 +262,12 @@
                 "name": "iTunes",
                 "path": "iTunes.app"
             }
+        ],
+        "urls": [
+            {
+                "description": "",
+                "value": "http://www.securityfocus.com/archive/1/504030"
+            }
         ]
     },
     "dict:": {
