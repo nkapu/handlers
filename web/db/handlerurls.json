@@ -190,5 +190,13 @@
                 "value": "https://en.wikipedia.org/wiki/Real_Time_Messaging_Protocol"
             }
         ]
+    },
+    "daap:": {
+        "urls": [
+            {
+                "description": "",
+                "value": "http://www.securityfocus.com/archive/1/504030"
+            }
+        ]
     }
 }
