@@ -1,4 +1,4 @@
-dependencies:
-  pre:
-    - pyenv install pypy-5.3.1
-    - pyenv local 2.6.9 pypy-5.3.1
+machine:
+  post:
+    - pyenv install pypy-5.1
+    - pyenv local 2.6.9 pypy-5.1
