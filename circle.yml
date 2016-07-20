@@ -1,5 +1,5 @@
 machine:
   post:
     - pyenv install 2.6.9
-    - pyenv install pypy-5.1
-    - pyenv local 2.6.9 pypy-5.1
+    - pyenv install pypy-5.3
+    - pyenv local 2.6.9 2.7.11 pypy-5.3
