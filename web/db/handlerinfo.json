@@ -2224,6 +2224,12 @@
                 "name": "Dictionary",
                 "path": "Dictionary.app"
             }
+        ],
+        "presets": [
+            {
+                "description": "",
+                "value": "x-dictionary:example%20word"
+            }
         ]
     },
     "x-install-osx-assistant:": {
