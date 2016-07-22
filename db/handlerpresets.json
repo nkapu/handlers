@@ -475,6 +475,14 @@
             }
         ]
     },
+    "x-dictionary:": {
+        "presets": [
+            {
+                "description": "",
+                "value": "x-dictionary:example%20word"
+            }
+        ]
+    },
     "x-install-osx-assistant:": {
         "presets": [
             {
