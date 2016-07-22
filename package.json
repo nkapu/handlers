@@ -9,10 +9,14 @@
     "eslint-config-google": "^0.4.0",
     "htmlhint": "^0.9.12",
     "jsonlint": "^1.6.2",
-    "jspm": "^0.16.32"
+    "jspm": "^0.16.32",
+    "markdownlint": "^0.2.0",
+    "markdownlint-cli": "^0.1.0",
+    "remark-lint": "^4.0.2"
   },
   "scripts": {
-    "test": "eslint web/hander*.js web/browser*.js"
+    "lint": "eslint .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
