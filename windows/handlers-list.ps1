@@ -103,7 +103,7 @@ Where-Object {$_.GetValueNames() | Where-Object {$_ -eq "URL Protocol"}} |
 foreach {
 	$ext = $_.PsPath.Split("\")[2]
 	if(!$handlers.contains($ext)) {
-		$handlers.item($ext) = @{"apps"=@{}}
+		$handlers.item($ext) = @{"apps"=@()}
 	}
 	$extapp = @{"registrykey"=$_.Name}
 
