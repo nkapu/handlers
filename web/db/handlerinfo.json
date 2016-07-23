@@ -36,6 +36,28 @@
             }
         ]
     },
+    "adobebridge:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adobe Bridge CS5.1",
+                "path": "Adobe Bridge CS5.1.app"
+            }
+        ]
+    },
+    "adobebridges:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Adobe Bridge CS5.1",
+                "path": "Adobe Bridge CS5.1.app"
+            }
+        ]
+    },
     "afp:": {
         "apps": [
             {
@@ -477,6 +499,13 @@
                 "flags": [
                     "url-type"
                 ],
+                "name": "Firefox",
+                "path": "Updated.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
                 "name": "Tor Browser",
                 "path": "TorBrowser.app"
             }
@@ -552,6 +581,13 @@
                 "flags": [
                     "url-type"
                 ],
+                "name": "Firefox",
+                "path": "Updated.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
                 "name": "Tor Browser",
                 "path": "TorBrowser.app"
             },
@@ -599,6 +635,18 @@
             {
                 "description": "",
                 "value": "http://stackoverflow.com/questions/6226195/game-center-url-scheme"
+            }
+        ]
+    },
+    "gb-install:": {
+        "apps": [
+            {
+                "flags": [
+                    "apple-internal",
+                    "url-type"
+                ],
+                "name": "GarageBand",
+                "path": "GarageBand.app"
             }
         ]
     },
@@ -790,6 +838,14 @@
                 ],
                 "name": "Firefox",
                 "path": "Firefox.app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "Firefox",
+                "path": "Updated.app"
             },
             {
                 "flags": [
@@ -1302,6 +1358,34 @@
                 ],
                 "name": "Transmission",
                 "path": "Transmission.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "\u00b5Torrent",
+                "path": "uTorrent (37979).app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "\u00b5Torrent",
+                "path": "uTorrent (41006).app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "\u00b5Torrent",
+                "path": "uTorrent (41339).app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "\u00b5Torrent",
+                "path": "uTorrent.app"
             }
         ],
         "presets": [
@@ -1985,6 +2069,17 @@
             }
         ]
     },
+    "sip:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Blink",
+                "path": "Blink.app"
+            }
+        ]
+    },
     "skype:": {
         "apps": [
             {
@@ -2567,6 +2662,17 @@
                 ],
                 "name": "Maps",
                 "path": "Maps.app"
+            }
+        ]
+    },
+    "x-mspresence:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Messenger",
+                "path": "Microsoft Messenger.app"
             }
         ]
     },
