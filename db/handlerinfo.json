@@ -89,11 +89,11 @@
         "urls": [
             {
                 "description": "",
-                "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
+                "value": "http://rock13.com/webhelp/goaim.html"
             },
             {
                 "description": "",
-                "value": "http://rock13.com/webhelp/goaim.html"
+                "value": "https://www.symantec.com/security_response/attacksignatures/detail.jsp?asid=22286"
             }
         ]
     },
@@ -224,6 +224,18 @@
             {
                 "description": "bitcoin: URL hander dissected",
                 "value": "https://github.com/ouspg/urlhandlers/blob/master/cases/bitcoin.md"
+            }
+        ]
+    },
+    "callto:": {
+        "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "SKCalltoURL",
+                "path": "Skype.app"
             }
         ]
     },
@@ -371,8 +383,24 @@
         ],
         "presets": [
             {
-                "description": "Open Facebook app to the users profile",
-                "value": "fb://profile"
+                "description": "",
+                "value": "fb://albums"
+            },
+            {
+                "description": "",
+                "value": "fb://events"
+            },
+            {
+                "description": "",
+                "value": "fb://feed"
+            },
+            {
+                "description": "",
+                "value": "fb://notes"
+            },
+            {
+                "description": "",
+                "value": "fb://requests"
             },
             {
                 "description": "Open Facebook app to the friends list",
@@ -383,24 +411,8 @@
                 "value": "fb://notifications"
             },
             {
-                "description": "",
-                "value": "fb://feed"
-            },
-            {
-                "description": "",
-                "value": "fb://events"
-            },
-            {
-                "description": "",
-                "value": "fb://requests"
-            },
-            {
-                "description": "",
-                "value": "fb://notes"
-            },
-            {
-                "description": "",
-                "value": "fb://albums"
+                "description": "Open Facebook app to the users profile",
+                "value": "fb://profile"
             }
         ],
         "urls": [
@@ -497,6 +509,22 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             },
             {
@@ -556,15 +584,15 @@
         "presets": [
             {
                 "description": "",
-                "value": "gamecenter://static.gc.apple.com/me/"
-            },
-            {
-                "description": "",
                 "value": "gamecenter://static.gc.apple.com/friends/"
             },
             {
                 "description": "",
                 "value": "gamecenter://static.gc.apple.com/games/"
+            },
+            {
+                "description": "",
+                "value": "gamecenter://static.gc.apple.com/me/"
             }
         ],
         "urls": [
@@ -628,11 +656,11 @@
         "presets": [
             {
                 "description": "",
-                "value": "help:search='sound%20volume'%20bookID='Mac%20Help"
+                "value": "help:runscript=MacHelp.help/Contents/Resources/English.lproj/shrd/OpnApp.scpt%20string='System:Library:PreferencePanes:Sound.prefPane'"
             },
             {
                 "description": "",
-                "value": "help:runscript=MacHelp.help/Contents/Resources/English.lproj/shrd/OpnApp.scpt%20string='System:Library:PreferencePanes:Sound.prefPane'"
+                "value": "help:search='sound%20volume'%20bookID='Mac%20Help"
             }
         ],
         "urls": [
@@ -690,6 +718,22 @@
                 ],
                 "name": "Tor Browser",
                 "path": "TorBrowser.app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
             },
             {
                 "flags": [
@@ -812,11 +856,11 @@
         "urls": [
             {
                 "description": "",
-                "value": "https://support.apple.com/en-us/HT202929"
+                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
             },
             {
                 "description": "",
-                "value": "http://wiki.akosma.com/IPhone_URL_Schemes#iBooks"
+                "value": "https://support.apple.com/en-us/HT202929"
             }
         ]
     },
@@ -904,11 +948,11 @@
         "presets": [
             {
                 "description": "",
-                "value": "ipp://example.com:631/~smith/printer"
+                "value": "ipp://example.com/printer/tiger/job123"
             },
             {
                 "description": "",
-                "value": "ipp://example.com/printer/tiger/job123"
+                "value": "ipp://example.com:631/~smith/printer"
             }
         ],
         "urls": [
@@ -1396,7 +1440,7 @@
         "presets": [
             {
                 "description": "",
-                "value": "maps://?ll=50.894967,4.341626"
+                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
             },
             {
                 "description": "",
@@ -1404,11 +1448,11 @@
             },
             {
                 "description": "",
-                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
+                "value": "maps://?ll=50.894967,4.341626"
             },
             {
                 "description": "",
-                "value": "maps://?address=1,Infinite+Loop,Cupertino,California"
+                "value": "maps://?saddr=San+Jose&daddr=San+Francisco&dirflg=r"
             }
         ]
     },
@@ -1446,12 +1490,44 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
     },
     "mmsh:": {
         "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
             {
                 "flags": [
                     "relative-icon-path",
@@ -1621,6 +1697,19 @@
             }
         ]
     },
+    "photo:": {
+        "apps": [
+            {
+                "flags": [
+                    "apple-default",
+                    "apple-internal",
+                    "url-type"
+                ],
+                "name": "iPhoto",
+                "path": "iPhoto.app"
+            }
+        ]
+    },
     "photos:": {
         "apps": [
             {
@@ -1630,6 +1719,18 @@
                 ],
                 "name": "Photos",
                 "path": "Photos.app"
+            }
+        ]
+    },
+    "photostream:": {
+        "apps": [
+            {
+                "flags": [
+                    "apple-internal",
+                    "url-type"
+                ],
+                "name": "PhotoStreamAgent",
+                "path": "PhotoStreamAgent.app"
             }
         ]
     },
@@ -1675,12 +1776,44 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
     },
     "rtmpe:": {
         "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
             {
                 "flags": [
                     "relative-icon-path",
@@ -1699,12 +1832,44 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
     },
     "rtmpt:": {
         "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
             {
                 "flags": [
                     "relative-icon-path",
@@ -1735,6 +1900,22 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
@@ -1756,6 +1937,22 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ]
@@ -1768,7 +1965,35 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
+            }
+        ]
+    },
+    "skype:": {
+        "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "SKCalltoURL",
+                "path": "Skype.app"
             }
         ]
     },
@@ -1823,6 +2048,22 @@
                     "url-type"
                 ],
                 "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
                 "path": "VLC.app"
             }
         ],
@@ -1830,6 +2071,24 @@
             {
                 "description": "",
                 "value": "smb://guest:f@crashterminal.org/tmp/"
+            }
+        ]
+    },
+    "spotify:": {
+        "apps": [
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "Spotify",
+                "path": "Spotify.app"
+            },
+            {
+                "flags": [
+                    "url-type"
+                ],
+                "name": "com.spotify.media",
+                "path": "Spotify.app"
             }
         ]
     },
@@ -1911,6 +2170,14 @@
                 ],
                 "name": "FaceTime",
                 "path": "FaceTime.app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "SKCalltoURL",
+                "path": "Skype.app"
             }
         ]
     },
@@ -1960,20 +2227,20 @@
         ],
         "presets": [
             {
-                "description": "Share link with text in telegram.",
-                "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
-            },
-            {
-                "description": "Opens chat windows with user ImageBot",
-                "value": "tg://resolve?domain=ImageBot"
+                "description": "Add baronchoen sticker set.",
+                "value": "tg://addstickers?set=baroncohen"
             },
             {
                 "description": "Join to channel with invite token.",
                 "value": "tg://join?invite=AZxB2QEc-ycqBN4MhuHKgw"
             },
             {
-                "description": "Add baronchoen sticker set.",
-                "value": "tg://addstickers?set=baroncohen"
+                "description": "Opens chat windows with user ImageBot",
+                "value": "tg://resolve?domain=ImageBot"
+            },
+            {
+                "description": "Share link with text in telegram.",
+                "value": "tg://msg_url?url=https://github.com/ouspg/urlhandlers/&text=URLHandlers"
             }
         ]
     },
@@ -2002,14 +2269,6 @@
         "presets": [
             {
                 "description": "",
-                "value": "twitter://post?message=hello%20world&in_reply_to_status_id=12345"
-            },
-            {
-                "description": "",
-                "value": "twitter://search?query=%23hashtag"
-            },
-            {
-                "description": "",
                 "value": "twitter://mentions"
             },
             {
@@ -2018,15 +2277,23 @@
             },
             {
                 "description": "",
+                "value": "twitter://post?message=hello%20world&in_reply_to_status_id=12345"
+            },
+            {
+                "description": "",
+                "value": "twitter://search?query=%23hashtag"
+            },
+            {
+                "description": "",
                 "value": "twitter://timeline"
             },
             {
                 "description": "",
-                "value": "twitter://user?screen_name=lorenb"
+                "value": "twitter://user?id=1"
             },
             {
                 "description": "",
-                "value": "twitter://user?id=1"
+                "value": "twitter://user?screen_name=lorenb"
             }
         ],
         "urls": [
@@ -2049,6 +2316,22 @@
     },
     "udp:": {
         "apps": [
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.1.5).app"
+            },
+            {
+                "flags": [
+                    "relative-icon-path",
+                    "url-type"
+                ],
+                "name": "VLC media player",
+                "path": "VLC (2.2.1).app"
+            },
             {
                 "flags": [
                     "relative-icon-path",
@@ -2313,11 +2596,11 @@
             },
             {
                 "description": "",
-                "value": "xmpp:user@server.net?roster;name=Romeo%20Montague;group=Friends"
+                "value": "xmpp:user@server.net?remove"
             },
             {
                 "description": "",
-                "value": "xmpp:user@server.net?remove"
+                "value": "xmpp:user@server.net?roster;name=Romeo%20Montague;group=Friends"
             },
             {
                 "description": "",
