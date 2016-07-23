@@ -1,15 +1,17 @@
+[CmdletBinding()]
 param (
-	[Parameter(mandatory=$true)][string]$filename
+	[Parameter(mandatory=$true)][string]$output
 )
 
 # Invoke with:
 # powershell -ExecutionPolicy Bypass -File handlers-list.ps1 -output handlers.json
 # Probably needs an user account with privileged access
 
-# JSON helper functions for Powershell 2 users (Windows 7)
+# JSON helper functions
 add-type -assemblyName System.ServiceModel.Web
 
 function Read-Stream {
+[CmdletBinding()]
 PARAM(
    [Parameter(Position=0,ValueFromPipeline=$true)]$Stream
 )
@@ -21,6 +23,7 @@ process {
 # Make-Json expects hashtables and arrays as container data types
 # and anything serializable as values
 function Make-Json {
+[CmdletBinding()]
 Param(
 	[Parameter(ValueFromPipeline=$true)][HashTable]$InputObject,
 	[Parameter(Mandatory=$false)]$tab
@@ -93,8 +96,8 @@ function Check-Command($cmdname) {
 
 # Now, let's enumerate the registy. First, add HKCR
 New-PSDrive -Name HKCR -PSProvider Registry -Root HKEY_CLASSES_ROOT | Out-Null
-push-location
-set-location HKCR:\
+Push-Location
+Set-Location HKCR:\
 
 # Let's enumeration!
 $handlers = @{}
@@ -110,8 +113,10 @@ foreach {
 	$values = Get-ItemProperty $_
 	$shellopen = Get-ItemProperty "$($_)\Shell\Open\Command" -ErrorAction SilentlyContinue
 	if ($shellopen) {
-		$shellopen = $shellopen | Select-Object -ExpandProperty '(Default)'
-		$extapp.item("path") = $shellopen -replace "`n","" -replace "`r",""
+		$shellopen = $shellopen | Select-Object -ExpandProperty '(Default)' -ErrorAction SilentlyContinue
+		if ($shellopen) {
+			$extapp.item("path") = $shellopen -replace "`n","" -replace "`r",""
+		}
 	}
 	$descr = $values | Select-Object -ExpandProperty '(Default)' -ErrorAction SilentlyContinue
 	if ($descr) {
@@ -124,10 +129,6 @@ foreach {
 	$handlers.item($ext).item("apps") += $extapp
 }
 
-pop-location
 
-if (Check-Command -cmdname "ConvertTo-Json") {
-	ConvertTo-Json $handlers | out-file $filename
-} else {
-	Make-Json $handlers | out-file $filename
-}
+Pop-Location
+Make-Json $handlers | out-file $output
