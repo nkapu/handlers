@@ -7,8 +7,28 @@ class: center, middle
 
 class: center, middle
 
-# Who are we?
-## Serious Researchers
+# video://
+## You open a browser and visit a web page
+
+---
+
+class: center, middle
+
+# why://
+## You don't want this on your computer
+
+---
+
+class: center, middle
+
+# who://
+## Serious Researchers&#8482;
+
+---
+
+class: center, middle
+
+# video://replay
 
 ---
 
@@ -21,13 +41,13 @@ class: center, middle
 class: center, middle
 
 # gopher://
+## When I was young
 
 ---
 
 class: center, middle
 
 # http://
-
 ## http://www.assembly.org/summer16/
 
 ---
@@ -35,55 +55,94 @@ class: center, middle
 class: center, middle
 
 # magnet://
+## Anyone?
 
 ---
 
 class: center, middle
 
-# What could go wrong?
-
-## (video)
+background-image: url(logo.png)
 
 ---
 
 class: center, middle
 
-# Ok, that's annoying
-## So what?
+# Research&#8482;
 
----
-
-class: center, middle
-
-# word://
-
----
-
-class: center, middle
-
-# I repeat: So what?
-
-## (video)
-
----
-
-class: center, middle
-
-# URL -> danger
-
----
-
-class: center, middle
-
-# Research
-
-## please participate
+## Very serious, please participate
 
 ---
 
 class: center, middle
 
 ## (screenshot of steam/ingame)
+
+---
+
+class: center, middle
+
+## (yellow | red | blue)
+
+---
+
+class: center, middle
+
+# word://
+## (video)
+
+---
+
+class: center, middle
+
+# So what?
+## (video)
+
+---
+
+class: center, middle
+
+# What happen?
+## Quick recap
+
+---
+
+
+class: center, bottom
+### Click link
+
+---
+
+background-image: url(2-lataus.png)
+
+class: center, bottom
+### Load document
+
+---
+
+background-image: url(3-makrot.png)
+
+class: center, bottom
+### Enable macros
+
+---
+
+background-image: url(4-krypto.png)
+
+class: center, bottom
+### Files get crypted
+
+---
+
+background-image: url(5-rkioski.png)
+
+class: center, bottom
+### Time to buy bitcoins
+
+---
+
+class: center, middle
+
+# danger://
 
 ---
 
