@@ -1,83 +1,98 @@
 # URL handlers
-  *  http://www.assembly.org/summer16/program/arttech-seminar/sessions/
-  * Presentation language is English
-  * hullunkurisia demoja
-  * välissä "herätyksiä"
-  * loppu- ja alkuhuipennus
-  * Mac/windows splitscreen
-  * http://www.ee.oulu.fi/~exec/remarktest.html#2
 
-## 00:00 1. Motivation
+* <http://www.assembly.org/summer16/program/arttech-seminar/sessions/>
+* Presentation language is English
+* hullunkurisia demoja
+* välissä "herätyksiä"
+* loppu- ja alkuhuipennus
+* Mac/windows splitscreen
+* <http://www.ee.oulu.fi/~exec/remarktest.html#2>
 
-  * xmas video (maybe too abstract?)
-    * Jani
-    * keskustele pituudesta? mahdollinen splittaus?
-  * Given the audience, recommended to state "why this matters" as early as possible.
+## 00:00 1. Motivation - video://
+
+* video://
+  * You open a browser and visit a web page
+  * xmas video in fast pace (15 secs?, 10+ x, faster towards end?)
+    * From Jani / talk about the target length and the split
+    * The beginning sequence should show *extremely* clearly that it is
+    just about opening a regular web page
+    * Increasingly chaotic music/noise that abrubtly cuts to silence,
+    in style of <https://youtu.be/ZV-UEca2W9U?t=1m16s> (from 1:16 to 1:33)
+    * Cut to black in sync with the sound
+* why://
+  * **What** did just happen?
+  * You might not want all this happen on your machine
+* who://
   * Aimo speaks and Atte introduces demo videos.
   * We are from University of Finland
+  * We will walk you through this in slow motion
+* video://replay
+  * Start from the end frame (black?) and "rewind" the video from end to
+    start in superspeed (with the sound also rewinded backwards without
+    the pitch going up)
+  * cut xmas video to sensible length with annotations?
+    1. you visit a web page
+    1. plenty of applications open
+    1. all sort of content opens
+    1. printers and cameras get involved
+    1. you hope to do your best to cancel everything safely
 
+## 00:05 2. How did we end up here - gopher://, <http://>, magnet://, xxx://
 
-## 00:05 2. Introduction to URLs and handlers
-
-  * Introduction What are URLs and URL schemes
-  * What happened in intro video(s)?
+* <gopher://>
   * When I was young gopher
-  * Nowadays http or magnet
-  * We found some dark corners
-  * What is a url handler and how it works?
+* <http://>
+  * For the masses
+* <magnet://>
+  * For the future
+* <xxx://>
+  * We found plenty
+  * handler cloud?
 
-## 00:10 3. Challenge
+## 00:10 3. Challenge - <http://challenge.urlhandlers.info>
 
-  * This is **Serious** research
-  * Crowd sourced
-  * Three teams (yellow, red and blue)
-  * Example screenshot of steam or in-game chat
-  * Research contribution to find out all different software that is used.
+* This is **Serious** research
+* Crowd sourced
+* Three teams (yellow, red and blue)
+* Example screenshot of steam or in-game chat
+* Research contribution to find out all different software that is used.
 
-## 00:15 4. Are url handlers secure? (Sidetrack)
+## 00:15 4. Are url handlers secure? - word://
 
-  * Are url handlers secure?
-  * Short brief about Software Security
-  * prompt video
-  * Why its bad habit to click urls.
-  * msword://
+* Are url handlers secure?
+* Short brief about Software Security
+* prompt video
+* Why its bad habit to click urls.
+* msword://
+  * a. click msword:// link -> M$ word starts
+  * b. so what?
+  * c. video ... leikkaa wordin avaaminen ... macrojen hyväksyntä ...
+  tiedostojen kryptatutumisen aloitus (korostaen / zoomaten siihen tiedoston
+  nimiiin) .... randomware note
+* <https://www.youtube.com/watch?v=GyZMJr7RfBE>
 
-    1. a. click msword:// link -> M$ word starts
+## 00:20 5. Pop up marketing strikes back - twitter://
 
-    2. b. so what?
-
-    3. c. video ... leikkaa wordin avaaminen ... macrojen hyväksyntä ... tiedostojen kryptatutumisen aloitus (korostaen / zoomaten siihen tiedoston nimiiin) .... randomware note
-
-  * https://www.youtube.com/watch?v=GyZMJr7RfBE
-
-## 00:20 5. Hack the Mac
-
-  * twitter ad video?
+* twitter ad video?
 
 ## 00:25 6. Hack the Windows
 
-  * Did you know you have candy crush soda saga in your windows?
-  * What url handlers i do have in my gaming pc?
+* Did you know you have candy crush soda saga in your windows?
+* What url handlers i do have in my gaming pc?
 
-## 00:30 7.
+## 00:30 7. FIXME
 
-  * what url handlers I do have in my computer
+* what url handlers I do have in my computer
 
 ## 00:35 8. Grand Final
 
-  * panic.html video
+* challenge results so far
+  * live until end of assembly
+* panic.html video
 
 ## 00:40 9. Q&A
 
-  * Meet and greet with mad and harmless scientists
-    * University of Oulu (OUSPG)
-    * Juhani "Aimo" Eronen (Secret goverment agent)
-    * Kasper "Atte" Kyllönen (Summer trainee in crime "just a regular high schooler")
-
----
-
-# msword://
-
-Are links dangerous?
-
----
+* Meet and greet with mad and harmless scientists
+* University of Oulu (OUSPG)
+  * Juhani "Aimo" Eronen (Secret goverment agent)
+* Kasper "Atte" Kyllönen (Summer trainee in crime "just a regular high schooler")
