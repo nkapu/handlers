@@ -4,24 +4,11 @@ param (
 )
 
 # Invoke with:
-# powershell -ExecutionPolicy Bypass -File handlers-list.ps1 -output handlers.json
+# powershell -ExecutionPolicy Bypass -File registryenum.ps1 -output handlers.json
 # Probably needs an user account with privileged access
 
-# JSON helper functions
-add-type -assemblyName System.ServiceModel.Web
-
-function Read-Stream {
-[CmdletBinding()]
-PARAM(
-   [Parameter(Position=0,ValueFromPipeline=$true)]$Stream
-)
-process {
-   $bytes = $Stream.ToArray()
-   [System.Text.Encoding]::UTF8.GetString($bytes,0,$bytes.Length)
-}}
-
 # Make-Json expects hashtables and arrays as container data types
-# and anything serializable as values
+# and anything with a working ToString method as values.
 function Make-Json {
 [CmdletBinding()]
 Param(
@@ -34,13 +21,9 @@ begin {
 }
 process {
 	function serialize($data) {
-		$type = $data.GetType()
-		if(!$Ser.ContainsKey($Type)) {
-			$Ser.($Type) = New-Object System.Runtime.Serialization.Json.DataContractJsonSerializer $type
-		}
-		$stream = New-Object System.IO.MemoryStream
-		$Ser.($Type).WriteObject($stream, $data)
-		(Read-Stream $stream)
+		$data = [regex]::Replace($data.ToString(), '(?<!\\)\\', '\\')
+		$data = [regex]::Replace($data, '(?<!\\)"', '\"')
+		'"' + $data + '"'
 	}
 	function handle_array($val) {
 		$out = ""
