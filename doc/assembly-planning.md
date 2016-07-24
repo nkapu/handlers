@@ -22,6 +22,9 @@
     just about opening a regular web page
     * Increasingly chaotic music/noise that abrubtly cuts to silence,
     in style of <https://youtu.be/ZV-UEca2W9U?t=1m16s> (from 1:16 to 1:33)
+      * [option 1 - Tybercore - Heavy Cinematic Hybrid Trailer](https://youtu.be/cKcDwlIPIro?t=57s)
+      * [option 2 - Tybercore - Nocturnal Creature](https://youtu.be/a9SBfblEA6w?t=52s)
+      * [option 3 - Tybercore - Hybrid Hollywood Trailer](https://youtu.be/sf820zgOhsI)
     * Cut to black in sync with the sound
 * why://
   * **What** did just happen?
