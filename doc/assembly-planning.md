@@ -7,6 +7,10 @@
 * loppu- ja alkuhuipennus
 * Mac/windows splitscreen
 * <http://www.ee.oulu.fi/~exec/remarktest.html#2>
+* Tekninen toteutus: GitHub Pageen staattisena
+  hakemistona HTML/JS/.../M4V-filejä, jotta:
+  * hakemiston voi kloonata ja esittää täysin lokaalisti
+  * online-linkkiä esitykseen voi jakaa
 
 ## 00:00 1. Motivation - video://
 
@@ -61,7 +65,7 @@
 
 * Are url handlers secure?
 * Short brief about Software Security
-* prompt video
+* video about opening word on remote content by clicing an url
 * Why its bad habit to click urls.
 * msword://
   * a. click msword:// link -> M$ word starts
@@ -73,6 +77,10 @@
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
+* iframe launch
+* twitter advertiser account
+* preformatter tweet ads
+* advertiser account profile ads
 * twitter ad video?
 
 ## 00:25 6. Hack the Windows
