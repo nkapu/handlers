@@ -4,7 +4,7 @@ param (
 )
 
 # Invoke with:
-# powershell -ExecutionPolicy Bypass -File registryenum.ps1 -output handlers.json
+# powershell -ExecutionPolicy Bypass -File handlers-list.ps1 -output handlers.json
 # Probably needs an user account with privileged access
 
 # Make-Json expects hashtables and arrays as container data types
@@ -98,7 +98,11 @@ foreach {
 	if ($shellopen) {
 		$shellopen = $shellopen | Select-Object -ExpandProperty '(Default)' -ErrorAction SilentlyContinue
 		if ($shellopen) {
-			$extapp.item("path") = $shellopen -replace "`n","" -replace "`r",""
+			$shellopen = $shellopen -replace "`n","" -replace "`r",""
+			$shellopen = $shellopen.split("\")[-1]
+			$shellopen = $shellopen.split(" ")[0]
+			$shellopen = $shellopen.split('"')[0]
+			$extapp.item("path") = $shellopen
 		}
 	}
 	$descr = $values | Select-Object -ExpandProperty '(Default)' -ErrorAction SilentlyContinue

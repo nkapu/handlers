@@ -7,7 +7,7 @@ import pprint
 from optparse import OptionParser
 
 # original code of merge() received from a kind anonymous coder with MIT license
-
+ENCODINGS = ['ascii', 'latin-1', 'utf-8', 'utf-16']
 
 def merge(left, right):
     """
@@ -105,11 +105,20 @@ if __name__ == '__main__':
 
     for arg in args:
         with open(arg) as jsonfile:
+            data = jsonfile.read()
+            _dict = {}
+            for encoding in ENCODINGS:
+                try:
+                    data = data.decode(encoding)
+                    _dict = json.loads(data)
+                except (UnicodeDecodeError, UnicodeEncodeError, ValueError):
+                    continue
+
             if not currentdict:
-                currentdict = json.load(jsonfile)
+                currentdict = _dict
                 continue
 
-            nextdict = json.load(jsonfile)
+            nextdict = _dict
             currentdict = merge(currentdict, nextdict)
 
     if options.pretty:
