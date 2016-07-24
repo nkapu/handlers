@@ -1,22 +1,26 @@
 # URL handlers
   *  http://www.assembly.org/summer16/program/arttech-seminar/sessions/
-  * Aimo speaks and Atte introduces demo videos.
-  * We are from University of Finland
   * Presentation language is English
   * hullunkurisia demoja
   * välissä "herätyksiä"
   * loppu- ja alkuhuipennus
   * Mac/windows splitscreen
+  * http://www.ee.oulu.fi/~exec/remarktest.html#2
 
 ## 00:00 1. Motivation
 
   * xmas video (maybe too abstract?)
+    * Jani
+    * keskustele pituudesta? mahdollinen splittaus?
   * Given the audience, recommended to state "why this matters" as early as possible.
+  * Aimo speaks and Atte introduces demo videos.
+  * We are from University of Finland
+
 
 ## 00:05 2. Introduction to URLs and handlers
 
   * Introduction What are URLs and URL schemes
-  * What happened in introvideo(s)?
+  * What happened in intro video(s)?
   * When I was young gopher
   * Nowadays http or magnet
   * We found some dark corners
