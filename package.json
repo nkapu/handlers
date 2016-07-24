@@ -11,11 +11,10 @@
     "jsonlint": "^1.6.2",
     "jspm": "^0.16.32",
     "markdownlint": "^0.2.0",
-    "markdownlint-cli": "^0.1.0",
-    "remark-lint": "^4.0.2"
+    "markdownlint-cli": "^0.1.0"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . && markdownlint *.md */*.md",
     "test": "npm run lint"
   },
   "repository": {

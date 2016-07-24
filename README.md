@@ -1,4 +1,7 @@
-# Discover and Hack URL handlers [![CircleCI](https://circleci.com/gh/ouspg/urlhandlers.svg?style=shield)](https://circleci.com/gh/ouspg/urlhandlers)
+# Discover and Hack URL handlers
+
+[![CircleCI](https://circleci.com/gh/ouspg/urlhandlers.svg?style=shield)](https://circleci.com/gh/ouspg/urlhandlers)
+[![devDependency Status](https://david-dm.org/ouspg/urlhandlers/dev-status.svg)](https://david-dm.org/ouspg/urlhandlers#info=devDependencies)
 
 URL handlers are the bits in the front of the URLs (e.g. http:, https:,
 ftp:, skype:). They add things a web page can do to you and your device.
