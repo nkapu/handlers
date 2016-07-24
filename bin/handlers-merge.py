@@ -9,6 +9,7 @@ from optparse import OptionParser
 # original code of merge() received from a kind anonymous coder with MIT license
 ENCODINGS = ['ascii', 'latin-1', 'utf-8', 'utf-16']
 
+
 def merge(left, right):
     """
     Merge equal values, make them multivalues otherwise.
