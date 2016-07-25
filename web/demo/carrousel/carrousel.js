@@ -47,6 +47,7 @@ if (qs.delay) {
 
 var urls = [];
 var urlindex = 0;
+var rounds = 0;
 
 req.onreadystatechange = function() {
   if (req.readyState === 4 && req.status === 200) {
@@ -62,5 +63,12 @@ function nexttarget() {
   document.getElementById("myframe").src = urls[urlindex++];
   if (urlindex >= urls.length) {
     urlindex = 0;
+    rounds++;
+    /* do it quick on the second round  */
+    if (rounds === 1) {
+      window.setInterval(nexttarget, 0.5 * 1000);
+    } else {
+      window.setInterval(nexttarget, delay);
+    }
   }
 }
