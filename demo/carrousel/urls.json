@@ -1,4 +1,5 @@
 [
+  "twitter://user?screen_name=iltakoodari",
   "twitter://post?message=Good%20morning%20gentlemen,%20now%20what%20can%20I%20do%20for%20you?",
   "twitter://post?message=You've%20ah,%20you've%20got%20a%20nice%20Army%20base%20here,%20Colonel.",
   "twitter://post?message=Yes?",
@@ -8,6 +9,5 @@
   "twitter://user?screen_name=kokokansanpaavo",
   "twitter://user?screen_name=kekkonenukk",
   "twitter://user?screen_name=montypython",
-  "twitter://user?screen_name=iltakoodari",
   "twitter://user?screen_name=ouspg"
 ]
