@@ -1,13 +1,13 @@
 [
+  "twitter://post?message=Good%20morning%20gentlemen,%20now%20what%20can%20I%20do%20for%20you?",
+  "twitter://post?message=You've%20ah,%20you've%20got%20a%20nice%20Army%20base%20here,%20Colonel.",
+  "twitter://post?message=Yes?",
+  "twitter://post?message=We%20wouldn't%20want%20anything%20to%20happen%20to%20it...",
+  "twitter://post?message=What?",
+  "twitter://post?message=What%20my%20brother%20means%20is,%20it%20would%20be%20a%20shame%20if%20ah%20...",
   "twitter://user?screen_name=kokokansanpaavo",
-  "twitter://post?message=Vote%20for%20Paavo",
   "twitter://user?screen_name=kekkonenukk",
-  "twitter://post?message=Vote%20for%20Urho",
-  "twitter://user?screen_name=juhasipila",
-  "twitter://post?message=Vote%20for%20Juha",
-  "twitter://user?screen_name=alexstubb",
-  "twitter://post?message=Vote%20for%20Alexander",
-  "twitter://user?screen_name=ouspg",
-  "twitter://post?message=Vote%20for%20ouspg",
-  "twitter://search?query=%23ouspg"
+  "twitter://user?screen_name=montypython",
+  "twitter://user?screen_name=iltakoodari",
+  "twitter://user?screen_name=ouspg"
 ]
