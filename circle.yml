@@ -1,0 +1,5 @@
+# This is for the gh-pages branch subtree push
+general:
+  branches:
+    ignore:
+      - gh-pages # list of branches to ignore
