@@ -3,8 +3,8 @@
 Usage: ?dataurl=<json url>&interval=<secs>&delay=<secs>
 
 dataurl default is "urls.json"
-delay default is 20 seconds
-interval default is 5 seconds
+delay default is 15 seconds
+interval default is 3 seconds
 
 default camo iframe URL has to be changed from the code itself
 
@@ -36,8 +36,8 @@ var qs = (function(a) {
 
 var req = new XMLHttpRequest();
 var dataurl = "urls.json";
-var delay = 20 * 1000;
-var interval = 5 * 1000;
+var delay = 15 * 1000;
+var interval = 3 * 1000;
 var timer;
 
 if (qs.dataurl) {
@@ -55,6 +55,7 @@ if (qs.interval) {
 var urls = [];
 var urlindex = 0;
 var rounds = 0;
+var direction = 1;
 
 req.onreadystatechange = function() {
   if (req.readyState === 4 && req.status === 200) {
@@ -67,15 +68,21 @@ req.send();
 
 /** iterate through the array of urls (with delay) */
 function nexttarget() {
-  document.getElementById("myframe").src = urls[urlindex++];
+  document.getElementById("myframe").src = urls[urlindex];
+  urlindex += direction;
   if (urlindex >= urls.length) {
+    urlindex -= 1;
+    direction = -1;
+  } else if (urlindex < 0) {
     urlindex = 0;
+    direction = 1;
     rounds++;
   }
+
+  /* do it quicker backwards  */
   window.clearInterval(timer);
-  /* do it quicker on the second round  */
-  if (rounds === 1) {
-    timer = window.setInterval(nexttarget, 0.5 * 1000);
+  if (direction < 0) {
+    timer = window.setInterval(nexttarget, 500);
   } else {
     timer = window.setInterval(nexttarget, interval);
   }
