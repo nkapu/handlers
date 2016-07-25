@@ -51,6 +51,12 @@
                 "name": "URL:Play Single DLNA Item Protocol",
                 "path": "wmplayer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\DLNA-PLAYSINGLE"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\system32\\dlnashext.dll,-250",
+                "name": "URL:Play Single DLNA Item Protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\DLNA-PLAYSINGLE"
             }
         ]
     },
@@ -58,6 +64,11 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6023",
+                "path": "explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.BurnSelection"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6023",
                 "path": "explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.BurnSelection"
             }
@@ -69,6 +80,11 @@
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6025",
                 "path": "explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.EraseDisc"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6025",
+                "path": "explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.EraseDisc"
             }
         ]
     },
@@ -76,6 +92,11 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6022",
+                "path": "explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.ZipSelection"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6022",
                 "path": "explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.ZipSelection"
             }
@@ -94,6 +115,12 @@
                 "name": "Windows Search Protocol",
                 "path": "Explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocProtocol.search-ms"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6010",
+                "name": "Windows Search Protocol",
+                "path": "Explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocProtocol.search-ms"
             }
         ]
     },
@@ -101,6 +128,11 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6023",
+                "name": "File Explorer \u2018Burn to disc\u2019 button",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.BurnSelection"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6023",
                 "name": "File Explorer \u2018Burn to disc\u2019 button",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.BurnSelection"
             }
@@ -112,6 +144,11 @@
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6025",
                 "name": "File Explorer \u2018Erase this disc\u2019 button",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.EraseDisc"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6025",
+                "name": "File Explorer \u2018Erase this disc\u2019 button",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.EraseDisc"
             }
         ]
     },
@@ -119,6 +156,11 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6022",
+                "name": "File Explorer \u2018Zip\u2019 button",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.ZipSelection"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6022",
                 "name": "File Explorer \u2018Zip\u2019 button",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.ZipSelection"
             }
@@ -173,12 +215,30 @@
             }
         ]
     },
+    "Intel.ITA.CP": {
+        "apps": [
+            {
+                "name": "\"Intel(R) ITA CP\"",
+                "path": "ICAUI.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Intel.ITA.CP"
+            }
+        ]
+    },
     "LDAP": {
         "apps": [
             {
                 "name": "URL:LDAP Protocol",
                 "path": "wab.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\LDAP"
+            }
+        ]
+    },
+    "LenovoSettingsDriverHelper": {
+        "apps": [
+            {
+                "name": "URL:LenovoSettingsDriverHelper Protocol",
+                "path": "rundll32.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\LenovoSettingsDriverHelper"
             }
         ]
     },
@@ -222,6 +282,12 @@
                 "name": "URL:mms Protocol",
                 "path": "wmplayer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\MMS"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\system32\\unregmp2.exe,-9928",
+                "name": "URL:mms Protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\MMS"
             }
         ]
     },
@@ -243,8 +309,57 @@
         "apps": [
             {
                 "name": "Microsoft Workfolders",
+                "path": "control",
+                "registrykey": "HKEY_CLASSES_ROOT\\Microsoft.Workfolders"
+            },
+            {
+                "name": "Microsoft Workfolders",
                 "path": "control.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Microsoft.Workfolders"
+            }
+        ]
+    },
+    "OneIndex14": {
+        "apps": [
+            {
+                "name": "Microsoft OneNote Protocol Handler for Windows Desktop Search",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneIndex14"
+            }
+        ]
+    },
+    "OneNote": {
+        "apps": [
+            {
+                "name": "URL:OneNote Protocol",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneNote"
+            }
+        ]
+    },
+    "OneNote.URL.14": {
+        "apps": [
+            {
+                "name": "URL:OneNote Protocol",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneNote.URL.14"
+            }
+        ]
+    },
+    "OneNoteDesktop": {
+        "apps": [
+            {
+                "name": "URL:OneNote Protocol",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneNoteDesktop"
+            }
+        ]
+    },
+    "OneNoteDesktop.URL.14": {
+        "apps": [
+            {
+                "name": "URL:OneNote Protocol",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneNoteDesktop.URL.14"
             }
         ]
     },
@@ -291,6 +406,15 @@
             }
         ]
     },
+    "SKLauncher": {
+        "apps": [
+            {
+                "name": "URL: Smartkey Protocol",
+                "path": "dfrcfg.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\SKLauncher"
+            }
+        ]
+    },
     "SharePointWorkspaceSearch": {
         "apps": [
             {
@@ -314,6 +438,12 @@
                 "name": "URL:dlna-playsingle Protocol",
                 "path": "wmplayer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\WMP11.AssocProtocol.DLNA-PLAYSINGLE"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\system32\\unregmp2.exe,-9901",
+                "name": "URL:dlna-playsingle Protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\WMP11.AssocProtocol.DLNA-PLAYSINGLE"
             }
         ]
     },
@@ -327,6 +457,12 @@
             },
             {
                 "friendlytypename": "@C:\\Windows\\system32\\unregmp2.exe,-9928",
+                "name": "URL:mms Protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\WMP11.AssocProtocol.MMS"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\system32\\unregmp2.exe,-9928",
                 "name": "URL:mms Protocol",
                 "path": "wmplayer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\WMP11.AssocProtocol.MMS"
@@ -525,6 +661,14 @@
             }
         ]
     },
+    "dolby-protocol": {
+        "apps": [
+            {
+                "name": "URL:dolby-protocol",
+                "registrykey": "HKEY_CLASSES_ROOT\\dolby-protocol"
+            }
+        ]
+    },
     "excel": {
         "apps": [
             {
@@ -718,6 +862,24 @@
             }
         ]
     },
+    "intelum": {
+        "apps": [
+            {
+                "name": "URL:IUM Protocol Handler",
+                "path": "iumsvc.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\intelum"
+            }
+        ]
+    },
+    "intelwidi": {
+        "apps": [
+            {
+                "name": "URL:IntelWiDi Protocol",
+                "path": "WiDiApp.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\intelwidi"
+            }
+        ]
+    },
     "jnlp": {
         "apps": [
             {
@@ -742,6 +904,31 @@
                 "name": "URL:Kiosk Protocol",
                 "path": "virtkiosk.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\kiosk"
+            }
+        ]
+    },
+    "lenovo-app-store": {
+        "apps": [
+            {
+                "name": "URL:LaunchProxy Protocol",
+                "path": "LaunchProxy.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\lenovo-app-store"
+            }
+        ]
+    },
+    "lenovo-metro-discovery": {
+        "apps": [
+            {
+                "name": "URL:lenovo-metro-discovery",
+                "registrykey": "HKEY_CLASSES_ROOT\\lenovo-metro-discovery"
+            }
+        ]
+    },
+    "lenovo-metro-settings": {
+        "apps": [
+            {
+                "name": "URL:lenovo-metro-settings",
+                "registrykey": "HKEY_CLASSES_ROOT\\lenovo-metro-settings"
             }
         ]
     },
@@ -774,6 +961,10 @@
     },
     "mailto": {
         "apps": [
+            {
+                "name": "URL:mailto",
+                "registrykey": "HKEY_CLASSES_ROOT\\mailto"
+            },
             {
                 "name": "URL:MailTo Protocol",
                 "path": "OUTLOOK.EXE",
@@ -1325,6 +1516,11 @@
             {
                 "path": "FIRSTRUN.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\onenote"
+            },
+            {
+                "name": "URL:onenote",
+                "path": "FIRSTRUN.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\onenote"
             }
         ]
     },
@@ -1515,6 +1711,12 @@
                 "name": "Windows Search Protocol",
                 "path": "Explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\search"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6010",
+                "name": "Windows Search Protocol",
+                "path": "Explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\search"
             }
         ]
     },
@@ -1528,6 +1730,12 @@
             },
             {
                 "friendlytypename": "@C:\\Windows\\explorer.exe,-6010",
+                "name": "Windows Search Protocol",
+                "path": "Explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\search-ms"
+            },
+            {
+                "friendlytypename": "@C:\\windows\\explorer.exe,-6010",
                 "name": "Windows Search Protocol",
                 "path": "Explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\search-ms"
@@ -1821,6 +2029,54 @@
             }
         ]
     },
+    "windows.appointmentsprovider.addappointment": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51297",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.appointmentsprovider.addappointment"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.removeappointment": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51298",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.appointmentsprovider.removeappointment"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.replaceappointment": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51299",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.appointmentsprovider.replaceappointment"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.showtimeframe": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51300",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.appointmentsprovider.showtimeframe"
+            }
+        ]
+    },
+    "windows.contact.map": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51302",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.map"
+            }
+        ]
+    },
+    "windows.contact.post+twitter.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51304",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.post+twitter.com"
+            }
+        ]
+    },
     "windows.tbauth": {
         "apps": [
             {
@@ -1882,6 +2138,24 @@
                 "name": "URL: winscp-FTPS Protocol",
                 "path": "WinSCP.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\winscp-FTPS"
+            }
+        ]
+    },
+    "winscp-HTTP": {
+        "apps": [
+            {
+                "name": "URL: winscp-HTTP Protocol",
+                "path": "WinSCP.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\winscp-HTTP"
+            }
+        ]
+    },
+    "winscp-HTTPS": {
+        "apps": [
+            {
+                "name": "URL: winscp-HTTPS Protocol",
+                "path": "WinSCP.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\winscp-HTTPS"
             }
         ]
     },
