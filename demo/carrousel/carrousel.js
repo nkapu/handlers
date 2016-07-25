@@ -1,9 +1,10 @@
 /*
 
-Usage: ?dataurl=<json url>&delay=<delay in secs>
+Usage: ?dataurl=<json url>&interval=<secs>&delay=<secs>
 
 dataurl default is "urls.json"
-delay default is 5 seconds
+delay default is 20 seconds
+interval default is 5 seconds
 
 default camo iframe URL has to be changed from the code itself
 
@@ -35,7 +36,9 @@ var qs = (function(a) {
 
 var req = new XMLHttpRequest();
 var dataurl = "urls.json";
-var delay = 5 * 1000;
+var delay = 20 * 1000;
+var interval = 5 * 1000;
+var timer;
 
 if (qs.dataurl) {
   dataurl = qs.dataurl;
@@ -45,6 +48,10 @@ if (qs.delay) {
   delay = qs.delay * 1000;
 }
 
+if (qs.interval) {
+  interval = qs.interval * 1000;
+}
+
 var urls = [];
 var urlindex = 0;
 var rounds = 0;
@@ -52,7 +59,7 @@ var rounds = 0;
 req.onreadystatechange = function() {
   if (req.readyState === 4 && req.status === 200) {
     urls = JSON.parse(req.responseText);
-    window.setInterval(nexttarget, delay);
+    timer = window.setInterval(nexttarget, delay);
   }
 };
 req.open("GET", dataurl, true);
@@ -64,11 +71,12 @@ function nexttarget() {
   if (urlindex >= urls.length) {
     urlindex = 0;
     rounds++;
-    /* do it quick on the second round  */
-    if (rounds === 1) {
-      window.setInterval(nexttarget, 0.5 * 1000);
-    } else {
-      window.setInterval(nexttarget, delay);
-    }
+  }
+  window.clearInterval(timer);
+  /* do it quicker on the second round  */
+  if (rounds === 1) {
+    window.setInterval(nexttarget, 0.5 * 1000);
+  } else {
+    window.setInterval(nexttarget, interval);
   }
 }
