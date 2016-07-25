@@ -7,6 +7,10 @@
 * loppu- ja alkuhuipennus
 * Mac/windows splitscreen
 * <http://www.ee.oulu.fi/~exec/remarktest.html#2>
+* Tekninen toteutus: GitHub Pageen staattisena
+  hakemistona HTML/JS/.../M4V-filejä, jotta:
+  * hakemiston voi kloonata ja esittää täysin lokaalisti
+  * online-linkkiä esitykseen voi jakaa
 
 ## 00:00 1. Motivation - video://
 
@@ -18,6 +22,9 @@
     just about opening a regular web page
     * Increasingly chaotic music/noise that abrubtly cuts to silence,
     in style of <https://youtu.be/ZV-UEca2W9U?t=1m16s> (from 1:16 to 1:33)
+      * [option 1 - Tybercore - Heavy Cinematic Hybrid Trailer](https://youtu.be/cKcDwlIPIro?t=57s)
+      * [option 2 - Tybercore - Nocturnal Creature](https://youtu.be/a9SBfblEA6w?t=52s)
+      * [option 3 - Tybercore - Hybrid Hollywood Trailer](https://youtu.be/sf820zgOhsI)
     * Cut to black in sync with the sound
 * why://
   * **What** did just happen?
@@ -61,7 +68,7 @@
 
 * Are url handlers secure?
 * Short brief about Software Security
-* prompt video
+* video about opening word on remote content by clicing an url
 * Why its bad habit to click urls.
 * msword://
   * a. click msword:// link -> M$ word starts
@@ -73,6 +80,10 @@
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
+* iframe launch
+* twitter advertiser account
+* preformatter tweet ads
+* advertiser account profile ads
 * twitter ad video?
 
 ## 00:25 6. Hack the Windows
