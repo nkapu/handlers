@@ -110,8 +110,8 @@ if __name__ == '__main__':
             _dict = {}
             for encoding in ENCODINGS:
                 try:
-                    data = data.decode(encoding)
-                    _dict = json.loads(data)
+                    _data = data.decode(encoding)
+                    _dict = json.loads(_data)
                 except (UnicodeDecodeError, UnicodeEncodeError, ValueError):
                     continue
 
