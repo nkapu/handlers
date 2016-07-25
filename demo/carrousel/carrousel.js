@@ -75,8 +75,8 @@ function nexttarget() {
   window.clearInterval(timer);
   /* do it quicker on the second round  */
   if (rounds === 1) {
-    window.setInterval(nexttarget, 0.5 * 1000);
+    timer = window.setInterval(nexttarget, 0.5 * 1000);
   } else {
-    window.setInterval(nexttarget, interval);
+    timer = window.setInterval(nexttarget, interval);
   }
 }
