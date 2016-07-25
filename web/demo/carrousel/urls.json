@@ -8,5 +8,6 @@
   "twitter://user?screen_name=alexstubb",
   "twitter://post?message=Vote%20for%20Alexander",
   "twitter://user?screen_name=ouspg",
-  "twitter://post?message=Vote%20for%20ouspg"
+  "twitter://post?message=Vote%20for%20ouspg",
+  "twitter://search?query=%23ouspg"
 ]
