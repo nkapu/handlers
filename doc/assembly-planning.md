@@ -83,6 +83,7 @@
   * From Serious Research -> "Pokemon" challenge (three colors)
   * After that explain what people have to do
   * In-game screenshots for Eve Online, SC2, CS GO, ...
+    * One here, more later in challenge peek
   * We need you to ... don't heat user agents!
   * Most user agents, most source addresses
 
@@ -126,8 +127,11 @@
 * Did you know you have candy crush soda saga in your windows?
 * What URL handlers i do have in my gaming pc?
 * Where I can insert URLs
-* Some browsers do block or ask!
+* Some browsers do block or ask! (not all of them tho)
+  * But there are more than the browsers!
 * TODO:
+  * 1..n handler:// + screenshot
+  * 1..n embedded browser
   * everything + split screenshot
 
 ## 00:30 8. Grand Final
