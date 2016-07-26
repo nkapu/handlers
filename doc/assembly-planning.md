@@ -43,18 +43,34 @@
     1. all sort of content opens
     1. printers and cameras get involved
     1. you hope to do your best to cancel everything safely
+  * TODO:
+    * normal web browsing video? to explain common case (must be short)!!!!
+    * initial video instead of writing URL maybe just surf
+    * slow motion video or *screenshots* with annotations
+      * without sound
+      * with annotations 1. - 5. from above
+      * not too much detail in verbal explanation
+    * how to handle transitions from presentation to videos and backwards
+      * two screens? (how to prevent next video from starting)
+      * embedded videos
 
 ## 00:05 2. How did we end up here - gopher://, <http://>, magnet://, xxx://
 
-* <gopher://>
-  * When I was young gopher
 * <http://>
   * For the masses
+* <gopher://>
+  * When I was young gopher
 * <magnet://>
   * For the future
 * <xxx://>
   * We found plenty
   * handler cloud?
+* TODO:
+  * title from URL Handlers to URL schemes?
+  * rearrange to start with <http://>
+  * lead to the load with xxx:// - we found plenty of more
+  * explain handler cloud
+    * growing clouds in 5 slides
 
 ## 00:10 3. Challenge - <http://challenge.urlhandlers.info>
 
@@ -63,6 +79,12 @@
 * Three teams (yellow, red and blue)
 * Example screenshot of steam or in-game chat
 * Research contribution to find out all different software that is used.
+* TODO:
+  * From Serious Research -> "Pokemon" challenge (three colors)
+  * After that explain what people have to do
+  * In-game screenshots for Eve Online, SC2, CS GO, ...
+  * We need you to ... don't heat user agents!
+  * Most user agents, most source addresses
 
 ## 00:15 4. Are URL handlers secure? - word://
 
@@ -77,6 +99,12 @@
   tiedostojen kryptatutumisen aloitus (korostaen / zoomaten siihen tiedoston
   nimiiin) .... randomware note
 * <https://www.youtube.com/watch?v=GyZMJr7RfBE>
+* TODO:
+  * you visit a web page with a word link video
+  * add sound to the so what video
+  * click link -> visit web page -> word launches -> ...
+  * recap with cloud with word:// circles
+  * make sure that screen is mirrored so no need to look away from the crowd
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
@@ -84,24 +112,31 @@
 * twitter advertiser account
 * preformatter tweet ads
 * advertiser account profile ads
-* twitter ad video?
+* twitter ad video
+* fb:// ???
+  * twitter is not the only one,there is e.g. Facebook ???
+* TODO:
+  * cut twitter ad video and add sound?
+  * screenshot based explanation?
+* ...
 
-## 00:25 6. Hack the Windows
+## 00:25 6. Hack the Windows vs. Hack the Mac
 
+* Challenge status (just a quick peek)
 * Did you know you have candy crush soda saga in your windows?
 * What URL handlers i do have in my gaming pc?
+* Where I can insert URLs
+* Some browsers do block or ask!
+* TODO:
+  * everything + split screenshot
 
-## 00:30 7. FIXME
-
-* what URL handlers I do have in my computer
-
-## 00:35 8. Grand Final
+## 00:30 8. Grand Final
 
 * challenge results so far
   * live until end of assembly
 * panic.html video
 
-## 00:40 9. Q&A
+## 00:35 9. Q&A
 
 * Meet and greet with mad and harmless scientists
 * University of Oulu (OUSPG)
