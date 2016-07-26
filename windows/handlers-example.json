@@ -1,4 +1,13 @@
 {
+    "Access": {
+        "apps": [
+            {
+                "name": "Url:Access Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Access"
+            }
+        ]
+    },
     "Blizzard.URI.Battlenet": {
         "apps": [
             {
@@ -53,6 +62,12 @@
                 "registrykey": "HKEY_CLASSES_ROOT\\DLNA-PLAYSINGLE"
             },
             {
+                "friendlytypename": "@C:\\Windows\\system32\\dlnashext.dll,-250",
+                "name": "URL:Play Single DLNA Item Protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\DLNA-PLAYSINGLE"
+            },
+            {
                 "friendlytypename": "@C:\\windows\\system32\\dlnashext.dll,-250",
                 "name": "URL:Play Single DLNA Item Protocol",
                 "path": "wmplayer.exe",
@@ -60,10 +75,24 @@
             }
         ]
     },
+    "Excel": {
+        "apps": [
+            {
+                "name": "Url:Excel Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Excel"
+            }
+        ]
+    },
     "Explorer.AssocActionId.BurnSelection": {
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6023",
+                "path": "explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.BurnSelection"
+            },
+            {
+                "friendlytypename": "@C:\\Windows\\explorer.exe,-6023",
                 "path": "explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.BurnSelection"
             },
@@ -82,6 +111,11 @@
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.EraseDisc"
             },
             {
+                "friendlytypename": "@C:\\Windows\\explorer.exe,-6025",
+                "path": "explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.EraseDisc"
+            },
+            {
                 "friendlytypename": "@C:\\windows\\explorer.exe,-6025",
                 "path": "explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.EraseDisc"
@@ -92,6 +126,11 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6022",
+                "path": "explorer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.ZipSelection"
+            },
+            {
+                "friendlytypename": "@C:\\Windows\\explorer.exe,-6022",
                 "path": "explorer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.AssocActionId.ZipSelection"
             },
@@ -132,6 +171,11 @@
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.BurnSelection"
             },
             {
+                "friendlytypename": "@C:\\Windows\\explorer.exe,-6023",
+                "name": "File Explorer \u2018Burn to disc\u2019 button",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.BurnSelection"
+            },
+            {
                 "friendlytypename": "@C:\\windows\\explorer.exe,-6023",
                 "name": "File Explorer \u2018Burn to disc\u2019 button",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.BurnSelection"
@@ -146,6 +190,11 @@
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.EraseDisc"
             },
             {
+                "friendlytypename": "@C:\\Windows\\explorer.exe,-6025",
+                "name": "File Explorer \u2018Erase this disc\u2019 button",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.EraseDisc"
+            },
+            {
                 "friendlytypename": "@C:\\windows\\explorer.exe,-6025",
                 "name": "File Explorer \u2018Erase this disc\u2019 button",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.EraseDisc"
@@ -156,6 +205,11 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\explorer.exe,-6022",
+                "name": "File Explorer \u2018Zip\u2019 button",
+                "registrykey": "HKEY_CLASSES_ROOT\\Explorer.ZipSelection"
+            },
+            {
+                "friendlytypename": "@C:\\Windows\\explorer.exe,-6022",
                 "name": "File Explorer \u2018Zip\u2019 button",
                 "registrykey": "HKEY_CLASSES_ROOT\\Explorer.ZipSelection"
             },
@@ -327,6 +381,14 @@
             }
         ]
     },
+    "OneIndex15": {
+        "apps": [
+            {
+                "name": "Microsoft OneNote Protocol Handler for Windows Desktop Search",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneIndex15"
+            }
+        ]
+    },
     "OneNote": {
         "apps": [
             {
@@ -342,6 +404,15 @@
                 "name": "URL:OneNote Protocol",
                 "path": "ONENOTE.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\OneNote.URL.14"
+            }
+        ]
+    },
+    "OneNote.URL.15": {
+        "apps": [
+            {
+                "name": "URL:OneNote Protocol",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneNote.URL.15"
             }
         ]
     },
@@ -363,6 +434,15 @@
             }
         ]
     },
+    "OneNoteDesktop.URL.15": {
+        "apps": [
+            {
+                "name": "URL:OneNote Protocol",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\OneNoteDesktop.URL.15"
+            }
+        ]
+    },
     "Outlook.Shell": {
         "apps": [
             {
@@ -379,12 +459,30 @@
             }
         ]
     },
+    "Outlook.URL.feed.15": {
+        "apps": [
+            {
+                "name": "URL:Outlook Add RSS Feed",
+                "path": "OUTLOOK.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\Outlook.URL.feed.15"
+            }
+        ]
+    },
     "Outlook.URL.mailto.14": {
         "apps": [
             {
                 "name": "URL:MailTo Protocol",
                 "path": "OUTLOOK.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\Outlook.URL.mailto.14"
+            }
+        ]
+    },
+    "Outlook.URL.mailto.15": {
+        "apps": [
+            {
+                "name": "URL:MailTo Protocol",
+                "path": "OUTLOOK.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\Outlook.URL.mailto.15"
             }
         ]
     },
@@ -397,12 +495,48 @@
             }
         ]
     },
+    "Outlook.URL.stssync.15": {
+        "apps": [
+            {
+                "name": "URL:Outlook Add Sharepoint Folder",
+                "path": "OUTLOOK.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\Outlook.URL.stssync.15"
+            }
+        ]
+    },
     "Outlook.URL.webcal.14": {
         "apps": [
             {
                 "name": "URL:Outlook Add Internet Calendar",
                 "path": "OUTLOOK.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\Outlook.URL.webcal.14"
+            }
+        ]
+    },
+    "Outlook.URL.webcal.15": {
+        "apps": [
+            {
+                "name": "URL:Outlook Add Internet Calendar",
+                "path": "OUTLOOK.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\Outlook.URL.webcal.15"
+            }
+        ]
+    },
+    "PowerPoint": {
+        "apps": [
+            {
+                "name": "Url:PowerPoint Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\PowerPoint"
+            }
+        ]
+    },
+    "Publisher": {
+        "apps": [
+            {
+                "name": "Url:Publisher Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Publisher"
             }
         ]
     },
@@ -435,6 +569,12 @@
         "apps": [
             {
                 "friendlytypename": "@C:\\WINDOWS\\system32\\unregmp2.exe,-9901",
+                "name": "URL:dlna-playsingle Protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\WMP11.AssocProtocol.DLNA-PLAYSINGLE"
+            },
+            {
+                "friendlytypename": "@C:\\Windows\\system32\\unregmp2.exe,-9901",
                 "name": "URL:dlna-playsingle Protocol",
                 "path": "wmplayer.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\WMP11.AssocProtocol.DLNA-PLAYSINGLE"
@@ -475,6 +615,15 @@
                 "name": "WinSCP URL",
                 "path": "WinSCP.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\WinSCP.Url"
+            }
+        ]
+    },
+    "Word": {
+        "apps": [
+            {
+                "name": "Url:Word Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\Word"
             }
         ]
     },
@@ -536,6 +685,15 @@
             {
                 "name": "URL:audiocall-skype-com",
                 "registrykey": "HKEY_CLASSES_ROOT\\audiocall-skype-com"
+            }
+        ]
+    },
+    "avastpam": {
+        "apps": [
+            {
+                "name": "URL:avastpam",
+                "path": "AvastUI.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\avastpam"
             }
         ]
     },
@@ -684,6 +842,15 @@
                 "name": "URL:Outlook Add RSS Feed",
                 "path": "OUTLOOK.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\feed"
+            }
+        ]
+    },
+    "feeds": {
+        "apps": [
+            {
+                "name": "URL:Outlook Add RSS Feed",
+                "path": "OUTLOOK.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\feeds"
             }
         ]
     },
@@ -971,6 +1138,11 @@
                 "registrykey": "HKEY_CLASSES_ROOT\\mailto"
             },
             {
+                "name": "URL:mailto",
+                "path": "OUTLOOK.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\mailto"
+            },
+            {
                 "friendlytypename": "@C:\\WINDOWS\\system32\\ieframe.dll,-910",
                 "name": "URL:mailto",
                 "path": "url.dll",
@@ -986,6 +1158,13 @@
             {
                 "name": "Microsoft Outlook Replication MAPI Protocol Handler",
                 "registrykey": "HKEY_CLASSES_ROOT\\mapi"
+            }
+        ]
+    },
+    "mapi15": {
+        "apps": [
+            {
+                "registrykey": "HKEY_CLASSES_ROOT\\mapi15"
             }
         ]
     },
@@ -1093,6 +1272,11 @@
                 "name": "Url:Access Protocol",
                 "path": "PROTOC~1.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\ms-access"
+            },
+            {
+                "name": "Url:Access Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\ms-access"
             }
         ]
     },
@@ -1134,6 +1318,11 @@
             {
                 "name": "Url:Excel Protocol",
                 "path": "PROTOC~1.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\ms-excel"
+            },
+            {
+                "name": "Url:Excel Protocol",
+                "path": "protocolhandler.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\ms-excel"
             }
         ]
@@ -1177,6 +1366,11 @@
                 "name": "Url:PowerPoint Protocol",
                 "path": "PROTOC~1.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\ms-powerpoint"
+            },
+            {
+                "name": "Url:PowerPoint Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\ms-powerpoint"
             }
         ]
     },
@@ -1185,6 +1379,11 @@
             {
                 "name": "Url:Publisher Protocol",
                 "path": "PROTOC~1.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\ms-publisher"
+            },
+            {
+                "name": "Url:Publisher Protocol",
+                "path": "protocolhandler.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\ms-publisher"
             }
         ]
@@ -1371,6 +1570,11 @@
                 "name": "Url:Word Protocol",
                 "path": "PROTOC~1.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\ms-word"
+            },
+            {
+                "name": "Url:Word Protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\ms-word"
             }
         ]
     },
@@ -1521,6 +1725,11 @@
                 "name": "URL:onenote",
                 "path": "FIRSTRUN.EXE",
                 "registrykey": "HKEY_CLASSES_ROOT\\onenote"
+            },
+            {
+                "name": "URL:onenote",
+                "path": "ONENOTE.EXE",
+                "registrykey": "HKEY_CLASSES_ROOT\\onenote"
             }
         ]
     },
@@ -1555,6 +1764,15 @@
             {
                 "name": "URL:outlookmail",
                 "registrykey": "HKEY_CLASSES_ROOT\\outlookmail"
+            }
+        ]
+    },
+    "picasa": {
+        "apps": [
+            {
+                "name": "Picasa Command protocol",
+                "path": "Picasa3.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\picasa"
             }
         ]
     },
@@ -1779,6 +1997,24 @@
                 "name": "URL:Skype Protocol",
                 "path": "Skype.exe",
                 "registrykey": "HKEY_CLASSES_ROOT\\skype"
+            }
+        ]
+    },
+    "skypecheck": {
+        "apps": [
+            {
+                "name": "URL:SkypeCheck Protocol",
+                "path": "Skype.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\skypecheck"
+            }
+        ]
+    },
+    "skypecheck2": {
+        "apps": [
+            {
+                "name": "URL:SkypeCheck2 Protocol",
+                "path": "Skype.exe",
+                "registrykey": "HKEY_CLASSES_ROOT\\skypecheck2"
             }
         ]
     },
@@ -2061,6 +2297,30 @@
             }
         ]
     },
+    "windows.contact.call+outlook.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51301",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.call+outlook.com"
+            }
+        ]
+    },
+    "windows.contact.call+skype.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51301",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.call+skype.com"
+            }
+        ]
+    },
+    "windows.contact.call+telephone": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51301",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.call+telephone"
+            }
+        ]
+    },
     "windows.contact.map": {
         "apps": [
             {
@@ -2069,11 +2329,51 @@
             }
         ]
     },
+    "windows.contact.message+outlook.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51303",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.message+outlook.com"
+            }
+        ]
+    },
+    "windows.contact.message+skype.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51303",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.message+skype.com"
+            }
+        ]
+    },
+    "windows.contact.message+telephone": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51303",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.message+telephone"
+            }
+        ]
+    },
     "windows.contact.post+twitter.com": {
         "apps": [
             {
                 "friendlytypename": "@shell32.dll,-51304",
                 "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.post+twitter.com"
+            }
+        ]
+    },
+    "windows.contact.videocall+outlook.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51305",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.videocall+outlook.com"
+            }
+        ]
+    },
+    "windows.contact.videocall+skype.com": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51305",
+                "registrykey": "HKEY_CLASSES_ROOT\\windows.contact.videocall+skype.com"
             }
         ]
     },
