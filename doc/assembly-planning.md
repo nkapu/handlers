@@ -64,9 +64,9 @@
 * Example screenshot of steam or in-game chat
 * Research contribution to find out all different software that is used.
 
-## 00:15 4. Are url handlers secure? - word://
+## 00:15 4. Are URL handlers secure? - word://
 
-* Are url handlers secure?
+* Are URL handlers secure?
 * Short brief about Software Security
 * video about opening word on remote content by clicing an url
 * Why its bad habit to click urls.
@@ -89,11 +89,11 @@
 ## 00:25 6. Hack the Windows
 
 * Did you know you have candy crush soda saga in your windows?
-* What url handlers i do have in my gaming pc?
+* What URL handlers i do have in my gaming pc?
 
 ## 00:30 7. FIXME
 
-* what url handlers I do have in my computer
+* what URL handlers I do have in my computer
 
 ## 00:35 8. Grand Final
 
