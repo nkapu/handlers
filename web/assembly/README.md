@@ -1,4 +1,25 @@
-# URL handlers - Assembly 2016 presentation - the setting
+# URL handlers - Assembly 2016 presentation
+
+## Using
+
+Can be viewed [on the web](http://hack.urlhandlers.info/assembly/).
+
+Can also be used locally by running a web server in the `web/assembly` directory.
+
+```console
+python -m SimpleHTTPServer 8080
+```
+
+And connecting the browser to <http://localhost:8080>. Fonts still
+load remotely.
+
+## Publishing on the Github Pages
+
+```console
+git subtree push --prefix web origin gh-pages
+```
+
+## Setting
 
 * Target <http://www.assembly.org/summer16/program/arttech-seminar/sessions/>
 * Presentation language is English
