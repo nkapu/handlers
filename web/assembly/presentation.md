@@ -22,7 +22,7 @@ class: center, middle
 
 class: center, middle
 
-.myvideo[mov/xmas-v0.4.mp4]
+.myvideo[mov/xmas-0.4.mp4]
 
 ---
 
@@ -150,7 +150,7 @@ class: center, middle
 
 class: center, middle
 
-.myvideo[mov/locky-v0.3-cut.mp4]
+.myvideo[mov/locky-0.3.mp4]
 
 ---
 
@@ -216,7 +216,7 @@ class: center, middle
 
 class: center, middle
 
-.myvideo[mov/twitter-ad.mp4]
+.myvideo[mov/twitter-ad-0.1.mp4]
 
 ---
 
@@ -234,4 +234,4 @@ class: center, middle
 
 class: center, middle
 
-.myvideo[mov/panic.mp4]
+.myvideo[mov/panic-0.1.mp4]
