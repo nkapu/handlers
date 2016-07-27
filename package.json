@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "http-server web -a 127.0.0.1",
-    "lint": "eslint . && markdownlint *.md */*.md",
+    "lint": "eslint . && markdownlint *.md */*.md web/*/*.md",
     "test": "npm run lint"
   },
   "repository": {
