@@ -41,9 +41,9 @@
         target = videos[i];
         videosrc = target.innerHTML;
         var video = document.createElement("video");
+        video.setAttribute("controls", "true");
         var source = document.createElement("source");
         source.setAttribute("src", videos[i].innerHTML);
-        source.setAttribute("controls", "true");
         video.appendChild(source);
         target.innerHTML = "";
         target.appendChild(video)
