@@ -1,3 +1,6 @@
+/* eslint max-len: ["warn", 160] */
+/* eslint quote-props: ["error", "consistent"] */
+
 System.config({
   baseURL: "/",
   defaultJSExtensions: true,

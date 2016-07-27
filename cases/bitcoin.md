@@ -68,7 +68,7 @@ code path is invoked, involving fetching the URL given as a value to the r-attri
 
 A sample request made by the Bitcoin-Qt when invoked this way is given below.
 
-```
+```console
 GET / HTTP/1.1
 User-Agent: Satoshi
 Accept: application/bitcoin-paymentrequest

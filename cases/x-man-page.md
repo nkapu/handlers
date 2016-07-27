@@ -32,10 +32,12 @@ This terminal will start tracing all `execve()`-syscalls with the DTrace-facilit
 Launch the URL handler:
 
 ```sh
-$ open "x-man-page://mysection/mypage"
+open "x-man-page://mysection/mypage"
 ```
 
 Observe the instrumentation:
+
+<!-- markdownlint-disable MD013 -->
 
 ```console
 2016 Jul 11 03:25:59 execve bash[22433] -> /usr/bin/open 'open' 'x-man-page://mysection/mypage' '' '' '' '' '' '' '' '' '' ''
@@ -46,15 +48,19 @@ dtrace: error on enabled probe ID 2 (ID 268: syscall::execve:entry): invalid add
 2016 Jul 11 03:26:01 execve man[22435] [syscall return] '-man' '-P' 'ul' '-S' 'mysection' 'mypage' '' '' '' '' '' ''
 ```
 
+<!-- markdownlint-enable MD013 -->
+
 ### Apropos variant
 
 Launch the URL handler:
 
 ```sh
-$ open "x-man-page://mysection/pattern;type=a"
+open "x-man-page://mysection/pattern;type=a"
 ```
 
 Observe the instrumentation:
+
+<!-- markdownlint-disable MD013 -->
 
 ```console
 2016 Jul 11 03:31:18 execve bash[22487] -> /usr/bin/open 'open' 'x-man-page://mysection/pattern;type=a' '' '' '' '' '' '' '' '' '' ''
@@ -78,3 +84,5 @@ dtrace: error on enabled probe ID 2 (ID 268: syscall::execve:entry): invalid add
 2016 Jul 11 03:31:20 execve sh[22499] -> /usr/bin/grep 'grep' '-i' 'pattern' '/usr/local/share/man/whatis' '' '' '' '' '' '' '' ''
 2016 Jul 11 03:31:20 execve grep[22499] [syscall return] 'grep' '-i' 'pattern' '/usr/local/share/man/whatis' '' '' '' '' '' '' '' ''
 ```
+
+<!-- markdownlint-disable MD013 -->
