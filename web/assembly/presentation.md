@@ -22,9 +22,15 @@ class: center, middle
 
 class: center, middle
 
+.myvideo[mov/xmas-v0.4.mp4]
+
+---
+
+class: center, middle
+
 # why://
 
-## You don't want this on your computer
+## You don't want this to happen to your computer
 
 ---
 
@@ -132,7 +138,13 @@ class: center, middle
 
 # So what?
 
-## (word goes wild video)
+## video://word-goes-wild
+
+---
+
+class: center, middle
+
+.myvideo[mov/locky-v0.3-cut.mp4]
 
 ---
 
