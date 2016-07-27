@@ -10,16 +10,20 @@
 
       body { font-family: 'Droid Serif'; }
       h1, h2, h3 {
-      font-family: 'Yanone Kaffeesatz';
-      font-weight: normal;
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
       }
       .remark-slide-content h1 {
-            font-size: 8em;
+        font-size: 8em;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
       .remark-slide-content > p > img {
-          max-width: 100%;
-          max-height: 90%;
+        max-width: 100%;
+        max-height: 90%;
+      }
+      .myvideo > video {
+        max-width: 100%;
+        max-height: 90%;
       }
     </style>
   </head>
@@ -30,6 +34,21 @@
       var slideshow = remark.create({
         sourceUrl: 'presentation.md'
       });
+
+      var videos = document.getElementsByClassName("myvideo");
+
+      for (var i = 0; i < videos.length; i++) {
+        target = videos[i];
+        videosrc = target.innerHTML;
+        var video = document.createElement("video");
+        var source = document.createElement("source");
+        source.setAttribute("src", videos[i].innerHTML);
+        source.setAttribute("controls", "true");
+        video.appendChild(source);
+        target.innerHTML = "";
+        target.appendChild(video)
+        console.log(video);
+      }
     </script>
   </body>
   </html>
