@@ -136,6 +136,12 @@ class: center, middle
 
 class: center, middle
 
+.myvideo[mov/word-open-1.0.mp4]
+
+---
+
+class: center, middle
+
 # So what?
 
 ## video://word-goes-wild
@@ -210,6 +216,12 @@ class: center, middle
 
 class: center, middle
 
+.myvideo[mov/twitter-ad.mp4]
+
+---
+
+class: center, middle
+
 # fb://
 
 ---
@@ -217,3 +229,9 @@ class: center, middle
 class: center, middle
 
 # candycrush://
+
+---
+
+class: center, middle
+
+.myvideo[mov/panic.mp4]
