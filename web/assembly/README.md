@@ -161,7 +161,7 @@ git subtree push --prefix web origin gh-pages
 * TODO:
   * cut twitter ad video and add sound?
   * annoted screenshot based explanation in N steps?
-
+  * [twitter v0.1](https://youtu.be/slgL2AQXyV8)
 ## 00:25 6. Hack the Windows vs. Hack the Mac
 
 * Challenge status (just a quick peek)
