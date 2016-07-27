@@ -60,6 +60,9 @@ git subtree push --prefix web origin gh-pages
       * [option 2 - Tybercore - Nocturnal Creature](https://youtu.be/a9SBfblEA6w?t=52s)
       * [option 3 - Tybercore - Hybrid Hollywood Trailer](https://youtu.be/sf820zgOhsI)
     * Cut to black in sync with the sound
+    * Video candidates:
+      * [Xmas v0.3](https://youtu.be/HMx3F4bqn5E)
+      * [Xmas v0.4](https://youtu.be/Z9IG9ZD3PNI)
 * why://
   * **What** did just happen?
   * You might not want all this happen on your machine
@@ -126,11 +129,18 @@ git subtree push --prefix web origin gh-pages
   * <http://www.ee.oulu.fi/~fenris/word-open.mov>
   * Word opens with remote content
 * So what?
-* Video - <https://www.youtube.com/watch?v=GyZMJr7RfBE>
+* Video, orginal at <https://www.youtube.com/watch?v=GyZMJr7RfBE>
   1. remote word content opened due to "careless" surfing
   1. Macros are accepted
   1. Files get encrypted
   1. Ransomware note pops up
+* Video candidates
+  * [Locky Example v0.1](https://www.youtube.com/watch?v=uRkUqQzXCdY)
+  * [Locky Example v0.2](https://youtu.be/96Xl3KCr2EQ)
+    * Work around secondary screen elements
+    * Shortened further
+  * [Locky Example v0.3](https://youtu.be/NbXVKqsdLD8)
+  * [Locky Example v0.3-cut](https://youtu.be/Vaxgim5tQuw)
 * What happen
   * *screenshots* with annotations 1. - 4. from above
 * Recap with handler cloud
@@ -138,6 +148,7 @@ git subtree push --prefix web origin gh-pages
   * you visit a web page with a word link video, add sound
   * add sound to the "so what" video
   * recap with cloud with word:// circles
+  * credit the original video by Omicron AG - Swiss made IT Security
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
