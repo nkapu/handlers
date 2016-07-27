@@ -1,2 +1,3 @@
 web/bundle*.js
 web/jspm_packages
+web/assembly/remark-latest.min.js
