@@ -153,7 +153,7 @@ git subtree push --prefix web origin gh-pages
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
-* [twitter ad video](https://www.youtube.com/watch?v=nzuziiX1iSo)
+* [twitter ad video](https://youtu.be/slgL2AQXyV8)
   * iframe carrousel launcher
   * twitter "advertisement" profiles and tweets
 * fb:// ???
@@ -161,7 +161,6 @@ git subtree push --prefix web origin gh-pages
 * TODO:
   * cut twitter ad video and add sound?
   * annoted screenshot based explanation in N steps?
-  * [twitter v0.1](https://youtu.be/slgL2AQXyV8)
 ## 00:25 6. Hack the Windows vs. Hack the Mac
 
 * Challenge status (just a quick peek)
