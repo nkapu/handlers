@@ -127,6 +127,7 @@ git subtree push --prefix web origin gh-pages
 
 * Video about opening word on remote content by surfing the web
   * <http://www.ee.oulu.fi/~fenris/word-open.mov>
+  * <https://www.youtube.com/watch?v=Oidix25KWOE>
   * Word opens with remote content
 * So what?
 * Video, orginal at <https://www.youtube.com/watch?v=GyZMJr7RfBE>
@@ -152,7 +153,7 @@ git subtree push --prefix web origin gh-pages
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
-* twitter ad video
+* [twitter ad video](https://www.youtube.com/watch?v=nzuziiX1iSo)
   * iframe carrousel launcher
   * twitter "advertisement" profiles and tweets
 * fb:// ???
@@ -178,7 +179,7 @@ git subtree push --prefix web origin gh-pages
 
 * challenge results so far
   * live until end of assembly
-* panic.html video
+* [panic.html video](https://www.youtube.com/watch?v=I2K4bPCw9SE)
 
 ## 00:35 9. Q&A
 
