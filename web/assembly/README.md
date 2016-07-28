@@ -153,7 +153,7 @@ git subtree push --prefix web origin gh-pages
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
-* [twitter ad video](https://youtu.be/slgL2AQXyV8)
+* [twitter ad video](https://www.youtube.com/watch?v=_TkR05uaDWI)
   * iframe carrousel launcher
   * twitter "advertisement" profiles and tweets
 * fb:// ???
