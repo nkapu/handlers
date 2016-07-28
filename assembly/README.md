@@ -181,7 +181,14 @@ git subtree push --prefix web origin gh-pages
   * live until end of assembly
 * [panic.html video](https://www.youtube.com/watch?v=I2K4bPCw9SE)
 
-## 00:35 9. Q&A
+## 9 .Credits
+
+* Joachim Viide
+* Jani Kenttälä
+* Marko Laakso
+* Original Locky video <https://www.youtube.com/watch?v=GyZMJr7RfBE>
+
+## 00:35 10. Q&A
 
 * Meet and greet with mad and harmless scientists
 * University of Oulu (OUSPG)
