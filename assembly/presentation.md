@@ -216,7 +216,7 @@ class: center, middle
 
 class: center, middle
 
-.myvideo[mov/twitter-ad-0.1.mp4]
+.myvideo[mov/twitter-ad-0.2.mp4]
 
 ---
 
