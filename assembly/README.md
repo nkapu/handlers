@@ -180,16 +180,16 @@ git subtree push --prefix web origin gh-pages
   * live until end of assembly
 * [panic.html video](https://youtu.be/I2K4bPCw9SE)
 
-## 9 .Credits
-
-* Joachim Viide
-* Jani Kenttälä
-* Marko Laakso
-* Locky in Action from Omicron AG - Swiss made IT Security <https://youtu.be/GyZMJr7RfBE>
-
-## 00:35 10. Q&A
+## 00:35 9. Q&A
 
 * Meet and greet with mad and harmless scientists
 * University of Oulu (OUSPG)
   * Juhani "Aimo" Eronen (Secret goverment agent)
 * Kasper "Atte" Kyllönen (Summer trainee in crime "just a regular high schooler")
+
+### Credits
+
+* Joachim Viide
+* Jani Kenttälä
+* Marko Laakso
+* [Original source material Locky in Action from Omicron AG - Swiss made IT Security](https://youtu.be/GyZMJr7RfBE)
