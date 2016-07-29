@@ -61,7 +61,6 @@ git subtree push --prefix web origin gh-pages
       * [option 3 - Tybercore - Hybrid Hollywood Trailer](https://youtu.be/sf820zgOhsI)
     * Cut to black in sync with the sound
     * Video candidates:
-      * [Xmas v0.3](https://youtu.be/HMx3F4bqn5E)
       * [Xmas v0.4](https://youtu.be/Z9IG9ZD3PNI)
 * why://
   * **What** did just happen?
@@ -136,7 +135,7 @@ git subtree push --prefix web origin gh-pages
   1. Files get encrypted
   1. Ransomware note pops up
 * Video candidates
-  * [Locky Example v0.1](https://www.youtube.com/watch?v=uRkUqQzXCdY)
+  * [Locky Example v0.1](https://youtu.be/uRkUqQzXCdY)
   * [Locky Example v0.2](https://youtu.be/96Xl3KCr2EQ)
     * Work around secondary screen elements
     * Shortened further
@@ -153,7 +152,7 @@ git subtree push --prefix web origin gh-pages
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
-* [twitter ad video](https://www.youtube.com/watch?v=_TkR05uaDWI)
+* [twitter ad video](https://youtu.be/_TkR05uaDWI)
   * iframe carrousel launcher
   * twitter "advertisement" profiles and tweets
 * fb:// ???
@@ -179,14 +178,14 @@ git subtree push --prefix web origin gh-pages
 
 * challenge results so far
   * live until end of assembly
-* [panic.html video](https://www.youtube.com/watch?v=I2K4bPCw9SE)
+* [panic.html video](https://youtu.be/I2K4bPCw9SE)
 
 ## 9 .Credits
 
 * Joachim Viide
 * Jani Kenttälä
 * Marko Laakso
-* Original Locky video <https://www.youtube.com/watch?v=GyZMJr7RfBE>
+* Locky in Action from Omicron AG - Swiss made IT Security <https://youtu.be/GyZMJr7RfBE>
 
 ## 00:35 10. Q&A
 
