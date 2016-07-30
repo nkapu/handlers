@@ -261,6 +261,7 @@ class: center, middle
 ## [candycrushsodasaga://](candycrushsodasaga://)
 
 ---
+
 name: candycrush
 class: center, bottom
 
@@ -270,9 +271,54 @@ class: center, bottom
 
 ---
 
+class: center, middle
+
+# [bitcoin://](#bitcoin)
+
+## [bitcoin://...?amount=666&label=Jorma&message=Donate](bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=Jorma&message=Donate)
+
+---
+
+name: bitcoin
 class: center, bottom
 
-## bitcoin://
+![freakshow - bitcoin](img/bitcoin.png)
+
+## Canned payments, just click `Send`
+
+---
+
+class: center, middle
+
+# [steam://](#steam)
+
+## [steam://installaddon/halflifehd](steam://installaddon/halflifehd)
+
+---
+
+name: steam
+class: center, bottom
+
+![freakshow - steam](img/steam.png)
+
+## FIXME FIXME FIXME
+
+---
+
+class: center, middle
+
+# [maps://](#maps)
+
+## [maps://?...daddr=Groom+Lake+Nevada...](aps://?saddr=Helsinki&daddr=Groom+Lake+Nevada&dirflg=r)
+
+---
+
+name: maps
+class: center, bottom
+
+![freakshow - maps](img/maps.png)
+
+## Your phone has them :)
 
 ---
 
@@ -287,11 +333,11 @@ class: center, middle
 name: challengeupdate
 class: center, bottom
 
-<!-- markdownlint-disable MD034 -->
+<!-- markdownlint-disable MD033 -->
 
-.myiframe[`https://ouspg.github.io/vecto-ctf/`]
+<iframe src="https://ouspg.github.io/vecto-ctf"></iframe>
 
-<!-- markdownlint-enable MD034 -->
+<!-- markdownlint-enable MD033 -->
 
 ### Live until the end of the Assembly
 
