@@ -309,7 +309,7 @@ class: center, middle
 
 # [maps://](#maps)
 
-## [maps://?...daddr=Groom+Lake+Nevada...](aps://?saddr=Helsinki&daddr=Groom+Lake+Nevada&dirflg=r)
+## [maps://?...daddr=Groom+Lake+Nevada...](maps://?saddr=Helsinki&daddr=Groom+Lake+Nevada&dirflg=r)
 
 ---
 
