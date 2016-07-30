@@ -29,20 +29,22 @@ class: center, middle
 
 class: center, middle
 
-# why://
+# [why://](#who)
 
 ## You don't want this to happen to your computer
 
 ---
 
+name: who
 class: center, middle
 
-# who://
+# [who://](#xmasrecap)
 
 ## Serious Researchers&#8482; - Aimo & Atte
 
 ---
 
+name: xmasrecap
 class: center, bottom
 
 ![xmas - visit](img/xmas-01-visit.png)
@@ -55,7 +57,7 @@ class: center, bottom
 
 ![xmas - flood](img/xmas-02-flood.png)
 
-### 2/4 Flood of applications and content
+### 2/4 You are flooded by applications and content
 
 ---
 
@@ -63,7 +65,7 @@ class: center, bottom
 
 ![xmas - devices](img/xmas-03-devices.png)
 
-### 3/4 Printers and cameras get involved
+### 3/4 Your printers and cameras get involved
 
 ---
 
@@ -71,7 +73,7 @@ class: center, bottom
 
 ![xmas - recovery](img/xmas-04-recover.png)
 
-### 4/4 Hope not to misclick when recovering
+### 4/4 You hope not to misclick while recovering
 
 ---
 
@@ -200,7 +202,7 @@ class: center, bottom
 
 ![infected - download](img/infected-02-download.png)
 
-### 1/4 Visit a web page and remote document loads
+### 1/4 You visit a web page and remote document loads
 
 ---
 
@@ -208,7 +210,7 @@ class: center, bottom
 
 ![infected - enable macros](img/infected-03-macros.png)
 
-### 2/4 Enable macros
+### 2/4 You enable macros
 
 ---
 
@@ -216,7 +218,7 @@ class: center, bottom
 
 ![infected - get crypted](img/infected-04-crypto.png)
 
-### 3/4 Files get crypted
+### 3/4 Your files get crypted
 
 ---
 
@@ -224,7 +226,7 @@ class: center, bottom
 
 ![infected - lose bitcoins](img/infected-05-bitcoins.png)
 
-### 4/4 Time to buy bitcoins
+### 4/4 You buy bitcoins
 
 ---
 
