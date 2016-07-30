@@ -47,7 +47,7 @@ class: center, bottom
 
 ![xmas - visit](img/xmas-01-visit.png)
 
-### 1. You visit a web page
+### 1/4 You visit a web page
 
 ---
 
@@ -55,15 +55,15 @@ class: center, bottom
 
 ![xmas - flood](img/xmas-02-flood.png)
 
-### 2. Flood of applications and content
+### 2/4 Flood of applications and content
 
 ---
 
 class: center, bottom
 
-![xmas - appliances](img/xmas-03-appliances.png)
+![xmas - devices](img/xmas-03-devices.png)
 
-### 3. Printers and cameras get involved
+### 3/4 Printers and cameras get involved
 
 ---
 
@@ -71,7 +71,7 @@ class: center, bottom
 
 ![xmas - recovery](img/xmas-04-recover.png)
 
-### 4. Hope not to misclick when recovering
+### 4/4 Hope not to misclick when recovering
 
 ---
 
@@ -81,30 +81,34 @@ class: center, middle
 
 ---
 
+name: present
 class: center, middle
 
-# <http://>
+# [http://](#past)
 
 ## <http://www.assembly.org/summer16/>
 
 ---
 
+name: past
 class: center, middle
 
-# gopher://
+# [gopher://](#future)
 
 ## When I was young
 
 ---
 
+name: future
 class: center, middle
 
-# magnet://
+# [magnet://](#plenty)
 
-## Anyone?
+## Anyone? Anything else?
 
 ---
 
+name: plenty
 class: center, middle
 
 # [xxx://](#handlers)
@@ -173,10 +177,11 @@ class: center, middle
 
 # So what?
 
-## video://word-goes-wild
+## [video://word-goes-wild](#ransomware)
 
 ---
 
+name: ransomware
 class: center, middle
 
 .myvideo[mov/locky-0.3.mp4]
@@ -193,15 +198,9 @@ class: center, middle
 
 class: center, bottom
 
-### Click link
-
----
-
-class: center, bottom
-
 ![infected - download](img/infected-02-download.png)
 
-### Load document
+### 1/4 Visit a web page and remote document loads
 
 ---
 
@@ -209,7 +208,7 @@ class: center, bottom
 
 ![infected - enable macros](img/infected-03-macros.png)
 
-### Enable macros
+### 2/4 Enable macros
 
 ---
 
@@ -217,7 +216,7 @@ class: center, bottom
 
 ![infected - get crypted](img/infected-04-crypto.png)
 
-### Files get crypted
+### 3/4 Files get crypted
 
 ---
 
@@ -225,13 +224,7 @@ class: center, bottom
 
 ![infected - lose bitcoins](img/infected-05-bitcoins.png)
 
-### Time to buy bitcoins
-
----
-
-class: center, middle
-
-# danger://
+### 4/4 Time to buy bitcoins
 
 ---
 
