@@ -79,7 +79,7 @@ class: center, bottom
 
 class: center, middle
 
-# They are _URL schemes_
+# Meet the _URL handlers_
 
 ---
 
@@ -254,25 +254,19 @@ class: center, middle
 ---
 
 name: freakshow
-class: center, bottom
-
-## fb://
-
----
-
 class: center, middle
 
 # [candycrush://](#candycrush)
 
-## candycrushsodasaga://
+## [candycrushsodasaga://](candycrushsodasaga://)
 
 ---
 name: candycrush
 class: center, bottom
 
-![xmas - visit](img/candycrush.png)
+![freakshow - candycrush](img/candycrush.png)
 
-## Did you know all windows 10 users have been candycrushed
+## Windows 10 is candy crushed out of the box
 
 ---
 
