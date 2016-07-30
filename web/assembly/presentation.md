@@ -260,9 +260,19 @@ class: center, bottom
 
 ---
 
+class: center, middle
+
+# [candycrush://](#candycrush)
+
+## candycrushsodasaga://
+
+---
+name: candycrush
 class: center, bottom
 
-## candycrush://
+![xmas - visit](img/candycrush.png)
+
+## Did you know all windows 10 users have been candycrushed
 
 ---
 
