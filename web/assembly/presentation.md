@@ -23,7 +23,7 @@ class: center, middle
 name: xmas
 class: center, middle
 
-.myvideo[mov/xmas-0.4.mp4]
+.myvideo[mov/xmas-1.0.mp4]
 
 ---
 
@@ -169,7 +169,7 @@ class: center, middle
 name: openword
 class: center, middle
 
-.myvideo[mov/word-open-1.0.mp4]
+.myvideo[mov/word-open-0.5.mp4]
 
 ---
 
@@ -184,7 +184,7 @@ class: center, middle
 name: ransomware
 class: center, middle
 
-.myvideo[mov/locky-0.3.mp4]
+.myvideo[mov/locky-0.6.mp4]
 
 ---
 
@@ -239,7 +239,7 @@ class: center, middle
 name: ads
 class: center, middle
 
-.myvideo[mov/twitter-ad-0.2.mp4]
+.myvideo[mov/twitter-ad-1.0.mp4]
 
 ---
 
@@ -302,7 +302,7 @@ class: center, middle
 name: dontpanic
 class: center, middle
 
-.myvideo[mov/panic-0.1.mp4]
+.myvideo[mov/panic-1.0.mp4]
 
 ---
 
