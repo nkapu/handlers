@@ -61,7 +61,7 @@ git subtree push --prefix web origin gh-pages
       * [option 3 - Tybercore - Hybrid Hollywood Trailer](https://youtu.be/sf820zgOhsI)
     * Cut to black in sync with the sound
     * Video candidates:
-      * [Xmas v0.4](https://youtu.be/Z9IG9ZD3PNI)
+      * [Xmas video](https://youtu.be/Z9IG9ZD3PNI)
 * why://
   * **What** did just happen?
   * You might not want all this happen on your machine
@@ -125,8 +125,7 @@ git subtree push --prefix web origin gh-pages
 ## 00:15 4. Are URL handlers secure? - word://
 
 * Video about opening word on remote content by surfing the web
-  * <http://www.ee.oulu.fi/~fenris/word-open.mov>
-  * <https://www.youtube.com/watch?v=Oidix25KWOE>
+  * [Open Word v0.5 video](https://youtu.be/5B7QV8iBOYU)
   * Word opens with remote content
 * So what?
 * Video, orginal at <https://www.youtube.com/watch?v=GyZMJr7RfBE>
@@ -134,13 +133,8 @@ git subtree push --prefix web origin gh-pages
   1. Macros are accepted
   1. Files get encrypted
   1. Ransomware note pops up
-* Video candidates
-  * [Locky Example v0.1](https://youtu.be/uRkUqQzXCdY)
-  * [Locky Example v0.2](https://youtu.be/96Xl3KCr2EQ)
-    * Work around secondary screen elements
-    * Shortened further
-  * [Locky Example v0.3](https://youtu.be/NbXVKqsdLD8)
-  * [Locky Example v0.3-cut](https://youtu.be/Vaxgim5tQuw)
+* Video
+  * [Locky in Action v0.6-cut video](https://youtu.be/PKDQhUWEQFM)
 * What happen
   * *screenshots* with annotations 1. - 4. from above
 * Recap with handler cloud
@@ -152,7 +146,7 @@ git subtree push --prefix web origin gh-pages
 
 ## 00:20 5. Pop up marketing strikes back - twitter://
 
-* [twitter ad video](https://youtu.be/_TkR05uaDWI)
+* [Popup marketing strikes back video](https://youtu.be/_TkR05uaDWI)
   * iframe carrousel launcher
   * twitter "advertisement" profiles and tweets
 * fb:// ???
@@ -180,7 +174,7 @@ git subtree push --prefix web origin gh-pages
 
 * challenge results so far
   * live until end of assembly
-* [panic.html video](https://youtu.be/I2K4bPCw9SE)
+* [URL Handled video](https://youtu.be/I2K4bPCw9SE)
 
 ## 00:35 9. Q&A
 
