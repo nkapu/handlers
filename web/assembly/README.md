@@ -161,7 +161,7 @@ git subtree push --prefix web origin gh-pages
   * cut twitter ad video and add sound?
   * annoted screenshot based explanation in N steps?
 
-## 00:25 6. Hack the Windows vs. Hack the Mac
+## 00:25 6. Hack the Windows vs. Hack the Mac - freakshow://
 
 * Challenge status (just a quick peek)
 * Did you know you have candy crush soda saga in your windows?
@@ -171,10 +171,12 @@ git subtree push --prefix web origin gh-pages
   * But there are more than the browsers!
 * TODO:
   * 1..n handler:// + screenshot
+    * WIN: candycrush ?
+    * MAC: bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=Honest%20Marko&message=You%20Won
   * 1..n embedded browser
   * everything + split screenshot
 
-## 00:30 8. Grand Final
+## 00:30 8. Grand Final - dontpanic://
 
 * challenge results so far
   * live until end of assembly
@@ -184,7 +186,7 @@ git subtree push --prefix web origin gh-pages
 
 * Meet and greet with mad and harmless scientists
 * University of Oulu (OUSPG)
-  * Juhani "Aimo" Eronen (Secret goverment agent)
+  * Juhani "Aimo" Eronen (Secret government agent)
 * Kasper "Atte" Kyllönen (Summer trainee in crime "just a regular high schooler")
 
 ### Credits
