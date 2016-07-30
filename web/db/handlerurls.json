@@ -59,6 +59,14 @@
             }
         ]
     },
+    "gamecenter:": {
+        "urls": [
+            {
+                "description": "Game Center URL scheme (stackoverflow)",
+                "value": "http://stackoverflow.com/questions/6226195/game-center-url-scheme"
+            }
+        ]
+    },
     "ibooks:": {
         "urls": [
             {
