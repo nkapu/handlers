@@ -7,8 +7,8 @@
     "http-server": "^0.9.0"
   },
   "devDependencies": {
-    "eslint": "^2.5.3",
-    "eslint-config-google": "^0.4.0",
+    "eslint": "^3.2.0",
+    "eslint-config-google": "^0.6.0",
     "htmlhint": "^0.9.12",
     "jsonlint": "^1.6.2",
     "jspm": "^0.16.32",

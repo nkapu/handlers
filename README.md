@@ -1,6 +1,7 @@
 # Discover and Hack URL handlers
 
 [![CircleCI](https://circleci.com/gh/ouspg/urlhandlers.svg?style=shield)](https://circleci.com/gh/ouspg/urlhandlers)
+[![dependencies Status](https://david-dm.org/ouspg/urlhandlers/status.svg)](https://david-dm.org/ouspg/urlhandlers)
 [![devDependency Status](https://david-dm.org/ouspg/urlhandlers/dev-status.svg)](https://david-dm.org/ouspg/urlhandlers#info=devDependencies)
 
 URL handlers are the bits in the front of the URLs (e.g. http:, https:,
