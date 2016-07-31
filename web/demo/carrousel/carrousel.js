@@ -54,7 +54,6 @@ if (qs.interval) {
 
 var urls = [];
 var urlindex = 0;
-var rounds = 0;
 var direction = 1;
 
 req.onreadystatechange = function() {
@@ -76,7 +75,6 @@ function nexttarget() {
   } else if (urlindex < 0) {
     urlindex = 0;
     direction = 1;
-    rounds++;
   }
 
   /* do it quicker backwards  */
