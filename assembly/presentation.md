@@ -79,7 +79,7 @@ class: center, bottom
 
 class: center, middle
 
-# Meet the _URL handlers_
+# Meet the URL handlers
 
 ---
 
@@ -309,7 +309,7 @@ class: center, middle
 
 # [maps://](#maps)
 
-## [maps://?...daddr=Groom+Lake+Nevada...](maps://?saddr=Helsinki&daddr=Groom+Lake,+Nevada&dirflg=r)
+## [maps://?...daddr=Groom+Lake,+Nevada...](maps://?saddr=Helsinki&daddr=Groom+Lake,+Nevada&dirflg=r)
 
 ---
 
