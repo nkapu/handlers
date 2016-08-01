@@ -292,16 +292,16 @@ class: center, middle
 
 # [steam://](#steam)
 
-## [steam://installaddon/halflifehd](steam://installaddon/halflifehd)
+## [steam://uninstall/730](steam://uninstall/730)
 
 ---
 
 name: steam
 class: center, bottom
 
-![freakshow - steam](img/steam.png)
+![freakshow - steam](img/csgone.png)
 
-## FIXME FIXME FIXME
+## csgo://gone
 
 ---
 
