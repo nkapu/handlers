@@ -164,6 +164,14 @@ class: center, middle
 
 ---
 
+class: center, bottom
+
+![scheme cloud full](img/chats.png)
+
+## FIXME: (screenshots of chats)
+
+---
+
 class: center, middle
 
 # [word://](#openword)
