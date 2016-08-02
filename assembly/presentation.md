@@ -142,21 +142,25 @@ class: center, middle
 
 # Research&#8482;
 
-## Very serious, please participate
+## We need to find all the browsers. Very serious, please help!
 
 ---
 
 class: center, middle
-
-## (yellow | red | blue)
 
 ## We're yellow, beat us
 
+### <http://go.urlhandlers.info/blue>
+
+### <http://go.urlhandlers.info/red>
+
+### <http://go.urlhandlers.info/yellow>
+
 ---
 
 class: center, middle
 
-## (screenshot of steam/ingame)
+## FIXME: (screenshots of browsers: ingame etc.)
 
 ---
 
@@ -335,11 +339,11 @@ class: center, bottom
 
 <!-- markdownlint-disable MD033 -->
 
-<iframe src="https://ouspg.github.io/vecto-ctf"></iframe>
+<iframe src="http://go.urlhandlers.info/scores"></iframe>
 
 <!-- markdownlint-enable MD033 -->
 
-### Live until the end of the Assembly
+### Live until the end of the Assembly (requires a modern browser)
 
 ---
 
