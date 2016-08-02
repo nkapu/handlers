@@ -99,6 +99,9 @@ if __name__ == '__main__':
     parser.add_option("-p", "--pretty", action="store_true",
                       dest="pretty", default=False,
                       help="Display pretty printed output instead of JSON.")
+    parser.add_option("-l", "--lowercase", action="store_true",
+                      dest="lowercase", default=False,
+                      help="Convert input to lowercase before merging.")
 
     (options, args) = parser.parse_args()
 
@@ -111,6 +114,8 @@ if __name__ == '__main__':
             for encoding in ENCODINGS:
                 try:
                     _data = data.decode(encoding)
+                    if options.lowercase:
+                        _data = _data.lower()
                     _dict = json.loads(_data)
                 except (UnicodeDecodeError, UnicodeEncodeError, ValueError):
                     continue
