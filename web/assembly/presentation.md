@@ -146,6 +146,14 @@ class: center, middle
 
 ---
 
+class: center, bottom
+
+![browsers to launch the URLs](img/browsers.png)
+
+## Plenty of browsers to launch the URLs - in and out of the game
+
+---
+
 class: center, middle
 
 ## We're yellow, beat us
@@ -158,17 +166,11 @@ class: center, middle
 
 ---
 
-class: center, middle
-
-## FIXME: (screenshots of browsers: ingame etc.)
-
----
-
 class: center, bottom
 
-![scheme cloud full](img/chats.png)
+![chats to pass URLs](img/chats.png)
 
-## FIXME: (screenshots of chats)
+## Plenty of ways to spread the URLs, go go :)
 
 ---
 
