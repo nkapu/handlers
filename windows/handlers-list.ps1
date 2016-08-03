@@ -67,9 +67,9 @@ process {
 }
 end {
 	if($jsona.Count -gt 1) {
-		"[$($jsona -join ",`n")]"
+		"[$($jsona -join ",`n")]".ToLower()
 	} else {
-		$jsona
+		$jsona.ToLower()
 	}
 }}
 
