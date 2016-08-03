@@ -4,14 +4,14 @@
 
 Can be viewed [on the web](http://hack.urlhandlers.info/assembly/).
 
-Can also be used locally by running a web server in the `web/` directory.
+Can also be used locally by running a web server.
 
 ```console
-python -m SimpleHTTPServer 8080 # sees to work only with firefox.
+npm install
+npm start
 ```
 
-And connecting the browser to <http://localhost:8080/assembly/>. Fonts still
-load remotely.
+And connecting the browser to <http://localhost:8080/assembly/>.
 
 ## Publishing on the Github Pages
 
