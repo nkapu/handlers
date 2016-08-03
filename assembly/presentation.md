@@ -157,7 +157,15 @@ class: center, bottom
 
 ![browsers to launch the URLs](img/browsers.png)
 
-## Plenty of browsers to launch the URLs - in and out of the game
+## Plenty of browsers to launch the URLs - in game ...
+
+---
+
+class: center, bottom
+
+![rarebrowsers to launch the URLs](img/rarebrowsers.png)
+
+## ... and out of the game
 
 ---
 
