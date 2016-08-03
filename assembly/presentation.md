@@ -155,7 +155,7 @@ class: center, bottom
 
 class: center, bottom
 
-![the challenge teams](img/teams.png)
+[![the challenge teams](img/teams.png)](http://go.urlhandlers.info/)
 
 ## We're yellow, beat us. There is no shelter from the storm!
 
