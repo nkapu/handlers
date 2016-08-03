@@ -95,7 +95,16 @@ class: center, middle
 name: past
 class: center, middle
 
-# [gopher://](#future)
+# [gopher://](#past2)
+
+## When I was young
+
+---
+
+name: past2
+class: center, middle
+
+![gopher example](img/gopher.png)
 
 ## When I was young
 
@@ -154,15 +163,11 @@ class: center, bottom
 
 ---
 
-class: center, middle
+class: center, bottom
 
-## We're yellow, beat us
+![the challenge teams](img/teams.png)
 
-### <http://go.urlhandlers.info/blue>
-
-### <http://go.urlhandlers.info/red>
-
-### <http://go.urlhandlers.info/yellow>
+## We're yellow, beat us. There is no shelter from the storm!
 
 ---
 
