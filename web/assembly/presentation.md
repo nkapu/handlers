@@ -86,25 +86,9 @@ class: center, middle
 name: present
 class: center, middle
 
-# [http://](#past)
+# [http://](#future)
 
 ## <http://www.assembly.org/summer16/>
-
----
-
-name: past
-class: center, middle
-
-# [gopher://](#past2)
-
-## When I was young
-
----
-
-name: past2
-class: center, middle
-
-![gopher example](img/gopher.png)
 
 ---
 
