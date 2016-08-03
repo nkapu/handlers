@@ -106,8 +106,6 @@ class: center, middle
 
 ![gopher example](img/gopher.png)
 
-## When I was young
-
 ---
 
 name: future
