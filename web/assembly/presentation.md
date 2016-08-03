@@ -348,7 +348,7 @@ class: center, bottom
 
 <!-- markdownlint-enable MD033 -->
 
-### Live until the end of the Assembly (requires a modern browser)
+### Live until the end of the Assembly
 
 ---
 
