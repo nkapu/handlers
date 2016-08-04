@@ -356,7 +356,7 @@ class: center, bottom
 
 <!-- markdownlint-enable MD033 -->
 
-### Live until the end of the Assembly - Go <http://go.urlhandlers.info/>
+### Live until the end of the Assembly - Go to <http://go.urlhandlers.info/>
 
 ---
 
