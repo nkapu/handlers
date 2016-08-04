@@ -356,7 +356,7 @@ class: center, bottom
 
 <!-- markdownlint-enable MD033 -->
 
-### Live until the end of the Assembly
+### Live until the end of the Assembly - Go <http://go.urlhandlers.info/>
 
 ---
 
@@ -401,16 +401,3 @@ Marko Laakso
 Locky video edited from [Locky in Action by Omicron AG - Swiss made IT Security](https://youtu.be/GyZMJr7RfBE)
 
 University of Oulu - OUSPG
-
----
-
-name: challengefinal
-class: center, bottom
-
-<!-- markdownlint-disable MD033 -->
-
-<iframe src="http://go.urlhandlers.info/scores"></iframe>
-
-<!-- markdownlint-enable MD033 -->
-
-### Live until the end of the Assembly
