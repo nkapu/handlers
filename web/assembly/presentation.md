@@ -169,6 +169,14 @@ class: center, bottom
 
 ---
 
+class: center, bottom
+
+[![the challenge teams](img/teams.png)](http://go.urlhandlers.info/)
+
+## Gotta Catch 'Em All (Browsers)
+
+---
+
 class: center, middle
 
 # [word://](#openword)
@@ -393,3 +401,16 @@ Marko Laakso
 Locky video edited from [Locky in Action by Omicron AG - Swiss made IT Security](https://youtu.be/GyZMJr7RfBE)
 
 University of Oulu - OUSPG
+
+---
+
+name: challengefinal
+class: center, bottom
+
+<!-- markdownlint-disable MD033 -->
+
+<iframe src="http://go.urlhandlers.info/scores"></iframe>
+
+<!-- markdownlint-enable MD033 -->
+
+### Live until the end of the Assembly
