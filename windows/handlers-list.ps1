@@ -55,7 +55,7 @@ process {
 	foreach($input in $InputObject.GetEnumerator() | Where { $_.Value } ) {
 		$val = $input.Value
 		if($val -is [System.Collections.Hashtable]) {
-			"`t" * $tab + '"'+$input.Key+'": ' + "`n" + (Make-Json $input.Value $nexttab)
+			"`t" * $tab + '"'+$input.Key+':": ' + "`n" + (Make-Json $input.Value $nexttab)
 		} elseif($val -is [System.Array]) {
 			"`t" * $tab + '"'+$input.Key+'": [' + "`n" + (handle_array($val))
 		} else {
