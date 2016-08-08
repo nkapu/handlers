@@ -247,6 +247,14 @@
             }
         ]
     },
+    "itmss:": {
+        "presets": [
+            {
+                "description": "Opens app in itunes",
+                "value": "itmss://itunes.apple.com/us/app/truco/id294409923?mt=8."
+            }
+        ]
+    },
     "macappstore:": {
         "presets": [
             {
