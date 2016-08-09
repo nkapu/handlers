@@ -13,7 +13,8 @@
     "jsonlint": "^1.6.2",
     "jspm": "^0.16.32",
     "markdownlint": "^0.2.0",
-    "markdownlint-cli": "^0.1.0"
+    "markdownlint-cli": "^0.1.0",
+    "stylelint": "^7.1.0"
   },
   "scripts": {
     "start": "http-server web -a 127.0.0.1",
