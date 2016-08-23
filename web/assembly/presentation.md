@@ -390,8 +390,4 @@ Locky video edited from [Locky in Action by Omicron AG - Swiss made IT Security]
 
 University of Oulu - OUSPG
 
----
-
-class: center, middle
-
-# <https://github.com/ouspg/urlhandlers/>
+## <https://github.com/ouspg/urlhandlers/>
