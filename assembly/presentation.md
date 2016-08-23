@@ -389,3 +389,9 @@ Marko Laakso
 Locky video edited from [Locky in Action by Omicron AG - Swiss made IT Security](https://youtu.be/GyZMJr7RfBE)
 
 University of Oulu - OUSPG
+
+---
+
+class: center, middle
+
+# <https://github.com/ouspg/urlhandlers/>
