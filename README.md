@@ -7,7 +7,7 @@
 URL handlers are the bits in the front of the URLs (e.g. http:, https:,
 ftp:, skype:). They add things a web page can do to you and your device.
 Surprising applications have a nasty habit to register these without asking.
-Learn more from our [videos](https://www.youtube.com/playlist?list=PL1fscFAejNoCk_iEHN9Urvl7SSB2xG-AR))
+Learn more from our [videos](https://www.youtube.com/playlist?list=PL1fscFAejNoCk_iEHN9Urvl7SSB2xG-AR)
 or [presentation](http://hack.urlhandlers.info/assembly/).
 
 [![Christmas Time with URL handlers](https://img.youtube.com/vi/Z9IG9ZD3PNI/0.jpg)](https://www.youtube.com/watch?v=Z9IG9ZD3PNI)
