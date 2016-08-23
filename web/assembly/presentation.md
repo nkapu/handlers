@@ -1,10 +1,18 @@
 <!-- markdownlint-disable MD026 MD041 -->
 
-.center[Warning: May Contain Traces of Serious Research]
+.center[
+Warning: May Contain Traces of Serious Research
+
+# [start://](#start)
+
+## Or press space to proceed
+
+]
 
 ---
 
 class: center, middle
+name: start
 
 # Your privacy is protected
 
