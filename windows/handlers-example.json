@@ -90,6 +90,15 @@
             }
         ]
     },
+    "bankid:": {
+        "apps": [
+            {
+                "name": "url:bankid",
+                "path": "bankidstart.exe",
+                "registrykey": "hkey_classes_root\\bankid"
+            }
+        ]
+    },
     "battlenet:": {
         "apps": [
             {
@@ -542,6 +551,140 @@
             }
         ]
     },
+    "hpcm:": {
+        "apps": [
+            {
+                "name": "url:hpcm",
+                "registrykey": "hkey_classes_root\\hpcm"
+            }
+        ]
+    },
+    "hphddcheck:": {
+        "apps": [
+            {
+                "name": "url: hphddcheck protocol",
+                "path": "hphddcheck.exe",
+                "registrykey": "hkey_classes_root\\hphddcheck"
+            }
+        ]
+    },
+    "hphelp:": {
+        "apps": [
+            {
+                "name": "url:hphelp (hphelp) protocol",
+                "path": "helppane.exe",
+                "registrykey": "hkey_classes_root\\hphelp"
+            }
+        ]
+    },
+    "hpnetworkcheck:": {
+        "apps": [
+            {
+                "name": "url: hpnetworkcheck protocol",
+                "path": "hpnetworkcheck.exe",
+                "registrykey": "hkey_classes_root\\hpnetworkcheck"
+            }
+        ]
+    },
+    "hpoddcheck:": {
+        "apps": [
+            {
+                "name": "url: hpoddcheck protocol",
+                "path": "hpoddcheck.exe",
+                "registrykey": "hkey_classes_root\\hpoddcheck"
+            }
+        ]
+    },
+    "hpsalauncher:": {
+        "apps": [
+            {
+                "name": "url: hpsalauncher protocol",
+                "path": "hpsalauncher.exe",
+                "registrykey": "hkey_classes_root\\hpsalauncher"
+            }
+        ]
+    },
+    "hpsaobject-diskcleanup-help:": {
+        "apps": [
+            {
+                "name": "url: hpsaobject-diskcleanup-help protocol",
+                "path": "launchmshelptopic.exe",
+                "registrykey": "hkey_classes_root\\hpsaobject-diskcleanup-help"
+            }
+        ]
+    },
+    "hpsaobject-diskcleanup:": {
+        "apps": [
+            {
+                "name": "url: hpsaobject-diskcleanup protocol",
+                "path": "cleanmgr.exe",
+                "registrykey": "hkey_classes_root\\hpsaobject-diskcleanup"
+            }
+        ]
+    },
+    "hpsaobjectmetrics:": {
+        "apps": [
+            {
+                "name": "url: hpsaobjectmetrics protocol",
+                "path": "hpsaobjectmetrics.exe",
+                "registrykey": "hkey_classes_root\\hpsaobjectmetrics"
+            }
+        ]
+    },
+    "hpsupportassistant:": {
+        "apps": [
+            {
+                "name": "url: hpsupportassistant protocol",
+                "path": "hpsf.exe",
+                "registrykey": "hkey_classes_root\\hpsupportassistant"
+            }
+        ]
+    },
+    "hpsystemboardcheck:": {
+        "apps": [
+            {
+                "name": "url: hpsystemboardcheck protocol",
+                "path": "hpsystemboardcheck.exe",
+                "registrykey": "hkey_classes_root\\hpsystemboardcheck"
+            }
+        ]
+    },
+    "hptouchcheck:": {
+        "apps": [
+            {
+                "name": "url: hptouchcheck protocol",
+                "path": "hptouchcheck.exe",
+                "registrykey": "hkey_classes_root\\hptouchcheck"
+            }
+        ]
+    },
+    "hptvtunercheck:": {
+        "apps": [
+            {
+                "name": "url: hptvtunercheck protocol",
+                "path": "hptvtunercheck.exe",
+                "registrykey": "hkey_classes_root\\hptvtunercheck"
+            }
+        ]
+    },
+    "hpvideocheck:": {
+        "apps": [
+            {
+                "name": "url: hpvideocheck protocol",
+                "path": "hpvideocheck.exe",
+                "registrykey": "hkey_classes_root\\hpvideocheck"
+            }
+        ]
+    },
+    "hpwebcamcheck:": {
+        "apps": [
+            {
+                "name": "url: hpwebcamcheck protocol",
+                "path": "hpwebcamcheck.exe",
+                "registrykey": "hkey_classes_root\\hpwebcamcheck"
+            }
+        ]
+    },
     "http:": {
         "apps": [
             {
@@ -566,6 +709,12 @@
                 "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
                 "name": "url:hypertext transfer protocol",
                 "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\http"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:hypertext transfer protocol",
+                "path": "launcher.exe",
                 "registrykey": "hkey_classes_root\\http"
             }
         ]
@@ -1686,6 +1835,15 @@
             }
         ]
     },
+    "operastable:": {
+        "apps": [
+            {
+                "friendlytypename": "opera web document",
+                "path": "launcher.exe",
+                "registrykey": "hkey_classes_root\\operastable"
+            }
+        ]
+    },
     "outlook.shell:": {
         "apps": [
             {
@@ -1894,6 +2052,51 @@
             }
         ]
     },
+    "psgredirector-hpsalowdiskex1:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex1 protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex1"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex2:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex2 protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex2"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex3:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex3 protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex3"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex"
+            }
+        ]
+    },
+    "psgredirector:": {
+        "apps": [
+            {
+                "name": "url: psgredirector protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector"
+            }
+        ]
+    },
     "publisher:": {
         "apps": [
             {
@@ -2076,6 +2279,14 @@
             {
                 "name": "url:sms",
                 "registrykey": "hkey_classes_root\\sms"
+            }
+        ]
+    },
+    "snapfish:": {
+        "apps": [
+            {
+                "name": "url:snapfish",
+                "registrykey": "hkey_classes_root\\snapfish"
             }
         ]
     },
@@ -2311,6 +2522,14 @@
                 "name": "url:outlook add internet calendar",
                 "path": "outlook.exe",
                 "registrykey": "hkey_classes_root\\webcals"
+            }
+        ]
+    },
+    "wildtangent:": {
+        "apps": [
+            {
+                "name": "url:wildtangent",
+                "registrykey": "hkey_classes_root\\wildtangent"
             }
         ]
     },
@@ -2698,6 +2917,14 @@
             {
                 "name": "url:xboxliveapp-1297287741",
                 "registrykey": "hkey_classes_root\\xboxliveapp-1297287741"
+            }
+        ]
+    },
+    "xboxliveapp-1297290225:": {
+        "apps": [
+            {
+                "name": "url:xboxliveapp-1297290225",
+                "registrykey": "hkey_classes_root\\xboxliveapp-1297290225"
             }
         ]
     },
