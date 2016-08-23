@@ -49,6 +49,14 @@
             }
         ]
     },
+    "asuscloud:": {
+        "apps": [
+            {
+                "path": "asuswspanel.exe",
+                "registrykey": "hkey_classes_root\\asuscloud"
+            }
+        ]
+    },
     "audiocall-messenger:": {
         "apps": [
             {
@@ -71,6 +79,14 @@
                 "name": "url:avastpam",
                 "path": "avastui.exe",
                 "registrykey": "hkey_classes_root\\avastpam"
+            }
+        ]
+    },
+    "b9eced6f.asusgiftbox:": {
+        "apps": [
+            {
+                "name": "url:b9eced6f.asusgiftbox",
+                "registrykey": "hkey_classes_root\\b9eced6f.asusgiftbox"
             }
         ]
     },
@@ -196,6 +212,10 @@
     "callto:": {
         "apps": [
             {
+                "name": "url:callto",
+                "registrykey": "hkey_classes_root\\callto"
+            },
+            {
                 "name": "url:callto protocol",
                 "path": "communicator.exe",
                 "registrykey": "hkey_classes_root\\callto"
@@ -283,6 +303,15 @@
             {
                 "name": "url:dolby-protocol",
                 "registrykey": "hkey_classes_root\\dolby-protocol"
+            }
+        ]
+    },
+    "evernote:": {
+        "apps": [
+            {
+                "name": "evernote protocol",
+                "path": "evernote.exe",
+                "registrykey": "hkey_classes_root\\evernote"
             }
         ]
     },
@@ -416,6 +445,14 @@
             }
         ]
     },
+    "flipboard:": {
+        "apps": [
+            {
+                "name": "url:flipboard",
+                "registrykey": "hkey_classes_root\\flipboard"
+            }
+        ]
+    },
     "ftp:": {
         "apps": [
             {
@@ -461,6 +498,14 @@
             }
         ]
     },
+    "glgame:": {
+        "apps": [
+            {
+                "name": "url:glgame",
+                "registrykey": "hkey_classes_root\\glgame"
+            }
+        ]
+    },
     "groove:": {
         "apps": [
             {
@@ -501,6 +546,12 @@
         "apps": [
             {
                 "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:http",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\http"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
                 "name": "url:hypertext transfer protocol",
                 "path": "chrome.exe",
                 "registrykey": "hkey_classes_root\\http"
@@ -521,6 +572,12 @@
     },
     "https:": {
         "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
+                "name": "url:https",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\https"
+            },
             {
                 "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
                 "name": "url:hypertext transfer protocol with privacy",
@@ -998,6 +1055,10 @@
         "apps": [
             {
                 "name": "url:cortana protocol",
+                "registrykey": "hkey_classes_root\\ms-cortana"
+            },
+            {
+                "name": "url:cortana protocol",
                 "path": "launchwinapp.exe",
                 "registrykey": "hkey_classes_root\\ms-cortana"
             }
@@ -1079,6 +1140,14 @@
             {
                 "name": "url:ms-ipmessaging",
                 "registrykey": "hkey_classes_root\\ms-ipmessaging"
+            }
+        ]
+    },
+    "ms-lcrv:": {
+        "apps": [
+            {
+                "name": "url:ms-lcrv",
+                "registrykey": "hkey_classes_root\\ms-lcrv"
             }
         ]
     },
@@ -1484,6 +1553,14 @@
             {
                 "path": "guitarpro.exe",
                 "registrykey": "hkey_classes_root\\mysongbook"
+            }
+        ]
+    },
+    "netflix:": {
+        "apps": [
+            {
+                "name": "url:netflix",
+                "registrykey": "hkey_classes_root\\netflix"
             }
         ]
     },
@@ -2532,6 +2609,15 @@
                 "name": "url:wpi protocol",
                 "path": "webplatforminstaller.exe",
                 "registrykey": "hkey_classes_root\\wpi"
+            }
+        ]
+    },
+    "wtapp:": {
+        "apps": [
+            {
+                "name": "url:wtapp protocol",
+                "path": "wtapp_protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\wtapp"
             }
         ]
     },
