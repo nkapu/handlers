@@ -33,6 +33,7 @@
 Think ahead.
 
 * Have shareable items ready and easily accessible
+* Think about user exp when moving between materials (youtube, readmes, presentations)
 * Can the shareable items be packed?
 * T - X days - There will be..
 * T - few hours - There will be..

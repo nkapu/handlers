@@ -1,10 +1,18 @@
 <!-- markdownlint-disable MD026 MD041 -->
 
-.center[Warning: May Contain Traces of Serious Research]
+.center[
+Warning: May Contain Traces of Serious Research
+
+# [start://](#start)
+
+## Or press space to proceed
+
+]
 
 ---
 
 class: center, middle
+name: start
 
 # Your privacy is protected
 
@@ -155,9 +163,9 @@ class: center, bottom
 
 class: center, bottom
 
-[![the challenge teams](img/teams.png)](http://go.urlhandlers.info/)
+![the challenge teams](img/teams.png)
 
-## We're yellow, beat us. There is no shelter from the storm!
+## We challenged the Assembly crowd. We were yellow.
 
 ---
 
@@ -166,14 +174,6 @@ class: center, bottom
 ![chats to pass URLs](img/chats.png)
 
 ## Plenty of ways to spread the URLs, go go :)
-
----
-
-class: center, bottom
-
-[![the challenge teams](img/teams.png)](http://go.urlhandlers.info/)
-
-## Gotta Catch 'Em All (Browsers)
 
 ---
 
@@ -350,13 +350,9 @@ class: center, middle
 name: challengeupdate
 class: center, bottom
 
-<!-- markdownlint-disable MD033 -->
+![scores - final](img/scores-annotated-20160809.png)
 
-<iframe src="http://go.urlhandlers.info/scores"></iframe>
-
-<!-- markdownlint-enable MD033 -->
-
-### Live until the end of the Assembly - Go to <http://go.urlhandlers.info/>
+### Scores at the end of the Assembly
 
 ---
 
@@ -401,3 +397,5 @@ Marko Laakso
 Locky video edited from [Locky in Action by Omicron AG - Swiss made IT Security](https://youtu.be/GyZMJr7RfBE)
 
 University of Oulu - OUSPG
+
+## <https://github.com/ouspg/urlhandlers/>
