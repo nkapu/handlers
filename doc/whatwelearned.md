@@ -27,6 +27,7 @@
 }
 ```
 
+* ~800 requests from about ~110 unique IPs
 ## 15 seconds of fame - use it efficiently
 
 Think ahead.
@@ -37,7 +38,6 @@ Think ahead.
 * T - few hours - There will be..
 * T - few minutes - Watch from...
 * Tracking web resources, commentary, update the package
-* Have a link to share
 
 ## Package
 
