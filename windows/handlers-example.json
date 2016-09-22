@@ -253,12 +253,39 @@
             }
         ]
     },
+    "ccsf:": {
+        "apps": [
+            {
+                "name": "url:ccsf protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "hkey_classes_root\\ccsf"
+            }
+        ]
+    },
     "chromehtml:": {
         "apps": [
             {
                 "name": "chrome html document",
                 "path": "chrome.exe",
                 "registrykey": "hkey_classes_root\\chromehtml"
+            }
+        ]
+    },
+    "citrix.assocprotocol.mms:": {
+        "apps": [
+            {
+                "name": "url:rtsp protocol",
+                "path": "multimediaredirector.exe",
+                "registrykey": "hkey_classes_root\\citrix.assocprotocol.mms"
+            }
+        ]
+    },
+    "citrix.assocprotocol.rtsp:": {
+        "apps": [
+            {
+                "name": "url:rtsp protocol",
+                "path": "multimediaredirector.exe",
+                "registrykey": "hkey_classes_root\\citrix.assocprotocol.rtsp"
             }
         ]
     },
@@ -1141,6 +1168,12 @@
             {
                 "friendlytypename": "@c:\\windows\\system32\\unregmp2.exe,-9928",
                 "name": "url:mms protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\mms"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\unregmp2.exe,-9928",
+                "name": "url:mms protocol",
                 "path": "wmplayer.exe",
                 "registrykey": "hkey_classes_root\\mms"
             }
@@ -1509,6 +1542,15 @@
             {
                 "name": "url:ms-unistore-email",
                 "registrykey": "hkey_classes_root\\ms-unistore-email"
+            }
+        ]
+    },
+    "ms-visio:": {
+        "apps": [
+            {
+                "name": "url:visio protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-visio"
             }
         ]
     },
@@ -1966,6 +2008,15 @@
             }
         ]
     },
+    "pnm:": {
+        "apps": [
+            {
+                "name": "url:pnm protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\pnm"
+            }
+        ]
+    },
     "powerpoint:": {
         "apps": [
             {
@@ -2134,6 +2185,24 @@
                 "name": "url:rlogin protocol",
                 "path": "url.dll",
                 "registrykey": "hkey_classes_root\\rlogin"
+            }
+        ]
+    },
+    "rtsp:": {
+        "apps": [
+            {
+                "name": "url:rtsp protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\rtsp"
+            }
+        ]
+    },
+    "rtspu:": {
+        "apps": [
+            {
+                "name": "url:rtspu protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\rtspu"
             }
         ]
     },
@@ -2452,6 +2521,15 @@
             {
                 "name": "url:videocall-skype-com",
                 "registrykey": "hkey_classes_root\\videocall-skype-com"
+            }
+        ]
+    },
+    "visio:": {
+        "apps": [
+            {
+                "name": "url:visio protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\visio"
             }
         ]
     },
