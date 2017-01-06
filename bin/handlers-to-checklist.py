@@ -22,5 +22,6 @@ def main():
         for handler in sorted(handlers.keys()):
             print " * [ ] " + handler
 
+
 if __name__ == "__main__":
     main()
