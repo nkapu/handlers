@@ -14,7 +14,7 @@
 
 name: start
 
-## September 2015 - Spark
+## Autumn 2015 - Spark
 
 * Turmio hacks terminals :)
   * Learns to launch them automagically from the web
@@ -26,9 +26,9 @@ name: start
 
 ---
 
-## Spoils of man pages
+## Spoils of the man pages
 
-* We wrote [a DTrace script for ``execve`` on OSX](https://github.com/ouspg/urlhandlers/blob/master/osx/execve.d)
+* We wrote [a DTrace script for `execve` on OSX](https://github.com/ouspg/urlhandlers/blob/master/osx/execve.d)
 
 <!-- markdownlint-disable MD013 -->
 
@@ -47,5 +47,43 @@ sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis'
 
 * We wrote [an analysis in the Project Repo](https://github.com/ouspg/urlhandlers/blob/master/cases/x-man-page.md)
 
-* To us it appears to be .red.bold[safe by accident]
+* To us it appears to be .red[**safe by accident**]
   from shell meta-character injection ... for now ... with our skills!
+
+---
+
+## Winter 2015-2016 - Happy hacking
+
+* Occasional random hacking
+* A bit of work shopping with [Kapsi Ry](https://www.kapsi.fi) activists
+* A private Wiki for the "project" collaboration
+* It became apparent that there were
+  * Plenty of URL handlers that launch **out of the browser behavior**
+  * Even more handler specific query parameters
+  * A bunch browsers (browsers, electron apps, chat clients, ...)
+  * Many injection vectors (web, email, document, direct, **redirect**, ...)
+  * -> Too many combinations to cover and behaviors to analyze
+
+.right[![Handlers to Devices](img/devices.png)]
+
+---
+
+## Logic of the denial
+
+Some browsers whitelist autolaunch, blacklist deny, sometimes prompt
+and sometimes don't when you try to active URL handlers. Safari used
+to launch them all.
+
+### Thumbs up for the paranoid browser
+
+1. Browser -> Server: q?
+1. Server -> Browser: Check this out, `img src="danger://"`
+1. Browser: Yikes, **Thou shalt not pass!**
+
+### ... we just wish it was smart as well!
+
+1. Browser -> Server: q?
+1. Server -> Browser: Check this out, `img src="<http://bouncer/fuu>"`
+1. Browser -> Bouncer: q?
+1. Bouncer -> Browser: You should redirect to `danger://`
+1. Browser: **Ah ok, here goes!**
