@@ -26,13 +26,15 @@ git subtree push --prefix web origin gh-pages
 ## Content
 
 * Kickoff
-  * Autum 2015 (Aug)
+  * Autumn 2015 (Aug)
+  * 2015-09 URL handlers collab founded
   * Turmio hacks terminals, learned to launch them from the
     web and asked 'Is it safe?'
 * Hobby phase I
   * Spring 2016
   * Manual (a bit unsystematic) testing by turmio and nkapu
   * A lot of vectors (handlers, "browsers", injection vectors)
+  * 2016-03 URL handlers repository founded
   * Started a web UI to help systematic testing
   * Started collecting prior art
 * Work phase I
