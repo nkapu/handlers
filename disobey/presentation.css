@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'Droid Serif';
+  src: url('../fonts/DroidSerif.ttf');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-weight: bold;
+  src: url('../fonts/DroidSerif-Bold.ttf');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: italic;
+  src: url('../fonts/DroidSerif-Italic.ttf');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  src: url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+body { font-family: 'Droid Serif'; }
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: normal;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:active { text-decoration: underline; }
+
+.remark-slide-content h1 {
+  font-size: 6em;
+}
+
+.remark-slide-content > p > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -60%);
+  max-width: 100%;
+  max-height: 80%;
+}
+.myvideo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 90%;
+}
+iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -60%);
+  width: 100%;
+  height: 80%;
+}
