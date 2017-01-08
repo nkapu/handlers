@@ -34,8 +34,6 @@ a:active { text-decoration: underline; }
 
 .red { color: #fa0000; }
 
-.bold { font-weight: bold; }
-
 .myvideo {
   position: fixed;
   top: 0;
