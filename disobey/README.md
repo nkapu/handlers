@@ -110,3 +110,17 @@ dtrace: error on enabled probe ID 2 (ID 268: syscall::execve:entry): invalid add
 ```
 
 <!-- markdownlint-enable MD013 -->
+
+## Browser comic part 1
+
+* Browser: q?
+* Server -> Browser: img src="Danger://
+* Browser: Thou shalt not pass!
+
+## Browser comic part 2
+
+* Browser: q?
+* Server -> Browser: src="http://bouncer/fuu"
+* Browser -> Bouncer: q?
+* Bouncer -> Browser: redirect to "Danger://"
+* Browser: "Ah ok, here goes!"
