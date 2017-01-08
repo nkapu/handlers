@@ -57,7 +57,9 @@ git subtree push --prefix web origin gh-pages
 
 * x-man-page://security
 
-```
+<!-- markdownlint-disable MD013 -->
+
+```console
 valhalla:osx nkapu$ sudo ./execve.d
 2017 Jan  8 15:06:41 execve bash[33604] -> /usr/bin/open 'open' 'x-man-page://security' '' '' '' '' '' '' '' '' '' ''
 2017 Jan  8 15:06:41 execve open[33604] [syscall return] 'open' 'x-man-page://security' '' '' '' '' '' '' '' '' '' ''
@@ -77,9 +79,13 @@ dtrace: error on enabled probe ID 2 (ID 268: syscall::execve:entry): invalid add
 2017 Jan  8 15:06:43 execve grotty[33614] [syscall return] 'grotty' '' '' '' '' '' '' '' '' '' '' ''
 ```
 
+<!-- markdownlint-enable MD013 -->
+
 * x-man-page://security;type=a
 
-```
+<!-- markdownlint-disable MD013 -->
+
+```console
 valhalla:osx nkapu$ sudo ./execve.d
 dtrace: error on enabled probe ID 2 (ID 268: syscall::execve:entry): invalid address (0x7fe460701040) in action #7 at DIF offset 36
 2017 Jan  8 15:28:50 execve open[33923] [syscall return] 'open' 'x-man-page:///security;type=a' '' '' '' '' '' '' '' '' '' ''
@@ -102,3 +108,5 @@ dtrace: error on enabled probe ID 2 (ID 268: syscall::execve:entry): invalid add
 2017 Jan  8 15:28:52 execve sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis' '' '' '' '' '' '' '' ''
 2017 Jan  8 15:28:52 execve grep[33935] [syscall return] 'grep' '-i' 'security' '/usr/local/share/man/whatis' '' '' '' '' '' '' '' ''
 ```
+
+<!-- markdownlint-enable MD013 -->
