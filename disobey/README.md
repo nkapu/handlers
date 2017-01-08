@@ -31,9 +31,11 @@ git subtree push --prefix web origin gh-pages
   * Turmio hacks terminals, learned to launch them from the
     web and asked 'Is it safe?'
 * Hobby phase I
-  * Spring 2016
+  * Winter 2015
   * Manual (a bit unsystematic) testing by turmio and nkapu
   * A lot of vectors (handlers, "browsers", injection vectors)
+* Hobby phase II
+  * Spring 2016
   * 2016-03 URL handlers repository founded
   * Started a web UI to help systematic testing
   * Started collecting prior art
@@ -46,7 +48,7 @@ git subtree push --prefix web origin gh-pages
     * Ad carrousel
     * Kernel Crash
   * Assembly 2016 presentation
-* Hobby Phase II
+* Hobby Phase III
   * Autumn 2016
   * Enter Google Functions Beta for vector backend
   * Fixes by Apple
