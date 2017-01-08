@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Making of URL Handlers</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="presentation.css" />
+  </head>
+  <body>
+    <!-- https://gnab.github.io/remark/downloads/remark-latest.min.js" -->
+    <script src="remark-latest.min.js"></script>
+    <!-- initialize remark, next version will be async w/callback! -->
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'presentation.md',
+        ratio: '16:9'
+      });
+    </script>
+    <!-- custom made embeds for this project -->
+    <script src="remark-custom-embeds.js"></script>
+  </body>
+</html>
