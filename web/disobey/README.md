@@ -25,9 +25,12 @@ git subtree push --prefix web origin gh-pages
 
 ## Content
 
+* Kickoff
+  * Autum 2015 (Aug)
+  * Turmio hacks terminals, learned to launch them from the
+    web and asked 'Is it safe?'
 * Hobby phase I
-  * Early 2016
-  * Turmio asked 'Is it safe?'
+  * Spring 2016
   * Manual (a bit unsystematic) testing by turmio and nkapu
   * A lot of vectors (handlers, "browsers", injection vectors)
   * Started a web UI to help systematic testing
