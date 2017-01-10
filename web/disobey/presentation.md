@@ -16,7 +16,7 @@ name: start
 
 ## Autumn 2015 - Spark
 
-* Turmio hacks terminals :)
+* You might have noticed, @turmio [hacks terminals :)](http://www.crashterminal.org)
   * Learns to launch them automagically from the web
   * [x-man-page:///security](x-man-page:///security)
   * [x-man-page:///security;type=a](x-man-page:///security;type=a)
@@ -52,11 +52,11 @@ sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis'
 
 ---
 
-## Winter 2015-2016 - Happy hacking
+## Winter 2015-2016 - Happy hobby hacking
 
 * Occasional random hacking
 * A bit of work shopping with [Kapsi Ry](https://www.kapsi.fi) activists
-* A private Wiki for the "project" collaboration
+* A private Wiki for the collaboration
 * It became apparent that there were
   * Plenty of URL handlers that launch **out of the browser behavior**
   * Even more handler specific query parameters
@@ -83,7 +83,36 @@ to launch them all.
 ### ... we just wish it was smart as well!
 
 1. Browser -> Server: q?
-1. Server -> Browser: Check this out, `img src="<http://bouncer/fuu>"`
+1. Server -> Browser: Check this out, `img src="http://bouncer/fuu"`
 1. Browser -> Bouncer: q?
 1. Bouncer -> Browser: You should redirect to `danger://`
 1. Browser: **Ah ok, here goes!**
+
+---
+
+## Spring 2016 - a "project" &  complexity explosion
+
+* A public reposity @ <https://github.com/ouspg/urlhandlers/>
+  * [preset URLs with query parameters](https://github.com/ouspg/urlhandlers/blob/master/web/db/handlerpresets.json)
+  * [background links about URL schemes and prior vulnerabilities](https://github.com/ouspg/urlhandlers/blob/master/web/db/handlerurls.json)
+  * [vulnerability assessment dissection of select URL handlers](https://github.com/ouspg/urlhandlers/tree/master/cases)
+* Got a domain and **started** a web UI @ <http://hack.urlhandlers.info>
+  * Like a real project, it is still WIP and doesn't do much yet :)
+* Wrote tools to collect registered handlers on the OSX and Windows
+  * Collected the results (handler, application, ...) in [a JSON in the repo](https://github.com/ouspg/urlhandlers/blob/master/web/db/handlerinfo.json)
+
+.right[![Plenty of Handlers](img/handlers.png)]
+
+---
+
+## Summer 2016 - ...
+
+---
+
+## Autum 2016 - ...
+
+---
+
+## Winter 2016 - 2017 ...
+
+* FIXME: Disobey, pointers, creditz & thanks
