@@ -45,7 +45,7 @@ sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis'
 
 <!-- markdownlint-enable MD013 -->
 
-* We wrote [an analysis in the Project Repo](https://github.com/ouspg/urlhandlers/blob/master/cases/x-man-page.md)
+* We wrote [a vulnerablity assessment](https://github.com/ouspg/urlhandlers/blob/master/cases/x-man-page.md)
 
 * To us it appears to be .red[**safe by accident**]
   from shell meta-character injection ... for now ... with our skills!
