@@ -138,7 +138,7 @@ class: center, middle
 
 ---
 
-## Autumn 2016 - party is over?
+## Autumn 2016 - Party is over?
 
 * Back to school
 * "Just one more" presentation to some vulnerability researchers
