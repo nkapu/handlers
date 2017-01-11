@@ -45,7 +45,7 @@ sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis'
 
 <!-- markdownlint-enable MD013 -->
 
-* We wrote [a vulnerablity assessment](https://github.com/ouspg/urlhandlers/blob/master/cases/x-man-page.md)
+* We wrote [a vulnerability assessment](https://github.com/ouspg/urlhandlers/blob/master/cases/x-man-page.md)
 
 * To us it appears to be .red[**safe by accident**]
   from shell meta-character injection ... for now ... with our skills!
@@ -170,6 +170,24 @@ class: center, middle
 
 ---
 
-## Winter 2016 - 2017 ...
+## Winter 2016-2017 - Disobey!
 
-* FIXME: Disobey, pointers, creditz & thanks
+* Here we are :)
+* Progress 0.02/100, need help
+  * Only 3 out of the hundreds handlers dissected
+  * Only fraction of the browsers checked
+  * Only simplest of the injection vectors scratched
+  * Testing UI and bouncer backend very much work in progress
+* But hey, instead of coding we managed to enroll to Google Cloud Functions
+  (a bit like Amazon's lambda) alpha to use the latest tech.
+  Just to find out that didn't have even time to read the emails. :)
+
+.right[![Plenty of Handlers](img/googlemails.png)]
+
+---
+
+class: center, middle
+
+## Thanks to everyone!
+
+### Repo at <https://github.com/ouspg/urlhandlers/>
