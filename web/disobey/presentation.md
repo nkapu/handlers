@@ -188,6 +188,6 @@ class: center, middle
 
 class: center, middle
 
-## Thanks to everyone!
+## Thanks to Everyone!
 
-### Repo at <https://github.com/ouspg/urlhandlers/>
+### <https://github.com/ouspg/urlhandlers/>
