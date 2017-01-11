@@ -14,7 +14,7 @@
 
 name: start
 
-## Autumn 2015 - Spark
+## Autumn 2015 - Inspiration
 
 * You might have noticed, @turmio [hacks terminals :)](http://www.crashterminal.org)
   * Learns to launch them automagically from the web
@@ -54,10 +54,10 @@ sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis'
 
 ## Winter 2015-2016 - Happy hobby hacking
 
-* Occasional random hacking
+* Temptation and occasional random hacking
 * A bit of work shopping with [Kapsi Ry](https://www.kapsi.fi) activists
 * A private Wiki for the collaboration
-* It became apparent that there were
+* We realized that there were
   * Plenty of URL handlers that launch **out of the browser behavior**
   * Even more handler specific query parameters
   * A bunch browsers (browsers, electron apps, chat clients, ...)
@@ -90,7 +90,7 @@ to launch them all.
 
 ---
 
-## Spring 2016 - a "project" &  complexity explosion
+## Spring 2016 - a "project" & complexity explosion
 
 * A public reposity @ <https://github.com/ouspg/urlhandlers/>
   * [preset URLs with query parameters](https://github.com/ouspg/urlhandlers/blob/master/web/db/handlerpresets.json)
@@ -105,11 +105,68 @@ to launch them all.
 
 ---
 
-## Summer 2016 - ...
+## Summer 2016 - 3 weeks of (real) (paid) work
+
+* @nkapu hired for few weeks at the [OUSPG Open](https://github.com/ouspg/ouspg-open/),
+  thanks to Google for sponsorship
+* more tools, experiments and results into the repo
+* focus on the awareness
+  * documenting also as [videos](https://www.youtube.com/channel/UChoH-hBnBp_cS_awaOEtT_A)
+  * preparing a [Assembly Summer 2016 ARTtech presentation](http://hack.urlhandlers.info/assembly/)
+
+### Up next- State of the art at the beginning of the summer - [xmas://](#xmas)
+
+```html
+...
+<iframe src="dict://Oulu"></iframe>
+<iframe src="steam://installaddon/halflifehd"></iframe>
+<iframe src="word:http://www.microsoft.com/investor/downloads/events/CreditSuisseReller.docx"></iframe>
+<iframe src="applescript:"></iframe>
+<iframe src="bitcoin:3JDs4hAZeKE7vER2YvmH4yTMDEfoA1trnC?amount=666&label=bitcoin&message=prevails"></iframe>
+<iframe src="hpevent:"></iframe>
+<iframe src="vnc:"></iframe>
+<iframe src="macappstores://itunes.apple.com/app/id403961173?mt=12"></iframe>
+...
+```
 
 ---
 
-## Autum 2016 - ...
+name: xmas
+class: center, middle
+
+.myvideo[mov/xmas-1.0.mp4]
+
+---
+
+## Autumn 2016 - party is over?
+
+* Back to school
+* "Just one more" presentation to some vulnerability researchers
+* Apple fixes some problems, yay!
+* Progress on understanding the implications 0.01/100
+
+### Next up - State of the Art at the end of the summer - [panic://](#panic)
+
+```html
+...
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+<iframe src="applefeedback:"></iframe>
+...
+```
+
+---
+
+name: panic
+class: center, middle
+
+.myvideo[mov/panic-1.0.mp4]
 
 ---
 
