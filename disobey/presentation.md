@@ -55,7 +55,7 @@ sh[33935] -> /usr/bin/grep 'grep' '-i' 'security' '/usr/local/share/man/whatis'
 ## Winter 2015-2016 - Happy hobby hacking
 
 * Temptation and occasional random hacking
-* A bit of work shopping with [Kapsi Ry](https://www.kapsi.fi) activists
+* A bit of workshopping with [Kapsi Ry](https://www.kapsi.fi) activists
 * A private Wiki for the collaboration
 * We realized that there were
   * Plenty of URL handlers that launch **out of the browser behavior**
