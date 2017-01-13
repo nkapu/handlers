@@ -145,7 +145,7 @@ class: center, middle
 * Apple fixes some problems, yay!
 * Progress on understanding the implications 0.01/100
 
-### Next up - State of the Art at the end of the summer - [panic://](#panic)
+### Up next - State of the Art at the end of the summer - [panic://](#panic)
 
 ```html
 ...
