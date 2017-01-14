@@ -134,7 +134,7 @@ to launch them all.
 name: xmas
 class: center, middle
 
-.myvideo[mov/xmas-1.1.mp4]
+.myvideo[mov/xmas-1.1.1.mp4]
 
 ---
 
