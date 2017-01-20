@@ -63,3 +63,4 @@ See [contribution and development documentation](CONTRIBUTING.md).
 
 * [handleOpenURL - Shared Interapp Communication!](http://handleopenurl.com/)
 * [IPhone URL Schemes](http://wiki.akosma.com/IPhone_URL_Schemes)
+* [lsregister: How Files Are Handled in Mac OS X](http://krypted.com/mac-security/lsregister-associating-file-types-in-mac-os-x/)
