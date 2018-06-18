@@ -33,8 +33,8 @@ python -m SimpleHTTPServer 8080
 
 ## Tools
 
-This repository collects discovery, testing and instrumentation
-tooling for research in URL handlers.
+This repository collects discovery, testing and instrumentation tooling
+for research in URL handlers.
 
 ![Minimal Viable Product](https://raw.githubusercontent.com/ouspg/urlhandlers/master/doc/mvp-scaled.png)
 
