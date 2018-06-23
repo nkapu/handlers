@@ -1,0 +1,3025 @@
+{
+    "ableton:": {
+        "apps": [
+            {
+                "name": "url:live 8.2.2 protocol",
+                "path": "live",
+                "registrykey": "hkey_classes_root\\ableton"
+            }
+        ]
+    },
+    "access:": {
+        "apps": [
+            {
+                "name": "url:access protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\access"
+            },
+            {
+                "name": "url:access protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\access"
+            }
+        ]
+    },
+    "acrobat:": {
+        "apps": [
+            {
+                "name": "url:acrobat protocol",
+                "path": "acrord32.exe",
+                "registrykey": "hkey_classes_root\\acrobat"
+            }
+        ]
+    },
+    "adobebridge:": {
+        "apps": [
+            {
+                "name": "url:adobe bridge protocol",
+                "path": "bridge.exe",
+                "registrykey": "hkey_classes_root\\adobebridge"
+            }
+        ]
+    },
+    "affdm:": {
+        "apps": [
+            {
+                "name": "url: affdm-protokoll",
+                "path": "dmlinkprotocolhandler.exe",
+                "registrykey": "hkey_classes_root\\affdm"
+            }
+        ]
+    },
+    "asuscloud:": {
+        "apps": [
+            {
+                "path": "asuswspanel.exe",
+                "registrykey": "hkey_classes_root\\asuscloud"
+            }
+        ]
+    },
+    "audiocall-messenger:": {
+        "apps": [
+            {
+                "name": "url:audiocall-messenger",
+                "registrykey": "hkey_classes_root\\audiocall-messenger"
+            }
+        ]
+    },
+    "audiocall-skype-com:": {
+        "apps": [
+            {
+                "name": "url:audiocall-skype-com",
+                "registrykey": "hkey_classes_root\\audiocall-skype-com"
+            }
+        ]
+    },
+    "avastpam:": {
+        "apps": [
+            {
+                "name": "url:avastpam",
+                "path": "avastui.exe",
+                "registrykey": "hkey_classes_root\\avastpam"
+            }
+        ]
+    },
+    "b9eced6f.asusgiftbox:": {
+        "apps": [
+            {
+                "name": "url:b9eced6f.asusgiftbox",
+                "registrykey": "hkey_classes_root\\b9eced6f.asusgiftbox"
+            }
+        ]
+    },
+    "bankid:": {
+        "apps": [
+            {
+                "name": "url:bankid",
+                "path": "bankidstart.exe",
+                "registrykey": "hkey_classes_root\\bankid"
+            }
+        ]
+    },
+    "battlenet:": {
+        "apps": [
+            {
+                "name": "url:blizzard battle.net protocol",
+                "path": "battle.net.exe",
+                "registrykey": "hkey_classes_root\\battlenet"
+            }
+        ]
+    },
+    "bingfinance:": {
+        "apps": [
+            {
+                "name": "url:bingfinance",
+                "registrykey": "hkey_classes_root\\bingfinance"
+            }
+        ]
+    },
+    "bingfoodanddrink:": {
+        "apps": [
+            {
+                "name": "url:bingfoodanddrink",
+                "registrykey": "hkey_classes_root\\bingfoodanddrink"
+            }
+        ]
+    },
+    "binghealthnfitness:": {
+        "apps": [
+            {
+                "name": "url:binghealthnfitness",
+                "registrykey": "hkey_classes_root\\binghealthnfitness"
+            }
+        ]
+    },
+    "bingmaps:": {
+        "apps": [
+            {
+                "registrykey": "hkey_classes_root\\bingmaps"
+            },
+            {
+                "name": "url:bingmaps",
+                "registrykey": "hkey_classes_root\\bingmaps"
+            }
+        ]
+    },
+    "bingmoney:": {
+        "apps": [
+            {
+                "name": "url:bingmoney",
+                "registrykey": "hkey_classes_root\\bingmoney"
+            }
+        ]
+    },
+    "bingnews:": {
+        "apps": [
+            {
+                "name": "url:bingnews",
+                "registrykey": "hkey_classes_root\\bingnews"
+            }
+        ]
+    },
+    "bingsports:": {
+        "apps": [
+            {
+                "name": "url:bingsports",
+                "registrykey": "hkey_classes_root\\bingsports"
+            }
+        ]
+    },
+    "bingtravel:": {
+        "apps": [
+            {
+                "name": "url:bingtravel",
+                "registrykey": "hkey_classes_root\\bingtravel"
+            }
+        ]
+    },
+    "bingweather:": {
+        "apps": [
+            {
+                "name": "url:bingweather",
+                "registrykey": "hkey_classes_root\\bingweather"
+            }
+        ]
+    },
+    "blizzard.uri.battlenet:": {
+        "apps": [
+            {
+                "name": "url:blizzard battle.net protocol",
+                "path": "battle.net.exe",
+                "registrykey": "hkey_classes_root\\blizzard.uri.battlenet"
+            }
+        ]
+    },
+    "blizzard.uri.heroes:": {
+        "apps": [
+            {
+                "name": "url:heroes of the storm protocol",
+                "path": "battle.net.exe",
+                "registrykey": "hkey_classes_root\\blizzard.uri.heroes"
+            }
+        ]
+    },
+    "blizzard.uri.sc2:": {
+        "apps": [
+            {
+                "name": "url:starcraft ii protocol",
+                "path": "battle.net.exe",
+                "registrykey": "hkey_classes_root\\blizzard.uri.sc2"
+            }
+        ]
+    },
+    "calculator:": {
+        "apps": [
+            {
+                "name": "url:calculator",
+                "registrykey": "hkey_classes_root\\calculator"
+            }
+        ]
+    },
+    "callto:": {
+        "apps": [
+            {
+                "name": "url:callto",
+                "registrykey": "hkey_classes_root\\callto"
+            },
+            {
+                "name": "url:callto protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\callto"
+            },
+            {
+                "name": "url:callto protocol",
+                "path": "skype.exe",
+                "registrykey": "hkey_classes_root\\callto"
+            }
+        ]
+    },
+    "candycrushsodasaga:": {
+        "apps": [
+            {
+                "name": "url:candycrushsodasaga",
+                "registrykey": "hkey_classes_root\\candycrushsodasaga"
+            }
+        ]
+    },
+    "cclaunch:": {
+        "apps": [
+            {
+                "name": "url: ccleaner protocol",
+                "path": "ccleaner.exe",
+                "registrykey": "hkey_classes_root\\cclaunch"
+            }
+        ]
+    },
+    "ccsf:": {
+        "apps": [
+            {
+                "name": "url:ccsf protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "hkey_classes_root\\ccsf"
+            }
+        ]
+    },
+    "chromehtml:": {
+        "apps": [
+            {
+                "name": "chrome html document",
+                "path": "chrome.exe",
+                "registrykey": "hkey_classes_root\\chromehtml"
+            }
+        ]
+    },
+    "citrix.assocprotocol.mms:": {
+        "apps": [
+            {
+                "name": "url:rtsp protocol",
+                "path": "multimediaredirector.exe",
+                "registrykey": "hkey_classes_root\\citrix.assocprotocol.mms"
+            }
+        ]
+    },
+    "citrix.assocprotocol.rtsp:": {
+        "apps": [
+            {
+                "name": "url:rtsp protocol",
+                "path": "multimediaredirector.exe",
+                "registrykey": "hkey_classes_root\\citrix.assocprotocol.rtsp"
+            }
+        ]
+    },
+    "citrixng:": {
+        "apps": [
+            {
+                "name": "citrixng protocol handler",
+                "path": "nglauncher.exe",
+                "registrykey": "hkey_classes_root\\citrixng"
+            }
+        ]
+    },
+    "com.microsoft.builder3d:": {
+        "apps": [
+            {
+                "name": "url:com.microsoft.builder3d",
+                "registrykey": "hkey_classes_root\\com.microsoft.builder3d"
+            }
+        ]
+    },
+    "comodo:": {
+        "apps": [
+            {
+                "name": "url:virtual protocol",
+                "path": "cfpconfg.exe",
+                "registrykey": "hkey_classes_root\\comodo"
+            }
+        ]
+    },
+    "conf:": {
+        "apps": [
+            {
+                "name": "url:conf protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\conf"
+            }
+        ]
+    },
+    "dlna-playsingle:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\dlnashext.dll,-250",
+                "name": "url:play single dlna item protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "hkey_classes_root\\dlna-playsingle"
+            }
+        ]
+    },
+    "dolby-protocol:": {
+        "apps": [
+            {
+                "name": "url:dolby-protocol",
+                "registrykey": "hkey_classes_root\\dolby-protocol"
+            }
+        ]
+    },
+    "evernote:": {
+        "apps": [
+            {
+                "name": "evernote protocol",
+                "path": "evernote.exe",
+                "registrykey": "hkey_classes_root\\evernote"
+            }
+        ]
+    },
+    "excel:": {
+        "apps": [
+            {
+                "name": "url:excel protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\excel"
+            },
+            {
+                "name": "url:excel protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\excel"
+            }
+        ]
+    },
+    "explorer.assocactionid.burnselection:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6023",
+                "path": "explorer.exe",
+                "registrykey": "hkey_classes_root\\explorer.assocactionid.burnselection"
+            }
+        ]
+    },
+    "explorer.assocactionid.erasedisc:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6025",
+                "path": "explorer.exe",
+                "registrykey": "hkey_classes_root\\explorer.assocactionid.erasedisc"
+            }
+        ]
+    },
+    "explorer.assocactionid.zipselection:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6022",
+                "path": "explorer.exe",
+                "registrykey": "hkey_classes_root\\explorer.assocactionid.zipselection"
+            }
+        ]
+    },
+    "explorer.assocprotocol.search-ms:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6010",
+                "name": "windows search protocol",
+                "path": "explorer.exe",
+                "registrykey": "hkey_classes_root\\explorer.assocprotocol.search-ms"
+            }
+        ]
+    },
+    "explorer.burnselection:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6023",
+                "name": "file explorer \u2018burn to disc\u2019 button",
+                "registrykey": "hkey_classes_root\\explorer.burnselection"
+            }
+        ]
+    },
+    "explorer.erasedisc:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6025",
+                "name": "file explorer \u2018erase this disc\u2019 button",
+                "registrykey": "hkey_classes_root\\explorer.erasedisc"
+            }
+        ]
+    },
+    "explorer.zipselection:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6022",
+                "name": "file explorer \u2018zip\u2019 button",
+                "registrykey": "hkey_classes_root\\explorer.zipselection"
+            }
+        ]
+    },
+    "fb336512696486951:": {
+        "apps": [
+            {
+                "name": "url:fb336512696486951",
+                "registrykey": "hkey_classes_root\\fb336512696486951"
+            }
+        ]
+    },
+    "fb659670967393166:": {
+        "apps": [
+            {
+                "name": "url:fb659670967393166",
+                "registrykey": "hkey_classes_root\\fb659670967393166"
+            }
+        ]
+    },
+    "feed:": {
+        "apps": [
+            {
+                "name": "url:outlook add rss feed",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\feed"
+            }
+        ]
+    },
+    "feeds:": {
+        "apps": [
+            {
+                "name": "url:outlook add rss feed",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\feeds"
+            }
+        ]
+    },
+    "file:": {
+        "apps": [
+            {
+                "name": "url:file protocol",
+                "registrykey": "hkey_classes_root\\file"
+            }
+        ]
+    },
+    "firefoxurl:": {
+        "apps": [
+            {
+                "friendlytypename": "firefox url",
+                "name": "firefox url",
+                "path": "firefox.exe",
+                "registrykey": "hkey_classes_root\\firefoxurl"
+            }
+        ]
+    },
+    "flipboard:": {
+        "apps": [
+            {
+                "name": "url:flipboard",
+                "registrykey": "hkey_classes_root\\flipboard"
+            }
+        ]
+    },
+    "ftp:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-905",
+                "name": "url: ftp protocol",
+                "path": "chrome.exe",
+                "registrykey": "hkey_classes_root\\ftp"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-905",
+                "name": "url:file transfer protocol",
+                "path": "chrome.exe",
+                "registrykey": "hkey_classes_root\\ftp"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-905",
+                "name": "url:file transfer protocol",
+                "path": "firefox.exe",
+                "registrykey": "hkey_classes_root\\ftp"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-905",
+                "name": "url:file transfer protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\ftp"
+            }
+        ]
+    },
+    "ftps:": {
+        "apps": [
+            {
+                "name": "url: ftps protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\ftps"
+            }
+        ]
+    },
+    "git-client:": {
+        "apps": [
+            {
+                "name": "url:git-client",
+                "registrykey": "hkey_classes_root\\git-client"
+            }
+        ]
+    },
+    "glgame:": {
+        "apps": [
+            {
+                "name": "url:glgame",
+                "registrykey": "hkey_classes_root\\glgame"
+            }
+        ]
+    },
+    "groove:": {
+        "apps": [
+            {
+                "name": "url:groove protocol",
+                "path": "groove.exe",
+                "registrykey": "hkey_classes_root\\groove"
+            }
+        ]
+    },
+    "grvopen:": {
+        "apps": [
+            {
+                "name": "url:groove site client protocol",
+                "path": "groove.exe",
+                "registrykey": "hkey_classes_root\\grvopen"
+            }
+        ]
+    },
+    "gwx:": {
+        "apps": [
+            {
+                "name": "ms-gwx:get windows 10",
+                "path": "gwx.exe",
+                "registrykey": "hkey_classes_root\\gwx"
+            }
+        ]
+    },
+    "heroes:": {
+        "apps": [
+            {
+                "name": "url:heroes of the storm protocol",
+                "path": "battle.net.exe",
+                "registrykey": "hkey_classes_root\\heroes"
+            }
+        ]
+    },
+    "hpcm:": {
+        "apps": [
+            {
+                "name": "url:hpcm",
+                "registrykey": "hkey_classes_root\\hpcm"
+            }
+        ]
+    },
+    "hphddcheck:": {
+        "apps": [
+            {
+                "name": "url: hphddcheck protocol",
+                "path": "hphddcheck.exe",
+                "registrykey": "hkey_classes_root\\hphddcheck"
+            }
+        ]
+    },
+    "hphelp:": {
+        "apps": [
+            {
+                "name": "url:hphelp (hphelp) protocol",
+                "path": "helppane.exe",
+                "registrykey": "hkey_classes_root\\hphelp"
+            }
+        ]
+    },
+    "hpnetworkcheck:": {
+        "apps": [
+            {
+                "name": "url: hpnetworkcheck protocol",
+                "path": "hpnetworkcheck.exe",
+                "registrykey": "hkey_classes_root\\hpnetworkcheck"
+            }
+        ]
+    },
+    "hpoddcheck:": {
+        "apps": [
+            {
+                "name": "url: hpoddcheck protocol",
+                "path": "hpoddcheck.exe",
+                "registrykey": "hkey_classes_root\\hpoddcheck"
+            }
+        ]
+    },
+    "hpsalauncher:": {
+        "apps": [
+            {
+                "name": "url: hpsalauncher protocol",
+                "path": "hpsalauncher.exe",
+                "registrykey": "hkey_classes_root\\hpsalauncher"
+            }
+        ]
+    },
+    "hpsaobject-diskcleanup-help:": {
+        "apps": [
+            {
+                "name": "url: hpsaobject-diskcleanup-help protocol",
+                "path": "launchmshelptopic.exe",
+                "registrykey": "hkey_classes_root\\hpsaobject-diskcleanup-help"
+            }
+        ]
+    },
+    "hpsaobject-diskcleanup:": {
+        "apps": [
+            {
+                "name": "url: hpsaobject-diskcleanup protocol",
+                "path": "cleanmgr.exe",
+                "registrykey": "hkey_classes_root\\hpsaobject-diskcleanup"
+            }
+        ]
+    },
+    "hpsaobjectmetrics:": {
+        "apps": [
+            {
+                "name": "url: hpsaobjectmetrics protocol",
+                "path": "hpsaobjectmetrics.exe",
+                "registrykey": "hkey_classes_root\\hpsaobjectmetrics"
+            }
+        ]
+    },
+    "hpsupportassistant:": {
+        "apps": [
+            {
+                "name": "url: hpsupportassistant protocol",
+                "path": "hpsf.exe",
+                "registrykey": "hkey_classes_root\\hpsupportassistant"
+            }
+        ]
+    },
+    "hpsystemboardcheck:": {
+        "apps": [
+            {
+                "name": "url: hpsystemboardcheck protocol",
+                "path": "hpsystemboardcheck.exe",
+                "registrykey": "hkey_classes_root\\hpsystemboardcheck"
+            }
+        ]
+    },
+    "hptouchcheck:": {
+        "apps": [
+            {
+                "name": "url: hptouchcheck protocol",
+                "path": "hptouchcheck.exe",
+                "registrykey": "hkey_classes_root\\hptouchcheck"
+            }
+        ]
+    },
+    "hptvtunercheck:": {
+        "apps": [
+            {
+                "name": "url: hptvtunercheck protocol",
+                "path": "hptvtunercheck.exe",
+                "registrykey": "hkey_classes_root\\hptvtunercheck"
+            }
+        ]
+    },
+    "hpvideocheck:": {
+        "apps": [
+            {
+                "name": "url: hpvideocheck protocol",
+                "path": "hpvideocheck.exe",
+                "registrykey": "hkey_classes_root\\hpvideocheck"
+            }
+        ]
+    },
+    "hpwebcamcheck:": {
+        "apps": [
+            {
+                "name": "url: hpwebcamcheck protocol",
+                "path": "hpwebcamcheck.exe",
+                "registrykey": "hkey_classes_root\\hpwebcamcheck"
+            }
+        ]
+    },
+    "http:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:http",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\http"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:hypertext transfer protocol",
+                "path": "chrome.exe",
+                "registrykey": "hkey_classes_root\\http"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:hypertext transfer protocol",
+                "path": "firefox.exe",
+                "registrykey": "hkey_classes_root\\http"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:hypertext transfer protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\http"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:hypertext transfer protocol",
+                "path": "launcher.exe",
+                "registrykey": "hkey_classes_root\\http"
+            }
+        ]
+    },
+    "https:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
+                "name": "url:https",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\https"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
+                "name": "url:hypertext transfer protocol with privacy",
+                "path": "chrome.exe",
+                "registrykey": "hkey_classes_root\\https"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
+                "name": "url:hypertext transfer protocol with privacy",
+                "path": "firefox.exe",
+                "registrykey": "hkey_classes_root\\https"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
+                "name": "url:hypertext transfer protocol with privacy",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\https"
+            }
+        ]
+    },
+    "hx-accounts:": {
+        "apps": [
+            {
+                "name": "url:hx-accounts",
+                "registrykey": "hkey_classes_root\\hx-accounts"
+            }
+        ]
+    },
+    "ie.ftp:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-905",
+                "name": "url:file transfer protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\ie.ftp"
+            }
+        ]
+    },
+    "ie.http:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-903",
+                "name": "url:hypertext transfer protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\ie.http"
+            }
+        ]
+    },
+    "ie.https:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-904",
+                "name": "url:hypertext transfer protocol with privacy",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\ie.https"
+            }
+        ]
+    },
+    "iehistory:": {
+        "apps": [
+            {
+                "name": "ie history and feeds shell data source for windows search",
+                "registrykey": "hkey_classes_root\\iehistory"
+            }
+        ]
+    },
+    "ierss:": {
+        "apps": [
+            {
+                "name": "ie history and feeds shell data source for windows search",
+                "registrykey": "hkey_classes_root\\ierss"
+            }
+        ]
+    },
+    "im:": {
+        "apps": [
+            {
+                "name": "url:im protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\im"
+            }
+        ]
+    },
+    "insiderhub:": {
+        "apps": [
+            {
+                "name": "url:insiderhub",
+                "registrykey": "hkey_classes_root\\insiderhub"
+            }
+        ]
+    },
+    "intel.ita.cp:": {
+        "apps": [
+            {
+                "name": "\"intel(r) ita cp\"",
+                "path": "icaui.exe",
+                "registrykey": "hkey_classes_root\\intel.ita.cp"
+            }
+        ]
+    },
+    "intelum:": {
+        "apps": [
+            {
+                "name": "url:ium protocol handler",
+                "path": "iumsvc.exe",
+                "registrykey": "hkey_classes_root\\intelum"
+            }
+        ]
+    },
+    "intelwidi:": {
+        "apps": [
+            {
+                "name": "url:intelwidi protocol",
+                "path": "widiapp.exe",
+                "registrykey": "hkey_classes_root\\intelwidi"
+            }
+        ]
+    },
+    "jnlp:": {
+        "apps": [
+            {
+                "name": "url:jnlp protocol",
+                "path": "jp2launcher.exe",
+                "registrykey": "hkey_classes_root\\jnlp"
+            }
+        ]
+    },
+    "jnlps:": {
+        "apps": [
+            {
+                "name": "url:jnlps protocol",
+                "path": "jp2launcher.exe",
+                "registrykey": "hkey_classes_root\\jnlps"
+            }
+        ]
+    },
+    "kiosk:": {
+        "apps": [
+            {
+                "name": "url:kiosk protocol",
+                "path": "virtkiosk.exe",
+                "registrykey": "hkey_classes_root\\kiosk"
+            }
+        ]
+    },
+    "ldap:": {
+        "apps": [
+            {
+                "name": "url:ldap protocol",
+                "path": "wab.exe",
+                "registrykey": "hkey_classes_root\\ldap"
+            }
+        ]
+    },
+    "lenovo-app-store:": {
+        "apps": [
+            {
+                "name": "url:launchproxy protocol",
+                "path": "launchproxy.exe",
+                "registrykey": "hkey_classes_root\\lenovo-app-store"
+            }
+        ]
+    },
+    "lenovo-metro-discovery:": {
+        "apps": [
+            {
+                "name": "url:lenovo-metro-discovery",
+                "registrykey": "hkey_classes_root\\lenovo-metro-discovery"
+            }
+        ]
+    },
+    "lenovo-metro-settings:": {
+        "apps": [
+            {
+                "name": "url:lenovo-metro-settings",
+                "registrykey": "hkey_classes_root\\lenovo-metro-settings"
+            }
+        ]
+    },
+    "lenovosettingsdriverhelper:": {
+        "apps": [
+            {
+                "name": "url:lenovosettingsdriverhelper protocol",
+                "path": "rundll32.exe",
+                "registrykey": "hkey_classes_root\\lenovosettingsdriverhelper"
+            }
+        ]
+    },
+    "lvr:": {
+        "apps": [
+            {
+                "name": "microsoft environment viewer",
+                "path": "leviewer.exe",
+                "registrykey": "hkey_classes_root\\lvr"
+            }
+        ]
+    },
+    "lwa-cu5-hf:": {
+        "apps": [
+            {
+                "name": "url:lwa-cu5-hf",
+                "path": "lwashell.exe",
+                "registrykey": "hkey_classes_root\\lwa-cu5-hf"
+            }
+        ]
+    },
+    "lync14:": {
+        "apps": [
+            {
+                "name": "url:lync14 protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\lync14"
+            }
+        ]
+    },
+    "lync14classic:": {
+        "apps": [
+            {
+                "name": "url:lync14classic protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\lync14classic"
+            }
+        ]
+    },
+    "lync15:": {
+        "apps": [
+            {
+                "name": "url:lync15 protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\lync15"
+            }
+        ]
+    },
+    "magnet:": {
+        "apps": [
+            {
+                "name": "url:magnet link",
+                "path": "fdm.exe",
+                "registrykey": "hkey_classes_root\\magnet"
+            },
+            {
+                "name": "url:magnet protocol",
+                "path": "deluge.exe",
+                "registrykey": "hkey_classes_root\\magnet"
+            }
+        ]
+    },
+    "mailto:": {
+        "apps": [
+            {
+                "name": "url:mailto",
+                "registrykey": "hkey_classes_root\\mailto"
+            },
+            {
+                "name": "url:mailto",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\mailto"
+            },
+            {
+                "name": "url:mailto protocol",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\mailto"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-910",
+                "name": "url:mailto",
+                "path": "url.dll",
+                "registrykey": "hkey_classes_root\\mailto"
+            }
+        ]
+    },
+    "mapi15:": {
+        "apps": [
+            {
+                "registrykey": "hkey_classes_root\\mapi15"
+            }
+        ]
+    },
+    "mapi:": {
+        "apps": [
+            {
+                "registrykey": "hkey_classes_root\\mapi"
+            },
+            {
+                "name": "microsoft outlook replication mapi protocol handler",
+                "registrykey": "hkey_classes_root\\mapi"
+            }
+        ]
+    },
+    "maps:": {
+        "apps": [
+            {
+                "name": "url:maps",
+                "registrykey": "hkey_classes_root\\maps"
+            }
+        ]
+    },
+    "message-messenger:": {
+        "apps": [
+            {
+                "name": "url:message-messenger",
+                "registrykey": "hkey_classes_root\\message-messenger"
+            }
+        ]
+    },
+    "message-skype-com:": {
+        "apps": [
+            {
+                "name": "url:message-skype-com",
+                "registrykey": "hkey_classes_root\\message-skype-com"
+            }
+        ]
+    },
+    "mfbclient:": {
+        "apps": [
+            {
+                "name": "microsoft feedback client",
+                "path": "mfbclient.exe",
+                "registrykey": "hkey_classes_root\\mfbclient"
+            }
+        ]
+    },
+    "mfbclients:": {
+        "apps": [
+            {
+                "name": "microsoft feedback client",
+                "path": "mfbclient.exe",
+                "registrykey": "hkey_classes_root\\mfbclients"
+            }
+        ]
+    },
+    "microsoft-edge:": {
+        "apps": [
+            {
+                "name": "url:microsoft-edge",
+                "registrykey": "hkey_classes_root\\microsoft-edge"
+            }
+        ]
+    },
+    "microsoft.windows.camera.picker:": {
+        "apps": [
+            {
+                "name": "url:microsoft.windows.camera.picker",
+                "registrykey": "hkey_classes_root\\microsoft.windows.camera.picker"
+            }
+        ]
+    },
+    "microsoft.windows.camera:": {
+        "apps": [
+            {
+                "name": "url:microsoft.windows.camera",
+                "registrykey": "hkey_classes_root\\microsoft.windows.camera"
+            }
+        ]
+    },
+    "microsoft.windows.photos.crop:": {
+        "apps": [
+            {
+                "name": "url:microsoft.windows.photos.crop",
+                "registrykey": "hkey_classes_root\\microsoft.windows.photos.crop"
+            }
+        ]
+    },
+    "microsoft.windows.photos.picker:": {
+        "apps": [
+            {
+                "name": "url:microsoft.windows.photos.picker",
+                "registrykey": "hkey_classes_root\\microsoft.windows.photos.picker"
+            }
+        ]
+    },
+    "microsoft.workfolders:": {
+        "apps": [
+            {
+                "name": "microsoft workfolders",
+                "path": "control",
+                "registrykey": "hkey_classes_root\\microsoft.workfolders"
+            },
+            {
+                "name": "microsoft workfolders",
+                "path": "control.exe",
+                "registrykey": "hkey_classes_root\\microsoft.workfolders"
+            }
+        ]
+    },
+    "microsoftmusic:": {
+        "apps": [
+            {
+                "name": "url:microsoftmusic",
+                "registrykey": "hkey_classes_root\\microsoftmusic"
+            }
+        ]
+    },
+    "microsoftvideo:": {
+        "apps": [
+            {
+                "name": "url:microsoftvideo",
+                "registrykey": "hkey_classes_root\\microsoftvideo"
+            }
+        ]
+    },
+    "mk:": {
+        "apps": [
+            {
+                "name": "url:mk protocol",
+                "registrykey": "hkey_classes_root\\mk"
+            }
+        ]
+    },
+    "mms:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\unregmp2.exe,-9928",
+                "name": "url:mms protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\mms"
+            },
+            {
+                "friendlytypename": "@c:\\windows\\system32\\unregmp2.exe,-9928",
+                "name": "url:mms protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "hkey_classes_root\\mms"
+            }
+        ]
+    },
+    "ms-access:": {
+        "apps": [
+            {
+                "name": "url:access protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\ms-access"
+            },
+            {
+                "name": "url:access protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-access"
+            }
+        ]
+    },
+    "ms-actioncenter:": {
+        "apps": [
+            {
+                "name": "url:ms-actioncenter",
+                "registrykey": "hkey_classes_root\\ms-actioncenter"
+            }
+        ]
+    },
+    "ms-call:": {
+        "apps": [
+            {
+                "name": "url:ms-call",
+                "registrykey": "hkey_classes_root\\ms-call"
+            }
+        ]
+    },
+    "ms-chat:": {
+        "apps": [
+            {
+                "name": "url:ms-chat",
+                "registrykey": "hkey_classes_root\\ms-chat"
+            }
+        ]
+    },
+    "ms-clock:": {
+        "apps": [
+            {
+                "name": "url:ms-clock",
+                "registrykey": "hkey_classes_root\\ms-clock"
+            }
+        ]
+    },
+    "ms-contact-support:": {
+        "apps": [
+            {
+                "name": "url:ms-contact-support",
+                "registrykey": "hkey_classes_root\\ms-contact-support"
+            }
+        ]
+    },
+    "ms-cortana:": {
+        "apps": [
+            {
+                "name": "url:cortana protocol",
+                "registrykey": "hkey_classes_root\\ms-cortana"
+            },
+            {
+                "name": "url:cortana protocol",
+                "path": "launchwinapp.exe",
+                "registrykey": "hkey_classes_root\\ms-cortana"
+            }
+        ]
+    },
+    "ms-cxh:": {
+        "apps": [
+            {
+                "name": "url:ms-cxh",
+                "registrykey": "hkey_classes_root\\ms-cxh"
+            }
+        ]
+    },
+    "ms-default-location:": {
+        "apps": [
+            {
+                "name": "url:ms-default-location",
+                "registrykey": "hkey_classes_root\\ms-default-location"
+            }
+        ]
+    },
+    "ms-drive-to:": {
+        "apps": [
+            {
+                "name": "url:ms-drive-to",
+                "registrykey": "hkey_classes_root\\ms-drive-to"
+            }
+        ]
+    },
+    "ms-excel:": {
+        "apps": [
+            {
+                "name": "url:excel protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\ms-excel"
+            },
+            {
+                "name": "url:excel protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-excel"
+            }
+        ]
+    },
+    "ms-get-started:": {
+        "apps": [
+            {
+                "name": "url:ms-get-started",
+                "registrykey": "hkey_classes_root\\ms-get-started"
+            }
+        ]
+    },
+    "ms-getoffice:": {
+        "apps": [
+            {
+                "name": "url:ms-getoffice",
+                "registrykey": "hkey_classes_root\\ms-getoffice"
+            }
+        ]
+    },
+    "ms-gwx:": {
+        "apps": [
+            {
+                "name": "ms-gwx:get windows 10",
+                "path": "gwx.exe",
+                "registrykey": "hkey_classes_root\\ms-gwx"
+            }
+        ]
+    },
+    "ms-ipmessaging-name:": {
+        "apps": [
+            {
+                "name": "url:ms-ipmessaging-name",
+                "registrykey": "hkey_classes_root\\ms-ipmessaging-name"
+            }
+        ]
+    },
+    "ms-ipmessaging:": {
+        "apps": [
+            {
+                "name": "url:ms-ipmessaging",
+                "registrykey": "hkey_classes_root\\ms-ipmessaging"
+            }
+        ]
+    },
+    "ms-lcrv:": {
+        "apps": [
+            {
+                "name": "url:ms-lcrv",
+                "registrykey": "hkey_classes_root\\ms-lcrv"
+            }
+        ]
+    },
+    "ms-mail:": {
+        "apps": [
+            {
+                "name": "url:ms-mail",
+                "registrykey": "hkey_classes_root\\ms-mail"
+            }
+        ]
+    },
+    "ms-people:": {
+        "apps": [
+            {
+                "name": "url:ms-people",
+                "registrykey": "hkey_classes_root\\ms-people"
+            }
+        ]
+    },
+    "ms-phone-companion:": {
+        "apps": [
+            {
+                "name": "url:ms-phone-companion",
+                "registrykey": "hkey_classes_root\\ms-phone-companion"
+            }
+        ]
+    },
+    "ms-photos:": {
+        "apps": [
+            {
+                "name": "url:ms-photos",
+                "registrykey": "hkey_classes_root\\ms-photos"
+            }
+        ]
+    },
+    "ms-powerpoint:": {
+        "apps": [
+            {
+                "name": "url:powerpoint protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\ms-powerpoint"
+            },
+            {
+                "name": "url:powerpoint protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-powerpoint"
+            }
+        ]
+    },
+    "ms-publisher:": {
+        "apps": [
+            {
+                "name": "url:publisher protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\ms-publisher"
+            },
+            {
+                "name": "url:publisher protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-publisher"
+            }
+        ]
+    },
+    "ms-retaildemo-launchbioenrollment:": {
+        "apps": [
+            {
+                "name": "url:ms-retaildemo-launchbioenrollment",
+                "registrykey": "hkey_classes_root\\ms-retaildemo-launchbioenrollment"
+            }
+        ]
+    },
+    "ms-retaildemo-launchstart:": {
+        "apps": [
+            {
+                "name": "url:ms-retaildemo-launchstart",
+                "registrykey": "hkey_classes_root\\ms-retaildemo-launchstart"
+            }
+        ]
+    },
+    "ms-settings-airplanemode:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-airplanemode",
+                "registrykey": "hkey_classes_root\\ms-settings-airplanemode"
+            }
+        ]
+    },
+    "ms-settings-bluetooth:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-bluetooth",
+                "registrykey": "hkey_classes_root\\ms-settings-bluetooth"
+            }
+        ]
+    },
+    "ms-settings-cellular:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-cellular",
+                "registrykey": "hkey_classes_root\\ms-settings-cellular"
+            }
+        ]
+    },
+    "ms-settings-emailandaccounts:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-emailandaccounts",
+                "registrykey": "hkey_classes_root\\ms-settings-emailandaccounts"
+            }
+        ]
+    },
+    "ms-settings-language:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-language",
+                "registrykey": "hkey_classes_root\\ms-settings-language"
+            }
+        ]
+    },
+    "ms-settings-location:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-location",
+                "registrykey": "hkey_classes_root\\ms-settings-location"
+            }
+        ]
+    },
+    "ms-settings-lock:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-lock",
+                "registrykey": "hkey_classes_root\\ms-settings-lock"
+            }
+        ]
+    },
+    "ms-settings-notifications:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-notifications",
+                "registrykey": "hkey_classes_root\\ms-settings-notifications"
+            }
+        ]
+    },
+    "ms-settings-power:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-power",
+                "registrykey": "hkey_classes_root\\ms-settings-power"
+            }
+        ]
+    },
+    "ms-settings-privacy:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-privacy",
+                "registrykey": "hkey_classes_root\\ms-settings-privacy"
+            }
+        ]
+    },
+    "ms-settings-proximity:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-proximity",
+                "registrykey": "hkey_classes_root\\ms-settings-proximity"
+            }
+        ]
+    },
+    "ms-settings-screenrotation:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-screenrotation",
+                "registrykey": "hkey_classes_root\\ms-settings-screenrotation"
+            }
+        ]
+    },
+    "ms-settings-wifi:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-wifi",
+                "registrykey": "hkey_classes_root\\ms-settings-wifi"
+            }
+        ]
+    },
+    "ms-settings-workplace:": {
+        "apps": [
+            {
+                "name": "url:ms-settings-workplace",
+                "registrykey": "hkey_classes_root\\ms-settings-workplace"
+            }
+        ]
+    },
+    "ms-settings:": {
+        "apps": [
+            {
+                "name": "url:ms-settings",
+                "registrykey": "hkey_classes_root\\ms-settings"
+            }
+        ]
+    },
+    "ms-sway:": {
+        "apps": [
+            {
+                "name": "url:ms-sway",
+                "registrykey": "hkey_classes_root\\ms-sway"
+            }
+        ]
+    },
+    "ms-unistore-email:": {
+        "apps": [
+            {
+                "name": "url:ms-unistore-email",
+                "registrykey": "hkey_classes_root\\ms-unistore-email"
+            }
+        ]
+    },
+    "ms-visio:": {
+        "apps": [
+            {
+                "name": "url:visio protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-visio"
+            }
+        ]
+    },
+    "ms-voip-call:": {
+        "apps": [
+            {
+                "name": "url:ms-voip-call",
+                "registrykey": "hkey_classes_root\\ms-voip-call"
+            }
+        ]
+    },
+    "ms-voip-video:": {
+        "apps": [
+            {
+                "name": "url:ms-voip-video",
+                "registrykey": "hkey_classes_root\\ms-voip-video"
+            }
+        ]
+    },
+    "ms-walk-to:": {
+        "apps": [
+            {
+                "name": "url:ms-walk-to",
+                "registrykey": "hkey_classes_root\\ms-walk-to"
+            }
+        ]
+    },
+    "ms-wcrv:": {
+        "apps": [
+            {
+                "name": "url:ms-wcrv",
+                "registrykey": "hkey_classes_root\\ms-wcrv"
+            }
+        ]
+    },
+    "ms-windows-search:": {
+        "apps": [
+            {
+                "name": "url:ms-windows-search",
+                "registrykey": "hkey_classes_root\\ms-windows-search"
+            }
+        ]
+    },
+    "ms-windows-store2:": {
+        "apps": [
+            {
+                "name": "url:ms-windows-store2",
+                "registrykey": "hkey_classes_root\\ms-windows-store2"
+            }
+        ]
+    },
+    "ms-windows-store:": {
+        "apps": [
+            {
+                "name": "url:ms-windows-store",
+                "registrykey": "hkey_classes_root\\ms-windows-store"
+            }
+        ]
+    },
+    "ms-word:": {
+        "apps": [
+            {
+                "name": "url:word protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\ms-word"
+            },
+            {
+                "name": "url:word protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\ms-word"
+            }
+        ]
+    },
+    "ms-wpc:": {
+        "apps": [
+            {
+                "name": "url:ms-wpc",
+                "registrykey": "hkey_classes_root\\ms-wpc"
+            }
+        ]
+    },
+    "ms-wpdrmv:": {
+        "apps": [
+            {
+                "name": "url:ms-wpdrmv",
+                "registrykey": "hkey_classes_root\\ms-wpdrmv"
+            }
+        ]
+    },
+    "msnfinance:": {
+        "apps": [
+            {
+                "name": "url:msnfinance",
+                "registrykey": "hkey_classes_root\\msnfinance"
+            }
+        ]
+    },
+    "msnmoney:": {
+        "apps": [
+            {
+                "name": "url:msnmoney",
+                "registrykey": "hkey_classes_root\\msnmoney"
+            }
+        ]
+    },
+    "msnnews:": {
+        "apps": [
+            {
+                "name": "url:msnnews",
+                "registrykey": "hkey_classes_root\\msnnews"
+            }
+        ]
+    },
+    "msnsports:": {
+        "apps": [
+            {
+                "name": "url:msnsports",
+                "registrykey": "hkey_classes_root\\msnsports"
+            }
+        ]
+    },
+    "msnweather:": {
+        "apps": [
+            {
+                "name": "url:msnweather",
+                "registrykey": "hkey_classes_root\\msnweather"
+            }
+        ]
+    },
+    "mswindowsmusic:": {
+        "apps": [
+            {
+                "registrykey": "hkey_classes_root\\mswindowsmusic"
+            }
+        ]
+    },
+    "mswindowsvideo:": {
+        "apps": [
+            {
+                "registrykey": "hkey_classes_root\\mswindowsvideo"
+            }
+        ]
+    },
+    "mtm:": {
+        "apps": [
+            {
+                "name": "microsoft test manager",
+                "path": "mtm.exe",
+                "registrykey": "hkey_classes_root\\mtm"
+            }
+        ]
+    },
+    "mtms:": {
+        "apps": [
+            {
+                "name": "microsoft test manager",
+                "path": "mtm.exe",
+                "registrykey": "hkey_classes_root\\mtms"
+            }
+        ]
+    },
+    "mumble:": {
+        "apps": [
+            {
+                "name": "url:mumble",
+                "path": "mumble.exe",
+                "registrykey": "hkey_classes_root\\mumble"
+            }
+        ]
+    },
+    "mycomgames:": {
+        "apps": [
+            {
+                "name": "url:mycomgames protocol",
+                "path": "mycomgames.exe",
+                "registrykey": "hkey_classes_root\\mycomgames"
+            }
+        ]
+    },
+    "mycomgamesinst:": {
+        "apps": [
+            {
+                "name": "url:mycomgames installed protocol",
+                "path": "mycomgames.exe",
+                "registrykey": "hkey_classes_root\\mycomgamesinst"
+            }
+        ]
+    },
+    "mysongbook:": {
+        "apps": [
+            {
+                "path": "guitarpro.exe",
+                "registrykey": "hkey_classes_root\\mysongbook"
+            }
+        ]
+    },
+    "netflix:": {
+        "apps": [
+            {
+                "name": "url:netflix",
+                "registrykey": "hkey_classes_root\\netflix"
+            }
+        ]
+    },
+    "nxm:": {
+        "apps": [
+            {
+                "name": "url:nexus mod",
+                "path": "nexusclient.exe",
+                "registrykey": "hkey_classes_root\\nxm"
+            }
+        ]
+    },
+    "odopen:": {
+        "apps": [
+            {
+                "name": "url: onedrive client protocol",
+                "path": "onedrive.exe",
+                "registrykey": "hkey_classes_root\\odopen"
+            }
+        ]
+    },
+    "oms:": {
+        "apps": [
+            {
+                "path": "omsmain.dll,",
+                "registrykey": "hkey_classes_root\\oms"
+            }
+        ]
+    },
+    "oneindex14:": {
+        "apps": [
+            {
+                "name": "microsoft onenote protocol handler for windows desktop search",
+                "registrykey": "hkey_classes_root\\oneindex14"
+            }
+        ]
+    },
+    "oneindex15:": {
+        "apps": [
+            {
+                "name": "microsoft onenote protocol handler for windows desktop search",
+                "registrykey": "hkey_classes_root\\oneindex15"
+            }
+        ]
+    },
+    "onenote-cmd:": {
+        "apps": [
+            {
+                "name": "url:onenote-cmd",
+                "registrykey": "hkey_classes_root\\onenote-cmd"
+            }
+        ]
+    },
+    "onenote.url.14:": {
+        "apps": [
+            {
+                "name": "url:onenote protocol",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenote.url.14"
+            }
+        ]
+    },
+    "onenote.url.15:": {
+        "apps": [
+            {
+                "name": "url:onenote protocol",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenote.url.15"
+            }
+        ]
+    },
+    "onenote:": {
+        "apps": [
+            {
+                "name": "url:onenote",
+                "registrykey": "hkey_classes_root\\onenote"
+            },
+            {
+                "path": "firstrun.exe",
+                "registrykey": "hkey_classes_root\\onenote"
+            },
+            {
+                "name": "url:onenote",
+                "path": "firstrun.exe",
+                "registrykey": "hkey_classes_root\\onenote"
+            },
+            {
+                "name": "url:onenote",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenote"
+            },
+            {
+                "name": "url:onenote protocol",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenote"
+            }
+        ]
+    },
+    "onenotedesktop.url.14:": {
+        "apps": [
+            {
+                "name": "url:onenote protocol",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenotedesktop.url.14"
+            }
+        ]
+    },
+    "onenotedesktop.url.15:": {
+        "apps": [
+            {
+                "name": "url:onenote protocol",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenotedesktop.url.15"
+            }
+        ]
+    },
+    "onenotedesktop:": {
+        "apps": [
+            {
+                "name": "url:onenote protocol",
+                "path": "onenote.exe",
+                "registrykey": "hkey_classes_root\\onenotedesktop"
+            }
+        ]
+    },
+    "operastable:": {
+        "apps": [
+            {
+                "friendlytypename": "opera web document",
+                "path": "launcher.exe",
+                "registrykey": "hkey_classes_root\\operastable"
+            }
+        ]
+    },
+    "outlook.shell:": {
+        "apps": [
+            {
+                "registrykey": "hkey_classes_root\\outlook.shell"
+            }
+        ]
+    },
+    "outlook.url.feed.14:": {
+        "apps": [
+            {
+                "name": "url:outlook add rss feed",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.feed.14"
+            }
+        ]
+    },
+    "outlook.url.feed.15:": {
+        "apps": [
+            {
+                "name": "url:outlook add rss feed",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.feed.15"
+            }
+        ]
+    },
+    "outlook.url.mailto.14:": {
+        "apps": [
+            {
+                "name": "url:mailto protocol",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.mailto.14"
+            }
+        ]
+    },
+    "outlook.url.mailto.15:": {
+        "apps": [
+            {
+                "name": "url:mailto protocol",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.mailto.15"
+            }
+        ]
+    },
+    "outlook.url.stssync.14:": {
+        "apps": [
+            {
+                "name": "url:outlook add sharepoint folder",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.stssync.14"
+            }
+        ]
+    },
+    "outlook.url.stssync.15:": {
+        "apps": [
+            {
+                "name": "url:outlook add sharepoint folder",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.stssync.15"
+            }
+        ]
+    },
+    "outlook.url.webcal.14:": {
+        "apps": [
+            {
+                "name": "url:outlook add internet calendar",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.webcal.14"
+            }
+        ]
+    },
+    "outlook.url.webcal.15:": {
+        "apps": [
+            {
+                "name": "url:outlook add internet calendar",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlook.url.webcal.15"
+            }
+        ]
+    },
+    "outlookcal:": {
+        "apps": [
+            {
+                "name": "url:outlookcal",
+                "registrykey": "hkey_classes_root\\outlookcal"
+            }
+        ]
+    },
+    "outlookfeed:": {
+        "apps": [
+            {
+                "name": "url:outlook add rss feed",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlookfeed"
+            }
+        ]
+    },
+    "outlookfeeds:": {
+        "apps": [
+            {
+                "name": "url:outlook add rss feed",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\outlookfeeds"
+            }
+        ]
+    },
+    "outlookmail:": {
+        "apps": [
+            {
+                "name": "url:outlookmail",
+                "registrykey": "hkey_classes_root\\outlookmail"
+            }
+        ]
+    },
+    "picasa:": {
+        "apps": [
+            {
+                "name": "picasa command protocol",
+                "path": "picasa3.exe",
+                "registrykey": "hkey_classes_root\\picasa"
+            }
+        ]
+    },
+    "pnm:": {
+        "apps": [
+            {
+                "name": "url:pnm protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\pnm"
+            }
+        ]
+    },
+    "powerpoint:": {
+        "apps": [
+            {
+                "name": "url:powerpoint protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\powerpoint"
+            },
+            {
+                "name": "url:powerpoint protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\powerpoint"
+            }
+        ]
+    },
+    "profile-google-com:": {
+        "apps": [
+            {
+                "name": "url:profile-google-com",
+                "registrykey": "hkey_classes_root\\profile-google-com"
+            }
+        ]
+    },
+    "profile-linkedin-com:": {
+        "apps": [
+            {
+                "name": "url:profile-linkedin-com",
+                "registrykey": "hkey_classes_root\\profile-linkedin-com"
+            }
+        ]
+    },
+    "profile-lync-com:": {
+        "apps": [
+            {
+                "name": "url:profile-lync-com",
+                "registrykey": "hkey_classes_root\\profile-lync-com"
+            }
+        ]
+    },
+    "profile-messenger:": {
+        "apps": [
+            {
+                "name": "url:profile-messenger",
+                "registrykey": "hkey_classes_root\\profile-messenger"
+            }
+        ]
+    },
+    "profile-outlook-com:": {
+        "apps": [
+            {
+                "name": "url:profile-outlook-com",
+                "registrykey": "hkey_classes_root\\profile-outlook-com"
+            }
+        ]
+    },
+    "profile-skype-com:": {
+        "apps": [
+            {
+                "name": "url:profile-skype-com",
+                "registrykey": "hkey_classes_root\\profile-skype-com"
+            }
+        ]
+    },
+    "profile-twitter-com:": {
+        "apps": [
+            {
+                "name": "url:profile-twitter-com",
+                "registrykey": "hkey_classes_root\\profile-twitter-com"
+            }
+        ]
+    },
+    "profile-weibo-com:": {
+        "apps": [
+            {
+                "name": "url:profile-weibo-com",
+                "registrykey": "hkey_classes_root\\profile-weibo-com"
+            }
+        ]
+    },
+    "profile-yahoo-com:": {
+        "apps": [
+            {
+                "name": "url:profile-yahoo-com",
+                "registrykey": "hkey_classes_root\\profile-yahoo-com"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex1:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex1 protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex1"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex2:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex2 protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex2"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex3:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex3 protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex3"
+            }
+        ]
+    },
+    "psgredirector-hpsalowdiskex:": {
+        "apps": [
+            {
+                "name": "url: psgredirector-hpsalowdiskex protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector-hpsalowdiskex"
+            }
+        ]
+    },
+    "psgredirector:": {
+        "apps": [
+            {
+                "name": "url: psgredirector protocol",
+                "path": "psgredirector.exe",
+                "registrykey": "hkey_classes_root\\psgredirector"
+            }
+        ]
+    },
+    "publisher:": {
+        "apps": [
+            {
+                "name": "url:publisher protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\publisher"
+            },
+            {
+                "name": "url:publisher protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\publisher"
+            }
+        ]
+    },
+    "read:": {
+        "apps": [
+            {
+                "name": "url:read",
+                "registrykey": "hkey_classes_root\\read"
+            }
+        ]
+    },
+    "res:": {
+        "apps": [
+            {
+                "name": "url:res protocol",
+                "registrykey": "hkey_classes_root\\res"
+            }
+        ]
+    },
+    "rlogin:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-908",
+                "name": "url:rlogin protocol",
+                "path": "url.dll",
+                "registrykey": "hkey_classes_root\\rlogin"
+            }
+        ]
+    },
+    "rtsp:": {
+        "apps": [
+            {
+                "name": "url:rtsp protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\rtsp"
+            }
+        ]
+    },
+    "rtspu:": {
+        "apps": [
+            {
+                "name": "url:rtspu protocol",
+                "path": "iexplore.exe",
+                "registrykey": "hkey_classes_root\\rtspu"
+            }
+        ]
+    },
+    "safe:": {
+        "apps": [
+            {
+                "name": "url:virtual protocol",
+                "path": "virtkiosk.exe",
+                "registrykey": "hkey_classes_root\\safe"
+            }
+        ]
+    },
+    "scp:": {
+        "apps": [
+            {
+                "name": "url: scp protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\scp"
+            }
+        ]
+    },
+    "search-ms:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6010",
+                "name": "windows search protocol",
+                "path": "explorer.exe",
+                "registrykey": "hkey_classes_root\\search-ms"
+            }
+        ]
+    },
+    "search:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\explorer.exe,-6010",
+                "name": "windows search protocol",
+                "path": "explorer.exe",
+                "registrykey": "hkey_classes_root\\search"
+            }
+        ]
+    },
+    "sftp:": {
+        "apps": [
+            {
+                "name": "url: sftp protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\sftp"
+            }
+        ]
+    },
+    "sharepointworkspacesearch:": {
+        "apps": [
+            {
+                "name": "url:sharepointworkspacesearch",
+                "registrykey": "hkey_classes_root\\sharepointworkspacesearch"
+            }
+        ]
+    },
+    "sip:": {
+        "apps": [
+            {
+                "name": "url:sip protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\sip"
+            }
+        ]
+    },
+    "sips:": {
+        "apps": [
+            {
+                "name": "url:sips protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\sips"
+            }
+        ]
+    },
+    "sklauncher:": {
+        "apps": [
+            {
+                "name": "url: smartkey protocol",
+                "path": "dfrcfg.exe",
+                "registrykey": "hkey_classes_root\\sklauncher"
+            }
+        ]
+    },
+    "skype:": {
+        "apps": [
+            {
+                "name": "url:skype",
+                "registrykey": "hkey_classes_root\\skype"
+            },
+            {
+                "name": "url:skype protocol",
+                "path": "skype.exe",
+                "registrykey": "hkey_classes_root\\skype"
+            }
+        ]
+    },
+    "skypecheck2:": {
+        "apps": [
+            {
+                "name": "url:skypecheck2 protocol",
+                "path": "skype.exe",
+                "registrykey": "hkey_classes_root\\skypecheck2"
+            }
+        ]
+    },
+    "skypecheck:": {
+        "apps": [
+            {
+                "name": "url:skypecheck protocol",
+                "path": "skype.exe",
+                "registrykey": "hkey_classes_root\\skypecheck"
+            }
+        ]
+    },
+    "skypepage:": {
+        "apps": [
+            {
+                "name": "url:skypepage",
+                "registrykey": "hkey_classes_root\\skypepage"
+            }
+        ]
+    },
+    "skypesettings:": {
+        "apps": [
+            {
+                "name": "url:skypesettings",
+                "registrykey": "hkey_classes_root\\skypesettings"
+            }
+        ]
+    },
+    "skypesetup:": {
+        "apps": [
+            {
+                "name": "url:skypesetup",
+                "registrykey": "hkey_classes_root\\skypesetup"
+            }
+        ]
+    },
+    "sms:": {
+        "apps": [
+            {
+                "name": "url:sms",
+                "registrykey": "hkey_classes_root\\sms"
+            }
+        ]
+    },
+    "snapfish:": {
+        "apps": [
+            {
+                "name": "url:snapfish",
+                "registrykey": "hkey_classes_root\\snapfish"
+            }
+        ]
+    },
+    "spotify:": {
+        "apps": [
+            {
+                "path": "spotify.exe",
+                "registrykey": "hkey_classes_root\\spotify"
+            }
+        ]
+    },
+    "starcraft:": {
+        "apps": [
+            {
+                "name": "url:starcraft ii protocol",
+                "path": "battle.net.exe",
+                "registrykey": "hkey_classes_root\\starcraft"
+            }
+        ]
+    },
+    "steam:": {
+        "apps": [
+            {
+                "name": "url:steam protocol",
+                "path": "steam.exe",
+                "registrykey": "hkey_classes_root\\steam"
+            }
+        ]
+    },
+    "stickynotes:": {
+        "apps": [
+            {
+                "name": "sticky notes protocol",
+                "registrykey": "hkey_classes_root\\stickynotes"
+            }
+        ]
+    },
+    "stritz:": {
+        "apps": [
+            {
+                "name": "url:stritz",
+                "registrykey": "hkey_classes_root\\stritz"
+            }
+        ]
+    },
+    "stssync:": {
+        "apps": [
+            {
+                "name": "url:outlook add sharepoint folder",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\stssync"
+            }
+        ]
+    },
+    "tbauth:": {
+        "apps": [
+            {
+                "name": "url:tbauth",
+                "registrykey": "hkey_classes_root\\tbauth"
+            }
+        ]
+    },
+    "teamspeak:": {
+        "apps": [
+            {
+                "name": "url:teamspeak protocol",
+                "path": "teamspeak.exe",
+                "registrykey": "hkey_classes_root\\teamspeak"
+            }
+        ]
+    },
+    "tel:": {
+        "apps": [
+            {
+                "name": "url:tel",
+                "registrykey": "hkey_classes_root\\tel"
+            },
+            {
+                "name": "url:tel protocol",
+                "path": "communicator.exe",
+                "registrykey": "hkey_classes_root\\tel"
+            },
+            {
+                "name": "url:tel protocol",
+                "path": "skype.exe",
+                "registrykey": "hkey_classes_root\\tel"
+            }
+        ]
+    },
+    "telnet:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-907",
+                "name": "url:telnet protocol",
+                "path": "url.dll",
+                "registrykey": "hkey_classes_root\\telnet"
+            }
+        ]
+    },
+    "tfs:": {
+        "apps": [
+            {
+                "path": "tfsprotocolhandler.exe",
+                "registrykey": "hkey_classes_root\\tfs"
+            }
+        ]
+    },
+    "tn3270:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\ieframe.dll,-909",
+                "name": "url:tn3270 protocol",
+                "path": "url.dll",
+                "registrykey": "hkey_classes_root\\tn3270"
+            }
+        ]
+    },
+    "ts3file:": {
+        "apps": [
+            {
+                "name": "url:teamspeak 3 file",
+                "path": "ts3client_win64.exe",
+                "registrykey": "hkey_classes_root\\ts3file"
+            }
+        ]
+    },
+    "ts3server:": {
+        "apps": [
+            {
+                "name": "url:teamspeak 3 file",
+                "path": "ts3client_win64.exe",
+                "registrykey": "hkey_classes_root\\ts3server"
+            }
+        ]
+    },
+    "twitter:": {
+        "apps": [
+            {
+                "name": "url:twitter",
+                "registrykey": "hkey_classes_root\\twitter"
+            }
+        ]
+    },
+    "uplay:": {
+        "apps": [
+            {
+                "name": "url:uplay protocol",
+                "path": "uplay.exe",
+                "registrykey": "hkey_classes_root\\uplay"
+            }
+        ]
+    },
+    "videocall-messenger:": {
+        "apps": [
+            {
+                "name": "url:videocall-messenger",
+                "registrykey": "hkey_classes_root\\videocall-messenger"
+            }
+        ]
+    },
+    "videocall-skype-com:": {
+        "apps": [
+            {
+                "name": "url:videocall-skype-com",
+                "registrykey": "hkey_classes_root\\videocall-skype-com"
+            }
+        ]
+    },
+    "visio:": {
+        "apps": [
+            {
+                "name": "url:visio protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\visio"
+            }
+        ]
+    },
+    "vm:": {
+        "apps": [
+            {
+                "name": "url:vm vmware vm streaming protocol",
+                "path": "vmware.exe",
+                "registrykey": "hkey_classes_root\\vm"
+            }
+        ]
+    },
+    "vmrc:": {
+        "apps": [
+            {
+                "name": "url:vmware vmrc protocol",
+                "path": "vmware.exe",
+                "registrykey": "hkey_classes_root\\vmrc"
+            }
+        ]
+    },
+    "vms:": {
+        "apps": [
+            {
+                "name": "url:vm vmware vm streaming protocol (secure)",
+                "path": "vmware.exe",
+                "registrykey": "hkey_classes_root\\vms"
+            }
+        ]
+    },
+    "vmware-rvm:": {
+        "apps": [
+            {
+                "name": "url:vmware restricted vm protocol",
+                "path": "vmplayer.exe",
+                "registrykey": "hkey_classes_root\\vmware-rvm"
+            }
+        ]
+    },
+    "vstfs:": {
+        "apps": [
+            {
+                "path": "vsweblauncher.exe",
+                "registrykey": "hkey_classes_root\\vstfs"
+            }
+        ]
+    },
+    "vsweb:": {
+        "apps": [
+            {
+                "path": "vsweblauncher.exe",
+                "registrykey": "hkey_classes_root\\vsweb"
+            }
+        ]
+    },
+    "webcal:": {
+        "apps": [
+            {
+                "name": "url:outlook add internet calendar",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\webcal"
+            }
+        ]
+    },
+    "webcals:": {
+        "apps": [
+            {
+                "name": "url:outlook add internet calendar",
+                "path": "outlook.exe",
+                "registrykey": "hkey_classes_root\\webcals"
+            }
+        ]
+    },
+    "wildtangent:": {
+        "apps": [
+            {
+                "name": "url:wildtangent",
+                "registrykey": "hkey_classes_root\\wildtangent"
+            }
+        ]
+    },
+    "windows-feedback:": {
+        "apps": [
+            {
+                "name": "url:windows-feedback",
+                "registrykey": "hkey_classes_root\\windows-feedback"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.addappointment:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51297",
+                "registrykey": "hkey_classes_root\\windows.appointmentsprovider.addappointment"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.removeappointment:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51298",
+                "registrykey": "hkey_classes_root\\windows.appointmentsprovider.removeappointment"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.replaceappointment:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51299",
+                "registrykey": "hkey_classes_root\\windows.appointmentsprovider.replaceappointment"
+            }
+        ]
+    },
+    "windows.appointmentsprovider.showtimeframe:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51300",
+                "registrykey": "hkey_classes_root\\windows.appointmentsprovider.showtimeframe"
+            }
+        ]
+    },
+    "windows.contact.call+outlook.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51301",
+                "registrykey": "hkey_classes_root\\windows.contact.call+outlook.com"
+            }
+        ]
+    },
+    "windows.contact.call+skype.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51301",
+                "registrykey": "hkey_classes_root\\windows.contact.call+skype.com"
+            }
+        ]
+    },
+    "windows.contact.call+telephone:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51301",
+                "registrykey": "hkey_classes_root\\windows.contact.call+telephone"
+            }
+        ]
+    },
+    "windows.contact.map:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51302",
+                "registrykey": "hkey_classes_root\\windows.contact.map"
+            }
+        ]
+    },
+    "windows.contact.message+outlook.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51303",
+                "registrykey": "hkey_classes_root\\windows.contact.message+outlook.com"
+            }
+        ]
+    },
+    "windows.contact.message+skype.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51303",
+                "registrykey": "hkey_classes_root\\windows.contact.message+skype.com"
+            }
+        ]
+    },
+    "windows.contact.message+telephone:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51303",
+                "registrykey": "hkey_classes_root\\windows.contact.message+telephone"
+            }
+        ]
+    },
+    "windows.contact.post+twitter.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51304",
+                "registrykey": "hkey_classes_root\\windows.contact.post+twitter.com"
+            }
+        ]
+    },
+    "windows.contact.videocall+outlook.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51305",
+                "registrykey": "hkey_classes_root\\windows.contact.videocall+outlook.com"
+            }
+        ]
+    },
+    "windows.contact.videocall+skype.com:": {
+        "apps": [
+            {
+                "friendlytypename": "@shell32.dll,-51305",
+                "registrykey": "hkey_classes_root\\windows.contact.videocall+skype.com"
+            }
+        ]
+    },
+    "windows.tbauth:": {
+        "apps": [
+            {
+                "name": "url:windows.tbauth",
+                "registrykey": "hkey_classes_root\\windows.tbauth"
+            }
+        ]
+    },
+    "windowsmediacenterapp:": {
+        "apps": [
+            {
+                "friendlytypename": "c:\\windows\\ehome\\ehres.dll,-903",
+                "name": "url:windows media center application",
+                "path": "mediacenterweblauncher.exe",
+                "registrykey": "hkey_classes_root\\windowsmediacenterapp"
+            }
+        ]
+    },
+    "windowsmediacenterssl:": {
+        "apps": [
+            {
+                "friendlytypename": "c:\\windows\\ehome\\ehres.dll,-905",
+                "name": "url:windows media center secure web application",
+                "path": "mediacenterweblauncher.exe",
+                "registrykey": "hkey_classes_root\\windowsmediacenterssl"
+            }
+        ]
+    },
+    "windowsmediacenterweb:": {
+        "apps": [
+            {
+                "friendlytypename": "c:\\windows\\ehome\\ehres.dll,-904",
+                "name": "url:windows media center web application",
+                "path": "mediacenterweblauncher.exe",
+                "registrykey": "hkey_classes_root\\windowsmediacenterweb"
+            }
+        ]
+    },
+    "windowsreadinglist:": {
+        "apps": [
+            {
+                "name": "url:windowsreadinglist",
+                "registrykey": "hkey_classes_root\\windowsreadinglist"
+            }
+        ]
+    },
+    "winscp-ftp:": {
+        "apps": [
+            {
+                "name": "url: winscp-ftp protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp-ftp"
+            }
+        ]
+    },
+    "winscp-ftps:": {
+        "apps": [
+            {
+                "name": "url: winscp-ftps protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp-ftps"
+            }
+        ]
+    },
+    "winscp-http:": {
+        "apps": [
+            {
+                "name": "url: winscp-http protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp-http"
+            }
+        ]
+    },
+    "winscp-https:": {
+        "apps": [
+            {
+                "name": "url: winscp-https protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp-https"
+            }
+        ]
+    },
+    "winscp-scp:": {
+        "apps": [
+            {
+                "name": "url: winscp-scp protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp-scp"
+            }
+        ]
+    },
+    "winscp-sftp:": {
+        "apps": [
+            {
+                "name": "url: winscp-sftp protocol",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp-sftp"
+            }
+        ]
+    },
+    "winscp.url:": {
+        "apps": [
+            {
+                "name": "winscp url",
+                "path": "winscp.exe",
+                "registrykey": "hkey_classes_root\\winscp.url"
+            }
+        ]
+    },
+    "wlcalendar:": {
+        "apps": [
+            {
+                "name": "url:wlcalendar",
+                "registrykey": "hkey_classes_root\\wlcalendar"
+            }
+        ]
+    },
+    "wlpeople:": {
+        "apps": [
+            {
+                "name": "url:wlpeople",
+                "registrykey": "hkey_classes_root\\wlpeople"
+            }
+        ]
+    },
+    "wmp11.assocprotocol.dlna-playsingle:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\unregmp2.exe,-9901",
+                "name": "url:dlna-playsingle protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "hkey_classes_root\\wmp11.assocprotocol.dlna-playsingle"
+            }
+        ]
+    },
+    "wmp11.assocprotocol.mms:": {
+        "apps": [
+            {
+                "friendlytypename": "@c:\\windows\\system32\\unregmp2.exe,-9928",
+                "name": "url:mms protocol",
+                "path": "wmplayer.exe",
+                "registrykey": "hkey_classes_root\\wmp11.assocprotocol.mms"
+            }
+        ]
+    },
+    "word:": {
+        "apps": [
+            {
+                "name": "url:word protocol",
+                "path": "protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\word"
+            },
+            {
+                "name": "url:word protocol",
+                "path": "protoc~1.exe",
+                "registrykey": "hkey_classes_root\\word"
+            }
+        ]
+    },
+    "wpa:": {
+        "apps": [
+            {
+                "friendlytypename": "c:\\program files (x86)\\windows kits\\8.1\\windows performance toolkit\\wpa.exe,-1",
+                "name": "url:windows performance analyzer",
+                "path": "wpa.exe",
+                "registrykey": "hkey_classes_root\\wpa"
+            }
+        ]
+    },
+    "wpi:": {
+        "apps": [
+            {
+                "name": "url:wpi protocol",
+                "path": "webplatforminstaller.exe",
+                "registrykey": "hkey_classes_root\\wpi"
+            }
+        ]
+    },
+    "wtapp:": {
+        "apps": [
+            {
+                "name": "url:wtapp protocol",
+                "path": "wtapp_protocolhandler.exe",
+                "registrykey": "hkey_classes_root\\wtapp"
+            }
+        ]
+    },
+    "xbls:": {
+        "apps": [
+            {
+                "name": "url:xbls",
+                "registrykey": "hkey_classes_root\\xbls"
+            }
+        ]
+    },
+    "xbox-friendfinder:": {
+        "apps": [
+            {
+                "name": "url:xbox-friendfinder",
+                "registrykey": "hkey_classes_root\\xbox-friendfinder"
+            }
+        ]
+    },
+    "xbox-gamehub:": {
+        "apps": [
+            {
+                "name": "url:xbox-gamehub",
+                "registrykey": "hkey_classes_root\\xbox-gamehub"
+            }
+        ]
+    },
+    "xbox-profile:": {
+        "apps": [
+            {
+                "name": "url:xbox-profile",
+                "registrykey": "hkey_classes_root\\xbox-profile"
+            }
+        ]
+    },
+    "xbox-settings:": {
+        "apps": [
+            {
+                "name": "url:xbox-settings",
+                "registrykey": "hkey_classes_root\\xbox-settings"
+            }
+        ]
+    },
+    "xbox-store:": {
+        "apps": [
+            {
+                "name": "url:xbox-store",
+                "registrykey": "hkey_classes_root\\xbox-store"
+            }
+        ]
+    },
+    "xbox-tcui:": {
+        "apps": [
+            {
+                "name": "url:xbox-tcui",
+                "registrykey": "hkey_classes_root\\xbox-tcui"
+            }
+        ]
+    },
+    "xbox:": {
+        "apps": [
+            {
+                "name": "url:xbox",
+                "registrykey": "hkey_classes_root\\xbox"
+            }
+        ]
+    },
+    "xboxgames:": {
+        "apps": [
+            {
+                "name": "url:xboxgames",
+                "registrykey": "hkey_classes_root\\xboxgames"
+            }
+        ]
+    },
+    "xboxliveapp-1297287741:": {
+        "apps": [
+            {
+                "name": "url:xboxliveapp-1297287741",
+                "registrykey": "hkey_classes_root\\xboxliveapp-1297287741"
+            }
+        ]
+    },
+    "xboxliveapp-1297290225:": {
+        "apps": [
+            {
+                "name": "url:xboxliveapp-1297290225",
+                "registrykey": "hkey_classes_root\\xboxliveapp-1297290225"
+            }
+        ]
+    },
+    "xboxmusic:": {
+        "apps": [
+            {
+                "name": "url:xboxmusic",
+                "registrykey": "hkey_classes_root\\xboxmusic"
+            }
+        ]
+    },
+    "zune:": {
+        "apps": [
+            {
+                "name": "url:zune",
+                "registrykey": "hkey_classes_root\\zune"
+            }
+        ]
+    }
+}
