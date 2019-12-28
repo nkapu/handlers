@@ -1,0 +1,436 @@
+{
+    "about:": {
+        "apps": [
+            {
+                "path": "google-chrome"
+            }
+        ]
+    }, 
+    "aim:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "app:": {
+        "apps": [
+            {
+                "name": "nsgclient", 
+                "path": "startnsg.sh"
+            }
+        ]
+    }, 
+    "apt:": {
+        "apps": [
+            {
+                "name": "Ubuntu Software Center", 
+                "path": "software-center"
+            }, 
+            {
+                "name": "AptURL", 
+                "path": "apturl"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "apturl"
+            }
+        ]
+    }, 
+    "callto:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "gnomemeeting"
+            }
+        ]
+    }, 
+    "cdda:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "sound-juicer"
+            }
+        ]
+    }, 
+    "chrome:": {
+        "apps": [
+            {
+                "name": "Firefox Web Browser", 
+                "path": "firefox"
+            }
+        ]
+    }, 
+    "ftp:": {
+        "apps": [
+            {
+                "name": "Google Chrome", 
+                "path": "google-chrome-stable"
+            }, 
+            {
+                "name": "Firefox Web Browser", 
+                "path": "firefox"
+            }
+        ]
+    }, 
+    "gg:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "ghelp:": {
+        "apps": [
+            {
+                "name": "Help", 
+                "path": "yelp"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "gnome-help"
+            }
+        ]
+    }, 
+    "h323:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "ekiga"
+            }
+        ]
+    }, 
+    "help:": {
+        "apps": [
+            {
+                "name": "Help", 
+                "path": "yelp"
+            }
+        ]
+    }, 
+    "http:": {
+        "apps": [
+            {
+                "name": "Google Chrome", 
+                "path": "google-chrome-stable"
+            }, 
+            {
+                "name": "Browser", 
+                "path": "webbrowser-app"
+            }, 
+            {
+                "name": "Firefox Web Browser", 
+                "path": "firefox"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "google-chrome"
+            }
+        ]
+    }, 
+    "https:": {
+        "apps": [
+            {
+                "name": "Google Chrome", 
+                "path": "google-chrome-stable"
+            }, 
+            {
+                "name": "Browser", 
+                "path": "webbrowser-app"
+            }, 
+            {
+                "name": "Firefox Web Browser", 
+                "path": "firefox"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "google-chrome"
+            }
+        ]
+    }, 
+    "icq:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "icy:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "icyx:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "info:": {
+        "apps": [
+            {
+                "name": "Help", 
+                "path": "yelp"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "gnome-help"
+            }
+        ]
+    }, 
+    "irc:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "itms:": {
+        "apps": [
+            {
+                "name": "Rhythmbox", 
+                "path": "rhythmbox"
+            }
+        ]
+    }, 
+    "itmss:": {
+        "apps": [
+            {
+                "name": "Rhythmbox", 
+                "path": "rhythmbox"
+            }
+        ]
+    }, 
+    "magnet:": {
+        "apps": [
+            {
+                "name": "Transmission", 
+                "path": "transmission-gtk"
+            }
+        ]
+    }, 
+    "mailto:": {
+        "apps": [
+            {
+                "name": "Thunderbird Mail", 
+                "path": "thunderbird"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "evolution"
+            }
+        ]
+    }, 
+    "man:": {
+        "apps": [
+            {
+                "name": "Help", 
+                "path": "yelp"
+            }, 
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "gnome-help"
+            }
+        ]
+    }, 
+    "mms:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "mmsh:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "msnim:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "net:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "pnm:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "rtmp:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "rtp:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "rtsp:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "sip:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "transmission-gtk:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "transmission-gtk"
+            }
+        ]
+    }, 
+    "trash:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "nautilus"
+            }
+        ]
+    }, 
+    "unknown:": {
+        "apps": [
+            {
+                "path": "google-chrome"
+            }
+        ]
+    }, 
+    "uvox:": {
+        "apps": [
+            {
+                "name": "Videos", 
+                "path": "totem"
+            }
+        ]
+    }, 
+    "vm:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "vmplayer'"
+            }
+        ]
+    }, 
+    "vmrc:": {
+        "apps": [
+            {
+                "name": "VMware Player", 
+                "path": "vmplayer"
+            }, 
+            {
+                "name": "VMware Workstation", 
+                "path": "vmware"
+            }
+        ]
+    }, 
+    "vms:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "vmplayer'"
+            }
+        ]
+    }, 
+    "xmpp:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }, 
+    "ymsgr:": {
+        "apps": [
+            {
+                "flags": [
+                    "enabled"
+                ], 
+                "path": "purple-url-handler"
+            }
+        ]
+    }
+}
